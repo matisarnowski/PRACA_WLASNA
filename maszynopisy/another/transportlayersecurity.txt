@@ -1,0 +1,2 @@
+Transport Layer Securty
+Zadaniem Secure Socket Layer oraz Transport Layer Security jest zapewnienie integralności i prywatności danych. Konkretnych danych przesyłanych za pomocą protokołu HTTP, telnet, POP3, IMAP między hostem, a serwerem. Czyli do odbiorcy od serwera i z powrotem. Odbiorcą może być np. konkretna aplikacja. Transport Layer Security jest w istocie rozwinięciem protokołu Secure Socket Layer. 

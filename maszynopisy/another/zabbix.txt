@@ -1,0 +1,14 @@
+Zabbix
+Zabbix to zaawansowane narzędzie do monitoringu infrastruktury IT. Jest to otwarte oprogramowanie, które umożliwia monitorowanie różnych elementów systemu, takich jak serwery, sieci, bazy danych i aplikacje². Dzięki Zabbix można śledzić wydajność i dostępność tych elementów oraz otrzymywać powiadomienia w przypadku awarii lub problemów².
+
+Zabbix jest stosowany do monitorowania różnych elementów infrastruktury sieciowej, takich jak serwery, systemy operacyjne, urządzenia sieciowe i oprogramowanie aplikacji⁴. 
+
+Twórca Zabbixa, Alexei Vladishev, stworzył pierwszy zarys aplikacji, gdy w 1998 potrzebował narzędzie do monitoringu w firmie, gdzie pracował¹. Na początku były to proste skrypty napisane w perlu, jednak twórca szybko zmienił język programowania na C. Dodatkowo napisał front-end w języku PHP i w roku 2004 wypuścił pierwszą stabilną wersję – 1.0¹.
+
+Zabbix jest dystrybuowany na licencji GPLv2 – kod oprogramowania jest ogólnie dostępny i może on być wykorzystywany do rozwiązań komercyjnych¹. Oprócz monitorowania hostów za pomocą natywnych agentów, możemy wykorzystać różne protokoły, m. in. SNMP, SSH, TELNET, IPMI, JPX, HTTP/HTTPS itp¹.
+
+Źródło: Konwersacja za pomocą usługi Bing, 1.03.2024
+(1) Zabbix. Czym jest Zabbix? Podstawy konfiguracji. Monitoring .... https://webporadnik.pl/zabbix-czym-jest-zabbix-podstawy-konfiguracji-monitoring-infrastruktury-it/.
+(2) Zabbix – co to jest? Jak działa system monitoringu sieci? - Teleaudyt. https://www.teleaudyt.pl/zabbix-co-to-jest-jak-dziala-system-monitoringu-sieci/.
+(3) Czym jest Zabbix? Podstawy konfiguracji - Sekurak. https://sekurak.pl/czym-jest-zabbix-podstawy-konfiguracji/.
+(4) 2 Czym jest Zabbix. https://www.zabbix.com/documentation/2.2/pl/manual/introduction/about.

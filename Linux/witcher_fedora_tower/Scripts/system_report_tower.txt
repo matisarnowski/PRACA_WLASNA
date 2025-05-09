@@ -1,0 +1,110 @@
+=== Informacje o systemie ===
+     Static hostname: (unset)
+  Transient hostname: fedora
+           Icon name: computer-desktop
+             Chassis: desktop 🖥️
+          Machine ID: 9d472d07cd07414a9eb26d505a4bbc28
+             Boot ID: c84ce496f46d43399b24d0709b7ad419
+    Operating System: Fedora Linux 40 (Workstation Edition)
+         CPE OS Name: cpe:/o:fedoraproject:fedora:40
+      OS Support End: Tue 2025-05-13
+OS Support Remaining: 8month 1w 4d
+              Kernel: Linux 6.10.6-200.fc40.x86_64
+        Architecture: x86-64
+     Hardware Vendor: Hewlett-Packard
+      Hardware Model: HP ProDesk 600 G1 SFF
+    Firmware Version: L01 v02.74
+       Firmware Date: Thu 2018-01-25
+        Firmware Age: 6y 7month 5d
+
+=== Informacje o procesorze ===
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        39 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               4
+On-line CPU(s) list:                  0-3
+Vendor ID:                            GenuineIntel
+Model name:                           Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz
+CPU family:                           6
+Model:                                60
+Thread(s) per core:                   1
+Core(s) per socket:                   4
+Socket(s):                            1
+Stepping:                             3
+CPU(s) scaling MHz:                   96%
+CPU max MHz:                          3600,0000
+CPU min MHz:                          800,0000
+BogoMIPS:                             6385,82
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm cpuid_fault epb pti ssbd ibrs ibpb stibp tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts vnmi md_clear flush_l1d
+Virtualization:                       VT-x
+L1d cache:                            128 KiB (4 instances)
+L1i cache:                            128 KiB (4 instances)
+L2 cache:                             1 MiB (4 instances)
+L3 cache:                             6 MiB (1 instance)
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-3
+Vulnerability Gather data sampling:   Not affected
+Vulnerability Itlb multihit:          KVM: Mitigation: VMX disabled
+Vulnerability L1tf:                   Mitigation; PTE Inversion; VMX conditional cache flushes, SMT disabled
+Vulnerability Mds:                    Mitigation; Clear CPU buffers; SMT disabled
+Vulnerability Meltdown:               Mitigation; PTI
+Vulnerability Mmio stale data:        Unknown: No mitigations
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Not affected
+Vulnerability Spec rstack overflow:   Not affected
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                  Mitigation; Microcode
+Vulnerability Tsx async abort:        Not affected
+
+=== Informacje o pamięci RAM ===
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       2,8Gi        10Gi        31Mi       2,9Gi        12Gi
+Swap:          8,0Gi          0B       8,0Gi
+
+=== Informacje o dyskach ===
+NAME                                          MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTS
+sda                                             8:0    0 223,6G  0 disk  
+├─sda1                                          8:1    0   100M  0 part  /boot/efi
+├─sda2                                          8:2    0    16M  0 part  
+├─sda3                                          8:3    0 142,9G  0 part  
+├─sda4                                          8:4    0   557M  0 part  
+├─sda5                                          8:5    0     1G  0 part  /boot
+└─sda6                                          8:6    0    79G  0 part  
+  └─luks-a1b5e7aa-d1ec-4f46-87d9-549b79d03a71 253:0    0    79G  0 crypt /home
+                                                                         /
+sr0                                            11:0    1  1024M  0 rom   
+zram0                                         252:0    0     8G  0 disk  [SWAP]
+
+=== Informacje o systemie plików ===
+System plików  Typ      rozm. użyte dost. %uż. zamont. na
+/dev/dm-0      btrfs      79G  5,7G   72G   8% /
+devtmpfs       devtmpfs  4,0M     0  4,0M   0% /dev
+tmpfs          tmpfs     7,8G     0  7,8G   0% /dev/shm
+efivarfs       efivarfs  320K   45K  271K  15% /sys/firmware/efi/efivars
+tmpfs          tmpfs     3,2G  1,9M  3,1G   1% /run
+/dev/dm-0      btrfs      79G  5,7G   72G   8% /home
+tmpfs          tmpfs     7,8G   16K  7,8G   1% /tmp
+/dev/sda5      ext4      974M  375M  532M  42% /boot
+/dev/sda1      vfat       96M   45M   52M  47% /boot/efi
+tmpfs          tmpfs     1,6G  184K  1,6G   1% /run/user/1000
+
+=== Informacje o karcie graficznej ===
+01:00.0 VGA compatible controller [0300]: NVIDIA Corporation GP107 [GeForce GTX 1050 Ti] [10de:1c82] (rev a1) (prog-if 00 [VGA controller])
+
+=== Informacje o sieci ===
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: eno1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 64:51:06:52:31:a9 brd ff:ff:ff:ff:ff:ff
+    altname enp0s25
+    inet 192.168.100.3/24 brd 192.168.100.255 scope global dynamic noprefixroute eno1
+       valid_lft 86286sec preferred_lft 86286sec
+    inet6 fe80::f997:6ecb:60a2:efdd/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever

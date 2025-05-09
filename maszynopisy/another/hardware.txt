@@ -1,0 +1,44 @@
+Hardware
+
+Prędkość odczytu/zapisu na dysku oraz transfer interfejsu do dysku NAS to dwa różne aspekty wydajności, które wpływają na to, jak szybko dane mogą być zapisane lub odczytane z dysku sieciowego.
+	1. Prędkość odczytu/zapisu na dysku (HDD/SSD):
+		○ Definicja: Jest to miara tego, jak szybko dysk twardy (HDD) lub dysk półprzewodnikowy (SSD) może zapisywać dane na swoich nośnikach (np. talerzach magnetycznych w przypadku HDD lub komórkach pamięci w przypadku SSD) i odczytywać je z nich.
+		○ Czynniki wpływające: Zależy od typu dysku (HDD/SSD), technologii (np. SATA, NVMe), prędkości obrotowej (RPM w przypadku HDD), oraz od układów kontrolera i pamięci (w przypadku SSD).
+		○ Typowe prędkości:
+			§ HDD: 50-150 MB/s (zależy od RPM i technologii dysku).
+			§ SSD SATA: 200-550 MB/s.
+			§ SSD NVMe: 1000-3500 MB/s, a nawet wyższe.
+	2. Transfer interfejsu do dysku NAS:
+		○ Definicja: Odnosi się do przepustowości, jaką oferuje interfejs sieciowy między urządzeniem (np. komputerem) a dyskiem NAS (Network Attached Storage). Oznacza to, jak szybko dane mogą być przesyłane przez sieć do lub z serwera NAS.
+		○ Czynniki wpływające: Obejmuje przepustowość sieci, typ połączenia (Ethernet, Wi-Fi), prędkość interfejsu sieciowego (np. 1 Gbps, 10 Gbps), a także wydajność sieciowego systemu plików i obciążenie sieci.
+		○ Typowe prędkości:
+			§ Ethernet 1 Gbps: do 125 MB/s (teoretycznie).
+			§ Ethernet 10 Gbps: do 1,25 GB/s (teoretycznie).
+			§ Wi-Fi (w zależności od standardu): 20-300 MB/s lub więcej (zależne od warunków i standardu Wi-Fi).
+Różnice:
+	• Lokalność operacji: Prędkość odczytu/zapisu na dysku odnosi się do operacji wewnątrz samego dysku twardego, niezależnie od tego, gdzie się on znajduje (lokalnie lub w NAS). Natomiast transfer interfejsu do dysku NAS dotyczy transferu danych przez sieć, co wprowadza dodatkowe opóźnienia i zależności, takie jak przepustowość sieci, opóźnienia sieciowe i zewnętrzne obciążenia.
+	• Wydajność zależna od sieci: Prędkość zapisu/odczytu dysku może być bardzo szybka, szczególnie w przypadku SSD NVMe, ale transfer przez sieć (do NAS) będzie ograniczony przez przepustowość i warunki sieciowe.
+	• Bottleneck: W wielu przypadkach transfer przez sieć (np. Gigabit Ethernet) będzie wąskim gardłem, ograniczającym szybkość dostępu do danych na dysku NAS, nawet jeśli sam dysk SSD na NAS-ie jest bardzo szybki.
+Podsumowując: Chociaż prędkość odczytu/zapisu na dysku odzwierciedla bezpośrednie możliwości samego dysku, transfer interfejsu do dysku NAS jest ograniczony przez sieć, co często jest głównym wąskim gardłem w dostępie do danych na urządzeniach NAS.
+
+Dyski NAS (Network Attached Storage) często dysponują buforem, który pomaga w zarządzaniu różnicami między prędkościami odczytu/zapisu na dysku a prędkościami transferu przez interfejs sieciowy.
+Jak działa bufor w NAS:
+	1. Bufor pamięci RAM: Wiele urządzeń NAS wyposażonych jest w pamięć RAM, która służy jako bufor tymczasowy. Dane zapisywane na NAS są najpierw przechowywane w tej pamięci RAM, zanim zostaną faktycznie zapisane na dysku. Dzięki temu urządzenie może przyjmować dane z sieci szybciej niż jest w stanie je zapisać na dysku, co minimalizuje opóźnienia widoczne dla użytkownika.
+	2. Kolejkowanie operacji I/O: Bufor pozwala na efektywne zarządzanie kolejką operacji wejścia/wyjścia (I/O). Gdy operacje zapisu są wykonywane, dysk NAS może optymalizować sposób zapisywania danych, grupując operacje, co redukuje czas potrzebny na ich wykonanie.
+	3. Cache SSD (jeśli dostępny): Niektóre zaawansowane systemy NAS mają możliwość korzystania z dysków SSD jako pamięci cache. Taki SSD cache działa jako bufor dla często używanych danych, przyspieszając operacje odczytu i zapisu poprzez redukcję potrzeby bezpośredniego dostępu do wolniejszych dysków twardych (HDD).
+Przykład działania:
+Załóżmy, że prędkość sieci wynosi 1 Gbps, co odpowiada 125 MB/s. Jeśli dysk twardy w NAS-ie jest w stanie zapisywać dane z prędkością tylko 80 MB/s, bufor pamięci RAM w NAS-ie przyjmie dane z sieci z pełną prędkością 125 MB/s, a następnie będzie stopniowo zapisywać je na dysku z prędkością 80 MB/s. Dzięki temu operacja zapisu może wydawać się szybsza i płynniejsza, ponieważ sieć nie musi czekać na zakończenie zapisu na dysku.
+Podsumowanie:
+Bufor w NAS-ie pełni kluczową rolę w zarządzaniu różnicami między prędkościami odczytu/zapisu na dysku a prędkościami transferu przez interfejs sieciowy. Dzięki buforowaniu dane mogą być przyjmowane i przesyłane szybciej, co poprawia ogólną wydajność systemu i zapewnia lepsze wrażenia użytkownika.
+
+Pamięć RAM w komputerze również pełni funkcję bufora, choć jej rola jest szersza niż tylko buforowanie.
+Funkcje pamięci RAM jako bufora:
+	1. Bufor między procesorem a pamięcią masową:
+		○ Pamięć RAM działa jako pośrednik między procesorem (CPU) a wolniejszymi pamięciami masowymi, takimi jak dyski twarde (HDD) czy dyski SSD. Procesor potrzebuje bardzo szybkiego dostępu do danych, dlatego informacje, które mogą być często używane lub są aktualnie przetwarzane, są przechowywane w RAM-ie.
+		○ Przykład: Kiedy komputer uruchamia program, jego dane są ładowane z dysku do pamięci RAM, skąd procesor może szybko je pobierać i przetwarzać.
+	2. Buforowanie operacji I/O:
+		○ Podobnie jak w przypadku NAS, RAM może buforować operacje wejścia/wyjścia (I/O). Na przykład, gdy kopiujesz duży plik na dysk, dane są najpierw ładowane do RAM-u, a następnie zapisywane na dysku. Dzięki temu operacja wydaje się szybsza, ponieważ proces kopiowania może odbywać się w tle, podczas gdy użytkownik może kontynuować pracę.
+	3. Cache CPU:
+		○ Pamięć RAM jest także buforowana przez jeszcze szybsze pamięci cache w procesorze (L1, L2, L3). Dane, które procesor często używa, są przechowywane w pamięci cache, co przyspiesza dostęp do nich.
+Podsumowanie:
+Pamięć RAM pełni kluczową rolę w buforowaniu danych, co przyspiesza działanie komputera, umożliwiając szybki dostęp do często używanych informacji. Dzięki temu komputer może wykonywać zadania bardziej efektywnie, minimalizując opóźnienia wynikające z konieczności korzystania z wolniejszych pamięci masowych.

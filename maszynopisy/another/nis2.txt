@@ -1,0 +1,64 @@
+NIS2
+https://www.sisoft.pl/baza-wiedzy/testy-odpornosci-z-wykorzystaniem-podejscia-tlpt
+https://cyberpolicy.nask.pl/obowiazki-podmiotow-kluczowych-i-waznych-w-dyrektywie-nis2/
+https://pl.mitsubishielectric.com/fa/news/blog/dyrektywa-nis2-kluczowe-kwestie-dla-przemyslu-jak-sie-dostosowac
+https://www.gov.pl/web/cyfryzacja/krajowy-system-cyberbezpieczenstwa-
+
+Ustawa o Krajowym Systemie Cyberbezpieczeństwa (KSC) jest w Polsce kluczowym aktem prawnym mającym na celu zapewnienie bezpieczeństwa krajowych systemów informacyjnych i sieci komputerowych przed cyberzagrożeniami. Ustawa ta wprowadza szereg regulacji i mechanizmów mających na celu poprawę bezpieczeństwa cyfrowego w kraju. Ustawa definiuje tzw. podmioty krytyczne. Są to operatorzy usług kluczowych, dostawcy usług cyfrowych, organy administracji państwowej.
+
+OPRERATORZY USŁUG KLUCZOWYCH - Podmioty  świadczące usługi niezbędne do utrzymania kluczowych działań gospodarczych lub społecznych. Ich zakłócenie mogłoby mieć poważne konsekwencje dla bezpieczeństwa państwa, zdrowia publiczne bezpieczeństwa ekonomicznego lub społecznego. Są zobowiązani do wdrożenia środków zarządzania ryzykiem. Zarządzają ryzykiem, szacują ryzyko. Wdrażają stosownie do niego środki techniczne i organizacyjne. Zbierają informacje o zagrożeniach cyberbezpieczeństwa oraz podatnościach na incydenty. Obsługa incydentów i współpraca z właściwym CSIRT. Świadczą usługi kluczowe, świadczenie tych usług jest zależne od systemów informacyjnych. Usługi kluczowe:
+Energetyka:
+    Wytwarzanie, przesył i dystrybucja energii elektrycznej
+    Wytwarzanie, przesył i dystrybucja gazu
+    Wytwarzanie, przesył i dystrybucja ciepła
+ Transport:
+    Transport lotniczy
+    Transport kolejowy
+    Transport wodny (morski i śródlądowy)
+    Transport drogowy
+    Infrastruktura portowa i lotnicza
+ Bankowość i infrastruktura rynków finansowych:
+    Usługi bankowe
+    Infrastruktura rynków finansowych
+ Sektor zdrowia:
+    Świadczenia zdrowotne
+ Dostarczanie i dystrybucja wody pitnej:
+    Usługi związane z zaopatrzeniem w wodę pitną
+ Infrastruktura cyfrowa:
+    Centra danych
+    Systemy DNS
+    IXP (Internet Exchange Points)
+
+DOSTAWCY USŁUG CYFROWYCH – świadczą określone usługi cyfrowe na dużą skalę, mające znaczenie dla funkcjonowania gospodarki i społeczeństwa. Usługi:
+Usługi w chmurze obliczeniowej:
+    Oferowanie skalowalnych i elastycznych zasobów obliczeniowych, takich jak przetwarzanie, przechowywanie danych oraz aplikacje dostępne przez internet (np. Amazon Web Services, Google Cloud, Microsoft Azure).
+Internetowe platformy handlowe:
+    Serwisy, które umożliwiają sprzedaż towarów lub usług przez internet, działając jako pośrednicy między sprzedawcami a kupującymi (np. Allegro, Amazon, eBay).
+Wyszukiwarki internetowe:
+    Usługi, które umożliwiają użytkownikom wyszukiwanie informacji w zasobach internetu na podstawie wprowadzonych przez nich zapytań (np. Google, Bing, Yahoo).        
+Przeprowadzają czynności mające na celu umożliwienie wykrywania, rejestrowania, analizowania, klasyfikowania incydentów. Zapewniają dostęp do informacji o incydentach, zakwalifikowanych przez CSIRT. Klasyfikują incydent jako istotny. Zgłaszają incydenty niezwłocznie, w ciągu 24h od wykrycia. Zapewniają obsługę incydentu istotnego i krytycznego. Przekazują operatorowi usługi kluczowej informacje o incydencie. O ile operator  świadczy usługę za pomocą tego dostawcy.
+ Incydent jako kalsyfikowany jako istotny, jeśli w incydencie wzięło udział odpowiednio dużo osób. Trwał on odpowiedni czas. Miał odpowiedni zasięg geograficzny. Miał wpływ na działalność społeczną, gospodarczą. Dostawca usług Cyfrowych to osoba prawna lub jednostka organizacyjna z naszego kraju.
+
+Przykładowe zagrożenia i kroki proponowane na stronie: https://www.gov.pl/web/cyfryzacja/cyberprzestepczosc
+
+Dostałem z nieznanego źródła sms/maila o zaległościach finansowych z linkiem do opłaty. Podejrzewam próbę oszustwa, gdzie mogę to zgłosić?
+Podmiotem dedykowanym do przyjmowania tego rodzaju zgłoszeń jest CSIRT NASK. To bardzo proste. Na stronie https://incydent.cert.pl/ dostępny jest interaktywny formularz umożliwiający wysłanie zgłoszenia o potencjalnym niebezpiecznym incydencie, w którego treści należy zapisać otrzymaną wiadomość w całości, wraz z załącznikiem i nagłówkami w osobnym pliku i przesłać do analizy. Warto pamiętać o wybraniu właściwej kategorii podmiotu zgłaszającego np.: osoba fizyczna, a następnie opisać incydent i dołączyć podejrzany jako załącznik i wysłać. Ponadto, jeżeli jest to próba oszustwa należy to zgłosić w najbliższej jednostce Policji lub prokuraturze. Tego typu przestępstwa są ścigane na wniosek osoby poszkodowanej.
+Otrzymałem maila z groźbą udostępnienia moich prywatnych zdjęć jeśli nie zapłacę, co mogę zrobić?
+W tym przypadku zachodzi podejrzenie popełnienia przestępstwa. Tego typu przestępstwo jest ścigane na wniosek osoby poszkodowanej. Należy je zgłosić w najbliższej jednostce Policji lub prokuraturze. Możliwe jest również złożenie zawiadomienia za pomocą https://www.gov.pl/web/gov/zglos-przestepstwo. Dodatkowo incydent dotyczący cyberprzestrzeni należy zgłosić do zespołu ekspertów z CSIRT NASK - na stronie https://incydent.cert.pl/ dostępny są prosty interaktywny  formularz umożliwiający wysłanie zgłoszenia o potencjalnym niebezpiecznym incydencie, w którego treści należy zapisać otrzymaną wiadomość w całości, wraz z załącznikiem i nagłówkami w osobnym pliku i przesłać do analizy.
+
+OBOWIĄZKI PODMIOTÓW KLUCZOWYCH I WAŻNYCH - NIS2
+NIS2 jest dyrektywą unijną w sprawie środków na rzecz wysokiego wspólnego poziomu cyberbezpieczeństwa na terytorium Unii Europejskiej. Nowelizuje ona przepisy Unijne poprzedniej dyrektywy. W związku z tą dyrektywą dotychczasowy podział przedstawiony powyżej przestaje obowiązywać. Jeżeli przedsiębiorstwo zatrudnia, co najmniej 50 osób, suma bilansowa przedsiębiorstwa wynosi, co najmniej 10 mln EURO i jest innymi słowy zaliczane ono do średnich przedsiębiorstw. To już obejmuje takie przedsiębiorstwo zakres działania dyrektywy NIS2. Ponieważ może zostać zakwalifikowany jako kluczowy. Mogą to być choćby kwalifikowani dostawcy usług zaufania i rejestry nazw domen najwyższego poziomu. A także dostawcy usług DNS, niezależnie od ich wielkości. Dostawcy publicznych sieci łączności elektronicznej. Dostawcy publicznych usług łączności elektronicznej, o ile są kwalifikowani jako średnie przedsiębiorstwa. Sa też podmioty Ważne
+Obowiązki:
+Proporcjonalne środki zarządzania ryzykiem w cyberbezpieczeństwie, uwzględniające: ryzyko, wielkość podmiotu, prawdopodobieństwo wystąpienia incydentów i ich ryzyko.
+Obowiązkowe szkolenia dla kadry kierowniczej oraz zalecane dla pracowników.
+Stosowanie własnych lub nabytych certyfikowanych produktów, usług i procesów ICT. Zalecane korzystanie z kwalifikowanych usług zaufania. Zgłaszanie incydentów poważnych do odpowiedniego CSIRT / właściwego organu. W stosownych wypadkach powiadamianie odbiorców usług o poważnych incydentach oraz środkach zaradczych.
+Zawiadamianie o uczestnictwie w mechanizmach wymiany informacji.
+   
+Jednym z podstawowych obowiązków obu grup podmiotów, jest wdrożenie odpowiednich i proporcjonalnych środków technicznych, operacyjnych i organizacyjnych w dwóch celach. Aby zarządzać ryzykiem dla bezpieczeństwa sieci i systemów informatycznych wykorzystywanych przez te podmioty do prowadzenia działalności lub świadczenia usług. A także, w celu zapobiegania wpływowi incydentów na odbiorców ich usług lub na inne usługi bądź minimalizowania takiego wpływu.
+Podmioty są zobowiązane do zapewnienia, co najmniej polityki analizy ryzyka i bezpieczeństwa systemów informatycznych. Obsługi incydentu. Ciągłości działania np.. zarządzania kopiami zapasowymi, przywracania normalnego działania po wystąpieniu sytuacji nadzwyczajnej. Zarządzania kryzysowego. Zapewnienia bezpieczeństwa łańcucha dostaw. Aspektów związanych z bezpieczeństwem stosunków między każdym podmiotem a jego bezpośrednimi dostawcami lub usługodawcami. Bezpieczeństwa w procesie nabywania, rozwoju i utrzymania sieci i systemów informatycznych. Postępowania w przypadku podatności i ich ujawniania. Polityk i procedur służących ocenie skuteczności środków zarządzani ryzykiem w cyberbezpieczeństwie. Podstwowych praktyk cyberhigieny i szkoleń w zakresie cyberbezpieczeństwa. Polityk i procedur stosowania kryptografii. W stosownych przypadkach oraz ogółem szyfrowania. Bezpieczeństwa zasobów ludzkich. Polityki kontroli dostępu i zarądzania aktywami. W stosownych przypadkach stosowania uwierzytelniania wieloskładnikowego. Lub ciągłego. Zabezpieczonych połączeń głosowych, tekstowych, wideo. Zabezpieczonych systemów łączności wewnątrz podmiotu. W sytuacjach nadzwyczajnych. Środki zarządzania ryzykiem mają być zatwierdzane przez organy zarządzające podmiotu.    
+Dyrektywa NIS 2 dotyczy podmiotów kluczowych i ważnych z sektorów wymienionych w załącznikach, które co do zasady są co najmniej średnimi przedsiębiorstwami (dyrektywa przewiduje w tym zakresie kilka wyjątków).
+Na podmioty kluczowe i ważne nałożono takie same obowiązki, mają jednak one być stosowane proporcjonalnie do specyfiki danego podmiotu.
+Najważniejsze obowiązki pomiotów kluczowych i ważnych to wdrożenie środków zarządzania ryzykiem w cyberbezpieczeństwie oraz zgłaszanie incydentów poważnych.                            
+
+Zapewnienie odporności infrastruktury cyfrowej stało się bardziej krytyczne niż kiedykolwiek. Spowodowane jest to wzrostem wyspecjalizowanych cyberataków. Startegicznym podejściem do zwiększania odporności organizacji jest choćby,
+TLPT Threat-Led Penetration Testing. 
