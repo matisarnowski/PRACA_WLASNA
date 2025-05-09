@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'application'
+
+
+description = 'Demo Project for Spring Boot'
+    group = 'pl.mateusz.sarnowski'
+
+mainClassName = 'pl.mateusz.sarnowski.zYouTubeOdNullpointerexception.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation     'junit:junit:4.13'
+}
