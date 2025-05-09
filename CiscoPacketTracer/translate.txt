@@ -1,0 +1,1536 @@
+Overview
+
+Przegląd
+
+Tłumaczenia Overview
+[ English -> Polski ]
+
+Overview
+    Przegląd, Podgląd, Omówienie
+Meet our innovative network simulation and visualisation tool, Cisco Packet Tracer.
+
+Poznaj nasze innowacyjne narzędzie do symulacji i wizualizacji sieci, Cisco Packet Tracer.
+
+Tłumaczenia Meet our innovative network simulation and visualisation tool, Cisco Packet Tracer.
+[ English -> Polski ]
+
+Meet our innovative network simulation and visualisation tool, Cisco Packet Tracer.
+    Poznaj nasze innowacyjne narzędzie do symulacji i wizualizacji sieci, Cisco Packet Tracer., Poznaj nasze innowacyjne narzędzie do symulacji i wizualizacji sieci — Cisco Packet Tracer.
+This virtual lab is an interactive way to practice networking, IoT and cybersecurity - no hardware required!
+
+To wirtualne laboratorium to interaktywny sposób na ćwiczenie sieci, IoT i bezpieczeństwa cybernetycznego — nie wymaga żadnego sprzętu!
+
+Tłumaczenia This virtual lab is an interactive way to practice networking, IoT and cybersecurity - no hardware required!
+[ English -> Polski ]
+
+This virtual lab is an interactive way to practice networking, IoT and cybersecurity - no hardware required!
+    To wirtualne laboratorium to interaktywny sposób na ćwiczenie sieci, IoT i bezpieczeństwa cybernetycznego — nie wymaga żadnego sprzętu!, To wirtualne laboratorium to interaktywny sposób na ćwiczenie sieci, Internetu Rzeczy i bezpieczeństwa cybernetycznego — nie jest wymagany żaden sprzęt!
+This course introduces you to Cisco Packet Tracer simulation environment.
+
+Ten kurs wprowadza Cię w środowisko symulacyjne Cisco Packet Tracer.
+
+Tłumaczenia This course introduces you to Cisco Packet Tracer simulation environment.
+[ English -> Polski ]
+
+This course introduces you to Cisco Packet Tracer simulation environment.
+    Ten kurs wprowadza Cię w środowisko symulacyjne Cisco Packet Tracer., Ten kurs stanowi wprowadzenie do środowiska symulacyjnego Cisco Packet Tracer.
+Learn hot to use Cisco Packet Tracer to visualize and simulate a network using everyday examples.
+
+Dowiedz się, jak używać Cisco Packet Tracer do wizualizacji i symulacji sieci na podstawie codziennych przykładów.
+
+Tłumaczenia Learn hot to use Cisco Packet Tracer to visualize and simulate a network using everyday examples.
+[ English -> Polski ]
+
+Learn hot to use Cisco Packet Tracer to visualize and simulate a network using everyday examples.
+    Dowiedz się, jak używać Cisco Packet Tracer do wizualizacji i symulacji sieci na podstawie codziennych przykładów., Dowiedz się, jak korzystać z rozwiązania Cisco Packet Tracer do wizualizacji i symulacji sieci na podstawie codziennych przykładów.
+Practice your skills with interactive virtual lab activities, and hone your problem-solving skills, too.
+
+Ćwicz swoje umiejętności, korzystając z interaktywnych zajęć w wirtualnym laboratorium, a także doskonal swoje umiejętności rozwiązywania problemów.
+
+Tłumaczenia Practice your skills with interactive virtual lab activities, and hone your problem-solving skills, too.
+[ English -> Polski ]
+
+Practice your skills with interactive virtual lab activities, and hone your problem-solving skills, too.
+    Ćwicz swoje umiejętności, korzystając z interaktywnych zajęć w wirtualnym laboratorium, a także doskonal swoje umiejętności rozwiązywania problemów., Ćwicz swoje umiejętności w interaktywnych wirtualnych laboratoriach i doskonal swoje umiejętności rozwiązywania problemów.
+Get valuable tips and best practices and gain confidence to use this powerful tool in later cources or for your own practice.
+
+Uzyskaj cenne wskazówki i najlepsze praktyki oraz zyskaj pewność, że będziesz używać tego potężnego narzędzia w późniejszych kursach lub we własnej praktyce.
+
+Tłumaczenia Get valuable tips and best practices and gain confidence to use this powerful tool in later cources or for your own practice.
+[ English -> Polski ]
+
+Get valuable tips and best practices and gain confidence to use this powerful tool in later cources or for your own practice.
+    Uzyskaj cenne wskazówki i najlepsze praktyki oraz zyskaj pewność, że będziesz używać tego potężnego narzędzia w późniejszych kursach lub we własnej praktyce., Zdobądź cenne wskazówki i najlepsze praktyki oraz zyskaj pewność siebie, aby używać tego potężnego narzędzia w późniejszych kursach lub we własnej praktyce.
+Enroll to download Cisco Packet Tracer for free and get started today!
+
+Zarejestruj się, aby bezpłatnie pobrać Cisco Packet Tracer i zacząć już dziś!
+
+Tłumaczenia Enroll to download Cisco Packet Tracer for free and get started today!
+[ English -> Polski ]
+
+Enroll to download Cisco Packet Tracer for free and get started today!
+    Zarejestruj się, aby bezpłatnie pobrać Cisco Packet Tracer i zacząć już dziś!, Zarejestruj się, aby pobrać Cisco Packet Tracer za darmo i zacznij już dziś!
+Here's what you will learn.
+
+Oto, czego się nauczysz.
+
+Tłumaczenia Here's what you will learn.
+[ English -> Polski ]
+
+Here's what you will learn.
+    Oto, czego się nauczysz., Oto czego się dowiesz.
+Module 1: Download and use Cisco Packet Tracer.
+
+Moduł 1: Pobierz i używaj Cisco Packet Tracer.
+
+Tłumaczenia Module 1: Download and use Cisco Packet Tracer.
+[ English -> Polski ]
+
+Module 1: Download and use Cisco Packet Tracer.
+    Moduł 1: Pobierz i używaj Cisco Packet Tracer., Moduł 1: Pobierz i korzystaj z Cisco Packet Tracer.
+1.0 Install Cisco Packet Tracer.
+
+1.0 Zainstaluj Cisco Packet Tracer.
+
+Tłumaczenia 1.0 Install Cisco Packet Tracer.
+[ English -> Polski ]
+
+1.0 Install Cisco Packet Tracer.
+    1.0 Zainstaluj Cisco Packet Tracer., 1.0 Zainstaluj narzędzie do śledzenia pakietów Cisco.
+1.0.1 Video - Welcome to Getting Started with Cisco packet Tracer.
+
+Wideo 1.0.1 — Witamy w Rozpoczęcie pracy z pakietem Cisco Tracer.
+
+Tłumaczenia 1.0.1 Video - Welcome to Getting Started with Cisco packet Tracer.
+[ English -> Polski ]
+
+1.0.1 Video - Welcome to Getting Started with Cisco packet Tracer.
+    Wideo 1.0.1 — Witamy w Rozpoczęcie pracy z pakietem Cisco Tracer., Film 1.0.1 — Witamy w Rozpoczęcie korzystania z pakietu Cisco Tracer.
+1.0.2 First Time in the Course
+
+1.0.2 Pierwszy raz w Kursie
+
+Tłumaczenia 1.0.2 First Time in the Course
+[ English -> Polski ]
+
+1.0.2 First Time in the Course
+    1.0.2 Pierwszy raz w Kursie, 1.0.2 Pierwszy raz na kursie
+First Time in the Course
+
+Pierwszy raz na kursie
+
+Tłumaczenia First Time in the Course
+[ English -> Polski ]
+
+First Time in the Course
+    Pierwszy raz na kursie, Po raz pierwszy na kursie
+The Getting Started with Cisco Packet Tracer course is designed for new users of the Cisco Packet Tracer network simulation and visualization tool.
+
+Kurs Pierwsze kroki z Cisco Packet Tracer jest przeznaczony dla nowych użytkowników narzędzia do symulacji i wizualizacji sieci Cisco Packet Tracer.
+
+Tłumaczenia The Getting Started with Cisco Packet Tracer course is designed for new users of the Cisco Packet Tracer network simulation and visualization tool.
+[ English -> Polski ]
+
+The Getting Started with Cisco Packet Tracer course is designed for new users of the Cisco Packet Tracer network simulation and visualization tool.
+    Kurs Pierwsze kroki z Cisco Packet Tracer jest przeznaczony dla nowych użytkowników narzędzia do symulacji i wizualizacji sieci Cisco Packet Tracer., Kurs Wprowadzenie do programu Cisco Packet Tracer jest przeznaczony dla nowych użytkowników narzędzia do symulacji i wizualizacji sieci Cisco Packet Tracer.
+Whether you are a student no networking knowledge,a student with some background in networking, or a student currently enrolled in a course that requires the use of Packet Tracer, this course will get you started!
+
+Niezależnie od tego, czy jesteś studentem bez wiedzy na temat sieci, studentem z pewnym doświadczeniem w sieci, czy studentem aktualnie zapisanym na kurs wymagający użycia Packet Tracer, ten kurs pomoże Ci zacząć!
+
+Tłumaczenia Whether you are a student no networking knowledge,a student with some background in networking, or a student currently enrolled in a course that requires the use of Packet Tracer, this course will get you started!
+[ English -> Polski ]
+
+Whether you are a student no networking knowledge,a student with some background in networking, or a student currently enrolled in a course that requires the use of Packet Tracer, this course will get you started!
+    Niezależnie od tego, czy jesteś studentem bez wiedzy na temat sieci, studentem z pewnym doświadczeniem w sieci, czy studentem aktualnie zapisanym na kurs wymagający użycia Packet Tracer, ten kurs pomoże Ci zacząć!, Niezależnie od tego, czy jesteś studentem bez wiedzy o sieci, studentem z pewnym doświadczeniem w sieci, czy studentem aktualnie zapisanym na kurs wymagający użycia Packet Tracer, ten kurs pozwoli Ci zacząć!
+The free Cisco Packet Tracer software helps you to practice your network configuration and troubleshooting skills using your desktop or laptop computer.
+
+Bezpłatne oprogramowanie Cisco Packet Tracer pomaga ćwiczyć konfigurację sieci i umiejętności rozwiązywania problemów za pomocą komputera stacjonarnego lub laptopa.
+
+Tłumaczenia The free Cisco Packet Tracer software helps you to practice your network configuration and troubleshooting skills using your desktop or laptop computer.
+[ English -> Polski ]
+
+The free Cisco Packet Tracer software helps you to practice your network configuration and troubleshooting skills using your desktop or laptop computer.
+    Bezpłatne oprogramowanie Cisco Packet Tracer pomaga ćwiczyć konfigurację sieci i umiejętności rozwiązywania problemów za pomocą komputera stacjonarnego lub laptopa., Bezpłatne oprogramowanie Cisco Packet Tracer pomaga przećwiczyć konfigurację sieci i rozwiązywanie problemów na komputerze stacjonarnym lub laptopie.
+It allows you to simulate networks without having access to physical equipment.
+
+Pozwala symulować sieci bez dostępu do fizycznego sprzętu.
+
+Tłumaczenia It allows you to simulate networks without having access to physical equipment.
+[ English -> Polski ]
+
+It allows you to simulate networks without having access to physical equipment.
+    Pozwala symulować sieci bez dostępu do fizycznego sprzętu., Pozwala symulować sieci bez dostępu do sprzętu fizycznego.
+In addition to networking, you can learn, and then practice your Internet of Things (IoT) and Cybersecurity skills.
+
+Oprócz pracy w sieci możesz uczyć się, a następnie ćwiczyć umiejętności związane z Internetem przedmiotów (IoT) i cyberbezpieczeństwem.
+
+Tłumaczenia In addition to networking, you can learn, and then practice your Internet of Things (IoT) and Cybersecurity skills.
+[ English -> Polski ]
+
+In addition to networking, you can learn, and then practice your Internet of Things (IoT) and Cybersecurity skills.
+    Oprócz pracy w sieci możesz uczyć się, a następnie ćwiczyć umiejętności związane z Internetem przedmiotów (IoT) i cyberbezpieczeństwem., Oprócz pracy w sieci możesz uczyć się, a następnie ćwiczyć umiejętności w zakresie Internetu rzeczy (IoT) i cyberbezpieczeństwa.
+You can choose to build a network from scratch, use a prebuilt sample newtork, or complete lab assignments.
+
+Możesz zbudować sieć od podstaw, użyć gotowego przykładowego newtork lub wykonać zadania laboratoryjne.
+
+Tłumaczenia You can choose to build a network from scratch, use a prebuilt sample newtork, or complete lab assignments.
+[ English -> Polski ]
+
+You can choose to build a network from scratch, use a prebuilt sample newtork, or complete lab assignments.
+    Możesz zbudować sieć od podstaw, użyć gotowego przykładowego newtork lub wykonać zadania laboratoryjne., Możesz zbudować sieć od zera, użyć gotowego przykładowego newtorka lub wykonać zadania laboratoryjne.
+While Packet Tracer is not requirement for practicing on physical routers, switches, firewalls, and servers, it provides many benefits!
+
+Chociaż Packet Tracer nie jest wymagany do ćwiczeń na fizycznych routerach, przełącznikach, zaporach ogniowych i serwerach, zapewnia wiele korzyści!
+
+Tłumaczenia While Packet Tracer is not requirement for practicing on physical routers, switches, firewalls, and servers, it provides many benefits!
+[ English -> Polski ]
+
+While Packet Tracer is not requirement for practicing on physical routers, switches, firewalls, and servers, it provides many benefits!
+    Chociaż Packet Tracer nie jest wymagany do ćwiczeń na fizycznych routerach, przełącznikach, zaporach ogniowych i serwerach, zapewnia wiele korzyści!, Podczas gdy Packet Tracer nie jest wymagany do ćwiczeń na fizycznych routerach, przełącznikach, zaporach i serwerach, zapewnia wiele korzyści!
+The self-paced course will help you to become familiar with Packet Tracer software that is used in many other Cisco Networking Academy and Skills for All courses.
+
+Kurs we własnym tempie pomoże Ci zapoznać się z oprogramowaniem Packet Tracer, które jest używane w wielu innych kursach Cisco Networking Academy i Skills for All.
+
+Tłumaczenia The self-paced course will help you to become familiar with Packet Tracer software that is used in many other Cisco Networking Academy and Skills for All courses.
+[ English -> Polski ]
+
+The self-paced course will help you to become familiar with Packet Tracer software that is used in many other Cisco Networking Academy and Skills for All courses.
+    Kurs we własnym tempie pomoże Ci zapoznać się z oprogramowaniem Packet Tracer, które jest używane w wielu innych kursach Cisco Networking Academy i Skills for All., Kurs do samodzielnej nauki pomoże Ci zapoznać się z oprogramowaniem Packet Tracer, które jest używane w wielu innych kursach Cisco Networking Academy i Skills for All.
+This course focuses on exploring the Packet Tracer interface, including menus, icons, and devices that are used in networking.
+
+Ten kurs koncentruje się na eksploracji interfejsu Packet Tracer, w tym menu, ikon i urządzeń używanych w sieci.
+
+Tłumaczenia This course focuses on exploring the Packet Tracer interface, including menus, icons, and devices that are used in networking.
+[ English -> Polski ]
+
+This course focuses on exploring the Packet Tracer interface, including menus, icons, and devices that are used in networking.
+    Ten kurs koncentruje się na eksploracji interfejsu Packet Tracer, w tym menu, ikon i urządzeń używanych w sieci., Ten kurs skupia się na eksploracji interfejsu Packet Tracer, w tym menu, ikon i urządzeń używanych w sieci.
+Resources Available to You
+
+Dostępne zasoby
+
+Tłumaczenia Resources Available to You
+[ English -> Polski ]
+
+Resources Available to You
+    Dostępne zasoby, Zasoby dostępne dla Ciebie
+Skills for All frequently asked questions can be found at https://skillsforall.com/help, or by clicking Help in the top navigation bar.
+
+Umiejętności dla wszystkich najczęściej zadawanych pytań można znaleźć na stronie https://skillsforall.com/help lub klikając opcję Pomoc na górnym pasku nawigacyjnym.
+
+Tłumaczenia Skills for All frequently asked questions can be found at https://skillsforall.com/help, or by clicking Help in the top navigation bar.
+[ English -> Polski ]
+
+Skills for All frequently asked questions can be found at https://skillsforall.com/help, or by clicking Help in the top navigation bar.
+    Umiejętności dla wszystkich najczęściej zadawanych pytań można znaleźć na stronie https://skillsforall.com/help lub klikając opcję Pomoc na górnym pasku nawigacyjnym., Umiejętności dla wszystkich często zadawanych pytań można znaleźć na stronie https://skillsforall.com/help lub klikając opcję Pomoc na górnym pasku nawigacji.
+For Packet Tracer downloading help, visit https://skillsforall.com/resources/lab-downloads and scroll down to Learning Resources.
+
+Aby uzyskać pomoc dotyczącą pobierania Packet Tracer, odwiedź stronę https://skillsforall.com/resources/lab-downloads i przewiń w dół do Zasobów edukacyjnych.
+
+Tłumaczenia For Packet Tracer downloading help, visit https://skillsforall.com/resources/lab-downloads and scroll down to Learning Resources.
+[ English -> Polski ]
+
+For Packet Tracer downloading help, visit https://skillsforall.com/resources/lab-downloads and scroll down to Learning Resources.
+    Aby uzyskać pomoc dotyczącą pobierania Packet Tracer, odwiedź stronę https://skillsforall.com/resources/lab-downloads i przewiń w dół do Zasobów edukacyjnych., Aby uzyskać pomoc dotyczącą pobierania programu Packet Tracer, odwiedź stronę https://skillsforall.com/resources/lab-downloads i przewiń w dół do zasobów edukacyjnych.
+You can find additional FAQs by visiting our virtual assistant, Morgan.
+
+Dodatkowe często zadawane pytania można znaleźć, odwiedzając naszego wirtualnego asystenta, Morgana.
+
+Tłumaczenia You can find additional FAQs by visiting our virtual assistant, Morgan.
+[ English -> Polski ]
+
+You can find additional FAQs by visiting our virtual assistant, Morgan.
+    Dodatkowe często zadawane pytania można znaleźć, odwiedzając naszego wirtualnego asystenta, Morgana., Możesz znaleźć dodatkowe często zadawane pytania, odwiedzając naszego wirtualnego asystenta Morgana.
+Morgan's help includes information about Packet Tracer, certificates, and badging.
+
+Pomoc firmy Morgan obejmuje informacje o Packet Tracer, certyfikatach i plakietkach.
+
+Tłumaczenia Morgan's help includes information about Packet Tracer, certificates, and badging.
+[ English -> Polski ]
+
+Morgan's help includes information about Packet Tracer, certificates, and badging.
+    Pomoc firmy Morgan obejmuje informacje o Packet Tracer, certyfikatach i plakietkach., Pomoc firmy Morgan obejmuje informacje na temat Packet Tracer, certyfikatów i plakietek.
+1.0.3 Download Cisco Packet Tracer.
+
+1.0.3 Pobierz Cisco Packet Tracer.
+
+Tłumaczenia 1.0.3 Download Cisco Packet Tracer.
+[ English -> Polski ]
+
+1.0.3 Download Cisco Packet Tracer.
+    1.0.3 Pobierz Cisco Packet Tracer., 1.0.3 Pobierz narzędzie do śledzenia pakietów Cisco.
+To obtain and install you copy of Cisco Packet Tracer, please follow the instructions from the link below:
+
+Aby uzyskać i zainstalować swoją kopię programu Cisco Packet Tracer, postępuj zgodnie z instrukcjami dostępnymi pod poniższym łączem:
+
+Tłumaczenia To obtain and install you copy of Cisco Packet Tracer, please follow the instructions from the link below:
+[ English -> Polski ]
+
+To obtain and install you copy of Cisco Packet Tracer, please follow the instructions from the link below:
+    Aby uzyskać i zainstalować swoją kopię programu Cisco Packet Tracer, postępuj zgodnie z instrukcjami dostępnymi pod poniższym łączem:, Aby uzyskać i zainstalować swoją kopię Cisco Packet Tracer, postępuj zgodnie z instrukcjami podanymi pod poniższym linkiem:
+Why Should I Take this Course?
+
+Dlaczego warto wziąć udział w tym kursie?
+
+Tłumaczenia Why Should I Take this Course?
+[ English -> Polski ]
+
+Why Should I Take this Course?
+    Dlaczego warto wziąć udział w tym kursie?, Dlaczego warto skorzystać z tego kursu?
+What could you see inside of a small business or the Internet?
+
+Co można zobaczyć w małej firmie lub w Internecie?
+
+Tłumaczenia What could you see inside of a small business or the Internet?
+[ English -> Polski ]
+
+What could you see inside of a small business or the Internet?
+    Co można zobaczyć w małej firmie lub w Internecie?, Co można zobaczyć wewnątrz małej firmy lub w Internecie?
+Have you ever wanted to set up an IoT system to alert you by phone when there is a problem in your home environment?
+
+Czy kiedykolwiek chciałeś skonfigurować system IoT, aby ostrzegał Cię przez telefon, gdy pojawi się problem w Twoim środowisku domowym?
+
+Tłumaczenia Have you ever wanted to set up an IoT system to alert you by phone when there is a problem in your home environment?
+[ English -> Polski ]
+
+Have you ever wanted to set up an IoT system to alert you by phone when there is a problem in your home environment?
+    Czy kiedykolwiek chciałeś skonfigurować system IoT, aby ostrzegał Cię przez telefon, gdy pojawi się problem w Twoim środowisku domowym?, Czy kiedykolwiek chciałeś skonfigurować system IoT, aby ostrzegał Cię przez telefon, gdy wystąpi problem w Twoim środowisku domowym?
+Welcome to Cisco Packet Tracer - the simulation environment that can help you do all that and more.
+
+Witamy w Cisco Packet Tracer — środowisku symulacyjnym, które pomoże Ci zrobić to wszystko i jeszcze więcej.
+
+Tłumaczenia Welcome to Cisco Packet Tracer - the simulation environment that can help you do all that and more.
+[ English -> Polski ]
+
+Welcome to Cisco Packet Tracer - the simulation environment that can help you do all that and more.
+    Witamy w Cisco Packet Tracer — środowisku symulacyjnym, które pomoże Ci zrobić to wszystko i jeszcze więcej., Witamy w Cisco Packet Tracer — środowisku symulacyjnym, które pomoże Ci to wszystko, a nawet więcej.
+The Getting Started with Cisco Packet Tracer course is designed to familiarize you with the Cisco Packet Tracer network simulation and visualization tool.
+
+Kurs Pierwsze kroki z Cisco Packet Tracer ma na celu zapoznanie Cię z narzędziem do symulacji i wizualizacji sieci Cisco Packet Tracer.
+
+Tłumaczenia The Getting Started with Cisco Packet Tracer course is designed to familiarize you with the Cisco Packet Tracer network simulation and visualization tool.
+[ English -> Polski ]
+
+The Getting Started with Cisco Packet Tracer course is designed to familiarize you with the Cisco Packet Tracer network simulation and visualization tool.
+    Kurs Pierwsze kroki z Cisco Packet Tracer ma na celu zapoznanie Cię z narzędziem do symulacji i wizualizacji sieci Cisco Packet Tracer., Kurs Wprowadzenie do programu Cisco Packet Tracer ma na celu zapoznanie Cię z narzędziem do symulacji i wizualizacji sieci Cisco Packet Tracer.
+The course has two modules.
+
+Kurs składa się z dwóch modułów.
+
+Tłumaczenia The course has two modules.
+[ English -> Polski ]
+
+The course has two modules.
+    Kurs składa się z dwóch modułów., Kurs obejmuje dwa moduły.
+In the first module, Download and Use Cisco Packet Tracer, you will learn to install the software and explore the interface.
+
+W pierwszym module, Pobierz i używaj Cisco Packet Tracer, nauczysz się instalować oprogramowanie i zapoznasz się z interfejsem.
+
+Tłumaczenia In the first module, Download and Use Cisco Packet Tracer, you will learn to install the software and explore the interface.
+[ English -> Polski ]
+
+In the first module, Download and Use Cisco Packet Tracer, you will learn to install the software and explore the interface.
+    W pierwszym module, Pobierz i używaj Cisco Packet Tracer, nauczysz się instalować oprogramowanie i zapoznasz się z interfejsem., W pierwszym module, Download and Use Cisco Packet Tracer, nauczysz się instalować oprogramowanie i poznasz interfejs.
+In addition to text, there are seven videos, and hands-on exploration activity.
+
+Oprócz tekstu dostępnych jest siedem filmów i praktyczne ćwiczenia eksploracyjne.
+
+Tłumaczenia In addition to text, there are seven videos, and hands-on exploration activity.
+[ English -> Polski ]
+
+In addition to text, there are seven videos, and hands-on exploration activity.
+    Oprócz tekstu dostępnych jest siedem filmów i praktyczne ćwiczenia eksploracyjne., Oprócz tekstu jest tam siedem filmów i praktyczne ćwiczenia eksploracyjne.
+After you are familiar with the Cisco Packet tracer interface, you will take the second module, Create a Cisco Packet Tracer Network.
+
+Po zapoznaniu się z interfejsem Cisco Packet Tracer przejdziesz do drugiego modułu, Tworzenie sieci Cisco Packet Tracer.
+
+Tłumaczenia After you are familiar with the Cisco Packet tracer interface, you will take the second module, Create a Cisco Packet Tracer Network.
+[ English -> Polski ]
+
+After you are familiar with the Cisco Packet tracer interface, you will take the second module, Create a Cisco Packet Tracer Network.
+    Po zapoznaniu się z interfejsem Cisco Packet Tracer przejdziesz do drugiego modułu, Tworzenie sieci Cisco Packet Tracer., Po zapoznaniu się z interfejsem Cisco Packet Tracer przejdziesz do drugiego modułu, Utwórz sieć Cisco Packet Tracer.
+You will create your own network in Packet Tracer (PT).
+
+Stworzysz własną sieć w Packet Tracer (PT).
+
+Tłumaczenia You will create your own network in Packet Tracer (PT).
+[ English -> Polski ]
+
+You will create your own network in Packet Tracer (PT).
+    Stworzysz własną sieć w Packet Tracer (PT)., Własną sieć stworzysz w Packet Tracer (PT).
+You will also learn about the different types of PT files.
+
+Dowiesz się również o różnych typach plików PT.
+
+Tłumaczenia You will also learn about the different types of PT files.
+[ English -> Polski ]
+
+You will also learn about the different types of PT files.
+    Dowiesz się również o różnych typach plików PT., Dowiesz się także o różnych rodzajach plików PT.
+This module has five videos and one Packet Tracer activity.
+
+Ten moduł zawiera pięć filmów i jedno ćwiczenie Packet Tracer.
+
+Tłumaczenia This module has five videos and one Packet Tracer activity.
+[ English -> Polski ]
+
+This module has five videos and one Packet Tracer activity.
+    Ten moduł zawiera pięć filmów i jedno ćwiczenie Packet Tracer., W tym module znajduje się pięć filmów i jedno ćwiczenie Packet Tracer.
+Let's get started with Cisco Packet Tracer.
+
+Zacznijmy od Cisco Packet Tracer.
+
+Tłumaczenia Let's get started with Cisco Packet Tracer.
+[ English -> Polski ]
+
+Let's get started with Cisco Packet Tracer.
+    Zacznijmy od Cisco Packet Tracer., Zacznijmy od rozwiązania Cisco Packet Tracer.
+1.1 The Cisco Packet Tracer Interface.
+
+1.1 Interfejs Cisco Packet Tracer.
+
+Tłumaczenia 1.1 The Cisco Packet Tracer Interface.
+[ English -> Polski ]
+
+1.1 The Cisco Packet Tracer Interface.
+    1.1 Interfejs Cisco Packet Tracer., 1.1 Interfejs do śledzenia pakietów Cisco.
+Video - The Packet Tracer User Interface
+
+Wideo — Interfejs użytkownika Packet Tracer
+
+Tłumaczenia Video - The Packet Tracer User Interface
+[ English -> Polski ]
+
+Video - The Packet Tracer User Interface
+    Wideo — Interfejs użytkownika Packet Tracer, Film — interfejs użytkownika Packet Tracer
+Packet Tracer is a tool that allows you to simulate real networks.
+
+Packet Tracer to narzędzie, które pozwala symulować rzeczywiste sieci.
+
+Tłumaczenia Packet Tracer is a tool that allows you to simulate real networks.
+[ English -> Polski ]
+
+Packet Tracer is a tool that allows you to simulate real networks.
+    Packet Tracer to narzędzie, które pozwala symulować rzeczywiste sieci., Packet Tracer to narzędzie pozwalające symulować rzeczywiste sieci.
+It provides three main menus that you can use the following:
+
+Zapewnia trzy główne menu, z których można korzystać:
+
+Tłumaczenia It provides three main menus that you can use the following:
+[ English -> Polski ]
+
+It provides three main menus that you can use the following:
+    Zapewnia trzy główne menu, z których można korzystać:, Udostępnia trzy główne menu, z których można korzystać:
+* Add devices and connect them via cables or wireless.
+
+* Dodaj urządzenia i połącz je za pomocą kabli lub sieci bezprzewodowej.
+
+Tłumaczenia * Add devices and connect them via cables or wireless.
+[ English -> Polski ]
+
+* Add devices and connect them via cables or wireless.
+    * Dodaj urządzenia i połącz je za pomocą kabli lub sieci bezprzewodowej., * Dodawaj urządzenia i łącz je przewodowo lub bezprzewodowo.
+Select, delete, inspect, label, and group components within your network.
+
+Wybieraj, usuwaj, sprawdzaj, oznaczaj i grupuj komponenty w swojej sieci.
+
+Tłumaczenia Select, delete, inspect, label, and group components within your network.
+[ English -> Polski ]
+
+Select, delete, inspect, label, and group components within your network.
+    Wybieraj, usuwaj, sprawdzaj, oznaczaj i grupuj komponenty w swojej sieci., Wybieraj, usuwaj, sprawdzaj, etykietuj i grupuj komponenty w swojej sieci.
+* Manage your network.
+
+* Zarządzaj swoją siecią.
+
+Tłumaczenia * Manage your network.
+[ English -> Polski ]
+
+* Manage your network.
+    * Zarządzaj swoją siecią., * Zarządzaj siecią.
+The network management menu lets you do the following:
+
+Menu zarządzania siecią umożliwia wykonanie następujących czynności:
+
+Tłumaczenia The network management menu lets you do the following:
+[ English -> Polski ]
+
+The network management menu lets you do the following:
+    Menu zarządzania siecią umożliwia wykonanie następujących czynności:, Menu zarządzania siecią umożliwia:
+* Open an existing / sample network.
+
+* Otwórz istniejącą / przykładową sieć.
+
+Tłumaczenia * Open an existing / sample network.
+[ English -> Polski ]
+
+* Open an existing / sample network.
+    * Otwórz istniejącą / przykładową sieć., * Otwórz istniejącą/próbną sieć.
+* Save your current network.
+
+* Zapisz swoją obecną sieć.
+
+Tłumaczenia * Save your current network.
+[ English -> Polski ]
+
+* Save your current network.
+    * Zapisz swoją obecną sieć., * Zapisz obecną sieć.
+* Modify your user profile or your preferences.
+
+* Zmodyfikuj swój profil użytkownika lub swoje preferencje.
+
+Tłumaczenia * Modify your user profile or your preferences.
+[ English -> Polski ]
+
+* Modify your user profile or your preferences.
+    * Zmodyfikuj swój profil użytkownika lub swoje preferencje., * Modyfikuj swój profil użytkownika lub preferencje.
+Click Play in the video to learn how to use the menus and navigate the interface.
+
+Kliknij Odtwórz w filmie, aby dowiedzieć się, jak korzystać z menu i poruszać się po interfejsie.
+
+Tłumaczenia Click Play in the video to learn how to use the menus and navigate the interface.
+[ English -> Polski ]
+
+Click Play in the video to learn how to use the menus and navigate the interface.
+    Kliknij Odtwórz w filmie, aby dowiedzieć się, jak korzystać z menu i poruszać się po interfejsie., Kliknij przycisk Odtwórz w filmie, aby dowiedzieć się, jak korzystać z menu i poruszać się po interfejsie.
+Video - Deploying Devices
+
+Wideo — wdrażanie urządzeń
+
+Tłumaczenia Video - Deploying Devices
+[ English -> Polski ]
+
+Video - Deploying Devices
+    Wideo — wdrażanie urządzeń, Film — Wdrażanie urządzeń
+Now that you have some familiarity with the interface and the menus, you can start deploying devices in Packet Tracer.
+
+Teraz, gdy znasz interfejs i menu, możesz rozpocząć wdrażanie urządzeń w Packet Tracer.
+
+Tłumaczenia Now that you have some familiarity with the interface and the menus, you can start deploying devices in Packet Tracer.
+[ English -> Polski ]
+
+Now that you have some familiarity with the interface and the menus, you can start deploying devices in Packet Tracer.
+    Teraz, gdy znasz interfejs i menu, możesz rozpocząć wdrażanie urządzeń w Packet Tracer., Teraz, gdy masz już pewną znajomość interfejsu i menu, możesz rozpocząć wdrażanie urządzeń w Packet Tracer.
+Click Play in the video to learn how to deploy devices.
+
+Kliknij Odtwórz w filmie, aby dowiedzieć się, jak wdrożyć urządzenia.
+
+Tłumaczenia Click Play in the video to learn how to deploy devices.
+[ English -> Polski ]
+
+Click Play in the video to learn how to deploy devices.
+    Kliknij Odtwórz w filmie, aby dowiedzieć się, jak wdrożyć urządzenia., Kliknij opcję Odtwórz w filmie, aby dowiedzieć się, jak wdrażać urządzenia.
+GUI and CLI Configuration in Cisco Packet Tracer
+
+Konfiguracja GUI i CLI w Cisco Packet Tracer
+
+Tłumaczenia GUI and CLI Configuration in Cisco Packet Tracer
+[ English -> Polski ]
+
+GUI and CLI Configuration in Cisco Packet Tracer
+    Konfiguracja GUI i CLI w Cisco Packet Tracer, Konfiguracja interfejsu GUI i CLI w programie Cisco Packet Tracer
+Packet Tracer also provides a variety of tabs for device configuration including the following.
+
+Packet Tracer udostępnia również różne zakładki do konfiguracji urządzeń, w tym następujące.
+
+Tłumaczenia Packet Tracer also provides a variety of tabs for device configuration including the following.
+[ English -> Polski ]
+
+Packet Tracer also provides a variety of tabs for device configuration including the following.
+    Packet Tracer udostępnia również różne zakładki do konfiguracji urządzeń, w tym następujące., Packet Tracer udostępnia również różne zakładki do konfiguracji urządzeń, w tym poniższe.
+Physical, Config, CLI, Desktop, Services
+
+Fizyczne, konfiguracja, CLI, pulpit, usługi
+
+Tłumaczenia Physical, Config, CLI, Desktop, Services
+[ English -> Polski ]
+
+Physical, Config, CLI, Desktop, Services
+    Fizyczne, konfiguracja, CLI, pulpit, usługi, Fizyczne, konfiguracja, interfejs CLI, pulpit, usługi
+The tabs that are shown depend on the device you are currently configuring.
+
+Wyświetlane karty zależą od aktualnie konfigurowanego urządzenia.
+
+Tłumaczenia The tabs that are shown depend on the device you are currently configuring.
+[ English -> Polski ]
+
+The tabs that are shown depend on the device you are currently configuring.
+    Wyświetlane karty zależą od aktualnie konfigurowanego urządzenia., Wyświetlane zakładki zależą od aktualnie konfigurowanego urządzenia.
+Note: You may see other tabs on different devices.
+
+Uwaga: możesz zobaczyć inne karty na różnych urządzeniach.
+
+Tłumaczenia Note: You may see other tabs on different devices.
+[ English -> Polski ]
+
+Note: You may see other tabs on different devices.
+    Uwaga: możesz zobaczyć inne karty na różnych urządzeniach., Uwaga: na różnych urządzeniach możesz zobaczyć inne karty.
+These additional tabs are beyond the scope of this course.
+
+Te dodatkowe zakładki wykraczają poza zakres tego kursu.
+
+Tłumaczenia These additional tabs are beyond the scope of this course.
+[ English -> Polski ]
+
+These additional tabs are beyond the scope of this course.
+    Te dodatkowe zakładki wykraczają poza zakres tego kursu., Te dodatkowe karty są poza zakresem tego kursu.
+Click below to for more information on tabs relevant to this course.
+
+Kliknij poniżej, aby uzyskać więcej informacji na temat zakładek związanych z tym kursem.
+
+Tłumaczenia Click below to for more information on tabs relevant to this course.
+[ English -> Polski ]
+
+Click below to for more information on tabs relevant to this course.
+    Kliknij poniżej, aby uzyskać więcej informacji na temat zakładek związanych z tym kursem., Kliknij poniżej, aby uzyskać więcej informacji o kartach dotyczących tego kursu.
+Physical Tab
+
+Zakładka fizyczna
+
+Tłumaczenia Physical Tab
+[ English -> Polski ]
+
+Physical Tab
+    Zakładka fizyczna, Karta Fizyczna
+The Physical Tab provides an interface for interacting with the device including powering it on or off or installing different modules, such as a wireless network interface card (NIC).
+
+Zakładka Fizyczna zapewnia interfejs umożliwiający interakcję z urządzeniem, w tym włączanie i wyłączanie go oraz instalowanie różnych modułów, takich jak karta interfejsu sieci bezprzewodowej (NIC).
+
+Tłumaczenia The Physical Tab provides an interface for interacting with the device including powering it on or off or installing different modules, such as a wireless network interface card (NIC).
+[ English -> Polski ]
+
+The Physical Tab provides an interface for interacting with the device including powering it on or off or installing different modules, such as a wireless network interface card (NIC).
+    Zakładka Fizyczna zapewnia interfejs umożliwiający interakcję z urządzeniem, w tym włączanie i wyłączanie go oraz instalowanie różnych modułów, takich jak karta interfejsu sieci bezprzewodowej (NIC)., Zakładka Fizyczne zapewnia interfejs umożliwiający interakcję z urządzeniem, w tym włączanie i wyłączanie go oraz instalowanie różnych modułów, takich jak karta sieci bezprzewodowej (NIC).
+Config Tab
+
+Zakładka Konfiguracja
+
+Tłumaczenia Config Tab
+[ English -> Polski ]
+
+Config Tab
+    Zakładka Konfiguracja, Karta konfiguracji
+For intermediate devices such as routers and switches, there are two ways to access device configurations.
+
+W przypadku urządzeń pośrednich, takich jak routery i przełączniki, istnieją dwa sposoby uzyskiwania dostępu do konfiguracji urządzeń.
+
+Tłumaczenia For intermediate devices such as routers and switches, there are two ways to access device configurations.
+[ English -> Polski ]
+
+For intermediate devices such as routers and switches, there are two ways to access device configurations.
+    W przypadku urządzeń pośrednich, takich jak routery i przełączniki, istnieją dwa sposoby uzyskiwania dostępu do konfiguracji urządzeń., W przypadku urządzeń pośrednich, takich jak routery i przełączniki, dostępne są dwa sposoby uzyskiwania dostępu do konfiguracji urządzeń.
+Configurations can be accessed via a Config tab, which is a Graphical User Interface (GUI).
+
+Dostęp do konfiguracji można uzyskać za pośrednictwem karty Config, która jest graficznym interfejsem użytkownika (GUI).
+
+Tłumaczenia Configurations can be accessed via a Config tab, which is a Graphical User Interface (GUI).
+[ English -> Polski ]
+
+Configurations can be accessed via a Config tab, which is a Graphical User Interface (GUI).
+    Dostęp do konfiguracji można uzyskać za pośrednictwem karty Config, która jest graficznym interfejsem użytkownika (GUI)., Dostęp do konfiguracji można uzyskać za pośrednictwem zakładki Konfiguracja, która jest graficznym interfejsem użytkownika (GUI).
+Configurations can also be accessed using a command line interface (CLI).
+
+Dostęp do konfiguracji można również uzyskać za pomocą interfejsu wiersza poleceń (CLI).
+
+Tłumaczenia Configurations can also be accessed using a command line interface (CLI).
+[ English -> Polski ]
+
+Configurations can also be accessed using a command line interface (CLI).
+    Dostęp do konfiguracji można również uzyskać za pomocą interfejsu wiersza poleceń (CLI)., Dostęp do konfiguracji można uzyskać również za pomocą interfejsu wiersza poleceń (CLI).
+The Config tab does not simulate the functionality of a device.
+
+Zakładka Config nie symuluje funkcjonalności urządzenia.
+
+Tłumaczenia The Config tab does not simulate the functionality of a device.
+[ English -> Polski ]
+
+The Config tab does not simulate the functionality of a device.
+    Zakładka Config nie symuluje funkcjonalności urządzenia., Karta Konfiguracja nie symuluje funkcjonalności urządzenia.
+This tab is unique to Packet Tracer.
+
+Ta zakładka jest unikalna dla Packet Tracer.
+
+Tłumaczenia This tab is unique to Packet Tracer.
+[ English -> Polski ]
+
+This tab is unique to Packet Tracer.
+    Ta zakładka jest unikalna dla Packet Tracer., Ta karta jest unikalna dla Packet Tracer.
+If you don't know how to use the command line interface, this tab provides a way to use a Packet Tracer - only GUI to GUI, the equivalents CLI commands appear in the Equivalent IOS Commands window.
+
+Jeśli nie wiesz, jak korzystać z interfejsu wiersza poleceń, ta zakładka zapewnia sposób korzystania z Packet Tracer - tylko GUI do GUI, odpowiedniki poleceń CLI pojawiają się w oknie Equivalent IOS Commands.
+
+Tłumaczenia If you don't know how to use the command line interface, this tab provides a way to use a Packet Tracer - only GUI to GUI, the equivalents CLI commands appear in the Equivalent IOS Commands window.
+[ English -> Polski ]
+
+If you don't know how to use the command line interface, this tab provides a way to use a Packet Tracer - only GUI to GUI, the equivalents CLI commands appear in the Equivalent IOS Commands window.
+    Jeśli nie wiesz, jak korzystać z interfejsu wiersza poleceń, ta zakładka zapewnia sposób korzystania z Packet Tracer - tylko GUI do GUI, odpowiedniki poleceń CLI pojawiają się w oknie Equivalent IOS Commands., Jeśli nie wiesz, jak korzystać z interfejsu wiersza poleceń, ta zakładka zapewnia sposób korzystania z narzędzia Packet Tracer — tylko GUI do GUI, odpowiedniki poleceń CLI pojawiają się w oknie Równoważne polecenia IOS.
+This helps you to learn the CLI commands and the Cisco Internetwork Operating System (IOS) while you are using the Config tab.
+
+Ułatwia to naukę poleceń interfejsu CLI i systemu operacyjnego Cisco Internetwork (IOS) podczas korzystania z karty Konfiguracja.
+
+Tłumaczenia This helps you to learn the CLI commands and the Cisco Internetwork Operating System (IOS) while you are using the Config tab.
+[ English -> Polski ]
+
+This helps you to learn the CLI commands and the Cisco Internetwork Operating System (IOS) while you are using the Config tab.
+    Ułatwia to naukę poleceń interfejsu CLI i systemu operacyjnego Cisco Internetwork (IOS) podczas korzystania z karty Konfiguracja., Pomaga to w nauce poleceń CLI i systemu operacyjnego Cisco Internetwork (IOS) podczas korzystania z karty Konfiguracja.
+This helps you to learn the CLI commands and the Cisco Internetwork Operating System (IOS) while you are using the Config tab.
+
+Ułatwia to naukę poleceń interfejsu CLI i systemu operacyjnego Cisco Internetwork (IOS) podczas korzystania z karty Konfiguracja.
+
+Tłumaczenia This helps you to learn the CLI commands and the Cisco Internetwork Operating System (IOS) while you are using the Config tab.
+[ English -> Polski ]
+
+This helps you to learn the CLI commands and the Cisco Internetwork Operating System (IOS) while you are using the Config tab.
+    Ułatwia to naukę poleceń interfejsu CLI i systemu operacyjnego Cisco Internetwork (IOS) podczas korzystania z karty Konfiguracja., Pomaga to w nauce poleceń CLI i systemu operacyjnego Cisco Internetwork (IOS) podczas korzystania z karty Konfiguracja.
+For example, in the figure, the user has configured MyRouter as the name of device.
+
+Na przykład na rysunku użytkownik skonfigurował MyRouter jako nazwę urządzenia.
+
+Tłumaczenia For example, in the figure, the user has configured MyRouter as the name of device.
+[ English -> Polski ]
+
+For example, in the figure, the user has configured MyRouter as the name of device.
+    Na przykład na rysunku użytkownik skonfigurował MyRouter jako nazwę urządzenia., Na przykład na ilustracji użytkownik skonfigurował MyRouter jako nazwę urządzenia.
+The Equivalent IOS Commands window shows the IOS command that achieves the same result in the CLI.
+
+W oknie Równoważne polecenia systemu IOS wyświetlane jest polecenie systemu IOS, które daje ten sam wynik w interfejsie CLI.
+
+Tłumaczenia The Equivalent IOS Commands window shows the IOS command that achieves the same result in the CLI.
+[ English -> Polski ]
+
+The Equivalent IOS Commands window shows the IOS command that achieves the same result in the CLI.
+    W oknie Równoważne polecenia systemu IOS wyświetlane jest polecenie systemu IOS, które daje ten sam wynik w interfejsie CLI., W oknie Równoważne polecenia IOS wyświetlane jest polecenie systemu IOS, które daje ten sam wynik w interfejsie CLI.
+CLI tab
+
+Zakładka CLI
+
+Tłumaczenia CLI tab
+[ English -> Polski ]
+
+CLI tab
+    Zakładka CLI, Zakładka interfejsu wiersza poleceń
+The CLI tab provides access to the command line interface of a Cisco device.
+
+Zakładka CLI zapewnia dostęp do interfejsu wiersza poleceń urządzenia Cisco.
+
+Tłumaczenia The CLI tab provides access to the command line interface of a Cisco device.
+[ English -> Polski ]
+
+The CLI tab provides access to the command line interface of a Cisco device.
+    Zakładka CLI zapewnia dostęp do interfejsu wiersza poleceń urządzenia Cisco., Zakładka CLI umożliwia dostęp do interfejsu wiersza poleceń urządzenia Cisco.
+Using the CLI requires knowledge of device configuration with IOS.
+
+Korzystanie z CLI wymaga znajomości konfiguracji urządzenia z IOS.
+
+Tłumaczenia Using the CLI requires knowledge of device configuration with IOS.
+[ English -> Polski ]
+
+Using the CLI requires knowledge of device configuration with IOS.
+    Korzystanie z CLI wymaga znajomości konfiguracji urządzenia z IOS., Korzystanie z interfejsu CLI wymaga znajomości konfiguracji urządzenia z systemem IOS.
+Here, you can practice configuring Cisco devices at the command line.
+
+Tutaj możesz poćwiczyć konfigurowanie urządzeń Cisco z wiersza poleceń.
+
+Tłumaczenia Here, you can practice configuring Cisco devices at the command line.
+[ English -> Polski ]
+
+Here, you can practice configuring Cisco devices at the command line.
+    Tutaj możesz poćwiczyć konfigurowanie urządzeń Cisco z wiersza poleceń., Tutaj możesz przećwiczyć konfigurowanie urządzeń Cisco z poziomu wiersza poleceń.
+CLI configuration is a necessary skill for more advanced networking implementations.
+
+Konfiguracja CLI jest umiejętnością niezbędną przy bardziej zaawansowanych implementacjach sieciowych.
+
+Tłumaczenia CLI configuration is a necessary skill for more advanced networking implementations.
+[ English -> Polski ]
+
+CLI configuration is a necessary skill for more advanced networking implementations.
+    Konfiguracja CLI jest umiejętnością niezbędną przy bardziej zaawansowanych implementacjach sieciowych., Konfiguracja CLI jest umiejętnością niezbędną w przypadku bardziej zaawansowanych implementacji sieciowych.
+Note: Any commands that were entered from the Config tab are also shown in the CLI tab.
+
+Uwaga: wszelkie polecenia wprowadzone z zakładki Config są również wyświetlane w zakładce CLI.
+
+Tłumaczenia Note: Any commands that were entered from the Config tab are also shown in the CLI tab.
+[ English -> Polski ]
+
+Note: Any commands that were entered from the Config tab are also shown in the CLI tab.
+    Uwaga: wszelkie polecenia wprowadzone z zakładki Config są również wyświetlane w zakładce CLI., Uwaga: wszelkie polecenia wprowadzone z zakładki Config są również widoczne na karcie CLI.
+Desktop tab
+
+Zakładka Pulpit
+
+Tłumaczenia Desktop tab
+[ English -> Polski ]
+
+Desktop tab
+    Zakładka Pulpit, Karta pulpitu
+For some end devices, such as PCs and laptops, Packet Tracer provides a desktop interface that gives you access to IP configuration, wireless configuration, a command prompt, a web browser, and another applications.
+
+W przypadku niektórych urządzeń końcowych, takich jak komputery PC i laptopy, Packet Tracer zapewnia interfejs pulpitu, który zapewnia dostęp do konfiguracji IP, konfiguracji sieci bezprzewodowej, wiersza poleceń, przeglądarki internetowej i innych aplikacji.
+
+Tłumaczenia For some end devices, such as PCs and laptops, Packet Tracer provides a desktop interface that gives you access to IP configuration, wireless configuration, a command prompt, a web browser, and another applications.
+[ English -> Polski ]
+
+For some end devices, such as PCs and laptops, Packet Tracer provides a desktop interface that gives you access to IP configuration, wireless configuration, a command prompt, a web browser, and another applications.
+    W przypadku niektórych urządzeń końcowych, takich jak komputery PC i laptopy, Packet Tracer zapewnia interfejs pulpitu, który zapewnia dostęp do konfiguracji IP, konfiguracji sieci bezprzewodowej, wiersza poleceń, przeglądarki internetowej i innych aplikacji., W przypadku niektórych urządzeń końcowych, takich jak komputery PC i laptopy, Packet Tracer zapewnia interfejs pulpitu, który zapewnia dostęp do konfiguracji IP, konfiguracji bezprzewodowej, wiersza polecenia, przeglądarki internetowej i innych aplikacji.
+Services Tab
+
+Zakładka Usługi
+
+Tłumaczenia Services Tab
+[ English -> Polski ]
+
+Services Tab
+    Zakładka Usługi, Karta usługi
+A server has all of the functions of a host with the addition of one more tab, the Services tab.
+
+Serwer posiada wszystkie funkcje hosta z dodatkiem jeszcze jednej zakładki, zakładki Usługi.
+
+Tłumaczenia A server has all of the functions of a host with the addition of one more tab, the Services tab.
+[ English -> Polski ]
+
+A server has all of the functions of a host with the addition of one more tab, the Services tab.
+    Serwer posiada wszystkie funkcje hosta z dodatkiem jeszcze jednej zakładki, zakładki Usługi., Serwer posiada wszystkie funkcje hosta z dodatkiem jeszcze jednej zakładki, zakładki Services.
+This tab allows a server to be configured with common server processes such as HTTP, DHCP, DNS, or other services, as shown in the figure.
+
+Ta karta umożliwia skonfigurowanie serwera z typowymi procesami serwera, takimi jak HTTP, DHCP, DNS lub innymi usługami, jak pokazano na rysunku.
+
+Tłumaczenia This tab allows a server to be configured with common server processes such as HTTP, DHCP, DNS, or other services, as shown in the figure.
+[ English -> Polski ]
+
+This tab allows a server to be configured with common server processes such as HTTP, DHCP, DNS, or other services, as shown in the figure.
+    Ta karta umożliwia skonfigurowanie serwera z typowymi procesami serwera, takimi jak HTTP, DHCP, DNS lub innymi usługami, jak pokazano na rysunku., Ta karta umożliwia konfigurację serwera z typowymi procesami serwera, takimi jak HTTP, DHCP, DNS lub inne usługi, jak pokazano na rysunku.
+Video - Using PTTA Activities - Logical and Physical Mode.
+
+Wideo — Korzystanie z działań PTTA — Tryb logiczny i fizyczny.
+
+Tłumaczenia Video - Using PTTA Activities - Logical and Physical Mode.
+[ English -> Polski ]
+
+Video - Using PTTA Activities - Logical and Physical Mode.
+    Wideo — Korzystanie z działań PTTA — Tryb logiczny i fizyczny., Wideo - Korzystanie z działań PTTA - Tryb logiczny i fizyczny.
+Next up is the Packet Tracer Tutored Activity.
+
+Następna w kolejce jest aktywność instruktorska Packet Tracer.
+
+Tłumaczenia Next up is the Packet Tracer Tutored Activity.
+[ English -> Polski ]
+
+Next up is the Packet Tracer Tutored Activity.
+    Następna w kolejce jest aktywność instruktorska Packet Tracer., Następne w kolejce jest ćwiczenie Packet Tracer.
+Here are a few tutorial videos that you may want to review before jumping in!
+
+Oto kilka filmów instruktażowych, które warto przejrzeć przed przystąpieniem do pracy!
+
+Tłumaczenia Here are a few tutorial videos that you may want to review before jumping in!
+[ English -> Polski ]
+
+Here are a few tutorial videos that you may want to review before jumping in!
+    Oto kilka filmów instruktażowych, które warto przejrzeć przed przystąpieniem do pracy!, Oto kilka filmów instruktażowych, które być może zechcesz przejrzeć przed przystąpieniem do pracy!
+1.1.6 Packet Tracer Tutored Activity - Logical and Physical Mode Exploration.
+
+1.1.6 Ćwiczenie Packet Tracer - Eksploracja trybu logicznego i fizycznego.
+
+Tłumaczenia 1.1.6 Packet Tracer Tutored Activity - Logical and Physical Mode Exploration.
+[ English -> Polski ]
+
+1.1.6 Packet Tracer Tutored Activity - Logical and Physical Mode Exploration.
+    1.1.6 Ćwiczenie Packet Tracer - Eksploracja trybu logicznego i fizycznego., 1.1.6 Ćwiczenie Packet Tracer — eksploracja trybu logicznego i fizycznego.
+In this Packet Tracer Tutored Activity, you will explore logical and physical mode.
+
+W tym ćwiczeniu Packet Tracer poznasz tryb logiczny i fizyczny.
+
+Tłumaczenia In this Packet Tracer Tutored Activity, you will explore logical and physical mode.
+[ English -> Polski ]
+
+In this Packet Tracer Tutored Activity, you will explore logical and physical mode.
+    W tym ćwiczeniu Packet Tracer poznasz tryb logiczny i fizyczny., W tym ćwiczeniu Packet Tracer zapoznasz się z trybem logicznym i fizycznym.
+This activity includes a hinting system and a built-in tutorial.
+
+Ta czynność obejmuje system podpowiedzi i wbudowany samouczek.
+
+Tłumaczenia This activity includes a hinting system and a built-in tutorial.
+[ English -> Polski ]
+
+This activity includes a hinting system and a built-in tutorial.
+    Ta czynność obejmuje system podpowiedzi i wbudowany samouczek., To działanie zawiera system podpowiedzi i wbudowany samouczek.
+It is recommended that you watch the video Packet Tracer Tutored Activity prior to doing this activity.
+
+Przed wykonaniem tego ćwiczenia zaleca się obejrzenie filmu szkoleniowego Packet Tracer.
+
+Tłumaczenia It is recommended that you watch the video Packet Tracer Tutored Activity prior to doing this activity.
+[ English -> Polski ]
+
+It is recommended that you watch the video Packet Tracer Tutored Activity prior to doing this activity.
+    Przed wykonaniem tego ćwiczenia zaleca się obejrzenie filmu szkoleniowego Packet Tracer., Zaleca się, aby przed wykonaniem tego ćwiczenia obejrzeć film z ćwiczeniami Packet Tracer Tutored.
+You can also access the tutorial videos on the previous page of this course.
+
+Możesz także uzyskać dostęp do samouczków wideo na poprzedniej stronie tego kursu.
+
+Tłumaczenia You can also access the tutorial videos on the previous page of this course.
+[ English -> Polski ]
+
+You can also access the tutorial videos on the previous page of this course.
+    Możesz także uzyskać dostęp do samouczków wideo na poprzedniej stronie tego kursu., Możesz również uzyskać dostęp do filmów instruktażowych na poprzedniej stronie tego kursu.
+Note: After you open this file, it could take some time to load.
+
+Uwaga: po otwarciu tego pliku ładowanie może zająć trochę czasu.
+
+Tłumaczenia Note: After you open this file, it could take some time to load.
+[ English -> Polski ]
+
+Note: After you open this file, it could take some time to load.
+    Uwaga: po otwarciu tego pliku ładowanie może zająć trochę czasu., Uwaga: po otwarciu tego pliku jego załadowanie może trochę potrwać.
+Welcome to Cisco packet Tracer!
+
+Witamy w pakiecie Cisco Tracer!
+
+Tłumaczenia Welcome to Cisco packet Tracer!
+[ English -> Polski ]
+
+Welcome to Cisco packet Tracer!
+    Witamy w pakiecie Cisco Tracer!, Witamy w programie Cisco Tracer!
+During the early portion of this activity, we'll give you tips on some important aspects of an activity and the interface.
+
+We wczesnej części tego ćwiczenia podamy wskazówki dotyczące niektórych ważnych aspektów działania i interfejsu.
+
+Tłumaczenia During the early portion of this activity, we'll give you tips on some important aspects of an activity and the interface.
+[ English -> Polski ]
+
+During the early portion of this activity, we'll give you tips on some important aspects of an activity and the interface.
+    We wczesnej części tego ćwiczenia podamy wskazówki dotyczące niektórych ważnych aspektów działania i interfejsu., We wczesnej części tego ćwiczenia udzielimy Ci wskazówek dotyczących niektórych ważnych aspektów działania i interfejsu.
+Let's go!
+
+Chodźmy!
+
+Tłumaczenia Let's go!
+[ English -> Polski ]
+
+Let's go!
+    Chodźmy!, ruszajmy!
+This is the Instructions panel.
+
+To jest panel instrukcji.
+
+Tłumaczenia This is the Instructions panel.
+[ English -> Polski ]
+
+This is the Instructions panel.
+    To jest panel instrukcji., To jest panel z instrukcjami.
+In the left pane, you will receive information about the activity such as the objectives, the background and scenario, the tasks to do, and the problems to solve.
+
+W lewym okienku otrzymasz informacje o działaniu, takie jak cele, tło i scenariusz, zadania do wykonania i problemy do rozwiązania.
+
+Tłumaczenia In the left pane, you will receive information about the activity such as the objectives, the background and scenario, the tasks to do, and the problems to solve.
+[ English -> Polski ]
+
+In the left pane, you will receive information about the activity such as the objectives, the background and scenario, the tasks to do, and the problems to solve.
+    W lewym okienku otrzymasz informacje o działaniu, takie jak cele, tło i scenariusz, zadania do wykonania i problemy do rozwiązania., W lewym okienku otrzymasz informacje o aktywności, takie jak cele, tło i scenariusz, zadania do wykonania i problemy do rozwiązania.
+Objectives
+
+Cele
+
+Tłumaczenia Objectives
+[ English -> Polski ]
+
+Objectives
+    Cele, cele
+* Investigate devices in a wiring closet
+
+* Zbadaj urządzenia w pomieszczeniu z okablowaniem
+
+Tłumaczenia * Investigate devices in a wiring closet
+[ English -> Polski ]
+
+* Investigate devices in a wiring closet
+    * Zbadaj urządzenia w pomieszczeniu z okablowaniem, * Zbadaj urządzenia w rozdzielni elektrycznej
+* Connect End Devices to Networking Devices
+
+* Podłącz urządzenia końcowe do urządzeń sieciowych
+
+Tłumaczenia * Connect End Devices to Networking Devices
+[ English -> Polski ]
+
+* Connect End Devices to Networking Devices
+    * Podłącz urządzenia końcowe do urządzeń sieciowych, * Łącz urządzenia końcowe z urządzeniami sieciowymi
+* Install a backup Router
+
+* Zainstaluj zapasowy router
+
+Tłumaczenia * Install a backup Router
+[ English -> Polski ]
+
+* Install a backup Router
+    * Zainstaluj zapasowy router, * Zainstaluj router zapasowy
+* Configure a Hostname
+
+* Skonfiguruj nazwę hosta
+
+Tłumaczenia * Configure a Hostname
+[ English -> Polski ]
+
+* Configure a Hostname
+    * Skonfiguruj nazwę hosta, * Konfiguracja nazwy hosta
+These are the Objectives
+
+To są Cele
+
+Tłumaczenia These are the Objectives
+[ English -> Polski ]
+
+These are the Objectives
+    To są Cele, Oto Cele
+In this section, you will be given the overall objectives and problems to work through in this activity.
+
+W tej części podane zostaną ogólne cele i problemy, które należy rozwiązać w tym ćwiczeniu.
+
+Tłumaczenia In this section, you will be given the overall objectives and problems to work through in this activity.
+[ English -> Polski ]
+
+In this section, you will be given the overall objectives and problems to work through in this activity.
+    W tej części podane zostaną ogólne cele i problemy, które należy rozwiązać w tym ćwiczeniu., W tej sekcji zostaną podane ogólne cele i problemy, które należy rozwiązać w ramach tego ćwiczenia.
+This is the Background and Scenario.
+
+To jest tło i scenariusz.
+
+Tłumaczenia This is the Background and Scenario.
+[ English -> Polski ]
+
+This is the Background and Scenario.
+    To jest tło i scenariusz., Oto Tło i Scenariusz.
+In this section, you will learn about the background information and scenario situation for this activity.
+
+W tej sekcji dowiesz się o ogólnych informacjach i scenariuszu sytuacji dla tego działania.
+
+Tłumaczenia In this section, you will learn about the background information and scenario situation for this activity.
+[ English -> Polski ]
+
+In this section, you will learn about the background information and scenario situation for this activity.
+    W tej sekcji dowiesz się o ogólnych informacjach i scenariuszu sytuacji dla tego działania., W tej sekcji dowiesz się o ogólnych informacjach i sytuacji scenariusza dla tego działania.
+Background / Scenario
+
+Tło / Scenariusz
+
+Tłumaczenia Background / Scenario
+[ English -> Polski ]
+
+Background / Scenario
+    Tło / Scenariusz, Tło/scenariusz
+The network model in this Packet Tracer Tutored Activity (PTTA) incorporates many of the technologies that you can master in Cisco Networking Academy courses.
+
+Model sieci w tym ćwiczeniu Packet Tracer Tutored Activity (PTTA) obejmuje wiele technologii, które można opanować na kursach Cisco Networking Academy.
+
+Tłumaczenia The network model in this Packet Tracer Tutored Activity (PTTA) incorporates many of the technologies that you can master in Cisco Networking Academy courses.
+[ English -> Polski ]
+
+The network model in this Packet Tracer Tutored Activity (PTTA) incorporates many of the technologies that you can master in Cisco Networking Academy courses.
+    Model sieci w tym ćwiczeniu Packet Tracer Tutored Activity (PTTA) obejmuje wiele technologii, które można opanować na kursach Cisco Networking Academy., Model sieci przedstawiony w tym ćwiczeniu Packet Tracer Tutored Activity (PTTA) obejmuje wiele technologii, które można opanować na kursach Akademii Sieci Cisco.
+It represents a simplified version of how a small to medium-sized business network might look.
+
+Przedstawia uproszczoną wersję tego, jak może wyglądać sieć małych i średnich firm.
+
+Tłumaczenia It represents a simplified version of how a small to medium-sized business network might look.
+[ English -> Polski ]
+
+It represents a simplified version of how a small to medium-sized business network might look.
+    Przedstawia uproszczoną wersję tego, jak może wyglądać sieć małych i średnich firm., Stanowi uproszczoną wersję tego, jak może wyglądać sieć małych i średnich przedsiębiorstw.
+Most of devices in the Seward Branch Office (top left) and Warrenton (bottom right) data center are already deployed and configured.
+
+Większość urządzeń w centrum danych Seward Branch Office (na górze po lewej) i Warrenton (na dole po prawej) jest już wdrożona i skonfigurowana.
+
+Tłumaczenia Most of devices in the Seward Branch Office (top left) and Warrenton (bottom right) data center are already deployed and configured.
+[ English -> Polski ]
+
+Most of devices in the Seward Branch Office (top left) and Warrenton (bottom right) data center are already deployed and configured.
+    Większość urządzeń w centrum danych Seward Branch Office (na górze po lewej) i Warrenton (na dole po prawej) jest już wdrożona i skonfigurowana., Większość urządzeń w centrum danych Seward Branch Office (lewy górny róg) i Warrenton (prawy dolny róg) została już wdrożona i skonfigurowana.
+You have been hired to review the devices and networks deployed.
+
+Zostałeś zatrudniony do przeglądu wdrożonych urządzeń i sieci.
+
+Tłumaczenia You have been hired to review the devices and networks deployed.
+[ English -> Polski ]
+
+You have been hired to review the devices and networks deployed.
+    Zostałeś zatrudniony do przeglądu wdrożonych urządzeń i sieci., Zostałeś zatrudniony, aby sprawdzić wdrożone urządzenia i sieci.
+It is not important that you understand everything you see and do in this activity.
+
+Nie jest ważne, abyś rozumiał wszystko, co widzisz i robisz w tym ćwiczeniu.
+
+Tłumaczenia It is not important that you understand everything you see and do in this activity.
+[ English -> Polski ]
+
+It is not important that you understand everything you see and do in this activity.
+    Nie jest ważne, abyś rozumiał wszystko, co widzisz i robisz w tym ćwiczeniu., Nie jest ważne, abyś rozumiał wszystko, co widzisz i robisz w ramach tego ćwiczenia.
+Feel free to explore the network and become familiar with the menus on your own.
+
+Zachęcamy do eksploracji sieci i samodzielnego zapoznania się z menu.
+
+Tłumaczenia Feel free to explore the network and become familiar with the menus on your own.
+[ English -> Polski ]
+
+Feel free to explore the network and become familiar with the menus on your own.
+    Zachęcamy do eksploracji sieci i samodzielnego zapoznania się z menu., Zachęcamy do samodzielnego eksplorowania sieci i poznawania menu.
+Hints will also appear after a certain amount of time.
+
+Podpowiedzi pojawią się również po pewnym czasie.
+
+Tłumaczenia Hints will also appear after a certain amount of time.
+[ English -> Polski ]
+
+Hints will also appear after a certain amount of time.
+    Podpowiedzi pojawią się również po pewnym czasie., Po pewnym czasie pojawią się także wskazówki.
+You can select a hint level with the slider bar in the bottom left hand corner.
+
+Możesz wybrać poziom podpowiedzi za pomocą suwaka w lewym dolnym rogu.
+
+Tłumaczenia You can select a hint level with the slider bar in the bottom left hand corner.
+[ English -> Polski ]
+
+You can select a hint level with the slider bar in the bottom left hand corner.
+    Możesz wybrać poziom podpowiedzi za pomocą suwaka w lewym dolnym rogu., Poziom podpowiedzi można wybrać suwakiem w lewym dolnym rogu.
+Note: There are two way to look at a network in Packet Tracer.
+
+Uwaga: Istnieją dwa sposoby patrzenia na sieć w Packet Tracer.
+
+Tłumaczenia Note: There are two way to look at a network in Packet Tracer.
+[ English -> Polski ]
+
+Note: There are two way to look at a network in Packet Tracer.
+    Uwaga: Istnieją dwa sposoby patrzenia na sieć w Packet Tracer., Uwaga: Istnieją dwa sposoby patrzenia na sieć w programie Packet Tracer.
+Logical mode shows you how devices are connected in the network.
+
+Tryb logiczny pokazuje, w jaki sposób urządzenia są połączone w sieci.
+
+Tłumaczenia Logical mode shows you how devices are connected in the network.
+[ English -> Polski ]
+
+Logical mode shows you how devices are connected in the network.
+    Tryb logiczny pokazuje, w jaki sposób urządzenia są połączone w sieci., Tryb logiczny pokazuje, jak urządzenia są połączone w sieci.
+Physical mode shows you where the devices are located in the network.
+
+Tryb fizyczny pokazuje, gdzie znajdują się urządzenia w sieci.
+
+Tłumaczenia Physical mode shows you where the devices are located in the network.
+[ English -> Polski ]
+
+Physical mode shows you where the devices are located in the network.
+    Tryb fizyczny pokazuje, gdzie znajdują się urządzenia w sieci., Tryb fizyczny pokazuje położenie urządzeń w sieci.
+This activity opens in and focuses on Physical mode.
+
+Ta aktywność otwiera się i koncentruje się na trybie fizycznym.
+
+Tłumaczenia This activity opens in and focuses on Physical mode.
+[ English -> Polski ]
+
+This activity opens in and focuses on Physical mode.
+    Ta aktywność otwiera się i koncentruje się na trybie fizycznym., Ta aktywność rozpoczyna się w trybie Fizycznym i koncentruje się na nim.
+Many of the Packet Tracer activities you encounter in Cisco Packet Networking Academy courses will use Logical mode.
+
+Wiele działań związanych z Packet Tracer, które można napotkać na kursach Cisco Packet Networking Academy, będzie korzystało z trybu logicznego.
+
+Tłumaczenia Many of the Packet Tracer activities you encounter in Cisco Packet Networking Academy courses will use Logical mode.
+[ English -> Polski ]
+
+Many of the Packet Tracer activities you encounter in Cisco Packet Networking Academy courses will use Logical mode.
+    Wiele działań związanych z Packet Tracer, które można napotkać na kursach Cisco Packet Networking Academy, będzie korzystało z trybu logicznego., Wiele działań związanych z Packet Tracer, które można napotkać na kursach Akademii Cisco Packet Networking, będzie korzystało z trybu logicznego.
+You can switch between these models at any time to compare the differences by clicking the Logical (Shift-L) and Physical (Shift-P) buttons.
+
+Możesz przełączać się między tymi modelami w dowolnym momencie, aby porównać różnice, klikając przyciski Logiczne (Shift-L) i Fizyczne (Shift-P).
+
+Tłumaczenia You can switch between these models at any time to compare the differences by clicking the Logical (Shift-L) and Physical (Shift-P) buttons.
+[ English -> Polski ]
+
+You can switch between these models at any time to compare the differences by clicking the Logical (Shift-L) and Physical (Shift-P) buttons.
+    Możesz przełączać się między tymi modelami w dowolnym momencie, aby porównać różnice, klikając przyciski Logiczne (Shift-L) i Fizyczne (Shift-P)., W dowolnym momencie możesz przełączać się między tymi modelami, aby porównać różnice, klikając przyciski logiczne (Shift-L) i fizyczne (Shift-P).
+However, in the other activities in this course you may be locked out of one mode or the other.
+
+Jednak w przypadku innych zajęć w tym kursie możesz zostać zablokowany w jednym lub drugim trybie.
+
+Tłumaczenia However, in the other activities in this course you may be locked out of one mode or the other.
+[ English -> Polski ]
+
+However, in the other activities in this course you may be locked out of one mode or the other.
+    Jednak w przypadku innych zajęć w tym kursie możesz zostać zablokowany w jednym lub drugim trybie., Jednak w innych ćwiczeniach w tym kursie możesz zostać zablokowany w jednym lub drugim trybie.
+This is a Free Response Question (FRQ).
+
+To jest pytanie z bezpłatną odpowiedzią (FRQ).
+
+Tłumaczenia This is a Free Response Question (FRQ).
+[ English -> Polski ]
+
+This is a Free Response Question (FRQ).
+    To jest pytanie z bezpłatną odpowiedzią (FRQ)., To jest pytanie z darmową odpowiedzią (FRQ).
+It is one of many here to check you understanding.
+
+Jest to jeden z wielu tutaj, aby sprawdzić, czy rozumiesz.
+
+Tłumaczenia It is one of many here to check you understanding.
+[ English -> Polski ]
+
+It is one of many here to check you understanding.
+    Jest to jeden z wielu tutaj, aby sprawdzić, czy rozumiesz., Jest to jeden z wielu tutaj, aby sprawdzić twoje zrozumienie.
+It is one of many questions here to check you understanding.
+
+Jest to jedno z wielu pytań tutaj, aby sprawdzić, czy rozumiesz.
+
+Tłumaczenia It is one of many questions here to check you understanding.
+[ English -> Polski ]
+
+It is one of many questions here to check you understanding.
+    Jest to jedno z wielu pytań tutaj, aby sprawdzić, czy rozumiesz., Jest to jedno z wielu pytań, które mają sprawdzić, czy rozumiesz.
+Be sure to respond to each question as best you can.
+
+Pamiętaj, aby odpowiedzieć na każde pytanie najlepiej jak potrafisz.
+
+Tłumaczenia Be sure to respond to each question as best you can.
+[ English -> Polski ]
+
+Be sure to respond to each question as best you can.
+    Pamiętaj, aby odpowiedzieć na każde pytanie najlepiej jak potrafisz., Upewnij się, że odpowiadasz na każde pytanie najlepiej jak potrafisz.
+Don't forget to submit your responses.
+
+Nie zapomnij przesłać odpowiedzi.
+
+Tłumaczenia Don't forget to submit your responses.
+[ English -> Polski ]
+
+Don't forget to submit your responses.
+    Nie zapomnij przesłać odpowiedzi., Nie zapomnij przesłać swoich odpowiedzi.
+Click on the locations to explore the network.
+
+Klikaj na lokalizacje, aby eksplorować sieć.
+
+Tłumaczenia Click on the locations to explore the network.
+[ English -> Polski ]
+
+Click on the locations to explore the network.
+    Klikaj na lokalizacje, aby eksplorować sieć., Kliknij lokalizacje, aby poznać sieć.
+Become familiar with the network representations in both Logical and Physical modes.
+
+Zapoznaj się z reprezentacjami sieci zarówno w trybie logicznym, jak i fizycznym.
+
+Tłumaczenia Become familiar with the network representations in both Logical and Physical modes.
+[ English -> Polski ]
+
+Become familiar with the network representations in both Logical and Physical modes.
+    Zapoznaj się z reprezentacjami sieci zarówno w trybie logicznym, jak i fizycznym., Zapoznaj się z reprezentacjami sieciowymi zarówno w trybie logicznym, jak i fizycznym.
+In Physical mode, navigate to other areas such as the Warrenton Data Center and Teleworker Home.
+
+W trybie fizycznym przejdź do innych obszarów, takich jak Warrenton Data Center i Teleworker Home.
+
+Tłumaczenia In Physical mode, navigate to other areas such as the Warrenton Data Center and Teleworker Home.
+[ English -> Polski ]
+
+In Physical mode, navigate to other areas such as the Warrenton Data Center and Teleworker Home.
+    W trybie fizycznym przejdź do innych obszarów, takich jak Warrenton Data Center i Teleworker Home., W trybie fizycznym przejdź do innych obszarów, takich jak centrum danych Warrenton i dom telepracowników.
+The technologies used in these locations are discussed in greater detail in future courses.
+
+Technologie stosowane w tych lokalizacjach zostaną omówione bardziej szczegółowo w przyszłych kursach.
+
+Tłumaczenia The technologies used in these locations are discussed in greater detail in future courses.
+[ English -> Polski ]
+
+The technologies used in these locations are discussed in greater detail in future courses.
+    Technologie stosowane w tych lokalizacjach zostaną omówione bardziej szczegółowo w przyszłych kursach., Technologie stosowane w tych lokalizacjach zostaną szczegółowo omówione w przyszłych kursach.
+Most of the devices in the Seward branch office and Warrenton data center are already deployed and configured.
+
+Większość urządzeń w oddziale Seward i centrum danych Warrenton jest już wdrożona i skonfigurowana.
+
+Tłumaczenia Most of the devices in the Seward branch office and Warrenton data center are already deployed and configured.
+[ English -> Polski ]
+
+Most of the devices in the Seward branch office and Warrenton data center are already deployed and configured.
+    Większość urządzeń w oddziale Seward i centrum danych Warrenton jest już wdrożona i skonfigurowana., Większość urządzeń w oddziale firmy Seward i centrum danych w Warrenton jest już wdrożona i skonfigurowana.
+You can explore the devices and networks.
+
+Możesz eksplorować urządzenia i sieci.
+
+Tłumaczenia You can explore the devices and networks.
+[ English -> Polski ]
+
+You can explore the devices and networks.
+    Możesz eksplorować urządzenia i sieci., Możesz przeglądać urządzenia i sieci.
+In Physical Mode (Shift-P), what are the cities connected?
+
+Jakie miasta są połączone w trybie fizycznym (Shift-P)?
+
+Tłumaczenia In Physical Mode (Shift-P), what are the cities connected?
+[ English -> Polski ]
+
+In Physical Mode (Shift-P), what are the cities connected?
+    Jakie miasta są połączone w trybie fizycznym (Shift-P)?, W trybie fizycznym (Shift-P), jakie miasta są połączone?
+In Physical Mode (Shift-P) what is the name of the submarine cable?
+
+Jak nazywa się kabel podmorski w trybie fizycznym (Shift-P)?
+
+Tłumaczenia In Physical Mode (Shift-P) what is the name of the submarine cable?
+[ English -> Polski ]
+
+In Physical Mode (Shift-P) what is the name of the submarine cable?
+    Jak nazywa się kabel podmorski w trybie fizycznym (Shift-P)?, W trybie fizycznym (Shift-P) jaka jest nazwa kabla podmorskiego?
+In Logical Mode (Shift-L), what are the wireless devices in the Teleworker Home? (Hint: They are not connected with a solid black line.)
+
+W trybie logicznym (Shift-L), jakie są urządzenia bezprzewodowe w domu telepracownika? (Wskazówka: nie są one połączone ciągłą czarną linią.)
+
+Tłumaczenia In Logical Mode (Shift-L), what are the wireless devices in the Teleworker Home? (Hint: They are not connected with a solid black line.)
+[ English -> Polski ]
+
+In Logical Mode (Shift-L), what are the wireless devices in the Teleworker Home?
+    W trybie logicznym (Shift-L), jakie są urządzenia bezprzewodowe w domu telepracownika?, W trybie logicznym (Shift-L), jakie urządzenia bezprzewodowe znajdują się w Domu Telepracownika?
+(Hint: They are not connected with a solid black line.)
+    (Wskazówka: nie są one połączone ciągłą czarną linią.), (Podpowiedź: nie są one połączone ciągłą czarną linią.)
+In Physical mode (Shift-P), what facility can you enter the Seward, Alaska location?
+
+W jakim obiekcie w trybie fizycznym (Shift-P) możesz wejść do lokalizacji Seward na Alasce?
+
+Tłumaczenia In Physical mode (Shift-P), what facility can you enter the Seward, Alaska location?
+[ English -> Polski ]
+
+In Physical mode (Shift-P), what facility can you enter the Seward, Alaska location?
+    W jakim obiekcie w trybie fizycznym (Shift-P) możesz wejść do lokalizacji Seward na Alasce?, W jakim obiekcie w trybie fizycznym (Shift-P) możesz wejść do lokacji Seward na Alasce?
+Which locations can you enter in the other city?
+
+Jakie lokalizacje możesz wpisać w innym mieście?
+
+Tłumaczenia Which locations can you enter in the other city?
+[ English -> Polski ]
+
+Which locations can you enter in the other city?
+    Jakie lokalizacje możesz wpisać w innym mieście?, Które lokalizacje możesz wprowadzić w innym mieście?
+In this step, you will navigate to the Branch Office wiring closet in Seward.
+
+W tym kroku przejdziesz do szafy okablowania Oddziału w Seward.
+
+Tłumaczenia In this step, you will navigate to the Branch Office wiring closet in Seward.
+[ English -> Polski ]
+
+In this step, you will navigate to the Branch Office wiring closet in Seward.
+    W tym kroku przejdziesz do szafy okablowania Oddziału w Seward., W tym kroku przejdziesz do szafy z okablowaniem oddziału w Seward.
+You will also connect a PC to a switch using an Ethernet cable.
+
+Podłączysz także komputer do przełącznika za pomocą kabla Ethernet.
+
+Tłumaczenia You will also connect a PC to a switch using an Ethernet cable.
+[ English -> Polski ]
+
+You will also connect a PC to a switch using an Ethernet cable.
+    Podłączysz także komputer do przełącznika za pomocą kabla Ethernet., Podłączysz również komputer PC do przełącznika za pomocą kabla Ethernet.
+In the Intercity, click seward.
+
+W Intercity kliknij seward.
+
+Tłumaczenia In the Intercity, click seward.
+[ English -> Polski ]
+
+In the Intercity, click seward.
+    W Intercity kliknij seward., W pociągu Intercity kliknij seward.
+While in Seward, click the Branch Office and the click the Branch Office Wiring Closet.
+
+Będąc w Seward, kliknij oddział, a następnie szafę elektryczną oddziału.
+
+Tłumaczenia While in Seward, click the Branch Office and the click the Branch Office Wiring Closet.
+[ English -> Polski ]
+
+While in Seward, click the Branch Office and the click the Branch Office Wiring Closet.
+    Będąc w Seward, kliknij oddział, a następnie szafę elektryczną oddziału., Będąc w Seward, kliknij Oddział, a następnie Szafkę z okablowaniem oddziału.
+Nice job!
+
+Dobra robota!
+
+Tłumaczenia Nice job!
+[ English -> Polski ]
+
+Nice job!
+    Dobra robota!, Niezła praca!
+You got this task done correctly.
+
+To zadanie wykonałeś poprawnie.
+
+Tłumaczenia You got this task done correctly.
+[ English -> Polski ]
+
+You got this task done correctly.
+    To zadanie wykonałeś poprawnie., Zadanie to wykonałeś prawidłowo.
+As you can see, a green checkmark appeared as confirmation.
+
+Jak widać, jako potwierdzenie pojawił się zielony znacznik wyboru.
+
+Tłumaczenia As you can see, a green checkmark appeared as confirmation.
+[ English -> Polski ]
+
+As you can see, a green checkmark appeared as confirmation.
+    Jak widać, jako potwierdzenie pojawił się zielony znacznik wyboru., Jak widać, zielony znacznik wyboru pojawił się jako potwierdzenie.
+You are now at the Branch Office Wiring Closet.
+
+Znajdujesz się teraz w pomieszczeniu z instalacją elektryczną w oddziale.
+
+Tłumaczenia You are now at the Branch Office Wiring Closet.
+[ English -> Polski ]
+
+You are now at the Branch Office Wiring Closet.
+    Znajdujesz się teraz w pomieszczeniu z instalacją elektryczną w oddziale., Znajdujesz się teraz w szafce z okablowaniem oddziału.
+Occasinally, pop-ups such as this one you see here will show you feedback or a hint.
+
+Czasami wyskakujące okienka, takie jak to, które widzisz tutaj, zawierają informacje zwrotne lub wskazówki.
+
+Tłumaczenia Occasinally, pop-ups such as this one you see here will show you feedback or a hint.
+[ English -> Polski ]
+
+Occasinally, pop-ups such as this one you see here will show you feedback or a hint.
+    Czasami wyskakujące okienka, takie jak to, które widzisz tutaj, zawierają informacje zwrotne lub wskazówki., Czasami wyskakujące okienka, takie jak to, które widzisz tutaj, zawierają opinie lub wskazówki.
+Okay, let's work on the next task.
+
+Dobra, zajmijmy się następnym zadaniem.
+
+Tłumaczenia Okay, let's work on the next task.
+[ English -> Polski ]
+
+Okay, let's work on the next task.
+    Dobra, zajmijmy się następnym zadaniem., Dobra, przejdźmy do następnego zadania.
+Remember, if you get stuck, you can always click on the hint button to get a hint.
+
+Pamiętaj, jeśli utkniesz, zawsze możesz kliknąć przycisk podpowiedzi, aby uzyskać podpowiedź.
+
+Tłumaczenia Remember, if you get stuck, you can always click on the hint button to get a hint.
+[ English -> Polski ]
+
+Remember, if you get stuck, you can always click on the hint button to get a hint.
+    Pamiętaj, jeśli utkniesz, zawsze możesz kliknąć przycisk podpowiedzi, aby uzyskać podpowiedź., Pamiętaj, jeśli utkniesz, zawsze możesz kliknąć przycisk podpowiedzi, aby otrzymać wskazówkę.
+Connect PC_FastEthernet0 to an empty FastEthernet port on ALS2.
+
+Podłącz PC_FastEthernet0 do pustego portu FastEthernet na ALS2.
+
+Tłumaczenia Connect PC_FastEthernet0 to an empty FastEthernet port on ALS2.
+[ English -> Polski ]
+
+Connect PC_FastEthernet0 to an empty FastEthernet port on ALS2.
+    Podłącz PC_FastEthernet0 do pustego portu FastEthernet na ALS2., Połącz PC_FastEthernet0 z pustym portem FastEthernet w ALS2.
+You're getting the hang of this!
+
+Poradzisz sobie z tym!
+
+Tłumaczenia You're getting the hang of this!
+[ English -> Polski ]
+
+You're getting the hang of this!
+    Poradzisz sobie z tym!, Dajesz się na to nabierać!
+Looks like you did everything here.
+
+Wygląda na to, że zrobiłeś wszystko tutaj.
+
+Tłumaczenia Looks like you did everything here.
+[ English -> Polski ]
+
+Looks like you did everything here.
+    Wygląda na to, że zrobiłeś wszystko tutaj., Wygląda na to, że zrobiłeś tutaj wszystko.
+The Next button at the bottom right of the instructions window is activated now.
+
+Przycisk Dalej w prawym dolnym rogu okna instrukcji jest teraz aktywny.
+
+Tłumaczenia The Next button at the bottom right of the instructions window is activated now.
+[ English -> Polski ]
+
+The Next button at the bottom right of the instructions window is activated now.
+    Przycisk Dalej w prawym dolnym rogu okna instrukcji jest teraz aktywny., Przycisk Dalej w prawym dolnym rogu okna instrukcji jest już aktywny.
+Click on it to proceed with the rest of this activity.
+
+Kliknij go, aby kontynuować resztę tej czynności.
+
+Tłumaczenia Click on it to proceed with the rest of this activity.
+[ English -> Polski ]
+
+Click on it to proceed with the rest of this activity.
+    Kliknij go, aby kontynuować resztę tej czynności., Kliknij go, aby przejść do dalszej części tego działania.
+Good luck!
+
+Powodzenia!
+
+Good luck! – definicje
+[ English -> Polski ]
+
+wykrzyknik
+    Powodzenia!
+        Good luck!, Godspeed!
+
+Good luck!
+    Powodzenia!, Szczęście!, powodzenia
+PCs and laptops can also be connected to networking devices using a console cable or USB cable.
+
+Komputery PC i laptopy można również podłączyć do urządzeń sieciowych za pomocą kabla konsoli lub kabla USB.
+
+Tłumaczenia PCs and laptops can also be connected to networking devices using a console cable or USB cable.
+[ English -> Polski ]
+
+PCs and laptops can also be connected to networking devices using a console cable or USB cable.
+    Komputery PC i laptopy można również podłączyć do urządzeń sieciowych za pomocą kabla konsoli lub kabla USB., Komputery PC i laptopy można również łączyć z urządzeniami sieciowymi za pomocą kabla konsoli lub kabla USB.
+This connection provides management access.
+
+To połączenie zapewnia dostęp do zarządzania.
+
+Tłumaczenia This connection provides management access.
+[ English -> Polski ]
+
+This connection provides management access.
+    To połączenie zapewnia dostęp do zarządzania., To połączenie zapewnia dostęp do funkcji zarządzania.
+Management access is used to view and change device configurations.
+
+Dostęp do zarządzania służy do przeglądania i zmiany konfiguracji urządzeń.
+
+Tłumaczenia Management access is used to view and change device configurations.
+[ English -> Polski ]
+
+Management access is used to view and change device configurations.
+    Dostęp do zarządzania służy do przeglądania i zmiany konfiguracji urządzeń., Dostęp do zarządzania służy do wyświetlania i zmiany konfiguracji urządzeń.
+In this step, you will connect a PC to a router using a console cable.
+
+W tym kroku podłączysz komputer do routera za pomocą kabla konsoli.
+
+Tłumaczenia In this step, you will connect a PC to a router using a console cable.
+[ English -> Polski ]
+
+In this step, you will connect a PC to a router using a console cable.
+    W tym kroku podłączysz komputer do routera za pomocą kabla konsoli., W tym kroku połączysz komputer PC z routerem za pomocą kabla konsoli.
+While a Physical mode, connect RS232 port on PC_1 to the Console port on the Edge_Router.
+
+W trybie fizycznym połącz port RS232 na komputerze PC_1 z portem konsoli w urządzeniu Edge_Router.
+
+Tłumaczenia While a Physical mode, connect RS232 port on PC_1 to the Console port on the Edge_Router.
+[ English -> Polski ]
+
+While a Physical mode, connect RS232 port on PC_1 to the Console port on the Edge_Router.
+    W trybie fizycznym połącz port RS232 na komputerze PC_1 z portem konsoli w urządzeniu Edge_Router., W trybie fizycznym połącz port RS232 na PC_1 z portem konsoli na Edge_Router.
+Newer models of networking devices can be accessed for management configuration through a USB port.
+
+Dostęp do nowszych modeli urządzeń sieciowych można uzyskać w celu konfiguracji zarządzania przez port USB.
+
+Tłumaczenia Newer models of networking devices can be accessed for management configuration through a USB port.
+[ English -> Polski ]
+
+Newer models of networking devices can be accessed for management configuration through a USB port.
+    Dostęp do nowszych modeli urządzeń sieciowych można uzyskać w celu konfiguracji zarządzania przez port USB., Nowsze modele urządzeń sieciowych są dostępne w celu konfiguracji zarządzania przez port USB.
+This is necessary because newer laptops and PCs typically do not include an RS232 port for console cable connections.
+
+Jest to konieczne, ponieważ nowsze laptopy i komputery PC zwykle nie mają portu RS232 do połączeń kablowych konsoli.
+
+Tłumaczenia This is necessary because newer laptops and PCs typically do not include an RS232 port for console cable connections.
+[ English -> Polski ]
+
+This is necessary because newer laptops and PCs typically do not include an RS232 port for console cable connections.
+    Jest to konieczne, ponieważ nowsze laptopy i komputery PC zwykle nie mają portu RS232 do połączeń kablowych konsoli., Jest to konieczne, ponieważ nowsze laptopy i komputery PC zazwyczaj nie mają portu RS232 do podłączenia konsoli.
+In this step, you will install and power up a new router in the Rack.
+
+W tym kroku zainstalujesz i włączysz nowy router w szafie Rack.
+
+Tłumaczenia In this step, you will install and power up a new router in the Rack.
+[ English -> Polski ]
+
+In this step, you will install and power up a new router in the Rack.
+    W tym kroku zainstalujesz i włączysz nowy router w szafie Rack., W tym kroku zainstalujesz i włączysz nowy router w stojaku.
+Install Backup_Router in the Rack and turn the power on.
+
+Zainstaluj Backup_Router w stojaku i włącz zasilanie.
+
+Tłumaczenia Install Backup_Router in the Rack and turn the power on.
+[ English -> Polski ]
+
+Install Backup_Router in the Rack and turn the power on.
+    Zainstaluj Backup_Router w stojaku i włącz zasilanie., Zainstaluj Backup_Router w szafie Rack i włącz zasilanie.

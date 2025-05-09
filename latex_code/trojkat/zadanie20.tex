@@ -1,0 +1,37 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\author{M. Sarnowski}
+\title{Rozwiązywanie trójkąta}
+\frenchspacing
+\begin{document}
+\maketitle
+Dane są 3 liczby dodatnie. Sprawdź, czy mogą być one długościami boków trójkąta, a jeśli tak, to rozwiąż taki trójkąt. Rozwiązywanie trójkąta polega na podaniu wszystkich informacji o nim:
+\begin{itemize}
+\item obwód
+\item pole (ze wzoru Herona)
+\item kąty (z twierdzenia cosinusów)
+\item rodzaj trójkąta
+\end{itemize}
+Miary kątów można obliczyć, stosując twierdzenie cosinusów.
+\newline
+$c^{2} = a^{2} + b^{2} - 2ab \cdot cos \gamma$
+\newline
+\newline
+$2ab \cdot cos \gamma = a^{2} + b^{2} - c^{2}$
+\newline
+\newline
+$\gamma = arccos \left( \frac{a^{2} + b^{2} - c^{2}}{2ab} \right) $
+\newline
+\newline
+$\frac{\pi}{4} = 1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} -\frac{1}{11}... $
+\newline
+\newline
+Wzór Herona: $Pole = \sqrt{p \left( p - a \right) \left( p - b \right) \left( p - c \right)}$, gdzie $p$ to połowa obwodu trójkąta.
+\newline
+\newline
+\begin{flushleft}
+Należy pamiętać, że w językach programowania wszystkie funkcje trygonometryczne operują na miarach kątów wyrażonych w radianach.
+\newline
+Rodzaj trójkąta rozpoznaj po długościach boków i po miarach kątów.
+\end{flushleft}
+\end{document}
