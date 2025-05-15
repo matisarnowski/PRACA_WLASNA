@@ -1,3 +1,40 @@
-skrypty/ubuntu/~/
 # Ignoruj konfigurację Oh My Zsh, jeśli przez pomyłkę trafi do projektu
 **/.oh-my-zsh/
+# Ignoruj błędnie umieszczony katalog '~' wewnątrz skryptów ubuntu
+skrypty/ubuntu/~/
+
+# Ogólne reguły, które mogą się przydać (opcjonalnie):
+# Pliki tymczasowe edytorów
+*.swp
+*.swo
+*~
+*.bak
+
+# Skompilowane pliki (jeśli projekt jest w C++ np.)
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Katalogi buildów (przykładowe nazwy)
+build/
+bin/
+out/
+target/
+
+# Pliki IDE (przykłady dla popularnych IDE)
+.idea/
+.vscode/
+*.iml
+*.project
+*.classpath
+nbproject/ # Jak wspomniałeś o NetBeansProject
+
+# Logi
+*.log
+
+# Zależności (np. node_modules, venv)
+node_modules/
+venv/
