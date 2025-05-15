@@ -38,3 +38,5 @@ nbproject/ # Jak wspomniałeś o NetBeansProject
 # Zależności (np. node_modules, venv)
 node_modules/
 venv/
+NetBeansProjects/jdk-11.0.7_doc-all.zip
+NetBeansProjects/jdk-8u251-docs-all.zip
