@@ -1,0 +1,3 @@
+skrypty/ubuntu/~/
+# Ignoruj konfigurację Oh My Zsh, jeśli przez pomyłkę trafi do projektu
+**/.oh-my-zsh/
