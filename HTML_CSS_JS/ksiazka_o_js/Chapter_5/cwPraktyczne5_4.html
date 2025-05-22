@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ćwiczenie praktyczne 5.4</title>
+  </head>
+  <body>
+    <h1>Ćwiczenie praktyczne 5.4</h1>
+    <p>
+      Celem tego ćwiczenia jest wygenerowanie tabeli wartości. Do wygenerowania
+      wierszy i kolumn zostaną użyte pętle, a wiersze będą zagnieżdżone w
+      kolumnach. Tablic zagnieżdżonych można używać do przedstawienia wierszy w
+      tabeli. To jest dość powszechnie spotykana struktura w arkuszach
+      kalkulacyjnych, w których poszczególne wiersze są tablicami zagnieżdżonymi
+      w tabeli, a zawartość tych wierszy to komórki w tabeli. Kolumny zostaną
+      wyrównane, ponieważ każdy wiersz będzie zawierał tę samą liczbę komórek.
+    </p>
+    <ol>
+      <li>
+        W celu przygotowania generatora tabeli pracę trzeba rozpocząć od
+        utworzenia pustej tablicy, myTable, przeznaczonej do przechowywania
+        danych tabeli.
+      </li>
+      <li>
+        Następnie zdefiniuj zmienne przechowujące liczby wierszy i kolumn. To
+        pozwoli na dynamiczną kontrolę liczby wierszy i kolumn w tabeli.
+        Oddzielenie tych wartości od kodu głównego ułatwi późniejszą zmianę
+        wielkości tabeli.
+      </li>
+      <li>
+        Zdefiniuj zmienną counter razem z wartością początkową 0. Ta zmienna
+        będzie używana w celu dodania treści do komórek tabeli i zliczania ich
+        wartości.
+      </li>
+      <li>
+        Utwórz pętlę for z warunkiem określającym liczbę iteracji i tworzącą
+        poszczególne wiersze tabeli. W pętli trzeba utworzyć nową tablicę
+        tymczasową (tempTable) przechowującą dane poszczególnych wierszy.
+        Kolumny będą zagnieżdżone w wierszach, generując tym samym niezbędne
+        komórki kolumn.
+      </li>
+      <li>
+        W pierwszej pętli umieść pętlę zagnieżdżoną odpowiedzialną za zliczanie
+        kolumn. Komórki są obsługiwane przez pętlę wierszy, więc mamy jednolitą
+        liczbę kolumn w tabeli.
+      </li>
+      <li>
+        W trakcie każdej iteracji pętli wewnętrznej inkrementuj wartość licznika
+        głównego, aby w ten sposób śledzić licznik główny poszczególnych komórek
+        i liczbę tworzonych komórek.
+      </li>
+      <li>
+        Wartości licznika umieść w tablicy tymczasowej tempTable. Ponieważ to
+        jest tablica zagnieżdżona przedstawiająca tabelę, wartości licznika mogą
+        być również użyte do wskazania wartości komórek obok siebie w tabeli.
+        Wprawdzie mamy oddzielne tablice przedstawiające nowe wiersze, ale
+        wartość licznika pomoże w zilustrowaniu ogólnej sekwencji komórek w
+        ostatecznej tabeli.
+      </li>
+      <li>
+        Tablicę tymczasową przekaż do tabeli głównej. Ponieważ poszczególne
+        iteracje tworzą nowy wiersz elementów tablicy, ta procedura pozwoli
+        zbudować w tablicy tabelę główną.
+      </li>
+      <li>
+        Tabelę wyświetl w konsoli za pomocą wywołania console.table(myTable).
+        Dzięki temu zobaczysz wizualną reprezentację struktury tabeli.
+      </li>
+    </ol>
+    <script src="cwPraktyczne5_4.js"></script>
+  </body>
+</html>

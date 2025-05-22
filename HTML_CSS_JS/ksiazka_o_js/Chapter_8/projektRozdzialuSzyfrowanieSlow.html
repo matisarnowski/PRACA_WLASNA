@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Szyfrowanie słów</title>
+  </head>
+  <body>
+    <h1>Szyfrowanie słów</h1>
+    <p>
+      Utwórz funkcję zwracającą słowo i zmieniającą w nim kolejność liter za
+      pomocą funkcji <i>Math.random()</i>.
+    </p>
+    <ol>
+      <li>Utwórz ciąg tekstowy przechowujący dowolnie wybrane słowo.</li>
+      <li>Utwórz funkcję pobierającą parametr w postaci słowa.</li>
+      <li>
+        Podobnie jak w przypadku tablicy, także ciąg tekstowy domyślnie ma pewną
+        długość. Można jej użyć do zdefiniowania maksymalnej liczby iteracji
+        pętli. Konieczne jest utworzenie oddzielnej zmiennej dla długości ciągu
+        tekstowego, ponieważ będzie ona dekrementowana w trakcie każdej iteracji
+        pętli.
+      </li>
+      <li>
+        Utwórz pustą zmienną tymczasową, która będzie przechowywała zaszyfrowane
+        słowo.
+      </li>
+      <li>
+        Zdefiniuj pętlę for przeprowadzającą iterację przez poszczególne litery
+        słowa, począwszy od indeksu zerowego. Iteracja musi przebiegać przez
+        wszystkie litery słowa.
+      </li>
+      <li>
+        Utwórz zmienną losowo wybierającą jedną literę na podstawie jej indeksu.
+        Użyj do tego metod <i>Math.floor()</i> i <i>Math.random()</i> oraz
+        pomnóż wartość przez bieżącą długość ciągu tekstowego.
+      </li>
+      <li>
+        Dodaj nową literę do nowego ciągu tekstowego oraz usuń tę literę z
+        pierwotnego ciągu tekstowego.
+      </li>
+      <li>
+        W trakcie działania pętli za pomocą wywołania
+        <i>console.log()</i> wyświetl nowo przygotowany ciąg tekstowy składający
+        się z losowo wybranych liter oraz pierwotny ciąg tekstowy.
+      </li>
+      <li>
+        Uaktualnij pierwotny ciąg tekstowy przez pobranie podciągu tekstowego od
+        wartości indeksu i dodaj go do pozostałej wartości ciągu tekstowego w
+        miejscu indeksu bieżącego powiększonego o 1. Wyświetl nowy ciąg
+        tekstowy, z którego zostały usunięte znaki.
+      </li>
+      <li>
+        W trakcie kontynuowania pętli zobaczysz, jak zmniejsza się liczba liter
+        w pierwotnym ciągu tekstowym, a zwiększa w nowo tworzonym
+      </li>
+      <li>
+        Zwróć ostateczny wynik i wywołaj funkcję z argumentem w postaci
+        pierwotnego ciągu tekstowego. Wynik wyświetl w konsoli.
+      </li>
+    </ol>
+    <script src="projektRozdzialuSzyfrowanieSlow.js"></script>
+  </body>
+</html>

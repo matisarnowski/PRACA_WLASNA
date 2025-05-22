@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="cwPraktyczne6_6.css" />
+    <title>Ćwiczenie praktyczne 6.6</title>
+  </head>
+  <body>
+    <h1>Ćwiczenie praktyczne 6.6</h1>
+    <p>
+      Obliczanie silni to przykład problemu, do którego rozwiązania dość często
+      jest używana rekurencja.
+    </p>
+    <p class="table">
+      <span id="in-the-table">Oto krótkie przypomnienie dotyczące silni.</span
+      ><br />
+      Silnia pewnej liczby to iloczyn wszystkich liczb całkowitych większych niż
+      0 aż do danej liczby. Dlatego też silnia liczby 7 to 7·6·5·4·3·2·1. Można
+      ją zapisać jako 7!.
+    </p>
+    <p>
+      W jaki sposób funkcja rekurencyjna może pomóc w obliczeniu silni? Będzie
+      wywoływana wraz z coraz mniejszą liczbą, aż spadnie ona do zera. W
+      omawianym przykładzie rekurencja zostanie wykorzystana do obliczenia silni
+      wartości liczbowej podanej jako argument funkcji.
+    </p>
+    <ol>
+      <li>
+        Utwórz funkcję zawierającą warunek, w którym sprawdza się, czy wartością
+        argumentu jest 0.
+      </li>
+      <li>
+        Jeżeli parametr ma wartość 0, wówczas funkcja powinna zwrócić 1. W
+        przeciwnym razie funkcja powinna zwrócić wartość argumentu pomnożoną
+        przez wartość zwróconą przez samą funkcję oraz odjąć 1 od wartości
+        przekazanego argumentu. Skutkiem będzie wykonywanie pewnego bloku kodu,
+        dopóki wartością nie będzie 0.
+      </li>
+      <li>
+        Wywołaj funkcję razem z argumentem w postaci liczby, dla której ma
+        zostać obliczona silnia. Kod powinien zacząć działać z przekazaną
+        funkcji wartością początkową, zmniejszać ją aż do 0 i wyświetlać w
+        konsoli wynik obliczeń. Może zawierać wywołanie console.log()
+        wyświetlające wartość bieżącą argumentu funkcji podczas jej wywoływania.
+      </li>
+      <li>Zmień liczbę i zobacz, jaki ma to wpływ na działanie funkcji.</li>
+    </ol>
+    <script src="cwPraktyczne6_6.js"></script>
+  </body>
+</html>

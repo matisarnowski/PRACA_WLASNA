@@ -1,0 +1,58 @@
+Sprawdzian umiejętności 
+1. Jaki będzie wynik wykonania tego fragmentu kodu?
+<div id="output">Pełny kurs JavaScriptu </div> 
+<script> 
+    var output = document.getElementById('output'); 
+    output.innerText = "Witaj, <br> świecie!";
+</script>
+
+Witaj, <br> świecie!
+
+2. Jaki będzie wygenerowany na stronie wynik wykonania tego fragmentu kodu? 
+<div id="output">Pełny kurs JavaScriptu </div> 
+    <script> 
+        document.getElementById('output').innerHTML = "Witaj, <br> świecie!";
+    </script>
+
+Witaj, 
+ świecie!
+
+3. Jaki będzie wygenerowany w polu tekstowym wynik wykonania tego fragmentu kodu? 
+    <div id="output">Witaj, świecie!</div> 
+    <input type="text" id="val" value="JavaScript"> 
+    <script> 
+        document.getElementById('val').value = document.getElementById('output').innerHTML; 
+    </script>
+
+Witaj, Świecie!    
+
+4. Jaki będzie wygenerowany w konsoli wynik wykonania tego fragmentu kodu, gdy zostanie kliknięty element ze słowem Trzy? 
+A jaki będzie efekt kliknięcia przycisku ze słowem Jeden? 
+<div class="holder"> 
+    <div onclick="output('three')">Trzy 
+        <div onclick="output('two')">Dwa 
+            <div onclick="output('one')">Jeden</div> 
+        </div>
+    </div>
+</div> 
+<script> 
+    function output(val) 
+        { console.log(val);} 
+</script> 
+
+one
+two
+three
+
+one
+
+5. Jaki wiersz kodu musi być dodany w celu usunięcia komponentu nasłuchującego zdarzeń, gdy na pokazanej tutaj stronie zostanie kliknięty przycisk? 
+<div class="btn">Kliknij mnie</div> 
+<script> 
+    const btn = document.querySelector(".btn"); 
+    btn.addEventListener("click", myFun); 
+    function myFun() 
+        { console.log("Kliknięty."); } 
+</script>
+
+btn.removeEventListener("click", myFun)

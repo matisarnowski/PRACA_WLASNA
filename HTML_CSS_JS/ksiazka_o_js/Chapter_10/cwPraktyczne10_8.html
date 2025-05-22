@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cwPraktyczne10_8.css" />
+    <title>Ćwiczenie praktyczne 10.8</title>
+  </head>
+  <body>
+    <h1>Ćwiczenie praktyczne 10.8</h1>
+    <p>
+      Tworzenie atrybutów niestandardowych: z wykorzystaniem przedstawionej
+      tutaj tablicy imion (zobacz rysunek 10.6) zamieszczony nieco dalej kod
+      HTML będzie uaktualniał element HTML-a i dodawał nowy kod na podstawie
+      danych w tablicy. Elementy tablicy zostaną więc wyświetlone na stronie
+      jako kod HTML. Użytkownik może następnie kliknąć element strony, co
+      spowoduje wyświetlenie wartości atrybutu danego elementu.
+    </p>
+    <img src="rysunek10_8.png" alt="Tabela przyjaciół." class="image" />
+    <p>
+      Od tego momentu prezentowany w tekście kod HTML będzie stawał się coraz
+      bardziej skomplikowany, więc skoncentrujemy się na testowaniu kodu
+      JavaScript. Dlatego też szablony HTML będą dostarczane tylko tam, gdzie to
+      konieczne. Możesz wykorzystać zamieszczony tutaj szablon HTML i utworzony
+      przez siebie kod umieścić w elemencie <code>&ltscript&gt</code>.
+    </p>
+    <img src="rysunek10_8a.png" alt="Kod w HTML." class="image" />
+    <p>Wykonaj wymienione tutaj kroki:</p>
+    <ol>
+      <li>
+        Utwórz tablicę imion. Możesz zdefiniować dowolną ich liczbę — wszystkie
+        wartości w postaci ciągów tekstowych zostaną wyświetlone w tabeli na
+        stronie.
+      </li>
+      <li>Elementy strony pobieraj jako obiekty JavaScriptu.</li>
+      <li>
+        Dodaj funkcję i wywołaj ją z poziomu kodu JavaScript. Nazwą tej funkcji
+        może być <code>build()</code>, ponieważ będzie odpowiadała za
+        przygotowanie treści strony. W tej funkcji zostanie utworzona tabela
+        HTML.
+      </li>
+      <li>
+        Utwórz tabelę o nazwie html. W znacznikach przeprowadź iterację przez
+        tablicę i jej zawartość umieść w tabeli html.
+      </li>
+      <li>
+        Klasę o nazwie box dodaj do jednej z komórek o wartości indeksu tablicy.
+        Ta sama klasa powinna zostać dodana do elementów w kolejnych wierszach.
+      </li>
+      <li>
+        Podczas tworzenia kodu HTML dla elementu
+        <code>&lttr&gt</code>
+        zdefiniuj atrybut o nazwie data-row w głównym elemencie row, który
+        będzie zawierał wartość indeksu elementu tablicy. Ponadto dodaj w
+        elemencie atrybut o nazwie data-name, który będzie zawierał tekstowe
+        dane wyjściowe.
+      </li>
+      <li>
+        W atrybucie tego samego elementu
+        <code>&lttr&gt</code>
+        dodaj atrybut onclick w celu wywołania funkcji
+        <code>getData()</code>
+        przekazującej do parametru funkcji obiekt bieżącego elementu jako this.
+      </li>
+      <li>Tabelę HTML dodaj do kodu strony internetowej.</li>
+      <li>
+        Utwórz funkcję o nazwie <code>getData()</code>, wywoływaną po kliknięciu
+        elementu <code>>&lttr&gt</code>. Ta funkcja ma użyć metody
+        <code>getAttribute()</code>
+        do pobrania wartości atrybutu row i treści przeznaczonej do
+        wyświetlenia. Następnie umieść te dane w oddzielnych zmiennych.
+      </li>
+      <li>
+        Korzystając z wartości w atrybutach z poprzedniego kroku, dane przekaż
+        do elementu message znajdującego się na stronie.
+      </li>
+      <li>
+        Gdy użytkownik kliknie element na stronie, zostaną wyświetlone szczegóły
+        pochodzące z atrybutów elementu o identyfikatorze message.
+      </li>
+    </ol>
+  </body>
+</html>

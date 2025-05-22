@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Licznik odliczający wstecz</title>
+  </head>
+  <body>
+    <h1>Licznik odliczający wstecz</h1>
+    <p>
+      Utwórz kod licznika odliczającego wstecz, który może być uruchomiony w
+      oknie konsoli. Licznik powinien wyświetlać całkowitą liczbę dni, godzin,
+      minut, sekund i milisekund pozostałych do osiągnięcia wybranej daty.
+    </p>
+    <ol>
+      <li>
+        Zdefiniuj datę końcową, dla której ma się odbywać odliczanie. Sformatuj
+        ją jako datę w ciągu tekstowym.
+      </li>
+      <li>
+        Utwórz funkcję licznika, która będzie przetwarzała <i>endDate()</i> i
+        odejmowała datę bieżącą od docelowej. W ten sposób otrzymasz liczbę
+        milisekund. Za pomocą <i>Date.parse()</i> możesz skonwertować ciąg
+        tekstowy daty na wartość liczbową wyrażającą liczbę milisekund, które
+        upłynęły od północy 1 stycznia 1970 roku według czasu UTC.
+      </li>
+      <li>
+        Po obliczeniu całkowitej liczby milisekund, w celu otrzymania dni,
+        godzin, minut i sekund, możesz skorzystać z przedstawionych tutaj
+        kroków.
+        <ul>
+          <li>
+            W celu obliczenia dni należy podzielić całkowitą liczbę milisekund
+            przez liczbę milisekund w ciągu dnia oraz usunąć resztę. Możesz to
+            zrobić za pomocą wywołania <i>Math.floor()</i>.
+          </li>
+          <li>
+            W celu obliczenia godzin można użyć reszty z dzielenia otrzymanej w
+            poprzednim podpunkcie.
+          </li>
+          <li>
+            W celu obliczenia minut można przeprowadzić dzielenie przez liczbę
+            milisekund w minucie i wykorzystać resztę z tej operacji.
+          </li>
+          <li>
+            Tę samą strategię można zastosować w przypadku sekund —
+            przeprowadzić odpowiednie dzielenie i pobrać resztę. Jeżeli użyjesz
+            metody <i>Math.floor()</i>, wartość możesz zaokrąglić w dół i usunąć
+            część po przecinku, która zostanie użyta w mniejszych wartościach.
+          </li>
+        </ul>
+      </li>
+      <li>
+        Zwróć wszystkie wartości w obiekcie razem z nazwami właściwości
+        wskazującymi, do których jednostek czasu się odwołują.
+      </li>
+      <li>
+        Utwórz funkcję używającą metody <i>setTimeout()</i> do wykonania funkcji
+        <i>update()</i> co sekundę (1000 ms). Ta funkcja utworzy zmienną, która
+        może tymczasowo przechowywać obiekt wartości zwrotnych
+        <i>countdown()</i>. Utwórz pustą zmienną, która zostanie użyta do
+        przygotowania wartości danych wyjściowych.
+      </li>
+      <li>
+        W tej samej funkcji użyj pętli for do przeprowadzenia iteracji przez
+        wszystkie właściwości i wartości obiektu temp. Podczas iteracji
+        uaktualnij ciąg tekstowy danych wyjściowych, aby zawierał nazwę
+        właściwości i jej wartość.
+      </li>
+      <li>
+        Za pomocą <i>console.log()</i> wyświetl w konsoli wygenerowany ciąg
+        tekstowy.
+      </li>
+    </ol>
+
+    <form id="countdown" action="" method="get">
+      <input type="text" name="date-today" size="20000" />
+    </form>
+
+    <script src="projektRozdzialuLicznikOdliczajacyWstecz.js"></script>
+  </body>
+</html>

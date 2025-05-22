@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ćwiczenie praktyczne 5.1</title>
+  </head>
+  <body>
+    <h1>Ćwiczenie praktyczne 5.1</h1>
+    <p>
+      W tym ćwiczeniu opracujesz grę polegającą na odgadnięciu liczby. Gra
+      będzie pobierać dane wejściowe od użytkownika, a następnie na ich
+      podstawie wskazywać, czy gracz odgadł liczbę
+    </p>
+    <ol>
+      <li>
+        Utwórz zmienną przechowującą wartość maksymalną liczby, którą ma
+        odgadnąć gracz.
+      </li>
+      <li>
+        Za pomocą wywołań metod Math.random() i Math.floor() losowo wybierz
+        liczbę. Do niej trzeba dodać 1, aby wartość mieściła się w przedziale od
+        1 do określonego maksimum. Podczas tworzenia gry, dla ułatwienia pracy,
+        wybraną liczbę można wyświetlić w konsoli. Następnie po zakończeniu
+        pracy nad grą należy pamiętać o umieszczeniu w komentarzu polecenia
+        wyświetlającego tę liczbę.
+      </li>
+      <li>
+        W celu śledzenia poprawności odpowiedzi utwórz zmienną, której wartością
+        domyślną powinna być false. Jeżeli gracz odgadnie liczbę, wówczas
+        wartość tej zmiennej zostanie zmieniona na true.
+      </li>
+      <li>
+        Użyj pętli while do pobrania od gracza liczby z przedziału od 1 do 5.
+        Następnie jej typ danych zmień na wartość liczbową, aby odpowiadał
+        typowi losowo wybranej liczby.
+      </li>
+      <li>
+        W pętli while sprawdź, za pomocą warunku, czy wartość podana przez
+        gracza jest równa losowo wybranej liczbie. Zdefiniuj logikę, aby po
+        odgadnięciu liczby zmienna śledząca poprawność odpowiedzi miała
+        przypisaną wartość true, a działanie pętli while zostało zakończone.
+        Jeżeli gracz nie odgadł liczby, należy wyświetlić pewne informacje o
+        tym, jak blisko był prawidłowej odpowiedzi, a następnie umożliwić mu
+        ponowne podanie liczby. W ten sposób pętla będzie działała dopóki,
+        dopóty gracz nie odgadnie liczby — i wówczas będzie można zatrzymać
+        iterację bloku kodu i opuścić pętlę.
+      </li>
+    </ol>
+    <script src="cwPraktyczne5_1.js"></script>
+  </body>
+</html>

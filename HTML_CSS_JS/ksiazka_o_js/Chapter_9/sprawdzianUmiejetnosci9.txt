@@ -1,0 +1,15 @@
+Sprawdzian umiejętności
+1. Przejdź do ulubionej witryny internetowej, a następnie do konsoli w przeglądarce WWW. 
+Wydaj polecenie document.body. Jakie dane wyjściowe zostały wygenerowane w konsoli?
+Treść ciała dokumentu HTML.
+
+2. Jak doskonale wiesz, w przypadku obiektu można zapisać właściwość i przypisać jej nową wartość za pomocą operatora przypisania. 
+Na wybranej stronie internetowej uaktualnij właściwość textContent obiektu document.body, aby zawierała wartość Witaj, świecie!.
+Na Facebooku wyświetla się czarny ekran.
+
+3. Zdobytą wiedzę na temat obiektów wykorzystaj do wyświetlenia właściwości obiektu modelu BOM i jego wartości. W tym ćwiczeniu użyj obiektu document.
+
+4. Teraz to samo powtórz dla obiektu window. 
+
+5. Utwórz plik HTML zawierający element <h1>. Wykorzystaj JavaScript do pobrania tego elementu ze strony internetowej i przypisania go zmiennej. 
+Wartość właściwości textContent zmień na Witaj, świecie!.

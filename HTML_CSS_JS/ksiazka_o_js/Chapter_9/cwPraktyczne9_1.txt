@@ -1,0 +1,4 @@
+Ćwiczenie praktyczne 9.1 
+1. Przejdź do wyświetlonej wcześniej witryny internetowej i wydaj polecenie console.dir(window).
+2. Czy jesteś w stanie odszukać obiekt document zagnieżdżony w obiekcie window? Z poziomu elementu głównego obiektu window w konsoli możesz przejść do obiektu o nazwie document.
+3. Czy jesteś w stanie ustalić wyrażoną w pikselach szerokość i wysokość okna? Zwrócić można wartości dotyczące okien wewnętrznego i zewnętrznego.

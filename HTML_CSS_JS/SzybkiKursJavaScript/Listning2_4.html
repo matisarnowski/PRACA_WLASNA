@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8" />
+    <title>
+        Demonstracja użycia zdarzenia onMouseOver.
+    </title>
+    <script>
+        var x = 1;
+
+        function square(x) {
+            return this.x * this.x;
+        }
+
+        function cube(x) {
+            return this.x * this.x * this.x;
+        }
+
+        function factorial(x) {
+            var x = this.x;
+            var factorial = 1;
+            if (this.x === 0) {
+                return 1;
+            }
+            while (x > 0) {
+                factorial = factorial * x;
+                x--;
+            }
+            return factorial;
+        }
+
+        function infoAboutMatthew(x) {
+            alert("Oto kosmos w wykonaniu Mateusza Sarnowskiego. Otworzyłeś go: " + this.x + " razy " + " co do kwadratu wynosi: " + square(x) + " a do sześcianu: " + cube(x) + " i silnia z tego, to: " + factorial(x));
+            this.x++
+        }
+
+        function continuation() {
+            do {
+                var name = prompt("Jakie jest Twoje imię?");
+            }
+            while (!(name === "Mateusz"))
+        }
+    </script>
+
+    <body id="body1">
+        <div id="div1">
+            <h1>
+                Użycie zdarzenia onMouseOver i onMouseOut.
+            </h1>
+            <h4 style="font-size: small; color: green;">
+                Gdy wymagane jest jedynie wykrycie, gdzie względem konkretnego elementu strony na ekranie znajduje się wskaźnik myszy, pomocne w tym mogą okazać się procedury obsługi zdarzeń <em>onMouseOver</em> i <em>onMouseOut</em>.
+            </h4>>
+
+            <img src="program1.png" alt="Prawdopodobnie pierwszy program." onmouseover="infoAboutMatthew(); this.src='program1.png'" onmouseout="this.src='betelgeuse_block_960.jpg'" onclick="continuation()" />
+        </div>
+    </body>
+</head>
+
+</html>

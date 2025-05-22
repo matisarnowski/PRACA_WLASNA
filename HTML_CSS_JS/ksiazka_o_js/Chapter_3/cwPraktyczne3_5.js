@@ -1,0 +1,14 @@
+people = {};
+friends = [];
+people["My Family"] = friends;
+mother = { firstName: "Katarzyna", lastName: "Sarnowska", id: 1 };
+father = { firstName: "Grzegorz", lastName: "Sarnowski", id: 2 };
+brotherYoungest = { firstName: "Maciej", lastName: "Sarnowski", id: 3 };
+brotherYounger = { firstName: "Jakub", lastName: "Sarnowski", id: 4 };
+grandmother = { firstName: "Krystyna", lastName: "Zakrzewska", id: 5 };
+friends.push(mother);
+friends.push(father);
+friends.push(brotherYoungest);
+friends.push(brotherYounger);
+friends.push(grandmother);
+console.log(people);

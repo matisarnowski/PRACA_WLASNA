@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rozwijany komponent accordion</title>
+    <link rel="stylesheet" href="projektRozdzialuRozwijanyKomponent.css" />
+  </head>
+  <body>
+    <h1>Rozwijany komponent accordion</h1>
+    <p>
+      Utwórz rozwijany i zwijany komponent typu accordion, który będzie
+      wyświetlał elementy strony, pokazywał i ukrywał treść po kliknięciu tytułu
+      karty. Przedstawiony tutaj kod HTML wykorzystaj jako szablon, a utworzony
+      kod JavaScript z żądaną funkcjonalnością umieść w elemencie
+      <code>&ltscript&gt</code>.
+    </p>
+    <img
+      src="projektRozdzialuRozwijanyKomponent.png"
+      alt="Obrazek z kodem."
+      class="image"
+    />
+    <p>Wykonaj wymienione tutaj kroki:</p>
+    <ol>
+      <li>
+        Za pomocą metody <code>querySelectorAll()</code> pobierz wszystkie
+        elementy o klasie title.
+      </li>
+      <li>
+        Za pomocą metody <code>querySelectorAll()</code> pobierz wszystkie
+        elementy o klasie myText. To powinna być taka sama liczba elementów jak
+        w przypadku posiadających przypisaną klasę title.
+      </li>
+      <li>
+        Przeprowadź iterację przez wszystkie elementy z przypisaną klasą title i
+        dodaj im procedurę obsługi zdarzeń, aby po kliknięciu danego elementu
+        został pobrany następny, sąsiadujący z nim element.
+      </li>
+      <li>
+        Pobierz element w akcji click i przełącz classList elementu za pomocą
+        klasy active. To pozwoli użytkownikowi na kliknięcie elementu oraz
+        ukrycie lub wyświetlenie treści znajdującej się poniżej.
+      </li>
+      <li>
+        Dodaj funkcję wywoływaną w trakcie każdego kliknięcia elementu.
+        Działanie funkcji ma polegać na usunięciu klasy active ze wszystkich
+        elementów. To spowoduje ukrycie wszystkich elementów z przypisaną klasą
+        myText.
+      </li>
+    </ol>
+  </body>
+</html>

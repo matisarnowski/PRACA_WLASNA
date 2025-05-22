@@ -1,0 +1,7 @@
+.vscode
+sortowanie_babelkowe\source_code\__pycache__\**
+sortowanie_babelkowe\build\**
+sortowanie_babelkowe\__pycache__\**
+macierz\__pycache__\**
+DATA_SCIENCE\.vscode
+DATA_SCIENCE\venv\**

@@ -1,0 +1,21 @@
+Szanowna Pani Doktor,
+
+Badając elementy dokumentu HTML korzystam z następujących właściwości window (do wyświetlenia wszystkich właściwości okna), window.document (do wyświetlenia elementu document), window.innerWidth (do wyświetlenia szerokości), window.innerHegight (do wyświetlenia wysokości).
+Mam drobny problem, czysto teoretyczny. Ponieważ jestem w stanie wyświetlić wszystkie właściwości w oknie wyświetlanym przy pomocy F12, za pomocą skryptu:
+
+let myWindowText = window;
+let myDocumentOfWindowText = window.document;
+let myWidthText = window.innerWidth;
+let myHeightText = window.innerHeight;
+
+console.log(myWindowText);
+console.log(myDocumentOfWindowText);
+console.log(myWidthText);
+console.log(myHeightText);
+
+Gdy jednak używam funkcji document.write(<odpowiedni_element>);
+To niestety, ale nei wyświetla się cały obiekt. Wyświetla się tylko np [object Window].
+Jak zrobić, by na stronie HTML wyświetliły się wszystkie elementy pobranego obiektu.
+Dodam, że korzystałem też z metody document.getElementById("przykładowe-ID").innerHTML = myWindowText;
+
+Będę wdzięczny za odpowiedź.

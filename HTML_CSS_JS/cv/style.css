@@ -1,0 +1,150 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f5f7fa;
+}
+aside {
+  width: 370;
+  background: #1e2939;
+}
+main {
+  padding: 102px 88px 102px 88px;
+}
+.wrapper {
+  background: #f0eeee;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.main-description {
+  width: 400px;
+}
+.job-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+}
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: normal;
+}
+.description {
+  color: #595959;
+  margin-bottom: 40px;
+}
+.header-primary {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+.job-name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+}
+.highlight {
+  color: #fb6d3a;
+}
+.job-date {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+.job-list {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 0;
+  list-style-position: inside;
+  margin-bottom: 16px;
+}
+.projects {
+  width: 485;
+  margin-bottom: 51px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+}
+.list-primary {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-left: 0;
+  list-style-position: inside;
+}
+.list-primary-item {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: none;
+}
+.education {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+.education-date {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+.education-place {
+  color: #fb6d3a;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+.education-result {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 22px;
+}
+.contact-block {
+  margin-top: 51px;
+  margin-left: 40px;
+}
+.tech-skills-block {
+  margin-top: 47px;
+  margin-left: 40px;
+}
+.soft-skills-block {
+  margin-top: 44px;
+  margin-left: 40px;
+}
+.header-secondary {
+  color: #fff;
+}
+.contact-links {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+}
+.bold {
+  font-weight: 700;
+}
+.list-secondary {
+  color: #fb6d3a;
+  margin-left: 0;
+  padding-left: 0;
+  list-style-position: inside;
+}
+.list-secondary-item {
+  color: #fff;
+  line-height: 24px;
+  font-size: 14px;
+}
+.cv-photo {
+  margin: 25px 0 0 0;
+}

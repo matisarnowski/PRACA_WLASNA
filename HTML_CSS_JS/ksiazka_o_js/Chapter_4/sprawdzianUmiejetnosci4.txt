@@ -1,0 +1,97 @@
+Sprawdzian umiejętności
+1. Jaki będzie wygenerowany w konsoli wynik wykonania tego fragmentu kodu?
+const q = '1';
+switch (q) {
+	case '1':
+		answer = "jeden";
+		break;
+	case 1:
+		answer = 1;
+		break;
+	case 2:
+		answer = "to jest jeden";
+		break;
+	default:
+		answer = "nie działa";
+}
+console.log(answer);
+Wynik działania to "jeden".
+
+2. Jaki będzie wygenerowany w konsoli wynik wykonania tego fragmentu kodu?
+const q = 1;
+switch (q) {
+	case '1':
+		answer = "jeden";
+	case 1:
+		answer = 1;
+	case 2:
+		answer = "to jest jeden";
+		break;
+	default:
+		answer = "nie działa";
+}
+console.log(answer);
+Wynik działania to: "to jest jeden".
+
+3. Jaki będzie wygenerowany w konsoli wynik wykonania tego fragmentu kodu?
+let login = false;
+let outputHolder = "";
+let userOkay = login ? outputHolder = "wyloguj" : outputHolder = "zaloguj";
+console.log(userOkay);
+Wynik wykonania to "zaloguj".
+
+4. Jaki będzie wygenerowany w konsoli wynik wykonania tego fragmentu kodu?
+const userNames = ["Marek", "Janek", "Ludwik"];
+const userInput = "Janek";
+let htmlOutput = "";
+if (userNames.indexOf(userInput) > -1) {
+	htmlOutput = "Witaj, jesteś użytkownikiem systemu";
+} else {
+	htmlOutput = "Brak dostępu, nie jesteś użytkownikiem systemu";
+}
+console.log(htmlOutput + ": " + userInput);
+Wynik wykonania to: "Witaj jesteś użytkownikiem systemu: Janek"
+
+5. Jaki będzie wygenerowany w konsoli wynik wykonania tego fragmentu kodu?
+let myTime = 9;
+let output;
+if (myTime >= 8 && myTime < 12) {
+	output = "Pobudka, już rano.";
+} else if (myTime >= 12 && myTime < 13) {
+	output = "Czas na obiad.";
+} else if (myTime >= 13 && myTime <= 16) {
+	output = "Czas do pracy.";
+} else if (myTime > 16 && myTime < 20) {
+	output = "Czas na kolację.";
+} else if (myTime >= 22) {
+	output = "Czas pójść spać.";
+} else {
+	output = "O tej porze się śpi.";
+}
+console.log(output);
+Wynik wykonania to: "Pobudka już rano."
+6. Jaki będzie wygenerowany w konsoli wynik wykonania tego fragmentu kodu?
+let a = 5;
+let b = 10;
+let c = 20;
+let d = 30;
+console.log(a > b || b > a);
+console.log(a > b && b > a);
+console.log(d > b || b > a);
+console.log(d > b && b > a);
+Wynik wykonania, to:
+true
+false
+true
+true
+
+7. Jaki będzie wygenerowany w konsoli wynik wykonania tego fragmentu kodu?
+let val = 100;
+let message = (val > 100) ? `Liczba ${val} jest większa niż 100.` : `Liczba
+${val} jest MNIEJSZA lub równa 100.`;
+console.log(message);
+let check = (val % 2) ? `nieparzysta` : `parzysta`;
+check = `Liczba ${val} jest ${check}.`;
+console.log(check);
+Wynik wykonania, to: "Liczba 100 jest MNIEJSZA lub równa 100.",
+"Liczba 100 jest parzysta."

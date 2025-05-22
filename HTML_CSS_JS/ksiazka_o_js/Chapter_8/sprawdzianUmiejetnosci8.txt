@@ -1,0 +1,28 @@
+1. Która metoda będzie dekodowała podany tutaj adres URI?
+var c = "http://www.google.com?id=1000&n=500"; 
+var e = encodeURIComponent(c);
+a) decodeURIComponent(e) 
+b) e.decodeUriComponent()
+c) decoderURIComponent(c) 
+d) decoderURIComponent(e)
+Metoda a)
+
+2. Jakie dane wyjściowe zostaną wyświetlone w konsoli po wykonaniu tego fragmentu kodu? 
+const arr = ["cześć","świecie","witaj","cześćć","cześć","cześć Świecie","Cześć"]; 
+console.log(arr.lastIndexOf("cześć"));
+4
+
+3. Jakie dane wyjściowe zostaną wyświetlone w konsoli po wykonaniu tego fragmentu kodu? 
+const arr = ["Cześć","świecie","witaj","Cześćć","cześć","cześć Świecie","Cześć"]; 
+arr.copyWithin(0, 3, 5); 
+console.log(arr);
+['Cześćć', 'cześć', 'witaj', 'Cześćć', 'cześć', 'cześć Świecie', 'Cześć']
+
+4. Jakie dane wyjściowe zostaną wyświetlone w konsoli po wykonaniu tego fragmentu kodu? 
+const arr = ["Cześć","świecie","witaj","Cześćć","cześć","cześć Świecie","Cześć"]; 
+const arr2 = arr.filter((element,index)=>{ 
+    const ele2 = element.substring(0, 5); 
+    return (ele2 == "cześć");
+    });
+console.log(arr2);
+["cześć","cześć Świecie"]

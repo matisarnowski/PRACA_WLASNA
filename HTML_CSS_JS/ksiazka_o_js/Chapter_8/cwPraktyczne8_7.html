@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ćwiczenie praktyczne 8.7</title>
+  </head>
+  <body>
+    <h1>Ćwiczenie praktyczne 8.7</h1>
+    <p>
+      W konsoli wyświetl datę z pełną nazwą miesiąca. Podczas konwersji daty na
+      tablicę lub z niej pamiętaj, że elementy tablicy są indeksowane od zera.
+    </p>
+    <ol>
+      <li>
+        Przygotuj obiekt daty — to może być dowolna data w przyszłości lub z
+        przeszłości. Wyświetl ją w konsoli, aby zobaczyć, jak zwykle jest
+        przedstawiany obiekt daty.
+      </li>
+      <li>
+        Przygotuj tablicę z pełnymi nazwami miesięcy. Umieść je w kolejności,
+        aby były dopasowane do miesiąca wyświetlanej daty.
+      </li>
+      <li>
+        Z obiektu pobierz dzień, używając do tego metody <i>getDate()</i>.
+      </li>
+      <li>
+        Z obiektu pobierz rok, używając do tego metody <i>getFullYear()</i>.
+      </li>
+      <li>
+        Z obiektu pobierz miesiąc, używając do tego metody <i>getMonth()</i>.
+      </li>
+      <li>
+        Przygotuj zmienną przeznaczoną do przechowywania daty na podstawie
+        obiektu daty. Umieść w niej nazwę miesiąca na podstawie wartości indeksu
+        w tablicy nazw miesięcy. Ponieważ elementy tablicy mają indeksy od zera,
+        a miesiące są liczone od 1, w celu pobrania elementu tablicy wartość
+        trzeba pomniejszyć o 1.
+      </li>
+      <li>W konsoli wyświetl wygenerowaną datę z pełną nazwą miesiąca.</li>
+    </ol>
+    <form id="time" action="" method="get">
+      <input type="text" name="timer" size="15" />
+    </form>
+    <form id="date" action="" method="get">
+      <input type="text" name="date-today" size="79" />
+    </form>
+    <script src="cwPraktyczne8_7.js"></script>
+  </body>
+</html>

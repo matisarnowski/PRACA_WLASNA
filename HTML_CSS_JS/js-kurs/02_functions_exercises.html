@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function substract(a, b) {
+        return a - b;
+      }
+      function abs(a) {
+        if (a < 0) {
+          return a * -1;
+        } else {
+          return a;
+        }
+      }
+
+      let a = 156;
+      let b = 28675;
+      let result_substract = substract(156, 28675);
+      let result_abs = abs(result_substract);
+
+      console.log(
+        "Wynik odejmowania, liczby:",
+        a,
+        "od liczby:",
+        b,
+        ", to:",
+        result_substract
+      );
+      console.log("Natomiast wartość bezwzględna tej liczby, to: ", result_abs);
+    </script>
+  </body>
+</html>
