@@ -11,5 +11,4 @@ Ten folder zawiera różnego rodzaju dokumenty związane z moją nauką i dział
 
 Celem tego folderu jest gromadzenie i porządkowanie wiedzy oraz materiałów referencyjnych.
 
----
-_Ten plik README został częściowo wygenerowany przy pomocy Gemini._
+
