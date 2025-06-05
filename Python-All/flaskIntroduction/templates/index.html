@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Moja aplikacja</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1>Zadanka do zrobienia!!!</h1>
+
+    <table>
+        <tr>
+            <th>
+                Słówko
+            </th>
+            <th>
+                Tłumaczenie
+            </th>
+            <th>
+                Data
+            </th>>
+            <th>
+                Akcje
+            </th>
+        </tr>
+        <tr>
+            <td>
+                {{ db.content_one }}
+            </td>
+            <td>
+                {{ db.content_two }}
+            </td>
+            <td>
+                {{ db.date_created.date() }}
+            </td>>
+            <td>
+                <a href="">Odśwież</a>
+                <br>
+                <a href="">Usuń</a>
+            </td>
+        </tr>
+    </table>
+    <form action="/", method="POST">
+        <input type="text" name="content_one" id="content_one">
+        <input type="text" name="content_two" id="content_two">
+        <input type="submit" value="Dodaj słówko i tłumaczenie!!!">
+    </form>
+</div>
+{% endblock %}

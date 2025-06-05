@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Selenium.Firefox.WebDriver >= 0.27.0",
+      "Selenium.WebDriver >= 4.21.0",
+      "Selenium.WebDriver.GeckoDriver >= 0.34.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mateu\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mateu\\OneDrive\\Dokumenty\\Project\\PRACA_WLASNA\\PowerShell\\Messege\\MyProject.csproj",
+      "projectName": "MyProject",
+      "projectPath": "C:\\Users\\mateu\\OneDrive\\Dokumenty\\Project\\PRACA_WLASNA\\PowerShell\\Messege\\MyProject.csproj",
+      "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mateu\\OneDrive\\Dokumenty\\Project\\PRACA_WLASNA\\PowerShell\\Messege\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Selenium.Firefox.WebDriver": {
+            "target": "Package",
+            "version": "[0.27.0, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[4.21.0, )"
+          },
+          "Selenium.WebDriver.GeckoDriver": {
+            "target": "Package",
+            "version": "[0.34.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Nie można rozpoznać elementu „Selenium.Firefox.WebDriver (>= 0.27.0)” dla elementu „net8.0”.",
+      "libraryId": "Selenium.Firefox.WebDriver",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Nie można rozpoznać elementu „Selenium.WebDriver (>= 4.21.0)” dla elementu „net8.0”.",
+      "libraryId": "Selenium.WebDriver",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Nie można rozpoznać elementu „Selenium.WebDriver.GeckoDriver (>= 0.34.0)” dla elementu „net8.0”.",
+      "libraryId": "Selenium.WebDriver.GeckoDriver",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

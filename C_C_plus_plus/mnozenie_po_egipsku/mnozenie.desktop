@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Mnożenie Po Egipsku
+Comment=Program do mnożenia dwóch liczb metodą "po egipsku"
+Exec=/home/witcher/Dokumenty/Project/PRACA_WLASNA/C_C_plus_plus/mnozenie_po_egipsku/a.out
+Terminal=true
+Type=Application
+Icon=utilities-terminal 
+Categories=Application;Utility;

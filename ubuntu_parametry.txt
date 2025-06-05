@@ -1,0 +1,9 @@
+--- Informacje o procesorze (CPU) ---
+BIOS Model name:                      11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz   CPU @ 4.3GHz
+\n--- Informacje o pamięci RAM ---
+\n--- Informacje o karcie graficznej (GPU) ---
+00:02.0 VGA compatible controller: Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics] (rev 01)
+\n--- Informacje o dyskach ---
+System plików                     rozm. użyte dost. %uż. zamont. na
+/dev/mapper/ubuntu--vg-ubuntu--lv  466G  135G  308G  31% /
+\n--- Informacje o rozdzielczości ekranu ---

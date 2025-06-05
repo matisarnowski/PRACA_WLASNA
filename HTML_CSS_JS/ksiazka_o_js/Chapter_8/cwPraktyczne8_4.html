@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ćwiczenie praktyczne 8.4</title>
+  </head>
+  <body>
+    <h1>Ćwiczenie praktyczne 8.4</h1>
+    <p>
+      Utwórz funkcję i wykorzystaj w niej operacje na ciągach tekstowych w celu
+      zwrócenia ciągu tekstowego, w którym pierwsze litery wszystkich słów będą
+      wielkie, a pozostałe małe. Zdanie typu kaŻde słowo rozPocznie się wielką
+      liTerą powinno zostać skonwertowane na Każde Słowo Rozpocznie Się Wielką
+      Literą.
+    </p>
+    <ol>
+      <li>
+        Utwórz ciąg tekstowy z wieloma słowami, zapisanymi z użyciem różnej
+        wielkości znaków.
+      </li>
+      <li>
+        Utwórz funkcję pobierającą argument w postaci ciągu tekstowego. To
+        będzie wartość przeznaczona do modyfikacji.
+      </li>
+      <li>W funkcji zacznij od zmiany wielkości wszystkich liter na małe.</li>
+      <li>
+        Utwórz pustą tablicę przeznaczoną do przechowywania słów, gdy będzie
+        zmieniana wielkość ich liter.
+      </li>
+      <li>
+        Za pomocą metody <i>split()</i> ciąg tekstowy podziel na słowa
+        przechowywane w tablicy.
+      </li>
+      <li>
+        Przeprowadź iterację przez wszystkie słowa w tablicy, aby można było
+        pobierać je niezależnie. Do tego celu możesz użyć metody
+        <i>forEach()</i>.
+      </li>
+      <li>
+        Za pomocą <i>slice()</i> pobierz pierwszą literę każdego słowa i zmień
+        na wielką. Ponownie użyj <i>slice()</i> w celi pobrania pozostałej
+        części słowa, ale już bez pierwszej litery. Następnie połącz oba
+        fragmenty, aby w ten sposób otrzymać słowo, którego pierwsza litera jest
+        wielka.
+      </li>
+      <li>
+        To słowo dodaj do utworzonej wcześniej pustej tablicy. W chwili
+        zakończenia działania pętli będziesz mieć tablicę słów.
+      </li>
+      <li>
+        Użyj metody <i>join()</i> z tablicą uaktualnionych słów i przekształć ją
+        na postać ciągu tekstowego, w którym słowa są rozdzielone spacjami.
+      </li>
+      <li>
+        Zwróć tak przygotowany ciąg tekstowy, w którym pierwsze litery słów są
+        wielkie, i wyświetl go w konsoli.
+      </li>
+    </ol>
+    <script src="cwPraktyczne8_4.js"></script>
+  </body>
+</html>

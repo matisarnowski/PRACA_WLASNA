@@ -1,0 +1,30 @@
+Make
+Wykorzystanie i możliwości platformy Make w integracji systemów IT
+
+Wprowadzenie
+
+Make (dawniej Integromat), jest to narzędzie iPaaS (Integration Platform as a Service), które umożliwia integrację różnych aplikacji i systemów, w tym również tych kluczowych dla IT, takich jak 3CX, Microsoft 365, oraz platformy CRM.
+
+iPaaS – Integracja systemów
+
+Make jest platformą chmurową, która umożliwia integrację różnych aplikacji, danych i procesów w ramach jednego systemu. Dzięki niej możemy łączyć systemy takie jak CRM, ERP, czy bazy danych bez konieczności pisania dużej ilości kodu, co znacząco przyspiesza i upraszcza proces integracji. Make obsługuje ponad 1000 aplikacji, co sprawia, że jest elastycznym narzędziem zdolnym do sprostania różnorodnym wymaganiom integracyjnym.
+
+Możliwości automatyzacji
+
+Make oferuje zaawansowane możliwości automatyzacji, które można dostosować zarówno za pomocą kodu, jak i bez konieczności jego użycia:
+	• Bez kodu: Dla użytkowników nietechnicznych, Make oferuje interfejs typu "przeciągnij i upuść", co pozwala na łatwe tworzenie przepływów pracy. Możemy korzystać z gotowych szablonów lub tworzyć własne integracje bez konieczności programowania.
+	• Z kodem: Dla bardziej zaawansowanych integracji, Make umożliwia pisanie skryptów oraz wykorzystanie API, co pozwala na precyzyjne dostosowanie przepływów pracy do specyficznych potrzeb biznesowych.
+
+Przykład zastosowania: Integracja z 3CX
+
+Jednym z zastosowań Make jest integracja z systemem telefonicznym 3CX. Make pozwala na automatyczne przenoszenie danych o rozmowach (np. czas trwania, numer rozmówcy) z 3CX do Excela na OneDrive. Dzięki temu możemy automatyzować procesy raportowania i monitorowania połączeń, co znacząco oszczędza czas i redukuje ryzyko błędów.
+
+Harmonogramowanie zadań
+
+Make umożliwia również wykonywanie zadań na określonym harmonogramie. Możemy ustawić, aby określone przepływy pracy uruchamiały się automatycznie w regularnych odstępach czasu (np. co godzinę, codziennie, co tydzień), co zwiększa efektywność procesów biznesowych i eliminuje potrzebę ręcznego uruchamiania zadań.
+
+Wnioski
+
+Platforma Make to potężne narzędzie do automatyzacji i integracji systemów, które może znacząco poprawić efektywność operacyjną w każdej firmie IT. Choć moim zdaniem głównie nada się do dużych przedsiębiorstw. Posiada elastyczność w obsłudze szerokiego wachlarza aplikacji, łatwość użycia zarówno z kodem, jak i bez, oraz możliwość harmonogramowania zadań, może się nam przydać. Usprawniłaby nasze procesy integracyjne.
+
+

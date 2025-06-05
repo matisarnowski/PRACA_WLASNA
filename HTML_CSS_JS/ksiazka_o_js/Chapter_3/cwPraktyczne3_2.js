@@ -1,0 +1,15 @@
+let tabProducts = [];
+tabProducts.push("Mleko");
+tabProducts.push("Pieczywo");
+tabProducts.push("Jabłka");
+tabProducts.splice(tabProducts.indexOf("Pieczywo"), 1, "Banan", "Jajka");
+tabProducts.pop();
+console.log(tabProducts);
+tabProducts.sort();
+console.log(tabProducts.indexOf("Mleko"));
+tabProducts.splice(tabProducts.indexOf("Banan") + 1, 0, "Marchew", "Sałata"); 
+let tabProdectsNew = ["Sok", "Pop"];
+tabProdectsNew = tabProdectsNew.concat(tabProdectsNew);
+tabProducts = tabProducts.concat(tabProdectsNew);
+console.log(tabProducts.lastIndexOf("Pop"));
+console.log(tabProducts);

@@ -1,0 +1,342 @@
+O DNS
+
+	0. Czym jest DNS? Czyli o co biega?
+	
+	1. Rekordy DNS
+
+	DNS jest hierarchicznym systemem nazewnictwa dla komputerów, usług lub zasobów uczestniczących w Internecie. Za jego pomocą realizowana jest zmiana nazw domenowych na adresy IP. Adresy IP jak powszechnie wiadomo potrzebne są do lokalizowania i identyfikowania urządzeń oraz usług w sieciach komputerowych. Umożliwia on systematyczne przydzielanie nazw i delegowanie administracji systemu. Hierarchia nazw domen składa się z węzłów. Węzły zarządzane są przez organizacje, stowarzyszenia, zaś na niższych poziomach przez osoby prawne, fizyczne. Są one te podmioty zarządzające, odpowiedzialne za kwestie administracyjne i techniczne. Zapewnienie funkcjonowania węzła, oraz ewentualnej delegowanie administracji niektórych poddrzew tego węzła innym podmiotom. Domeny korzeniowe znajdują się w posiadaniu organizacji ICANN (Internet Corporation for Assigned Names and Numbers). Jest ona odpowiedzialna za funkcjonowanie przestrzeni nazw DNS. Dystrybucję bloków adresów IP. Zarządzanie numerami systemów autonomicznych. Czyli koordynację i alokację unikalnych numerów AS, unikalnych dla funkcjonowania globalnego routingu internetowego. TLD (Top-Level Domain) to najwyższy poziom hierarchii w systemie domen internetowych. ccTLD – specyficzne dla krajów, bądź terytoriów. Używane przez organizacje, firmy i osoby fizyczne z danego regionu.  
+	
+	
+
+REKORD A - Address Record
+Jest jednym z najważniejszych rekordów. Mapuje nazwę domeny na adres IPv4. domena powinna wskazywać na adres IP hostujący witrynę. Umożliwia przypisanie nazwy domeny do konkretnego serwera. Jest to proces kluczowy dla dostępności stron Internetowych i usług sieciowych. Można przy jego użyciu skonfigurować sieć zapewnić dostępność serwera. Narzędzia monitorujące mogą regularnie sprawdzać, czy serwer jest dostępny pod danym adresem IP. 
+jakie to są narzędzia monitorujące:
+
+		→ Ping (ICMP Echo Request) - podstawowe narzędzie sieciowe, wysyła pakiety ICMP Echo Request do serwera - oczekuje na ICMP Echo Reply. Mierzy czas odpowiedzi. Sprawdza czy odpowiedź została odebrana. Wskazuje to na dostępność serwera. 
+		→ HTTP/HTTPS Monitoring - polega to na wysłaniu żądania GET lub HEAD do serwera www. Odbierana jest odpowiedź od serwera - choćby kod statusu 200 OK. 
+"""
+		mati@PCTINL04:~$ curl -I http://teleinspiro.com
+		HTTP/1.1 301 Moved Permanently
+		Date: Thu, 20 Jun 2024 08:02:18 GMT
+		Server: Apache
+		Location: https://teleinspiro.com/
+		Content-Type: text/html; charset=iso-8859-1
+"""
+		
+Interpretacja trwale przeniesiony na inny adres URL.
+
+"""
+		mati@PCTINL04:~$ curl -I https://teleinspiro.com
+		HTTP/2 200
+		wpo-cache-status: not cached
+		wpo-cache-message: The request method was not GET (HEAD)
+		link: <https://teleinspiro.com/wp-json/>; rel="https://api.w.org/", <https://teleinspiro.com/wp-json/wp/v2/pages/8>; rel="alternate"; type="application/json", <https://teleinspiro.com/>; rel=shortlink
+		server: Apache
+		cache-control: max-age=259200
+		expires: Sun, 23 Jun 2024 08:30:20 GMT
+		vary: Accept-Encoding
+		x-content-type-options: nosniff
+		x-xss-protection: 1; mode=block
+		x-frame-options: sameorigin
+		content-type: text/html; charset=UTF-8
+		date: Thu, 20 Jun 2024 08:30:20 GMT
+		"""
+
+Interpretacja Serwer zwrócił zasoby, żądanie poprawnie przetworzone. Wskazuje na to HTTP 200 OK. Odpowiedź nie została pobrana z cache. Wskazuje na to wpo-cache-status: not cached. Cache-control: max-age=259200 wskazuje, że odpowiedź może być przechowywana przez 3 dni. Zastosowano na serwerze dodatkowe zabezpieczenia w postaci ochrony przed atakami XSS i braku domyślnego interpretowania typów MIME. Wskazuje na to: x-content-type-options: nosniff i x-xss-protection: 1; mode=block. 
+		→ TCP Port Check Sprawdza dostępność określonego portu lub cały zakres portów. Próbuje nawiązać połączenie TCP z określonym portem na serwerze. Jeśli połączenie zostanie nawiązane, port jest uważany za dostępny. Jeśli połączenie nie może zostać nawiązane narzędzie zgłasza błąd. 
+"""
+		mati@PCTINL04:~$ nc -zv teleinspiro.com 80
+		Connection to teleinspiro.com (91.211.221.56) 80 port [tcp/http] succeeded!
+		"""
+Interpretacja narzędzie poinformowało, że port jest dostępny, a zatem komunikacja http jest możliwa.
+		→ SNMP Monitoring (Simple Network Management Protocol) używany do monitorowania różnych parametrów sieciowych i systemowych na urządzeniach sieciowych. Wysyła żądania SNMP do urządzenia. Urządzenie odpowiada danymi dotyczącymi stanu zasobów, takich jak CPU, pamięć, ruch sieciowy.
+		"""
+		mati@PCTINL04:~$ snmpget -v 2c -c public dlazdrowotnosci.pl 1.3.6.1.2.1.1.3.0
+		Timeout: No Response from dlazdrowotnosci.pl.
+		""" 
+		Interpretacja narzędzie informuje, że serwer nie odpowiedział na żądanie SNMP w określonym czasie. Poświadczenia mogą być błędne. Lub serwer po prostu nie obsługuje SNMP.
+		
+	Utrzymywać serwer i monitorować jego dostępności. Przekierowywanie ruchu na odpowiednią stronę internetową.
+
+
+	2. Konfiguracja DNS
+
+Narzędzia konfiguracji DNS (Windows)
+
+PowerShell w Windows oferuje bardziej zaawansowane możliwości i cmdlety do zapytań DNS.
+Aby uzyskać pełne informacje DNS za pomocą polecenia Resolve-DnsName w PowerShell, możesz użyć różnych opcji i parametrów dostępnych dla tego cmdletu. Aby uzyskać pełne informacje, w tym szczegóły dotyczące różnych typów rekordów DNS (A, AAAA, MX, NS, TXT itp.), możesz użyć parametru -Type.
+"""
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\msarnowski>
+>> Resolve-DnsName -Name teleinspiro.com
+
+Name                                           Type   TTL   Section    IPAddress
+----                                           ----   ---   -------    ---------
+teleinspiro.com                                A      812   Answer     91.211.221.56
+
+
+PS C:\Users\msarnowski>
+>> Resolve-DnsName -Name teleinspiro.com -Type TXT
+
+Name                                     Type   TTL   Section    Strings
+----                                     ----   ---   -------    -------
+teleinspiro.com                          TXT    900   Answer     {MS=ms51835181}
+teleinspiro.com                          TXT    900   Answer     {v=spf1 include:_spf.mlsend.com include:_
+                                                                 mail.dhosting.pl include:spf.protection.o
+                                                                 utlook.com ~all}
+teleinspiro.com                          TXT    900   Answer     {google-site-verification=yzZouAs7avh-iLj
+                                                                 mJt804x5veqgWMrQWkaSrTNcaKTs}
+
+
+PS C:\Users\msarnowski>
+>> Resolve-DnsName -Name teleinspiro.com -Type NS
+
+Name                           Type   TTL   Section    NameHost
+----                           ----   ---   -------    --------
+teleinspiro.com                NS     900   Answer     ns1.dhosting.pl
+teleinspiro.com                NS     900   Answer     ns2.dhosting.pl
+
+
+PS C:\Users\msarnowski>
+>> Resolve-DnsName -Name teleinspiro.com -Type MX
+
+Name                                     Type   TTL   Section    NameExchange                              Preference
+----                                     ----   ---   -------    ------------                              ----------
+teleinspiro.com                          MX     86174 Answer     mx-1.dpoczta.pl                           10
+teleinspiro.com                          MX     86174 Answer     mx-2.dpoczta.pl                           10
+
+
+PS C:\Users\msarnowski>
+>> Resolve-DnsName -Name teleinspiro.com -Type SOA
+
+Name                        Type TTL   Section    PrimaryServer               NameAdministrator           SerialNumber
+----                        ---- ---   -------    -------------               -----------------           ------------
+teleinspiro.com             SOA  900   Answer     ns1.dhosting.pl             root.teleinspiro.com        2024052201
+"""
+Aby uzyskać wszystkie typy rekordów jednocześnie, można uruchomić każde z powyższych poleceń oddzielnie, jak powyżej lub użyć skryptu do iteracji przez różne typy rekordów.
+
+Skrypt
+"""
+param (
+    [string]$domain
+)
+
+if (-not $domain) {
+    Write-Host "Proszę podać nazwę domeny jako parametr."
+    exit
+}
+
+$recordTypes = @("A", "AAAA", "MX", "NS", "TXT", "CNAME", "SOA", "PTR", "SRV")
+
+foreach ($type in $recordTypes) {
+    Write-Output "Zapytanie o rekordy $type dla domeny $domain"
+    Resolve-DnsName -Name $domain -Type $type
+}
+"""
+Wywołanie
+"""
+.\Resolve-Dns.ps1 -domain "teleinspiro.com"
+"""
+Efekty
+Prawie identyczne, jak w powyższym przykładzie, brakuje nam tylko rekordu AAAA.
+
+WSL 2 (np. Ubuntu) - host, narzędzie wiersza poleceń używane do wyszukiwania informacji DNS.
+Narzędzie host nie jest natywnie dostępne w systemie Windows (CMD). Jest to narzędzie wiersza poleceń, które jest zazwyczaj dostępne w systemach Unix/Linux. 
+
+Podstawowe zapytanie
+"""
+mati@PCTINL04:~$ host teleinspiro.com
+teleinspiro.com has address 91.211.221.56
+teleinspiro.com mail is handled by 10 mx-1.dpoczta.pl.
+teleinspiro.com mail is handled by 10 mx-2.dpoczta.pl.
+"""
+Pozostałe zapytania
+"""
+mati@PCTINL04:~$ host -t MX teleinspiro.com
+teleinspiro.com mail is handled by 10 mx-1.dpoczta.pl.
+teleinspiro.com mail is handled by 10 mx-2.dpoczta.pl.
+mati@PCTINL04:~$ host -t NS teleinspiro.com
+teleinspiro.com name server ns2.dhosting.pl.
+teleinspiro.com name server ns1.dhosting.pl.
+mati@PCTINL04:~$ host -TXT teleinspiro.com
+teleinspiro.com descriptive text "google-site-verification=yzZouAs7avh-iLjmJt804x5veqgWMrQWkaSrTNcaKTs"
+teleinspiro.com descriptive text "v=spf1 include:_spf.mlsend.com include:_mail.dhosting.pl include:spf.protection.outlook.com ~all"
+teleinspiro.com descriptive text "MS=ms51835181"
+mati@PCTINL04:~$ host -CNAME teleinspiro.com
+Nameserver 109.95.154.140:
+        teleinspiro.com has SOA record ns1.dhosting.pl. root.teleinspiro.com. 2024052201 21600 7200 1209600 86400
+Nameserver 195.88.50.140:
+        teleinspiro.com has SOA record ns1.dhosting.pl. root.teleinspiro.com. 2024052201 21600 7200 1209600 86400
+"""
+Skrypt
+"""
+#!/bin/bash
+
+domain=$1
+
+if [ -z "$domain" ]; then
+  echo "Proszę podać nazwę domeny jako parametr."
+  exit 1
+fi
+
+record_types=("A" "AAAA" "MX" "NS" "TXT" "CNAME" "SOA" "PTR" "SRV")
+
+for type in "${record_types[@]}"; do
+  echo "Zapytanie o rekordy $type dla domeny $domain"
+  host -t $type $domain
+done
+"""
+Ustawienie bitu wykonywalności
+"""
+chmod +x resolve-dns.sh
+"""
+Wykonanie
+"""
+./resolve-dns.sh teleinspiro.com
+"""
+
+WSL - dig, (Domain Information Groper) Narzędzie wiersza poleceń używane do wysyłania zapytań DNS i diagnozowania problemów z DNS. 
+zaawansowane narzędzie wiersza poleceń używane do wysyłania zapytań DNS w celu rozwiązywania nazw domen i diagnozowania problemów z DNS. Jest szczególnie przydatne dla administratorów systemów i sieci do uzyskiwania szczegółowych informacji o rekordach DNS, takich jak A, AAAA, MX, NS, TXT i innych. Narzędzie dig jest cenione za swoją elastyczność i szczegółowość, umożliwiając użytkownikom wysyłanie różnorodnych zapytań oraz analizowanie odpowiedzi w celu lepszego zrozumienia konfiguracji DNS i wykrywania potencjalnych problemów.
+
+Podstawowe zapytanie
+"""
+mati@PCTINL04:~$ dig teleinspiro.com
+
+; <<>> DiG 9.18.24-0ubuntu0.22.04.1-Ubuntu <<>> teleinspiro.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24385
+;; flags: qr rd ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+;; WARNING: recursion requested but not available
+
+;; QUESTION SECTION:
+;teleinspiro.com.               IN A
+
+;; ANSWER SECTION:
+teleinspiro.com. 0      IN      A  91.211.221.56
+
+;; Query time: 0 msec
+;; SERVER: 172.24.128.1#53(172.24.128.1) (UDP)
+;; WHEN: Tue Jun 11 09:18:37 CEST 2024
+;; MSG SIZE  rcvd: 64
+"""
+Interpretacja
+Wynik polecenia dig teleinspiro.com bezpośrednio pokazuje jaki jest wynik zapytania o rekord A, dla tejże domeny. Odpowiedź bez błędów. (status: NOERROR). Nie wymagała rekursji. To może sugerować, że serwer mógł skorzystać ze swojej pamięci cache lub był serwerem aotyrytatywnym dla tej domeny. Czyli ma dostęp do rzeczywistych rekordów DNS dla tej domeny. W takiej sytuacji serwer jest odpowiedzialny za udzielanie oficjalnych odpowiedzi na temat domeny. Posiada pełne i dokładne dane dla domen, które obsługuje. Ten serwer nie jest jednak autorytatywny. Odpowiedzi muszą, więc pochodzić z cache serwera. Wtedy też nie jest obsługiwana rekursja.  
+Użycie opcji +trace
+Opcja +trace śledzi zapytanie DNS od głównych serwerów DNS do docelowego serwera DNS, pokazując całą ścieżkę zapytania.
+"""
+
+; <<>> DiG 9.18.24-0ubuntu0.22.04.1-Ubuntu <<>> teleinspiro.com +trace
+;; global options: +cmd
+.			87203	IN	NS	l.root-servers.net.
+.			87203	IN	NS	k.root-servers.net.
+.			87203	IN	NS	c.root-servers.net.
+.			87203	IN	NS	m.root-servers.net.
+.			87203	IN	NS	d.root-servers.net.
+.			87203	IN	NS	f.root-servers.net.
+.			87203	IN	NS	j.root-servers.net.
+.			87203	IN	NS	e.root-servers.net.
+.			87203	IN	NS	h.root-servers.net.
+.			87203	IN	NS	g.root-servers.net.
+.			87203	IN	NS	a.root-servers.net.
+.			87203	IN	NS	i.root-servers.net.
+.			87203	IN	NS	b.root-servers.net.
+.			87203	IN	RRSIG	NS 8 0 518400 20240624050000 20240611040000 5613 . WgqqDg222neXUuuWNPjk8abQkX+ZeZ3BvWN6HezHU9mJOotHlAPWCey8 /fvB2CJeGnRFwYTHk64787Q99aGLe6wvJrFDXxDpwaQ1bMpS0XxawD1P WniCfR5DSGkvYkqPkzvIH3eXTxF1Wof9Na2p5mc/9zoXQrEa3+lUCeSN gAFTZZdurWyYMaU/Ew+QN/gQMjnDHDMWli2A0qmbjf8Dc97JBjuWvJA8 twO3INMbXHC/0rVAY7mPJy0ixP4xZJ+PrcDSshE0zBqZSej+Q5EbPZ18 LpE3mChFzjAmoWWKvO9prTBh4BCeat+4Uu+DayHXF4Wz5qM9V41o19Gg MBmlPg==
+;; Received 525 bytes from 8.8.8.8#53(8.8.8.8) in 10 ms
+
+;; UDP setup with 2001:500:9f::42#53(2001:500:9f::42) for teleinspiro.com failed: network unreachable.
+;; no servers could be reached
+
+;; UDP setup with 2001:500:9f::42#53(2001:500:9f::42) for teleinspiro.com failed: network unreachable.
+;; no servers could be reached
+
+;; UDP setup with 2001:500:9f::42#53(2001:500:9f::42) for teleinspiro.com failed: network unreachable.
+;; UDP setup with 2001:500:2d::d#53(2001:500:2d::d) for teleinspiro.com failed: network unreachable.
+com.			172800	IN	NS	a.gtld-servers.net.
+com.			172800	IN	NS	b.gtld-servers.net.
+com.			172800	IN	NS	c.gtld-servers.net.
+com.			172800	IN	NS	d.gtld-servers.net.
+com.			172800	IN	NS	e.gtld-servers.net.
+com.			172800	IN	NS	f.gtld-servers.net.
+com.			172800	IN	NS	g.gtld-servers.net.
+com.			172800	IN	NS	h.gtld-servers.net.
+com.			172800	IN	NS	i.gtld-servers.net.
+com.			172800	IN	NS	j.gtld-servers.net.
+com.			172800	IN	NS	k.gtld-servers.net.
+com.			172800	IN	NS	l.gtld-servers.net.
+com.			172800	IN	NS	m.gtld-servers.net.
+com.			86400	IN	DS	19718 13 2 8ACBB0CD28F41250A80A491389424D341522D946B0DA0C0291F2D3D7 71D7805A
+com.			86400	IN	RRSIG	DS 8 1 86400 20240624050000 20240611040000 5613 . OfmcuiVlhCQWjr53szc2RAMXtLG44Sk33Hh+FIMHG08hRErmrkZf2TRF bLAx7LEU/NnlFUZ/O6nI7gcX4ZJlMgLoXArEx1UtqQqZ+pIkCrVNeppC u7lPqZztMJhRpSLV1cuPLbO9M3+Smsi2vW2hROuxwTZHJgUB42H381Ma 9/KMAaaY7zG4ikjG+OqPMQNvHI4+3YdoUc5wynyRr53d+FpNVNULb4i+ svW+mbwvDzB9Bx9WSZy7mCpe/ii3h/pryrxw+t1OqBw7houqVLpLVxMF +FEcCum71IRWEcjqkWIFcV2QfWl1iD8N1/M+slgeh5afjT1ElI3pJcRC TGmcLQ==
+;; Received 1175 bytes from 192.58.128.30#53(j.root-servers.net) in 0 ms
+
+teleinspiro.com.	172800	IN	NS	ns2.dhosting.pl.
+teleinspiro.com.	172800	IN	NS	ns1.dhosting.pl.
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN NSEC3 1 1 0 - CK0Q2D6NI4I7EQH8NA30NS61O48UL8G5 NS SOA RRSIG DNSKEY NSEC3PARAM
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN RRSIG NSEC3 13 2 86400 20240617042519 20240610031519 956 com. tIlq6iYdwTD5R/4p7G6xRebaylwEUTPaYULG4sGMnLly1NoyNgWAj/3G m7jTQnmMt6Q8V3VNyOTCERAS0p6I2w==
+LVPORTUR7FQIJUR7VO2B88NTTK1PHHRV.com. 86400 IN NSEC3 1 1 0 - LVPP9VHQJF26FO3K3ENO5VIUTKGNPKHH NS DS RRSIG
+LVPORTUR7FQIJUR7VO2B88NTTK1PHHRV.com. 86400 IN RRSIG NSEC3 13 2 86400 20240618011243 20240611000243 956 com. 3gUg3Gq+h/6yes4BZ5HBFnLyVubuPQ4tMFFBxisyWD4X0mFPMa3neJYl EkuSqep2VmtjVFNGV1GcW3sjGQR7Gw==
+;; Received 448 bytes from 192.33.14.30#53(b.gtld-servers.net) in 10 ms
+
+teleinspiro.com.	900	IN	A	91.211.221.56
+;; Received 60 bytes from 109.95.154.140#53(ns2.dhosting.pl) in 10 ms
+"""
+Interpretacja
+Wyniki polecenia `dig teleinspiro.com +trace` wskazują na proces śledzenia zapytania DNS od głównych serwerów DNS do serwerów nazw odpowiedzialnych za domenę `teleinspiro.com`. Zapytanie zaczyna się od głównych serwerów (root servers), które zwracają adresy serwerów nazw dla domeny `.com`. Następnie zapytanie jest przekazywane do serwerów nazw dla `.com`, które zwracają adresy serwerów nazw dla domeny `teleinspiro.com`. Końcowe zapytanie do serwerów `ns1.dhosting.pl` i `ns2.dhosting.pl` zwraca rekord A dla `teleinspiro.com` z adresem IP `91.211.221.56`.
+
+Podczas procesu wystąpiły błędy związane z nieosiągalnością serwerów DNS obsługujących adresy IPv6 (`network unreachable`). Mimo tych błędów zapytanie zakończyło się sukcesem dzięki serwerom obsługującym IPv4.
+
+ SPF (Sender Policy Framework)
+SPF to rekord DNS, który pozwala określić, które serwery są uprawnione do wysyłania e-maili z Twojej domeny. Aby skonfigurować SPF:
+	- Dodaj rekord TXT do DNS swojej domeny z informacją o autoryzowanych serwerach.
+	- Przykładowa wartość rekordu SPF: 
+`
+v=spf1 include:_spf.google.com ~all
+` 
+(dla Google Workspace).
+
+ DKIM (DomainKeys Identified Mail)
+DKIM to technologia podpisywania wiadomości e-mail, która pozwala odbiorcom na weryfikację autentyczności wiadomości. Aby skonfigurować DKIM:
+	- Skonfiguruj swój serwer e-mail, aby podpisywał wiadomości DKIM.
+	- Dodaj odpowiednie rekordy DNS do swojej domeny, które zawierają klucze publiczne DKIM.
+	- Przykładowy rekord DKIM:
+`
+default._domainkey.twojadomena.com. IN TXT "v=DKIM1; k=rsa; p=MIGfMA0G...base64kluczpubliczny...AQAB"
+`.
+
+ DMARC (Domain-based Message Authentication, Reporting & Conformance)
+DMARC łączy SPF i DKIM, pozwalając domenom na określenie, co robić z wiadomościami, które nie przechodzą tych kontroli. Aby skonfigurować DMARC:
+	- Dodaj rekord TXT do DNS swojej domeny z zasadami DMARC.
+	- Przykładowa wartość rekordu DMARC: 
+`
+v=DMARC1; p=none; rua=mailto:dmarc-reports@twojadomena.com
+`.
+
+ 2. Optymalizacja Treści E-maili
+
+- Unikaj słów kluczowych SPAM: Nie używaj słów i fraz, które mogą być uznane za spamerskie (masowo rozsyłane wiadomości, najczęściej reklamowe), takich jak "darmowy", "kliknij tutaj", "niesamowita oferta".
+- Zrównoważony tekst i obrazy: Zadbaj o odpowiedni stosunek tekstu do obrazów w e-mailach.
+- Profesjonalny wygląd: Upewnij się, że e-maile wyglądają profesjonalnie i są zgodne z brandingiem (procesem utrzymywania i tworzenia tożsamości marki) Twojej firmy.
+
+ 3. Praktyki Wysyłki
+
+- Zgoda odbiorców: Upewnij się, że wysyłasz e-maile tylko do osób, które wyraziły na to zgodę.
+- Opcja wypisania się: Zawsze dodawaj łatwą opcję wypisania się z listy mailingowej.
+- Regularne czyszczenie listy: Regularnie usuwaj nieaktywnych subskrybentów z listy mailingowej.
+
+ 4. Monitorowanie i Raportowanie
+
+- Narzędzia do monitorowania: Korzystaj z narzędzi takich jak Google Postmaster Tools czy inne systemy monitorujące dostarczalność e-maili.
+- Feedback od odbiorców: Zbieraj informacje zwrotne od odbiorców na temat tego, czy Twoje e-maile trafiają do SPAMu i działaj na podstawie tych informacji.
+
+ 5. Problemy Techniczne z DNS
+
+- Sprawdź poprawność rekordów DNS: Upewnij się, że rekordy SPF, DKIM i DMARC są poprawnie skonfigurowane i aktywne.
+- Diagnostyka DNS: Użyj narzędzi takich jak MXToolbox, aby sprawdzić poprawność i działanie rekordów DNS.
+- Wsparcie techniczne: Skontaktuj się z dostawcą usług hostingowych lub specjalistą ds. DNS w przypadku problemów technicznych.
+
+ Podsumowanie
+Podjęcie powyższych kroków może znacząco poprawić dostarczalność e-maili i zredukować liczbę wiadomości trafiających do folderu SPAM. Jeśli problemy z DNS są zgłaszane przez dział wsparcia, kluczowe jest szybkie działanie w celu sprawdzenia i naprawienia konfiguracji DNS.

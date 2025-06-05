@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ćwiczenie praktyczne 5.5</title>
+  </head>
+  <body>
+    <h1>Ćwiczenie praktyczne 5.5</h1>
+    <p>
+      Poszukaj sposobu utworzenia tabeli zawierającej wiersze w postaci
+      zagnieżdżonych tablic. Każdy wiersz będzie zawierał określoną liczbę
+      komórek dla liczby kolumn zdefiniowanej w zmiennej. Wielkość tabeli będzie
+      dostosowywana dynamicznie w zależności od wartości zmiennych określających
+      jej wielkość.
+    </p>
+    <ol>
+      <li>Utwórz zmienną tablicy przedstawiającej siatkę tabeli.</li>
+      <li>Zdefiniuj 64 jako liczbę komórek.</li>
+      <li>Licznikowi przypisz wartość 0.</li>
+      <li>Utwórz zmienną globalną przeznaczoną do użycia dla tablicy row.</li>
+      <li>
+        Utwórz pętlę przeprowadzającą iterację przez liczbę komórek w tablicy
+        plus jeden, aby uwzględnić wartość zero. W omawianym przykładzie należy
+        użyć 64 + 1.
+      </li>
+      <li>
+        Dodaj zewnętrzną konstrukcję if używającą reszty z dzielenia, aby
+        sprawdzić, czy wartość licznika głównego jest podzielna przez 8, lub
+        innej liczby określającej żądaną liczbę kolumn.
+      </li>
+      <li>
+        W tej konstrukcji if dodaj kolejną, sprawdzającą, czy wiersz jest
+        niezdefiniowany. To wskazuje, czy mamy do czynienia z pierwszym
+        wykonaniem pętli, czy też z pełni ukończonym wierszem. Jeżeli wiersz
+        jest w pełni gotowy, należy go dodać do głównej tablicy siatki tabeli.
+      </li>
+      <li>
+        W celu zakończenia działania zewnętrznej konstrukcji if, jeżeli wartość
+        licznika dzieli się przez 8, należy usunąć tablicę row — została już
+        dodana do siatki tabeli za pomocą wewnętrznej konstrukcji if.
+      </li>
+      <li>
+        Na końcu pętli wartość licznika głównego należy inkrementować o 1.
+      </li>
+      <li>
+        Zdefiniuj zmienną tymczasową przeznaczoną do przechowywania wartości
+        licznika oraz umieść ją w tablicy row.
+      </li>
+      <li>
+        Podczas iteracji pętli sprawdź, czy wartość licznika jest równa
+        całkowitej liczbie kolumn, które ma zawierać tabela. Jeżeli tak, dodaj
+        bieżący wiersz do siatki tabeli.
+      </li>
+      <li>
+        Pamiętaj, że dodatkowa komórka nie zostanie dodana do siatki tabeli,
+        ponieważ w warunku decydującym o dodawaniu wiersza do siatki tabeli nie
+        będzie wystarczającej liczby komórek niezbędnych do przygotowania
+        wiersza. Alternatywne rozwiązanie polega na usunięciu zapisu +1 z
+        warunku pętli i dodaniu polecenia grid.push(row) po jej wykonaniu. W obu
+        tych przypadkach otrzymujemy ten sam wynik.
+      </li>
+      <li>Siatkę tabeli wyświetl w konsoli.</li>
+    </ol>
+    <script src="cwPraktyczne5_5.js"></script>
+  </body>
+</html>

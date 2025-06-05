@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      for (let i = -10; i <= 10; i++) {
+        if (i < 0) {
+          console.log("Pętla for. Liczba jest mniejsza niż zero, i to:", i);
+        } else if (i == 0) {
+          console.log("Pętla for. I jest równe dokładnie 0.");
+        } else {
+          console.log("Pętla for. Liczba jest wieksza od zera, i to:", i);
+        }
+      }
+      i = -10;
+      while (i <= 10) {
+        if (i < 0) {
+          console.log("Pętla while. Liczba jest mniejsza niż zero, i to:", i);
+        } else if (i == 0) {
+          console.log("Pętla while. I jest równe dokładnie 0.");
+        } else {
+          console.log("Pętla while. Liczba jest wieksza od zera, i to:", i);
+        }
+        i++;
+      }
+      i = -10;
+      do {
+        if (i < 0) {
+          console.log(
+            "Pętla do while. Liczba jest mniejsza niż zero, i to:",
+            i
+          );
+        } else if (i == 0) {
+          console.log("Pętla do while. I jest równe dokładnie 0.");
+        } else {
+          console.log("Pętla do while. Liczba jest wieksza od zera, i to:", i);
+        }
+        i++;
+      } while (i < 11);
+    </script>
+  </body>
+</html>

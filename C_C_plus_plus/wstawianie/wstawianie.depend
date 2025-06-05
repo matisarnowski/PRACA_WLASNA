@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1543005561 source:c:\users\matsa\onedrive\dokumenty\code_blocks\wstawianie\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+

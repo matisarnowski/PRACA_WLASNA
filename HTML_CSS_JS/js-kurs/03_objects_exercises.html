@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let family = [
+        "Brother",
+        "Sister",
+        "Mother",
+        "Father",
+        "Grandmother",
+        "Grandfather",
+      ];
+      let person1 = {
+        name: "Katarzyna",
+        lastname: "Sarnowska",
+        age: 2023 - 1965,
+        status: "Mother",
+        location: "Toruń",
+      };
+      let person2 = {
+        name: "Grzegorz",
+        lastname: "Sarnowski",
+        age: 2023 - 1962,
+        status: "Father",
+        location: "Toruń",
+      };
+      let person3 = {
+        name: "Jakub",
+        lastname: "Sarnowski",
+        age: 2023 - 1991,
+        status: "Brother",
+        location: "Toruń",
+      };
+      let person4 = {
+        name: "Maciej",
+        lastname: "Sarnowski",
+        age: 2023 - 1993,
+        status: "Brother",
+        location: "Toruń",
+      };
+      let person5 = {
+        name: "Krystyna",
+        lastname: "Zakrzewska",
+        age: 2023 - 1938,
+        status: "Grandmother",
+        location: "Brodnica",
+      };
+      let person6 = {
+        name: "Mateusz",
+        lastname: "Lipecki",
+        age: 2023 - 1980,
+        status: "Friend",
+        location: "Toruń",
+      };
+      let person7 = {
+        name: "Mateusz",
+        lastname: "Sarnowski",
+        age: 2023 - 1988,
+        status: "Me",
+        location: "Toruń",
+      };
+
+      let persons = [
+        person1,
+        person2,
+        person3,
+        person4,
+        person5,
+        person6,
+        person7,
+      ];
+      for (let i = 0; i < persons.length; i++) {
+        for (let j = 0; j < family.length; j++) {
+          if (persons[i].status == family[j]) {
+            console.log(
+              "Osoba o imieniu: ",
+              persons[i].name,
+              " należy do rodziny i ma nazwisko: ",
+              persons[i].lastname,
+              "."
+            );
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

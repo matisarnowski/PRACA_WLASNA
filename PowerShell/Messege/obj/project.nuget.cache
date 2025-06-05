@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "dgSpecHash": "Vko6+m6SGWg=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\mateu\\OneDrive\\Dokumenty\\Project\\PRACA_WLASNA\\PowerShell\\Messege\\MyProject.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Nie można rozpoznać elementu „Selenium.Firefox.WebDriver (>= 0.27.0)” dla elementu „net8.0”.",
+      "libraryId": "Selenium.Firefox.WebDriver",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Nie można rozpoznać elementu „Selenium.WebDriver (>= 4.21.0)” dla elementu „net8.0”.",
+      "libraryId": "Selenium.WebDriver",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Nie można rozpoznać elementu „Selenium.WebDriver.GeckoDriver (>= 0.34.0)” dla elementu „net8.0”.",
+      "libraryId": "Selenium.WebDriver.GeckoDriver",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

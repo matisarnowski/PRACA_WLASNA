@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ćwiczenie praktyczne 8.2</title>
+  </head>
+  <body>
+    <h1>Ćwiczenie praktyczne 8.2</h1>
+    <p>
+      Korzystając z metod filter() i indexOf(), usuń duplikaty z tablicy, której
+      początkowa postać jest następująca: ["Laura", "Michał", "Ludwik",
+      "Katarzyna", "Joanna", "Laura", "Michał", "Laura", "Michał", "Laura",
+      "Michał"] Użycie metody filter() spowoduje utworzenie nowej tablicy,
+      której elementy spełniają warunek implementowany przez funkcję.
+      Ostatecznie tablica będzie miała następującą postać: [ 'Laura', 'Michał',
+      'Ludwik', 'Katarzyna', 'Joanna' ]<br />
+      Wykonaj omówione tutaj kroki:
+    </p>
+    <ol>
+      <li>
+        Utwórz tablicę z imionami osób. Upewnij się, że niektóre z nich się
+        powtarzają. Celem tego ćwiczenia jest usunięcie powielonych elementów
+        tablicy.
+      </li>
+      <li>
+        Korzystając z metody <i>filter()</i>, wyniku przeprowadzenia operacji na
+        każdym elemencie tablicy użyj jako argumentu funkcji anonimowej.
+        Używając wartości, indeksu i argumentów tablicy, zwróć przefiltrowany
+        wynik. W trakcie tworzenia nowej tablicy zawierającej elementy z tablicy
+        początkowej wartością zwrotną może być tymczasowo true.
+      </li>
+      <li>
+        Dodaj wywołanie <i>console.log()</i> w funkcji wyświetlającej wartość
+        indeksu bieżącego elementu tablicy. Ponadto dodaj tę wartość, aby
+        zobaczyć wartość elementu o bieżącym indeksie i pierwszy dopasowany do
+        niej element w tablicy.
+      </li>
+      <li>
+        Używając metody <i>indexOf()</i>, zwróć indeks elementu i zastosuj
+        warunek w celu sprawdzenia, czy odpowiada on indeksowi analizowanego
+        elementu. Ten warunek zostanie spełniony tylko dla pierwszego
+        wystąpienia, dla wszystkich kolejnych wystąpień ten warunek przyjmie
+        wartość false, więc duplikaty nie zostaną dodane do nowej tablicy. W
+        przypadku duplikatu otrzymujemy wartość false, ponieważ metoda
+        <i>indexOf()</i> pobiera jedynie pierwsze dopasowanie znalezione w
+        tablicy.
+      </li>
+      <li>W konsoli wyświetl nową unikatową tablicę wartości.</li>
+    </ol>
+    <script src="cwPraktyczne8_2.js"></script>
+  </body>
+</html>

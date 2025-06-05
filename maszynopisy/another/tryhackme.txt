@@ -1,0 +1,31 @@
+trykackme
+Security Operations Center (SOC) – Zespół odpowiedzialny za monitorowanie sieci i systemów, tak aby wykrywać złośliwe incydenty związane z bezpieczeństwem. SOC zajmuje się m.in. zarządzaniem podatnościami, wykrywaniem naruszeń polityki, nieautoryzowaną aktywnością i intruzjami w sieci.
+Digital Forensics and Incident Response (DFIR) – Obejmuje analizę złośliwego oprogramowania oraz reakcję na incydenty.
+Intruzja w kontekście sieci komputerowych
+	• Intruzja (łac. intrusio) – nieautoryzowany dostęp do systemu komputerowego, sieci lub danych. Może wystąpić w różnych formach, takich jak włamanie do systemu, atak złośliwego oprogramowania (malware) lub nieautoryzowane logowanie. Celem intruzji jest uzyskanie dostępu do poufnych informacji, zakłócenie działania systemu lub przejęcie nad nim kontroli.
+	• W sieciach komputerowych detekcja intruzji odbywa się za pomocą narzędzi monitorujących, takich jak Security Operations Center (SOC). Systemy te są odpowiedzialne za wykrywanie i reagowanie na intruzje, aby zminimalizować potencjalne szkody i chronić zasoby sieciowe przed nieautoryzowanymi działaniami.
+	• Intruzje mogą prowadzić do poważnych zagrożeń dla bezpieczeństwa sieci, w tym kradzieży danych, przerw w działaniu usług oraz eskalacji przywilejów przez nieuprawnionych użytkowników. W związku z tym, SOC pełni kluczową rolę w zapewnieniu ciągłości i bezpieczeństwa operacyjnego w środowisku sieciowym.
+Threat Intelligence – Zbieranie i analiza danych na temat rzeczywistych i potencjalnych zagrożeń, które mogą wpłynąć na system. Celem Threat Intelligence jest lepsze przygotowanie organizacji na możliwe ataki poprzez dostarczenie informacji niezbędnych do stworzenia obrony opartej na świadomości zagrożeń. Różne organizacje mogą mieć różnych przeciwników, w zależności od charakteru swojej działalności.
+Przykłady:
+	• Operator komórkowy: Potencjalny przeciwnik może próbować ukraść dane klientów.
+	• Rafineria naftowa: Przeciwnik może być zainteresowany zatrzymaniem produkcji.
+Typy przeciwników:
+	• Cyberarmie państwowe: Działają z powodów politycznych.
+	• Grupy ransomware: Działają z motywów finansowych.
+Threat Intelligence umożliwia firmom przewidywanie zagrożeń i przygotowanie się na ataki, dostosowując strategię obrony do specyfiki możliwych przeciwników.
+Słowo "Intelligence" w tym kontekście odnosi się do informacji wywiadowczych. W cyberbezpieczeństwie, Threat Intelligence (wywiad o zagrożeniach) oznacza proces zbierania, przetwarzania i analizowania danych dotyczących zagrożeń, takich jak działania hakerów, złośliwe oprogramowanie, czy inne formy cyberataków. Celem intelligence jest uzyskanie głębszego zrozumienia przeciwników (np. hakerów), ich metod działania oraz potencjalnych zagrożeń, aby móc lepiej przygotować się do obrony przed nimi.
+W skrócie, Intelligence w tym kontekście to informacje, które pomagają organizacji zrozumieć, jakie zagrożenia mogą się pojawić, kto może je przeprowadzić, jak mogą być zrealizowane i jak się przed nimi skutecznie bronić.
+
+Digital Forensics and Incident Response (DFIR)
+Digital Forensics and Incident Response (DFIR) – Dziedzina zajmująca się analizą śladów cyfrowych oraz reagowaniem na incydenty bezpieczeństwa. Składa się z trzech głównych obszarów:
+	• Digital Forensics (cyfrowa analiza kryminalistyczna)
+	• Incident Response (reakcja na incydenty)
+	• Malware Analysis (analiza złośliwego oprogramowania)
+Digital Forensics – Zastosowanie metod naukowych do badania przestępstw i ustalania faktów w cyfrowym świecie. W erze komputerów i smartfonów cyfrowa analiza kryminalistyczna (Digital Forensics) koncentruje się na analizie dowodów ataku oraz ustaleniu, kto za nim stoi. Obejmuje to analizę:
+	• File System (systemu plików) – Badanie niskopoziomowych kopii pamięci masowej systemu ujawnia informacje o zainstalowanych programach, utworzonych plikach, nadpisanych plikach, i plikach usuniętych.
+	• System Memory (pamięci systemowej) – Jeżeli atakujący uruchomił swój program w pamięci, bez zapisywania go na dysku, analiza obrazu pamięci jest najlepszym sposobem na zrozumienie ataku.
+	• System Logs (logów systemowych) – Serwery i klienty systemowe przechowują logi zdarzeń, które dostarczają informacji o tym, co się działo w systemie, nawet jeśli atakujący próbował zatrzeć ślady.
+	• Network Logs (logów sieciowych) – Analiza logów z pakietów sieciowych pozwala na zrozumienie, czy atak miał miejsce i na czym polegał.
+Incident Response – Reagowanie na naruszenia bezpieczeństwa i ataki cybernetyczne. Incydenty mogą obejmować naruszenia danych, ataki sieciowe, a także mniej krytyczne problemy, jak błędy konfiguracyjne czy próby nieautoryzowanego dostępu. Incident Response określa procedury postępowania w takich przypadkach, a celem jest zminimalizowanie szkód i jak najszybsze przywrócenie normalnego działania systemu. Najlepszym podejściem jest wcześniejsze przygotowanie planu reagowania na incydenty.
+
+

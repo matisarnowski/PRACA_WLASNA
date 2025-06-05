@@ -1,0 +1,83 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\author{M. Sarnowski}
+\title{Pole figury.}
+\frenchspacing
+\begin{document}
+\maketitle
+\begin{flushleft}
+Dany jest stopień $n$ oraz współczynniki $a_{0}, a_{1}, a_{2}, ... a_{n-2}, a_{n-1}, a_{n}$ wielomianu $W\left( x \right) = a_{0}x^{n} + a_{1}x^{n-1} + a_{2}x^{n-2} + ... + a_{n-2}x^{2} + a_{n-1}x + a_{n}$.
+\newline
+Oblicz przybliżoną wartość pola figury ograniczonej osią $X$ i wykresem funkcji $W\left( x \right)$ w podanym przedziale $\langle a;b \rangle$.
+\newline
+Do obliczenia pola zastosujemy \textbf{metodę trapezów}:
+\newline
+Przedział $\langle a;b \rangle$ dzielimy na $n + 1$ równo odległych punktów $x_{0}, x_{1}, x_{2}, ... , x_{n}$.
+\newline
+Odległość między punktami, czyli wysokość każdego trapezu $\Delta x = (b - a)/n$ 
+\end{flushleft}
+\begin{center}
+$x_{0} = a, x_{1} = a + \Delta x, x_{2} = a + 2 \cdot \Deltax, ... , x_{n} = a + n \cdot \Delta x = b, $
+\end{center}
+\begin{flushleft}
+Zatem dla $i = 0, 1, 2, ..., n$ $x_{i} = a + i \cdot (b - a)/n$
+\newline
+Dla każdego $x_{i}$ obliczamy wartość funkcji $W\left( x_{i} \right) = W\left( a + i \cdot \left(b-a\right)/n \right)$
+\newline
+Pole pod wykresem funkcji przybliżane jest polami $n$ trapezów.
+\begin{itemize}
+\item trapez 1:
+\newline
+$P_{d}\left(1\right) =$ podstawa dolna $= W\left( a + 0 \cdot \Delta x \right)$
+\newline
+$P_{g}\left(1\right) =$ podstawa górna $= W\left( a + 1 \cdot \Delta x \right)$
+\newline
+$H =$ wysokość $= \Delta x$
+\newline
+Pole = $P\left(1\right) = \frac{\vert P_{d}\left(1\right) + P{g}\left(1\right)\vert}{2} \cdot H$
+\item trapez 2:
+\newline
+$P_{d}\left(2\right) =$ podstawa dolna $= W\left( a + 1 \cdot \Delta x \right)$
+\newline
+$P_{g}\left(2\right) =$ podstawa górna $= W\left( a + 2 \cdot \Delta x \right)$
+\newline
+$H =$ wysokość $= \Delta x$
+\newline
+Pole = $P\left(2\right) = \frac{\vert P_{d}\left(2\right) + P{g}\left(2\right)\vert}{2} \cdot H$
+\item trapez 3:
+\newline
+$P_{d}\left(3\right) =$ podstawa dolna $= W\left( a + 2 \cdot \Delta x \right)$
+\newline
+$P_{g}\left(3\right) =$ podstawa górna $= W\left( a + 3 \cdot \Delta x \right)$
+\newline
+$H =$ wysokość $= \Delta x$
+\newline
+Pole = $P\left(3\right) = \frac{\vert P_{d}\left(3\right) + P{g}\left(3\right)\vert}{2} \cdot H$
+\item trapez i:
+\newline
+$P_{d}\left( i \right) =$ podstawa dolna $= W\left( a + \left( i - 1 \right) \cdot \Delta x \right)$
+\newline
+$P_{g}\left( i \right) =$ podstawa górna $= W\left( a + i \cdot \Delta x \right)$
+\newline
+$H =$ wysokość $= \Delta x$
+\newline
+Pole = $P\left( i \right) = \frac{\vert P_{d}\left( i \right) + P{g}\left( i \right)\vert}{2} \cdot H$
+\item trapez n:
+\newline
+$P_{d}\left( n \right) =$ podstawa dolna $= W\left( a + \left( n - 1 \right) \cdot \Delta x \right)$
+\newline
+$P_{g}\left( n \right) =$ podstawa górna $= W\left( a + n \cdot \Delta x \right)$
+\newline
+$H =$ wysokość $= \Delta x$
+\newline
+Pole = $P\left( n \right) = \frac{\vert P_{d}\left( n \right) + P{g}\left( n \right)\vert}{2} \cdot H$
+\end{itemize}
+Przybliżona wartość pola figur jest sumą pól wszystkich otrzymanych w ten sposób trapezów:
+\end{flushleft}
+\begin{center}
+$Pole \approx P\left( 1 \right) + P\left( 2 \right) + ... +P\left( n \right)$
+\end{center}
+\begin{flushleft}
+Poprawność można sprawdzić obliczając całkę oznaczoną.
+\end{flushleft}
+\end{document}

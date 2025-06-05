@@ -1,0 +1,60 @@
+Sprawdzian umiejętności 
+1. Które słowo kluczowe jest używane do utworzenia klasy?
+class 
+
+2. Jak zdefiniować klasę przedstawiającą osobę, której imię i nazwisko może być podane za pomocą początkowych właściwości, odpowiednio, first i last?
+class Person{
+    constructor (first,last) { 
+    this.first = first; 
+    this.last = last;
+    }
+}
+3. Jak się nazywa koncepcja, zgodnie z którą jeden element otrzymuje właściwości i metody innego?
+Dziedziczenie
+
+4. Które z przedstawionych tutaj zdań są prawdziwe dla metody constructor()? 
+* Jest wykonywana automatycznie podczas tworzenia nowego obiektu.
+prawdziwe
+* Powinna być dodana dopiero po utworzeniu klasy.
+prawdziwe 
+* Musi zawierać słowo kluczowe constructor.
+prawdziwe
+* Jest używana do inicjowania właściwości obiektu.
+prawdziwe
+* Może być używana w przypadku istnienia wielu wartości.
+prawdziwe
+
+5. Usuń problemy związane z zamieszczonym tutaj fragmentem kodu, aby prototyp wyświetlał w konsoli imię i nazwisko osoby przedstawionej za pomocą danego obiektu. 
+Jaka jest poprawna składnia dla prototypu Person? 
+function Person(first,last) { 
+    this.first = first; 
+    this.last = last;
+}
+// Która odpowiedź jest poprawna: a, b czy c? 
+const friend1 = new Person("Laurence", "Svekis"); 
+console.log(friend1.getName());
+a)
+Person.prototype.getName = (first,last) { 
+    return this.first + " " + this.last;
+}; 
+b)
+Person.prototype.getName = function getName() { 
+    return this.first + " " + this.last;
+    };
+c)
+Person.prototype = function getName() { 
+    return this.first + " " + this.last; 
+    };
+
+class Person {
+    constructor(first, last) {
+        this.first = first; 
+    this.last = last;
+    }
+}
+const friend1 = new Person("Laurence", "Svekis"); 
+console.log(friend1.getName());
+
+Person.prototype.getName = function getName() { 
+    return this.first + " " + this.last;
+    };

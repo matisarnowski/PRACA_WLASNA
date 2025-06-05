@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    </head>
+    <style>
+        canvas {
+            border: 3px solid black;
+        }
+    </style>
+
+    <script>
+        $(function(){
+            var canvas = $('canvas')[0].getContext('2d');
+            
+            // Uzyskaj wysokość i szerokość canvas. Zmuś wartości do bycia typu Number, bo attr zawiera łańcuchy, a JS często zachowuje 
+            // się dziwniegdy używa łańcuchów jako liczb.
+
+            var height = Number($('canvas').attr('height'));
+            var width = Number($('canvas').attr('width'));
+            canvas.translate(0, height);
+            canvas.scale(1, -1);
+            
+            var grid = 25;
+
+            canvas.scale(grid, grid);
+            width = width / grid;
+            height = height / grid;
+            canvas.lineWidth = canvas.lineWidth / grid;
+            canvas.strokeStyle = "rgb(0, 0, 0)"; // czarny
+
+
+            function
+            clear_and_draw_grid()
+            {
+                canvas.clearRect(0,0,width,height); // wymaż kanwę
+                canvas.save(); // zapisz ustawienia kanwas
+                canvas.setLineDash([0.1, 0.1]); // linia przerywana
+                canvas.strokeStyle = "rgb(128, 128, 128)"; // szary
+                canvas.beginPath();
+
+                for (var i = 1; i < height; i++){
+                    canvas.moveTo(0, i);
+                    canvas.lineTo(height, i);
+                }
+
+                for (var i = 1; i < width; i++){
+                    canvas.moveTo(i, 0);
+                    canvas.lineTo(i, width);
+                }
+
+                canvas.stroke();
+                canvas.restore();
+            }
+
+            clear_and_draw_grid();
+
+            $('#draw').click(function(){
+                if ($('#y').val() < 0 || $('#y').val() > height){
+                    alert('wartość y musi zawierać się pomiędzy 0 a ' + height);
+                }
+                else if(parseInt($('#y').val())!=$('#y').val()){
+                    alert('wartość y musi być liczbą całkowitą');
+                }
+                else{
+                    canvas.beginPath(); // narysuj idealną linię
+                    canvas.moveTo(0,0);
+                    canvas.setLineDash([0.2,0.2]); // linia przerywana
+                    canvas.lineTo(width, $('#y').val());
+                    canvas.stroke();
+
+                    var m = $('#y').val() / width; // kąt nachylenia
+                
+                    canvas.fillStyle = "rgb(0,0,0)";
+
+                    for (var x = 0; x <= width; x++){
+                        canvas.beginPath();
+                        canvas.arc(x, Math.round(x*m), 0.15,0,2*Math.PI,0);
+                        canvas.fill();
+                    }
+                    
+                    $('#y').val(); // wyczyść wartość pola y
+                }
+            });
+
+            $('#erase').click(function(){
+                clear_and_draw_grid();
+            });
+        });
+        
+
+
+       
+    </script>
+    <body>
+        <canvas width="500" height="500"></canvas>
+        <div>
+            <label for="y">Y Coordinate: </label>
+            <input type="text" size="3" id="y"/>
+            <button id="draw">Draw</button>
+            <button id="erase">Erase</button>
+        </div>
+    </body>
+</html>

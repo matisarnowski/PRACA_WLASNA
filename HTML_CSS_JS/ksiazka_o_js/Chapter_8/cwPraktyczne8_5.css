@@ -1,0 +1,7 @@
+.table {
+    background-color: lightgray;
+    border: 1px solid gray;
+    margin: 10px;
+    width: 35%;
+    padding: 10px;
+}

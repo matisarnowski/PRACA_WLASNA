@@ -1,0 +1,50 @@
+Sprawdzian umiejętności
+1. Jaki będzie wygenerowany w konsoli wynik wykonania tego fragmentu kodu?
+let val = 10;
+function tester(val){
+val += 10;
+if (val < 100) {
+    return tester(val);
+    }
+return val;
+}
+tester(val);
+console.log(val);
+10
+
+2. Jaki będzie wygenerowany w konsoli wynik wykonania tego fragmentu kodu?
+let testFunction = function(){
+    console.log("Witaj");
+}();
+Witaj
+
+3. Jaki będzie wygenerowany w konsoli wynik wykonania tego fragmentu kodu?
+(function () {
+        console.log("Witaj");
+    })();
+    (function () {
+        let firstName = "Laurence";
+    })();
+    let result = (function () {
+        let firstName = "Laurence";
+        return firstName;
+    })();
+    console.log(result);
+    (function (firstName) {
+        console.log("Mam na imię " + firstName);
+    })("Laurence");
+Witaj Laurence
+Mam na imię Laurence
+
+4. Jaki będzie wygenerowany w konsoli wynik wykonania tego fragmentu kodu?
+let test2 = (num) => num + 5;
+console.log(test2(14));
+19
+
+5. Jaki będzie wygenerowany w konsoli wynik wykonania tego fragmentu kodu?
+var addFive1 = function addFive1(num) {
+    return num + 2;
+};
+let addFive2 = (num) => num + 2;
+console.log(addFive1(14));
+16

@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <!--ładujemy jQuery-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+        <title>Szkielet strony internetowej</title>
+
+        <style>
+            invisible{
+                display: none; /* elementy mające tę klasę nie są wyświetlane*/
+            }
+        </style>
+        
+        <script type="text/javascript">
+            var node; // węzeł - aktualna pozycja na drzewie wiedzy
+            
+            // Dodaj przesłany html do dialogu. Jeśli nowy węzeł nie ma dzieci,
+            // wyjdź z funkcji, bo nie ma pytania do zadania. W przeciwnym wypadku
+            // ustaw aktualny węzeł na nowy węzeł i zadaj pytanie z użyciem ztrybutu
+            // string nowego węzła. Jeśli jesteś w liściu, zamień nazwę zwierzęcia na 
+            // pytanie. Zwraca true, jeśli nowy węzeł jest liściem.
+
+            function
+            question(new_node, html)
+            {
+                $('#dialog').append(html); // dodaj html do dialogu
+
+                if ($(new_node).length == 0){ // nie ma dzieci, nie ma pytania
+                    return (true);
+                }
+                else {
+                    node = new_node; // zejdź do nowego węzła
+
+                    if ($(node).children().length == 0)
+                        $('#dialog').append('Czy to , ' + $(node).attr('string') + '?');
+                    else
+                        $('#dialog').append($(node).attr('string') + '?')
+                    
+                    return (false);
+                }
+            }
+
+            // Restartuje grę. Chowa wszsytkie przyciski i pola tekstowe, cvzyści zawartość pól tekstowych, ustawia węzeł na 
+            // początkowy i powitanie, zadaje pierwsze pytanie, wyświetla przyciski tak/nie.h
+
+            function
+            restart()
+            {
+                $('.start-hidden').hide();
+                $('#question,#what').val('');
+                question($('#root>div'), '<div><b>Pomyśl o jakimś zwierzęciu.</b></div>');
+                $('#yesno').show();
+            }
+
+            $(function(){
+                restart(); // Ustawia wszystko zaraz po uruchomieniu.
+                
+                // Użytkownik wprowadził nowe pytanie. Utwórz węzeł z tym pytaniem
+                // i włóż poprzedni węzeł "nie" do środka. Natsępnie zrób węzeł z nowym
+                // zwierzęciem i włóż go do węzła nowego pytania bezpośrednio przed
+                // straym węzłem "nie", tak by się stał węzłem "tak". Zacznij jeszcze raz.
+
+                $('#done-question').click(function(){
+                    $(node).wrap('<div string="' + $('#question').val() + '"></div>');
+                    $(node).parent().prepend('<div string="' + $(what).val() + '"></div>');
+                    $('#dialog').append("<div>Dzięki! Zapamiętam to zwierzę.</div><p>");
+                    restart();
+                });
+
+                // Użytkownik wprowadził nowe zwierzę i kliknął "Zrobione". Ukryj wszystkie elementy i uwidocznij pole tekstowe
+                // new-question i przycisk "Zrobione". Wstaw starą i nową nazwę zwierzęcia do pytania.
+
+                $('#done-what').click(function(){
+                    $('#what-is-it').hide();
+                    $('#new').text($('#what').val());
+                    $('#old').text($(node).attr('string'));
+                    $('#new-question').show();
+                    $('#dialog div:last').append(' <i>' + $('#what').val() + '</i>');
+                });
+
+                // Użytkownik kliknął "tak" w odpowiedzi na pytanie. Zejdź na dół drzewa,
+                // chyba że jesteśmy w liściu. W tym przypadku pochwal się i zrestaruj.
+
+                $('#yes').click(function(){
+                    if (question($(node).children(':first-child'), ' <i>yes</i><br>')){
+                        $('#dialog').append("<div>Wiedziałem! Jestem taki mądry!</div><p>");
+                        restart();
+                    }
+                });
+
+                // Użytkownik klknął "nie" w odpowiedzi na pytanie. Zejdź na dół drzewa, chyba że jesteśmy w liściu. W tym przypadku
+                // ukryj przyciski tak/nie i uwidocznij pole tekstowe  what-is-it i przycisk "Zrobione".
+                
+                $('#no').click(function(){
+                    if (question($(node).children(':last-child'), ' <i>no</i><br>')){
+                        $('#yesno').hide();
+                        $('#dialog').append('<div>Poddaję się. Co to za zwierzę?</div>');
+                        $('#what-is-it').show();
+                    }
+                });
+
+            });
+        </script>
+    </head>
+
+    <body>
+        <!-- To jest drzewo wiedzy nigdy nie jest widoczne -->
+        
+        <div id="root" class="invisible">
+            <div string="Czy ono szczeka">
+                <div string="pies"></div>
+                <div string="kot"></div>
+            </div>
+        </div>
+        <div id="dialog">
+            
+        </div>    
+        
+        <!-- Dialog uzyskujący nowe zwierzę -->
+
+        <div id="what-is-it" class="start-hidden">
+            <input id="what" type="text"/>
+            <button id="done-what">Zrobione</button>
+        </div>
+
+        <!-- Dialog uzyskujący nowe pytanie -->
+
+        <div id="new-question" class="start-hidden">
+            Jakim pytaniem mógłbym odróżnić
+            <span id="new"></span> od <span id="old"></span>
+            <input id="question" type="text"/>
+            <button id="done-question">Zrobione</button>
+        </div>
+
+        <!-- Guziki 'tak' i 'nie' -->
+
+        <div id="yesno" class="start-hidden">
+            <button id="yes">Tak</button>
+            <button id="no">Nie</button>
+        </div>
+    </body>
+</html>>

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1542674473 source:c:\users\matsa\onedrive\dokumenty\code_blocks\slaby_przywodca\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wisielec</title>
+    <link rel="stylesheet" href="projektRozdzialuWisielec.css" />
+  </head>
+  <body>
+    <h1>Wisielec</h1>
+    <p>
+      Korzystając z tablic i elementów strony, utwórz grę Wisielec. Jako punkt
+      wyjścia możesz wykorzystać następujący szablon HTML:
+    </p>
+    <img src="rysunek10_projekt_1.png" alt="Obrazek z kodem." class="image" />
+    <p>Wykonaj wymienione tutaj kroki:</p>
+    <ol>
+      <li>
+        Przygotuj tablicę zawierającą pewne słowa lub zwroty, które mają zostać
+        użyte w grze.
+      </li>
+      <li>
+        W JavaScripcie utwórz główny obiekt gry razem z właściwością
+        przechowującą aktualne słowo i właściwością w postaci tablicy liter
+        tworzących to słowo. Trzeba również utworzyć tablicę elementów strony i
+        odpowiednich wartości indeksu dla poszczególnych liter rozwiązania. Nie
+        zapomnij o właściwości przechowującej liczbę liter pozostałych do
+        odgadnięcia i zakończenia gry.
+      </li>
+      <li>
+        Pobierz elementy strony i umieść je w zmiennych, aby łatwiej można było
+        używać ich w kodzie.
+      </li>
+      <li>
+        Dodaj komponent nasłuchiwania zdarzeń dla przycisku Rozpocznij grę.
+        Kliknięcie tego przycisku powinno spowodować wykonanie funkcji
+        <code>startGame()</code>.
+      </li>
+      <li>
+        W funkcji
+        <code>startGame()</code>
+        należy sprawdzić, czy w tablicy words pozostały jakiekolwiek słowa.
+        Jeżeli tak, przycisk powinien zostać ukryty przez przypisanie wartości
+        none właściwości <code>.display</code>. Usuń zawartość gry i ustaw 0
+        jako bieżącą punktację. W obiekcie gry w aktualnym słowie zdefiniuj
+        wartość, która będzie odpowiedzią na wywołanie <code>shift()</code> w
+        tablicy zawierającej słowa używane w grze.
+      </li>
+      <li>
+        W rozwiązaniu skonwertuj ciąg tekstowy na tablicę znaków, używając do
+        tego wywołania <code>split()</code>.
+      </li>
+      <li>
+        Utwórz funkcję o nazwie <code>builder()</code> używaną do przygotowania
+        planszy gry. Wywołaj tę funkcję z poziomu <code>startGame()</code> po
+        usunięciu i ponownym przypisaniu wszystkich wartości gry.
+      </li>
+      <li>
+        Utwórz oddzielną funkcję przeznaczoną do generowania elementów strony. W
+        parametrach pobierz typ elementu, element nadrzędny, do którego zostanie
+        on dołączony, dane wyjściowe dla nowego elementu oraz klasę dodawaną do
+        tego elementu. Korzystając ze zmiennej tymczasowej, utwórz element,
+        dodaj klasę, dołącz element do elementu nadrzędnego, zdefiniuj wartość
+        <code>textContent</code> i zwróć element.
+      </li>
+      <li>
+        W funkcji <code>builder()</code> wywołanej po
+        <code>startGame()</code> zdefiniuj wartość <code>innerHTML</code> na
+        podstawie liter i rozmieść elementy strony.
+      </li>
+      <li>
+        Przeprowadź iterację przez tablicę rozwiązania, pobierając w jej trakcie
+        poszczególne litery. Za pomocą funkcji
+        <code>builder()</code> wygeneruj elementy strony, dodaj dane wyjściowe
+        -, zdefiniuj klasę i dołącz ją do głównego elementu strony gry.
+      </li>
+      <li>
+        Sprawdź, czy wartość jest pusta. Jeżeli tak, usuń zawartość textContent
+        i zmień kolor krawędzi na biały. W przeciwnym razie inkrementuj wartość
+        całkowitą, aby tym samym odzwierciedlić liczbę liter do odgadnięcia. W
+        tablicy liter gry umieść nowy element.
+      </li>
+      <li>
+        Utwórz funkcję uaktualniającą wynik, aby można było wyświetlić aktualną
+        liczbę odgadniętych liter. Jej wywołanie dodaj do funkcji
+        <code>builder()</code>.
+      </li>
+      <li>
+        Zdefiniuj pętlę przedstawiającą wszystkie litery alfabetu. Literę można
+        wygenerować na podstawie tablicy zawierającej wszystkie litery. Metoda
+        ciągu tekstowego <code>fromCharCode()</code> zwraca znak dla danej
+        wartości liczbowej.
+      </li>
+      <li>
+        Dla każdej litery utwórz element, dodaj klasę box i dołącz element
+        litery do elementu letters. Podczas tworzenia elementu litery dodaj mu
+        komponent nasłuchujący zdarzeń, który będzie wywoływał funkcję
+        <code>checker()</code>.
+      </li>
+      <li>
+        Po kliknięciu litery konieczne jest wywołanie funkcji
+        <code>checker()</code>, która usunie klasę główną, dołączy inną klasę,
+        usunie komponent nasłuchiwania zdarzeń i uaktualni kolor tła. Ponadto
+        wywoła funkcję <code>checkLetter()</code>, przekazując jako argument
+        wartość w postaci klikniętej litery.
+      </li>
+      <li>
+        Funkcja <code>checkLetter()</code> powinna przeprowadzić iterację przez
+        wszystkie litery rozwiązania. Dodaj warunek sprawdzający, czy litera
+        rozwiązania odpowiada literze wybranej przez gracza. Upewnij się, że
+        podana litera została skonwertowana na wielką, aby dokładnie porównać
+        litery. Uaktualnij dopasowane litery w układance, posługując się przy
+        tym tablicą układanki i indeksem litery z tablicy rozwiązania. Wartości
+        indeksu będą takie same w obu tablicach (układanki i rozwiązania), co
+        pozwala na łatwe dopasowanie układanki na stronie do zawartości tablic.
+      </li>
+      <li>
+        Odejmij jeden od globalnego obiektu gry monitorującego całkowitą liczbę
+        liter pozostałych do odgadnięcia. Wywołaj funkcję
+        <code>updatescore()</code> w celu sprawdzenia, czy gra się zakończyła i
+        uaktualnienia wyniku. Właściwości textContent układanki przypisz literę,
+        która powinna zastąpić dotychczasowy znak minus.
+      </li>
+      <li>
+        W funkcji <code>updatescore()</code> przypisz wynik odpowiadający
+        liczbie odgadniętych liter. Jeżeli całkowita liczba liter do odgadnięcia
+        wynosi zero lub mniej, gra jest zakończona. Wyświetl przycisk, aby gracz
+        miał możliwość rozpoczęcia następnej rundy gry.
+      </li>
+    </ol>
+  </body>
+</html>

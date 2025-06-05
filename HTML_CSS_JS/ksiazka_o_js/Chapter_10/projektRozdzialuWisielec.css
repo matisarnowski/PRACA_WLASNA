@@ -1,0 +1,11 @@
+.image {
+    max-width: 24%;
+    max-height: 24%;
+}
+ol {
+    list-style-position: outside;
+    list-style-type: upper-roman;
+}
+ol li {
+    padding: 2.5px;
+}

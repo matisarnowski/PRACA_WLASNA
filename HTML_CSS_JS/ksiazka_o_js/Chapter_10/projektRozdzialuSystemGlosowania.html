@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interaktywny system głosowania</title>
+    <link rel="stylesheet" href="projektRozdzialuSystemGlosowania.css" />
+  </head>
+  <body>
+    <h1>Interaktywny system głosowania</h1>
+    <p>
+      Kod przedstawiony w tym projekcie powoduje utworzenie dynamicznej listy
+      osób, które można klikać. Kliknięcie osoby spowoduje uaktualnienie
+      przypisanej jej wartości określającej liczbę kliknięć (zobacz rysunek
+      10.8). Strona zawiera również puste pole pozwalające na dodawanie
+      kolejnych osób do listy. Każda nowo dodana osoba również będzie mogła być
+      klikana, podobnie jak osoby umieszczone domyślnie na liście.
+    </p>
+    <img
+      src="projektRozdzialuSystemGlosowaniaRysunek.png"
+      alt="Obrazek z tabelką."
+      class="image"
+    />
+    <p>
+      Przedstawiony tutaj kod HTML wykorzystaj jako szablon, a utworzony kod
+      JavaScript z żądaną funkcjonalnością umieść w elemencie
+      <code>&ltscript&gt</code>.
+    </p>
+    <img
+      src="projektRozdzialuSystemGlosowania.png"
+      alt="Obrazek z kodem."
+      class="image"
+    />
+    <p>Wykonaj wymienione tutaj kroki:</p>
+    <ol>
+      <li>
+        Utwórz tablicę o nazwie myArray przechowującą imiona osób. To będzie
+        domyślna lista kandydatów.
+      </li>
+      <li>
+        Pobierz elementy strony jako obiekty JavaScriptu, aby można było łatwo
+        używać ich w kodzie.
+      </li>
+      <li>
+        Dla przycisku Dodaj kandydata zdefiniuj komponent nasłuchujący zdarzeń.
+        Po kliknięciu przycisku wartość pola tekstowego powinna zostać pobrana i
+        przekazana funkcji, która dodaje nowe imię na liście. Ponadto to nowe
+        imię powinno znaleźć się również w utworzonej wcześniej tablicy
+        kandydatów. Pobierz wartość bieżącą pola tekstowego, a następnie przekaż
+        ją do tablicy, aby zawartość tablicy odpowiadała wartościom wyświetlanym
+        na stronie.
+      </li>
+      <li>
+        Przygotuj funkcję tworzącą treść wyświetlaną na stronie. Za pomocą
+        metody <code>forEach()</code> pobierz wszystkie elementy tablicy i
+        umieść je na stronie. Użyj wartości 0 jako domyślnej liczby głosów,
+        ponieważ na początku każdy z kandydatów nie powinien mieć żadnych
+        głosów.
+      </li>
+    </ol>
+  </body>
+</html>

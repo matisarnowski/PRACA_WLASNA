@@ -1,0 +1,18 @@
+jeden = document.body.childNodes[1].childNodes[1].childNodes[1].childNodes[1].innerText;
+dwa = document.body.childNodes[1].childNodes[1].childNodes[1].childNodes[1].nextElementSibling.innerText;
+trzy = document.body.childNodes[1].childNodes[1].childNodes[1].childNodes[1].nextElementSibling.nextElementSibling.innerText;
+niebieski = document.body.childNodes[1].childNodes[1].nextElementSibling.innerText;
+document.body.childNodes[1].childNodes[1].nextElementSibling.style.backgroundColor = "lightblue";
+zielony = document.body.childNodes[1].childNodes[1].nextElementSibling.nextElementSibling.innerText;
+document.body.childNodes[1].childNodes[1].nextElementSibling.nextElementSibling.style.backgroundColor = "lightgreen";
+żółty = document.body.childNodes[1].childNodes[1].nextElementSibling.nextElementSibling.nextElementSibling.innerText;
+document.body.childNodes[1].childNodes[1].nextElementSibling.nextElementSibling.nextElementSibling.style.backgroundColor = "yellow";
+fioletowy = document.body.childNodes[1].childNodes[1].nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.innerText;
+document.body.childNodes[1].childNodes[1].nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.style.backgroundColor = "purple";
+console.dir(jeden);
+console.dir(dwa);
+console.dir(trzy);
+console.dir(niebieski);
+console.dir(zielony);
+console.dir(żółty);
+console.dir(fioletowy);

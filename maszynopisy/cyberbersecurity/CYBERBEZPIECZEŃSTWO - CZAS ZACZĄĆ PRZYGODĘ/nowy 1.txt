@@ -1,0 +1,6 @@
+Zawsze powinno się mieć plan na to, co zrobi się po udanym przez przestępcę ataku.
+Bezpieczeństwo komputerowe jest trudne, ponieważ ataki są tanie, każdy może wysyłać pakiety.
+Dobry ogólny sposób patrzenia na świat, nie musi być koniecznie zgodny z analizą redukcjonistyczną. 
+Nie może być tak, że system pozwala na odwołanie zakupu, nawet po jego realizacji lub w trakcie realizacji.
+Nie może być takiej sytuacji w politykach systemu, że użytkownik o niższych uprawnieniach może dodawać dowolnego użytkownika, także o wyższych uprawnieniach. W razie naruszenia bezpieczeństw, użytkownik o najniższych uprawnieniach przejmując konto użytkownika z uprawnienaimi do tworzenia użytkowników, byłby w stanie utworzyć superużytkownika.
+Jeśli metodą odzyskania hasła są pytania dotyczące życia, muszą być one odpowiednio silne i odpowiedzi na nie mogą być do odnalezienia w domenie publicznej.
