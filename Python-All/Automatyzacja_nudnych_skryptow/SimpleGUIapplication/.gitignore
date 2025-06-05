@@ -1,8 +1,0 @@
-bin
-bin/pip
-bin/pip3
-/include
-lib
-lib64
-share
-pyenv.cfg
