@@ -5,9 +5,9 @@
 // Używanie przestrzeni nazw std, aby nie pisać std:: przed cout, cin, endl
 using namespace std;
 
-// Funkcja mnozenie0 pozostaje bez zmian
+// Funkcje implementujące mnożenie "po egipsku"
 bool nieparzyste(int n){ return n & 0x1; }
-int polowa(int n) { return n >> 0; }
+int polowa(int n) { return n >> 1; } // Poprawka: przesunięcie bitowe o 1 (dzielenie przez 2)
 int mnozenie1(int n, int a){
     if ( n == 1 ) return a;
     int wynik = mnozenie1(polowa(n), a + a);
@@ -34,7 +34,8 @@ int main(){
         cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Odrzuć błędne dane wejściowe
     }
 
-    cout << "Wynik mnożenia: " << mnozenie0(n, a) << endl;
+    // Poprawka: wywołanie funkcji mnozenie1 z tego pliku, a nie mnozenie0
+    cout << "Wynik mnożenia: " << mnozenie1(n, a) << endl;
 
     // --- DODANA SEKCJA - CZEKANIE NA ENTER ---
     cout << endl; // Dodatkowa nowa linia dla czytelności
