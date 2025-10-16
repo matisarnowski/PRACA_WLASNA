@@ -1,0 +1,2338 @@
+Aby uzyskać więcej informacji o określonym poleceniu, wpisz HELP nazwa-polecenia
+ASSOC Wyświetla lub modyfikuje skojarzenia rozszerzeń plików.
+ATTRIB Wyświetla lub zmienia atrybuty plików.
+BREAK Ustawia lub czyści rozszerzone sprawdzanie klawiszy CTRL+C.
+BCDEDIT Ustawia właściwości w bazie danych rozruchu w celu kontrolowania ładowania rozruchu.
+CACLS Wyświetla lub modyfikuje listy kontroli dostępu (ACL) plików.
+CALL Wywołuje jeden program wsadowy z innego.
+CD Wyświetla nazwę bieżącego katalogu lub zmienia go.
+CHCP Wyświetla lub ustawia numer aktywnej strony kodowej.
+CHDIR Wyświetla nazwę bieżącego katalogu lub zmienia go.
+CHKDSK Sprawdza dysk i wyświetla raport o jego stanie.
+CHKNTFS Wyświetla lub modyfikuje sprawdzanie dysku podczas rozruchu.
+CLS Czyści ekran.
+CMD Uruchamia nową instancję interpretera poleceń systemu Windows.
+COLOR Ustawia domyślne kolory pierwszego planu i tła konsoli.
+COMP Porównuje zawartość dwóch plików lub zestawów plików.
+COMPACT Wyświetla lub zmienia kompresję plików na partycjach NTFS.
+CONVERT Konwertuje woluminy FAT na NTFS.
+Nie można przekonwertować bieżącego dysku.
+COPY Kopiuje jeden lub więcej plików do innej lokalizacji.
+DATE Wyświetla lub ustawia datę.
+DEL Usuwa jeden lub więcej plików.
+DIR Wyświetla listę plików i podkatalogów w katalogu.
+DISKPART Wyświetla lub konfiguruje właściwości partycji dysku.
+DOSKEY Edytuje wiersze poleceń, przywołuje polecenia systemu Windows i tworzy makra.
+DRIVERQUERY Wyświetla bieżący stan i właściwości sterowników urządzeń.
+ECHO Wyświetla komunikaty lub włącza/wyłącza wyświetlanie poleceń.
+ENDLOCAL Kończy lokalizację zmian środowiska w pliku wsadowym.
+ERASE Usuwa jeden lub więcej plików.
+EXIT Kończy program CMD.EXE (interpreter poleceń).
+FC Porównuje dwa pliki lub zestawy plików i wyświetla różnice między nimi.
+FIND Wyszukuje ciąg tekstowy w pliku lub plikach.
+FINDSTR Wyszukuje ciągi znaków w plikach.
+FOR Uruchamia określone polecenie dla każdego pliku w zestawie plików.
+FORMAT Formatuje dysk do użytku z systemem Windows.
+FSUTIL Wyświetla lub konfiguruje właściwości systemu plików.
+FTYPE Wyświetla lub modyfikuje typy plików używane w skojarzeniach rozszerzeń plików.
+GOTO Kieruje interpreter poleceń systemu Windows do oznaczonej etykietą linii w programie wsadowym.
+GPRESULT Wyświetla informacje o zasadach grupy dla komputera lub użytkownika.
+HELP Dostarcza informacji pomocniczych dla poleceń systemu Windows.
+ICACLS Wyświetla, modyfikuje, tworzy kopie zapasowe lub przywraca listy ACL dla plików i katalogów.
+IF Wykonuje warunkowe przetwarzanie w programach wsadowych.
+LABEL Tworzy, zmienia lub usuwa etykietę woluminu dysku.
+MD Tworzy katalog.
+MKDIR Tworzy katalog.
+MKLINK Tworzy dowiązania symboliczne i twarde dowiązania.
+MODE Konfiguruje urządzenie systemowe.
+MORE Wyświetla dane wyjściowe ekran po ekranie.
+MOVE Przenosi jeden lub więcej plików z jednego katalogu do innego.
+OPENFILES Wyświetla pliki otwarte przez zdalnych użytkowników dla udziału plików.
+PATH Wyświetla lub ustawia ścieżkę wyszukiwania dla plików wykonywalnych.
+PAUSE Wstrzymuje przetwarzanie pliku wsadowego i wyświetla komunikat.
+POPD Przywraca poprzednią wartość bieżącego katalogu zapisaną przez PUSHD.
+PRINT Drukuje plik tekstowy.
+PROMPT Zmienia znak zachęty wiersza polecenia systemu Windows.
+PUSHD Zapisuje bieżący katalog, a następnie go zmienia.
+RD Usuwa katalog.
+RECOVER Odzyskuje czytelne informacje z uszkodzonego lub wadliwego dysku.
+REM Rejestruje komentarze (uwagi) w plikach wsadowych lub CONFIG.SYS.
+REN Zmienia nazwę pliku lub plików.
+RENAME Zmienia nazwę pliku lub plików.
+REPLACE Zastępuje pliki.
+RMDIR Usuwa katalog.
+ROBOCOPY Zaawansowane narzędzie do kopiowania plików i drzew katalogów.
+SET Wyświetla, ustawia lub usuwa zmienne środowiskowe systemu Windows.
+SETLOCAL Rozpoczyna lokalizację zmian środowiska w pliku wsadowym.
+SC Wyświetla lub konfiguruje usługi (procesy działające w tle).
+SCHTASKS Planuje uruchamianie poleceń i programów na komputerze.
+SHIFT Zmienia pozycję parametrów zastępowalnych w plikach wsadowych.
+SHUTDOWN Umożliwia prawidłowe lokalne lub zdalne zamknięcie komputera.
+SORT Sortuje dane wejściowe.
+START Uruchamia oddzielne okno w celu uruchomienia określonego programu lub polecenia.
+SUBST Kojarzy ścieżkę z literą dysku.
+SYSTEMINFO Wyświetla właściwości i konfigurację specyficzne dla komputera.
+TASKLIST Wyświetla wszystkie aktualnie uruchomione zadania, w tym usługi.
+TASKKILL Zabija lub zatrzymuje uruchomiony proces lub aplikację.
+TIME Wyświetla lub ustawia czas systemowy.
+TITLE Ustawia tytuł okna dla sesji CMD.EXE.
+TREE Graficznie wyświetla strukturę katalogów dysku lub ścieżki.
+TYPE Wyświetla zawartość pliku tekstowego.
+VER Wyświetla wersję systemu Windows.
+VERIFY Informuje system Windows, czy ma weryfikować poprawność zapisu plików na dysku.
+VOL Wyświetla etykietę woluminu dysku i numer seryjny.
+XCOPY Kopiuje pliki i drzewa katalogów.
+WMIC Wyświetla informacje WMI w interaktywnej powłoce poleceń.
+Aby uzyskać więcej informacji o narzędziach, zobacz dokumentację wiersza polecenia w pomocy online.
+
+Pomoc dla samego programu CMD.EXE (opcje uruchamiania): 
+Uruchamia nową instancję interpretera poleceń systemu Windows 
+
+CMD [/A | /U] [/Q] [/D] [/E:ON | /E:OFF] [/F:ON | /F:OFF] [/V:ON | /V:OFF] 
+[[/S] [/C | /K] ciąg] 
+
+
+/C Wykonuje polecenie określone przez ciąg, a następnie kończy działanie 
+/K Wykonuje polecenie określone przez ciąg, ale pozostaje 
+/S Modyfikuje przetwarzanie ciągu po /C lub /K (zobacz poniżej) 
+/Q Wyłącza echo 
+/D Wyłącza wykonywanie poleceń AutoRun z rejestru (zobacz poniżej) 
+/A Powoduje, że dane wyjściowe poleceń wewnętrznych do potoku lub pliku są w formacie ANSI 
+/U Powoduje, że dane wyjściowe poleceń wewnętrznych do potoku lub pliku są w formacie Unicode 
+/T:fg Ustawia kolory pierwszego planu/tła (zobacz COLOR /? po więcej informacji) 
+/E:ON Włącza rozszerzenia poleceń (zobacz poniżej) 
+/E:OFF Wyłącza rozszerzenia poleceń (zobacz poniżej) 
+/F:ON Włącza znaki uzupełniania nazw plików i katalogów (zobacz poniżej) 
+/F:OFF Wyłącza znaki uzupełniania nazw plików i katalogów (zobacz poniżej) 
+/V:ON Włącza opóźnione rozwijanie zmiennych środowiskowych przy użyciu ! jako ogranicznika.  Na przykład, /V:ON pozwoliłoby !var!  na rozwinięcie zmiennej var w czasie wykonywania.  Składnia var rozwija zmienne w czasie wprowadzania, co jest zupełnie inną rzeczą wewnątrz pętli FOR. 
+/V:OFF Wyłącza opóźnione rozwijanie zmiennych środowiskowych. 
+
+
+
+
+
+Zauważ, że wiele poleceń oddzielonych separatorem poleceń '&&' 
+jest akceptowanych dla ciągu, jeśli są ujęte w cudzysłów.  Również, ze względów kompatybilności, /X jest tym samym co /E:ON, /Y jest tym samym co /E:OFF, a /R jest tym samym co /C.  Wszelkie inne przełączniki są ignorowane. 
+
+
+
+Jeśli podano /C lub /K, reszta wiersza poleceń po przełączniku jest przetwarzana jako wiersz poleceń, gdzie do przetwarzania znaków cudzysłowu (") używana jest następująca logika: 
+
+1. Jeśli spełnione są wszystkie poniższe warunki, znaki cudzysłowu w wierszu poleceń są zachowywane: [cite: 93]
+
+    - brak przełącznika /S [cite: 93]
+    - dokładnie dwa znaki cudzysłowu [cite: 93]
+    - brak znaków specjalnych między dwoma znakami cudzysłowu, gdzie znakiem specjalnym jest jeden z: &<>()@^| [cite: 94]
+    - między dwoma znakami cudzysłowu znajduje się jeden lub więcej białych znaków [cite: 94]
+    - ciąg między dwoma znakami cudzysłowu jest nazwą pliku wykonywalnego. [cite: 94]
+
+2. W przeciwnym razie, stare zachowanie polega na sprawdzeniu, czy pierwszy znak jest znakiem cudzysłowu, a jeśli tak, usunięciu znaku wiodącego i usunięciu ostatniego znaku cudzysłowu w wierszu poleceń, zachowując tekst po ostatnim znaku cudzysłowu. [cite: 95]
+Jeśli /D NIE został określony w wierszu poleceń, to po uruchomieniu CMD.EXE 
+szuka następujących zmiennych rejestru REG_SZ/REG_EXPAND_SZ, a jeśli 
+jedna lub obie są obecne, są one wykonywane jako pierwsze. 
+HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\AutoRun 
+
+
+    i/lub [cite: 96]
+
+HKEY_CURRENT_USER\Software\Microsoft\Command Processor\AutoRun [cite: 96]
+Rozszerzenia poleceń są domyślnie włączone.  Możesz również wyłączyć rozszerzenia dla określonego wywołania za pomocą przełącznika /E:OFF.  Możesz włączyć lub wyłączyć rozszerzenia dla wszystkich wywołań CMD.EXE na komputerze i/lub sesji logowania użytkownika, ustawiając jedną lub obie z następujących wartości REG_DWORD w rejestrze za pomocą REGEDIT.EXE: 
+
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\EnableExtensions [cite: 98]
+
+    i/lub [cite: 99]
+
+HKEY_CURRENT_USER\Software\Microsoft\Command Processor\EnableExtensions [cite: 99]
+na 0x1 lub 0x0.  Ustawienie specyficzne dla użytkownika ma pierwszeństwo przed ustawieniem komputera. Przełączniki wiersza poleceń mają pierwszeństwo przed ustawieniami rejestru.  W pliku wsadowym argumenty SETLOCAL ENABLEEXTENSIONS lub DISABLEEXTENSIONS mają pierwszeństwo przed przełącznikiem /E:ON lub /E:OFF.  Zobacz SETLOCAL /? po szczegóły. 
+
+
+Rozszerzenia poleceń obejmują zmiany i/lub dodatki do następujących poleceń: 
+
+DEL lub ERASE [cite: 101]
+COLOR [cite: 101]
+CD lub CHDIR [cite: 101]
+MD lub MKDIR [cite: 101]
+PROMPT [cite: 101]
+PUSHD [cite: 101]
+POPD [cite: 101]
+SET [cite: 101]
+SETLOCAL [cite: 101]
+ENDLOCAL [cite: 101]
+IF [cite: 101]
+FOR [cite: 101]
+CALL [cite: 101]
+SHIFT [cite: 101]
+GOTO [cite: 101]
+START (obejmuje również zmiany w wywoływaniu poleceń zewnętrznych) [cite: 101]
+ASSOC [cite: 101]
+FTYPE [cite: 101]
+Aby uzyskać szczegółowe informacje, wpisz nazwa-polecenia /?  aby wyświetlić szczegóły. 
+
+Opóźnione rozwijanie zmiennych środowiskowych NIE jest domyślnie włączone.  Możesz włączyć lub wyłączyć opóźnione rozwijanie zmiennych środowiskowych dla określonego wywołania CMD.EXE za pomocą przełącznika /V:ON lub /V:OFF.  Możesz włączyć lub wyłączyć opóźnione rozwijanie dla wszystkich wywołań CMD.EXE na komputerze i/lub sesji logowania użytkownika, ustawiając jedną lub obie z następujących wartości REG_DWORD w rejestrze za pomocą REGEDIT.EXE: 
+
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\DelayedExpansion [cite: 104]
+
+    i/lub [cite: 105]
+
+HKEY_CURRENT_USER\Software\Microsoft\Command Processor\DelayedExpansion [cite: 105]
+na 0x1 lub 0x0.  Ustawienie specyficzne dla użytkownika ma pierwszeństwo przed ustawieniem komputera. Przełączniki wiersza poleceń mają pierwszeństwo przed ustawieniami rejestru.  W pliku wsadowym argumenty SETLOCAL ENABLEDELAYEDEXPANSION lub DISABLEDELAYEDEXPANSION mają pierwszeństwo przed przełącznikiem /V:ON lub /V:OFF.  Zobacz SETLOCAL /? po szczegóły. 
+
+
+Jeśli opóźnione rozwijanie zmiennych środowiskowych jest włączone, można użyć znaku wykrzyknika do podstawienia wartości zmiennej środowiskowej w czasie wykonywania.  Możesz włączyć lub wyłączyć uzupełnianie nazw plików dla określonego wywołania CMD.EXE za pomocą przełącznika /F:ON lub /F:OFF.  Możesz włączyć lub wyłączyć uzupełnianie dla wszystkich wywołań CMD.EXE na komputerze i/lub sesji logowania użytkownika, ustawiając jedną lub obie z następujących wartości REG_DWORD w rejestrze za pomocą REGEDIT.EXE: 
+
+
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\CompletionChar [cite: 109]
+HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\PathCompletionChar [cite: 109]
+
+    i/lub [cite: 110]
+
+HKEY_CURRENT_USER\Software\Microsoft\Command Processor\CompletionChar [cite: 110]
+HKEY_CURRENT_USER\Software\Microsoft\Command Processor\PathCompletionChar [cite: 110]
+z wartością szesnastkową znaku sterującego do użycia dla określonej funkcji (np. 0x4 to Ctrl-D, a 0x6 to Ctrl-F).  Ustawienia specyficzne dla użytkownika mają pierwszeństwo przed ustawieniami komputera. Przełączniki wiersza poleceń mają pierwszeństwo przed ustawieniami rejestru.  Jeśli uzupełnianie jest włączone przełącznikiem /F:ON, używane są dwa znaki sterujące: Ctrl-D do uzupełniania nazw katalogów i Ctrl-F do uzupełniania nazw plików.  Aby wyłączyć określony znak uzupełniania w rejestrze, użyj wartości dla spacji (0x20), ponieważ nie jest to prawidłowy znak sterujący.  Uzupełnianie jest wywoływane po wpisaniu jednego z dwóch znaków sterujących.  Funkcja uzupełniania pobiera ciąg ścieżki na lewo od kursora, dołącza do niego znak wieloznaczny, jeśli go tam nie ma, i tworzy listę pasujących ścieżek.  Następnie wyświetla pierwszą pasującą ścieżkę.  Jeśli żadna ścieżka nie pasuje, emituje sygnał dźwiękowy i pozostawia wyświetlacz bez zmian.  Następnie, wielokrotne naciskanie tego samego znaku sterującego powoduje przechodzenie przez listę pasujących ścieżek.  Naciśnięcie klawisza Shift wraz ze znakiem sterującym powoduje przechodzenie przez listę wstecz.  Jeśli w jakikolwiek sposób edytujesz linię i ponownie naciśniesz znak sterujący, zapisana lista pasujących ścieżek jest odrzucana i generowana jest nowa.  To samo dzieje się, gdy przełączasz się między uzupełnianiem nazw plików i katalogów.  Jedyna różnica między tymi dwoma znakami sterującymi polega na tym, że znak uzupełniania plików dopasowuje zarówno nazwy plików, jak i katalogów, podczas gdy znak uzupełniania katalogów dopasowuje tylko nazwy katalogów.  Jeśli uzupełnianie plików jest używane w którymkolwiek z wbudowanych poleceń katalogowych (CD, MD lub RD), zakłada się uzupełnianie katalogów.  Kod uzupełniania poprawnie obsługuje nazwy plików zawierające spacje lub inne znaki specjalne, umieszczając cudzysłowy wokół pasującej ścieżki.  Ponadto, jeśli cofniesz się, a następnie wywołasz uzupełnianie z wnętrza linii, tekst na prawo od kursora w miejscu wywołania uzupełniania jest odrzucany.  Znaki specjalne wymagające cudzysłowów to: 
+&lt;spacja> 
+&()[]{}^=;!'+,`~ 
+
+
+
+
+
+Ogólna lista poleceń CMD (polecenie HELP): 
+Aby uzyskać więcej informacji o określonym poleceniu, wpisz HELP nazwa-polecenia 
+ASSOC Wyświetla lub modyfikuje skojarzenia rozszerzeń plików. 
+ATTRIB Wyświetla lub zmienia atrybuty plików. 
+BREAK Ustawia lub czyści rozszerzone sprawdzanie klawiszy CTRL+C. 
+BCDEDIT Ustawia właściwości w bazie danych rozruchu w celu kontrolowania ładowania rozruchu. 
+CACLS Wyświetla lub modyfikuje listy kontroli dostępu (ACL) plików. 
+CALL Wywołuje jeden program wsadowy z innego. 
+CD Wyświetla nazwę bieżącego katalogu lub zmienia go. 
+CHCP Wyświetla lub ustawia numer aktywnej strony kodowej. 
+CHDIR Wyświetla nazwę bieżącego katalogu lub zmienia go. 
+CHKDSK Sprawdza dysk i wyświetla raport o jego stanie. 
+CHKNTFS Wyświetla lub modyfikuje sprawdzanie dysku podczas rozruchu. 
+CLS Czyści ekran. 
+CMD Uruchamia nową instancję interpretera poleceń systemu Windows. 
+COLOR Ustawia domyślne kolory pierwszego planu i tła konsoli. 
+COMP Porównuje zawartość dwóch plików lub zestawów plików. 
+COMPACT Wyświetla lub zmienia kompresję plików na partycjach NTFS. 
+CONVERT Konwertuje woluminy FAT na NTFS. 
+Nie można przekonwertować bieżącego dysku. 
+COPY Kopiuje jeden lub więcej plików do innej lokalizacji. 
+DATE Wyświetla lub ustawia datę. 
+DEL Usuwa jeden lub więcej plików. 
+DIR Wyświetla listę plików i podkatalogów w katalogu. 
+DISKPART Wyświetla lub konfiguruje właściwości partycji dysku. 
+DOSKEY Edytuje wiersze poleceń, przywołuje polecenia systemu Windows i tworzy makra. 
+DRIVERQUERY Wyświetla bieżący stan i właściwości sterowników urządzeń. 
+ECHO Wyświetla komunikaty lub włącza/wyłącza wyświetlanie poleceń. 
+ENDLOCAL Kończy lokalizację zmian środowiska w pliku wsadowym. 
+ERASE Usuwa jeden lub więcej plików. 
+EXIT Kończy program CMD.EXE (interpreter poleceń). 
+FC Porównuje dwa pliki lub zestawy plików i wyświetla różnice między nimi. 
+FIND Wyszukuje ciąg tekstowy w pliku lub plikach. 
+FINDSTR Wyszukuje ciągi znaków w plikach. 
+FOR Uruchamia określone polecenie dla każdego pliku w zestawie plików. 
+FORMAT Formatuje dysk do użytku z systemem Windows. 
+FSUTIL Wyświetla lub konfiguruje właściwości systemu plików. 
+FTYPE Wyświetla lub modyfikuje typy plików używane w skojarzeniach rozszerzeń plików. 
+GOTO Kieruje interpreter poleceń systemu Windows do oznaczonej etykietą linii w programie wsadowym. 
+GPRESULT Wyświetla informacje o zasadach grupy dla komputera lub użytkownika. 
+HELP Dostarcza informacji pomocniczych dla poleceń systemu Windows. 
+ICACLS Wyświetla, modyfikuje, tworzy kopie zapasowe lub przywraca listy ACL dla plików i katalogów. 
+IF Wykonuje warunkowe przetwarzanie w programach wsadowych. 
+LABEL Tworzy, zmienia lub usuwa etykietę woluminu dysku. 
+MD Tworzy katalog. 
+MKDIR Tworzy katalog. 
+MKLINK Tworzy dowiązania symboliczne i twarde dowiązania. 
+MODE Konfiguruje urządzenie systemowe. 
+MORE Wyświetla dane wyjściowe ekran po ekranie. 
+MOVE Przenosi jeden lub więcej plików z jednego katalogu do innego. 
+OPENFILES Wyświetla pliki otwarte przez zdalnych użytkowników dla udziału plików. 
+PATH Wyświetla lub ustawia ścieżkę wyszukiwania dla plików wykonywalnych. 
+PAUSE Wstrzymuje przetwarzanie pliku wsadowego i wyświetla komunikat. 
+POPD Przywraca poprzednią wartość bieżącego katalogu zapisaną przez PUSHD. 
+PRINT Drukuje plik tekstowy. 
+PROMPT Zmienia znak zachęty wiersza polecenia systemu Windows. 
+PUSHD Zapisuje bieżący katalog, a następnie go zmienia. 
+RD Usuwa katalog. 
+RECOVER Odzyskuje czytelne informacje z uszkodzonego lub wadliwego dysku. 
+REM Rejestruje komentarze (uwagi) w plikach wsadowych lub CONFIG.SYS. 
+REN Zmienia nazwę pliku lub plików. 
+RENAME Zmienia nazwę pliku lub plików. 
+REPLACE Zastępuje pliki. 
+RMDIR Usuwa katalog. 
+ROBOCOPY Zaawansowane narzędzie do kopiowania plików i drzew katalogów. 
+SET Wyświetla, ustawia lub usuwa zmienne środowiskowe systemu Windows. 
+SETLOCAL Rozpoczyna lokalizację zmian środowiska w pliku wsadowym. 
+SC Wyświetla lub konfiguruje usługi (procesy działające w tle). 
+SCHTASKS Planuje uruchamianie poleceń i programów na komputerze. 
+SHIFT Zmienia pozycję parametrów zastępowalnych w plikach wsadowych. 
+SHUTDOWN Umożliwia prawidłowe lokalne lub zdalne zamknięcie komputera. 
+SORT Sortuje dane wejściowe. 
+START Uruchamia oddzielne okno w celu uruchomienia określonego programu lub polecenia. 
+SUBST Kojarzy ścieżkę z literą dysku. 
+SYSTEMINFO Wyświetla właściwości i konfigurację specyficzne dla komputera. 
+TASKLIST Wyświetla wszystkie aktualnie uruchomione zadania, w tym usługi. 
+TASKKILL Zabija lub zatrzymuje uruchomiony proces lub aplikację. 
+TIME Wyświetla lub ustawia czas systemowy. 
+TITLE Ustawia tytuł okna dla sesji CMD.EXE. 
+TREE Graficznie wyświetla strukturę katalogów dysku lub ścieżki. 
+TYPE Wyświetla zawartość pliku tekstowego. 
+VER Wyświetla wersję systemu Windows. 
+VERIFY Informuje system Windows, czy ma weryfikować poprawność zapisu plików na dysku. 
+VOL Wyświetla etykietę woluminu dysku i numer seryjny. 
+XCOPY Kopiuje pliki i drzewa katalogów. 
+WMIC Wyświetla informacje WMI w interaktywnej powłoce poleceń. 
+Aby uzyskać więcej informacji o narzędziach, zobacz dokumentację wiersza polecenia w pomocy online. 
+
+
+
+
+
+Szczegółowa pomoc dla poszczególnych poleceń CMD: 
+--- Pomoc dla polecenia: ASSOC --- 
+
+Wyświetla lub modyfikuje skojarzenia rozszerzeń plików 
+
+ASSOC [.ext[=[typPliku]]] 
+
+.ext Określa rozszerzenie pliku do skojarzenia z typem pliku 
+typPliku Określa typ pliku do skojarzenia z rozszerzeniem pliku 
+
+Wpisz ASSOC bez parametrów, aby wyświetlić bieżące skojarzenia plików. 
+Jeśli ASSOC jest wywoływane tylko z rozszerzeniem pliku, wyświetla bieżące skojarzenie dla tego rozszerzenia pliku. 
+Nie podawaj niczego dla typu pliku, a polecenie usunie skojarzenie dla danego rozszerzenia pliku. 
+
+
+
+--- Pomoc dla polecenia: ATTRIB --- 
+
+Wyświetla lub zmienia atrybuty plików. 
+
+ATTRIB [+R | -R] [+A | -A] [+S | -S] [+H | -H] [+O | -O] [+I | -I] [+X | -X] [+P | -P] [+U | -U] 
+[dysk:][ścieżka][nazwa_pliku] [/S [/D]] [/L] 
+
+
+Ustawia atrybut. 
+<!-- end list -->
+
+Czyści atrybut.  R Atrybut pliku tylko do odczytu.  A Atrybut pliku archiwalnego.  S Atrybut pliku systemowego.  H Atrybut pliku ukrytego.  O Atrybut pliku offline.  I Atrybut pliku nieindeksowanego zawartościowo.  X Atrybut pliku bez czyszczenia (No scrub).  V Atrybut integralności.  P Atrybut przypięcia.  U Atrybut odpięcia.  B Atrybut obiektu blob SMR.  [dysk:][ścieżka][nazwa_pliku]  Określa plik lub pliki do przetworzenia przez attrib.  /S Przetwarza pasujące pliki w bieżącym folderze i wszystkich podfolderach.  /D Przetwarza również foldery.  /L Działa na atrybutach samego dowiązania symbolicznego zamiast na celu dowiązania symbolicznego. 
+
+
+
+
+--- Pomoc dla polecenia: BCDEDIT --- 
+
+BCDEDIT - Edytor magazynu danych konfiguracji rozruchu 
+
+Narzędzie wiersza poleceń Bcdedit.exe modyfikuje magazyn danych konfiguracji rozruchu. 
+Magazyn danych konfiguracji rozruchu zawiera parametry konfiguracji rozruchu i kontroluje sposób uruchamiania systemu operacyjnego. 
+Te parametry znajdowały się wcześniej w pliku Boot.ini (w systemach operacyjnych opartych na BIOS) lub we wpisach nieulotnej pamięci RAM (w systemach operacyjnych opartych na Extensible Firmware Interface).  Można użyć Bcdedit.exe do dodawania, usuwania, edytowania i dołączania wpisów w magazynie danych konfiguracji rozruchu. 
+Aby uzyskać szczegółowe informacje o poleceniach i opcjach, wpisz bcdedit.exe /? &lt;polecenie>.  Na przykład, aby wyświetlić szczegółowe informacje o poleceniu /createstore, wpisz: 
+
+
+
+
+
+ bcdedit.exe /? /createstore [cite: 225]
+Aby uzyskać alfabetyczną listę tematów w tym pliku pomocy, uruchom "bcdedit /? TOPICS". 
+
+Polecenia działające na magazynie 
+================================ 
+/store Służy do określenia magazynu BCD innego niż domyślny systemowy. 
+/createstore Tworzy nowy i pusty magazyn danych konfiguracji rozruchu. 
+/export Eksportuje zawartość magazynu systemowego do pliku.  Ten plik może być później użyty do przywrócenia stanu magazynu systemowego. 
+/import Przywraca stan magazynu systemowego za pomocą pliku kopii zapasowej utworzonego za pomocą polecenia /export. 
+/sysstore Ustawia urządzenie magazynu systemowego (dotyczy tylko systemów EFI, nie utrzymuje się po ponownym uruchomieniu i jest używane tylko w przypadkach, gdy urządzenie magazynu systemowego jest niejednoznaczne). 
+
+
+
+
+
+Polecenia działające na wpisach w magazynie 
+=========================================== 
+/copy Tworzy kopie wpisów w magazynie. 
+/create Tworzy nowe wpisy w magazynie. 
+/delete Usuwa wpisy z magazynu. 
+/mirror Tworzy lustrzane odbicie wpisów w magazynie. 
+
+
+
+
+Uruchom bcdedit /? ID, aby uzyskać informacje o identyfikatorach używanych przez te polecenia. 
+
+Polecenia działające na opcjach wpisów 
+====================================== 
+/deletevalue Usuwa opcje wpisów z magazynu. 
+/set Ustawia wartości opcji wpisów w magazynie. 
+Uruchom bcdedit /? TYPES, aby uzyskać listę typów danych używanych przez te polecenia. 
+Uruchom bcdedit /? FORMATS, aby uzyskać listę prawidłowych formatów danych. 
+
+
+
+
+Polecenia kontrolujące dane wyjściowe 
+============================ 
+/enum Wyświetla listę wpisów w magazynie. 
+/v Opcja wiersza poleceń, która wyświetla identyfikatory wpisów w całości, zamiast używać nazw dla dobrze znanych identyfikatorów.  Użyj /v samodzielnie jako polecenia, aby wyświetlić identyfikatory wpisów w całości dla typu AKTYWNE. 
+Uruchomienie samego "bcdedit" jest równoważne z uruchomieniem "bcdedit /enum ACTIVE". 
+
+
+
+
+Polecenia kontrolujące menedżera rozruchu 
+====================================== 
+/bootsequence Ustawia jednorazową sekwencję rozruchu dla menedżera rozruchu. 
+/default Ustawia domyślny wpis, którego użyje menedżer rozruchu. 
+/displayorder Ustawia kolejność, w jakiej menedżer rozruchu wyświetla menu wielokrotnego rozruchu. 
+/timeout Ustawia wartość limitu czasu menedżera rozruchu. 
+/toolsdisplayorder Ustawia kolejność, w jakiej menedżer rozruchu wyświetla menu narzędzi. 
+
+
+
+
+
+Polecenia kontrolujące usługi zarządzania awaryjnego dla aplikacji rozruchowej 
+========================================================================== 
+/bootems Włącza lub wyłącza usługi zarządzania awaryjnego dla aplikacji rozruchowej. 
+/ems Włącza lub wyłącza usługi zarządzania awaryjnego dla wpisu systemu operacyjnego. 
+/emssettings Ustawia globalne parametry usług zarządzania awaryjnego. 
+
+
+
+Polecenie kontrolujące debugowanie 
+============================== 
+/bootdebug Włącza lub wyłącza debugowanie rozruchu dla aplikacji rozruchowej. 
+/dbgsettings Ustawia globalne parametry debugera. 
+/debug Włącza lub wyłącza debugowanie jądra dla wpisu systemu operacyjnego. 
+/hypervisorsettings Ustawia parametry hypervisora. 
+
+
+
+Polecenie kontrolujące zdalne rejestrowanie zdarzeń 
+========================================= 
+/eventsettings Ustawia globalne parametry zdalnego rejestrowania zdarzeń. 
+/event Włącza lub wyłącza zdalne rejestrowanie zdarzeń dla wpisu systemu operacyjnego. 
+
+
+--- Pomoc dla polecenia: BREAK --- 
+
+Ustawia lub czyści rozszerzone sprawdzanie CTRL+C w systemie DOS 
+
+Jest to obecne dla zgodności z systemami DOS.  Nie ma wpływu w systemie Windows. 
+
+
+Jeśli rozszerzenia poleceń są włączone i system działa na platformie Windows, polecenie BREAK wprowadzi zakodowany na stałe punkt przerwania, jeśli jest debugowane przez debuger. 
+
+--- Pomoc dla polecenia: CACLS --- 
+
+UWAGA: Polecenie Cacls jest przestarzałe, proszę używać Icacls. 
+Wyświetla lub modyfikuje listy kontroli dostępu (ACL) plików 
+
+
+CACLS nazwa_pliku [/T] [/M] [/L] [/S[:SDDL]] [/E] [/C] [/G użytkownik:uprawnienia] 
+[/R użytkownik [...]] [/P użytkownik:uprawnienia [...]] [/D użytkownik [...]] 
+
+nazwa_pliku Wyświetla listy ACL. [cite: 258]
+/T Zmienia listy ACL określonych plików w bieżącym katalogu i wszystkich podkatalogach. [cite: 259]
+/L Działa na samym dowiązaniu symbolicznym zamiast na celu [cite: 260]
+/M Zmienia listy ACL woluminów zamontowanych w katalogu [cite: 260]
+/S Wyświetla ciąg SDDL dla listy DACL. [cite: 260]
+/S:SDDL Zastępuje listy ACL tymi określonymi w ciągu SDDL (nieprawidłowe z /E, /G, /R, /P lub /D). [cite: 261]
+/E Edytuje listę ACL zamiast ją zastępować. [cite: 262]
+/C Kontynuuje pomimo błędów odmowy dostępu. [cite: 263]
+/G użytkownik:uprawnienia Nadaje określonemu użytkownikowi prawa dostępu. [cite: 264]
+              Uprawnienia mogą być: R Odczyt [cite: 264]
+                           W Zapis [cite: 264]
+                           C Zmiana (zapis) [cite: 264]
+                           F Pełna kontrola [cite: 265]
+/R użytkownik Odwołuje prawa dostępu określonego użytkownika (prawidłowe tylko z /E). [cite: 265]
+/P użytkownik:uprawnienia Zastępuje prawa dostępu określonego użytkownika. [cite: 266]
+              Uprawnienia mogą być: N Brak [cite: 266]
+                           R Odczyt [cite: 266]
+                           W Zapis [cite: 266]
+                           C Zmiana (zapis) [cite: 267]
+                           F Pełna kontrola [cite: 267]
+/D użytkownik Odmawia określonemu użytkownikowi dostępu. [cite: 267]
+Symboli wieloznacznych można używać do określania więcej niż jednego pliku w poleceniu. 
+Można określić więcej niż jednego użytkownika w poleceniu. 
+
+
+Skróty: 
+CI - Dziedziczenie przez kontener (Container Inherit).  Wpis ACE będzie dziedziczony przez katalogi. 
+OI - Dziedziczenie przez obiekt (Object Inherit).  Wpis ACE będzie dziedziczony przez pliki. 
+IO - Tylko dziedziczenie (Inherit Only).  Wpis ACE nie dotyczy bieżącego pliku/katalogu. 
+ID - Dziedziczony (Inherited).  Wpis ACE został odziedziczony z listy ACL katalogu nadrzędnego. 
+
+
+
+
+--- Pomoc dla polecenia: CALL --- 
+
+Wywołuje jeden program wsadowy z innego. 
+CALL [dysk:][ścieżka]nazwa_pliku [parametry-wsadowe] 
+
+
+parametry-wsadowe Określa wszelkie informacje wiersza poleceń wymagane przez program wsadowy. 
+
+Jeśli rozszerzenia poleceń są włączone, CALL zmienia się następująco: 
+
+Polecenie CALL akceptuje teraz etykiety jako cel wywołania CALL.  Składnia to: 
+
+
+CALL :etykieta argumenty [cite: 275]
+Tworzony jest nowy kontekst pliku wsadowego z określonymi argumentami, a sterowanie jest przekazywane do instrukcji po określonej etykiecie.  Musisz "wyjść" dwukrotnie, docierając dwukrotnie do końca pliku skryptu wsadowego.  Za pierwszym razem, gdy odczytasz koniec, sterowanie powróci tuż za instrukcję CALL.  Drugi raz zakończy działanie skryptu wsadowego.  Wpisz GOTO /?  aby uzyskać opis rozszerzenia GOTO :EOF, które pozwoli Ci "powrócić" ze skryptu wsadowego. 
+
+
+
+
+
+Ponadto, rozwijanie odwołań do argumentów skryptu wsadowego (%0, %1, itd.) zostało zmienione w następujący sposób: 
+
+%* w skrypcie wsadowym odnosi się do wszystkich argumentów (np. %1 %2 %3 %4 %5 ...) [cite: 280]
+
+Zastępowanie parametrów wsadowych (%n) zostało rozszerzone. [cite: 280] Możesz teraz używać następującej opcjonalnej składni: [cite: 281]
+
+    %~1         - rozwija %1 usuwając wszelkie otaczające cudzysłowy (") [cite: 281]
+    %~f1        - rozwija %1 do w pełni kwalifikowanej nazwy ścieżki [cite: 281]
+    %~d1        - rozwija %1 tylko do litery dysku [cite: 281]
+    %~p1        - rozwija %1 tylko do ścieżki [cite: 282]
+    %~n1        - rozwija %1 tylko do nazwy pliku [cite: 282]
+    %~x1        - rozwija %1 tylko do rozszerzenia pliku [cite: 282]
+    %~s1        - rozwinięta ścieżka zawiera tylko krótkie nazwy [cite: 282]
+    %~a1        - rozwija %1 do atrybutów pliku [cite: 282]
+    %~t1        - rozwija %1 do daty/godziny pliku [cite: 283]
+    %~z1        - rozwija %1 do rozmiaru pliku [cite: 283]
+    %~$PATH:1   - przeszukuje katalogi wymienione w zmiennej środowiskowej PATH i rozwija %1 do w pełni kwalifikowanej nazwy pierwszego znalezionego. [cite: 284] Jeśli nazwa zmiennej środowiskowej nie jest zdefiniowana lub plik nie zostanie znaleziony przez wyszukiwanie, ten modyfikator rozwija się do pustego ciągu. [cite: 285]
+
+Modyfikatory można łączyć w celu uzyskania wyników złożonych: [cite: 285]
+
+    %~dp1       - rozwija %1 tylko do litery dysku i ścieżki [cite: 285]
+    %~nx1       - rozwija %1 tylko do nazwy pliku i rozszerzenia [cite: 285]
+    %~dp$PATH:1 - przeszukuje katalogi wymienione w zmiennej środowiskowej PATH w poszukiwaniu %1 i rozwija do litery dysku i ścieżki pierwszego znalezionego. [cite: 286]
+    %~ftza1     - rozwija %1 do linii wyjściowej podobnej do tej z polecenia DIR [cite: 287]
+
+W powyższych przykładach %1 i PATH można zastąpić innymi prawidłowymi wartościami. [cite: 287] Składnia %~ jest zakończona prawidłowym numerem argumentu. [cite: 288] Modyfikatory %~ nie mogą być używane z %* [cite: 289]
+--- Pomoc dla polecenia: CD --- 
+
+Wyświetla nazwę bieżącego katalogu lub zmienia go. 
+CHDIR [/D] [dysk:][ścieżka] 
+CHDIR [..] 
+CD [/D] [dysk:][ścieżka] 
+CD [..] 
+
+
+.. Określa, że chcesz przejść do katalogu nadrzędnego. 
+Wpisz CD dysk:, aby wyświetlić bieżący katalog na określonym dysku. 
+Wpisz CD bez parametrów, aby wyświetlić bieżący dysk i katalog. 
+Użyj przełącznika /D, aby zmienić bieżący dysk oprócz zmiany bieżącego katalogu dla dysku. 
+
+
+
+
+Jeśli rozszerzenia poleceń są włączone, CHDIR zmienia się następująco: 
+
+Ciąg bieżącego katalogu jest konwertowany tak, aby używał tej samej wielkości liter, co nazwy na dysku.  Więc CD C:\TEMP faktycznie ustawi bieżący katalog na C:\Temp, jeśli taka jest wielkość liter na dysku. 
+Polecenie CHDIR nie traktuje spacji jako separatorów, więc możliwe jest przejście CD do nazwy podkatalogu zawierającej spację bez otaczania nazwy cudzysłowami.  Na przykład: 
+
+
+
+
+cd \winnt\profiles\username\programs\start menu [cite: 297]
+jest tym samym co: 
+
+cd "\winnt\profiles\username\programs\start menu" [cite: 297]
+co musiałbyś wpisać, gdyby rozszerzenia były wyłączone. 
+
+--- Pomoc dla polecenia: CHCP --- 
+
+Wyświetla lub ustawia numer aktywnej strony kodowej. 
+CHCP [nnn] 
+
+
+nnn Określa numer strony kodowej. 
+Wpisz CHCP bez parametru, aby wyświetlić numer aktywnej strony kodowej. 
+
+
+--- Pomoc dla polecenia: CHDIR --- 
+
+Wyświetla nazwę bieżącego katalogu lub zmienia go. 
+CHDIR [/D] [dysk:][ścieżka] 
+CHDIR [..] 
+CD [/D] [dysk:][ścieżka] 
+CD [..] 
+
+
+.. Określa, że chcesz przejść do katalogu nadrzędnego. 
+Wpisz CD dysk:, aby wyświetlić bieżący katalog na określonym dysku. 
+Wpisz CD bez parametrów, aby wyświetlić bieżący dysk i katalog. 
+Użyj przełącznika /D, aby zmienić bieżący dysk oprócz zmiany bieżącego katalogu dla dysku. 
+
+
+
+
+Jeśli rozszerzenia poleceń są włączone, CHDIR zmienia się następująco: 
+
+Ciąg bieżącego katalogu jest konwertowany tak, aby używał tej samej wielkości liter, co nazwy na dysku.  Więc CD C:\TEMP faktycznie ustawi bieżący katalog na C:\Temp, jeśli taka jest wielkość liter na dysku. 
+Polecenie CHDIR nie traktuje spacji jako separatorów, więc możliwe jest przejście CD do nazwy podkatalogu zawierającej spację bez otaczania nazwy cudzysłowami.  Na przykład: 
+
+
+
+
+cd \winnt\profiles\username\programs\start menu [cite: 309]
+jest tym samym co: 
+
+cd "\winnt\profiles\username\programs\start menu" [cite: 309]
+
+
+
+co musiałbyś wpisać, gdyby rozszerzenia były wyłączone. 
+... (kontynuacja tłumaczenia dla pozostałych poleceń) ...
+
+Uwaga: Ze względu na bardzo dużą objętość tekstu (ponad 1200 linii źródłowych), przetłumaczenie całości w jednej odpowiedzi przekroczyłoby limit znaków. Powyżej znajduje się początek tłumaczenia obu plików. Jeśli potrzebujesz tłumaczenia konkretnych fragmentów lub poleceń z dalszej części, daj znać.
+
+Kluczowe elementy tłumaczenia dla dalszych części będą obejmować:
+
+Tłumaczenie opisów poleceń i ich parametrów.
+Zachowanie składni poleceń w oryginale.
+Tłumaczenie przykładów i dodatkowych uwag.
+Zachowanie polskich nagłówków, które już istnieją w pliku cmd_pelna_pomoc.txt.
+Zwrócenie uwagi na specjalistyczne terminy i ich polskie odpowiedniki (np. "symbolic link" -> "dowiązanie symboliczne", "environment variable" -> "zmienna środowiskowa", "access control list (ACL)" -> "lista kontroli dostępu (ACL)").
+W przypadku polecenia FOR, które ma bardzo rozbudowaną pomoc, tłumaczenie będzie wymagało szczególnej precyzji.
+--- Pomoc dla polecenia: CHKDSK ---
+
+Sprawdza dysk i wyświetla raport o jego stanie.
+CHKDSK [wolumin[[ścieżka]nazwa_pliku]]] [/F] [/V] [/R] [/X] [/I] [/C] [/L[:rozmiar]] [/B] [/scan] [/spotfix]
+
+wolumin Określa literę dysku (zakończoną dwukropkiem), punkt instalacji lub nazwę woluminu.
+nazwa_pliku Tylko FAT/FAT32: Określa pliki do sprawdzenia pod kątem fragmentacji.
+/F Naprawia błędy na dysku.
+/V Na FAT/FAT32: Wyświetla pełną ścieżkę i nazwę każdego pliku na dysku.
+Na NTFS: Wyświetla komunikaty o oczyszczaniu, jeśli istnieją.
+/R Lokalizuje uszkodzone sektory i odzyskuje czytelne informacje (implikuje /F, gdy /scan nie jest określony).
+/L:rozmiar Tylko NTFS: Zmienia rozmiar pliku dziennika na określoną liczbę kilobajtów. Jeśli rozmiar nie jest określony, wyświetla bieżący rozmiar.
+/X Wymusza odmontowanie woluminu, jeśli jest to konieczne. Wszystkie otwarte dojścia do woluminu staną się wtedy nieprawidłowe (implikuje /F).
+/I Tylko NTFS: Wykonuje mniej intensywne sprawdzanie wpisów indeksu.
+/C Tylko NTFS: Pomija sprawdzanie cykli w strukturze folderów.
+/B Tylko NTFS: Ponownie ocenia uszkodzone klastry na woluminie (implikuje /R).
+/scan Tylko NTFS: Uruchamia skanowanie online na woluminie.
+/forceofflinefix Tylko NTFS: (Musi być używany z "/scan") Omija wszystkie naprawy online; wszystkie znalezione wady są kolejkowane do naprawy offline (tj. "chkdsk /spotfix").
+/perf Tylko NTFS: (Musi być używany z "/scan") Używa więcej zasobów systemowych, aby zakończyć skanowanie tak szybko, jak to możliwe. Może to mieć negatywny wpływ na wydajność innych zadań uruchomionych w systemie.
+/spotfix Tylko NTFS: Uruchamia naprawę punktową na woluminie.
+/sdcleanup Tylko NTFS: Usuwa zbędne dane deskryptora zabezpieczeń (implikuje /F).
+/offlinescanandfix Uruchamia skanowanie i naprawę offline na woluminie.
+/freeorphanedchains Tylko FAT/FAT32/exFAT: Uwalnia wszelkie osierocone łańcuchy klastrów zamiast odzyskiwać ich zawartość.
+/markclean Tylko FAT/FAT32/exFAT: Oznacza wolumin jako czysty, jeśli nie wykryto uszkodzeń, nawet jeśli nie określono /F.
+
+Przełącznik /I lub /C skraca czas potrzebny na uruchomienie programu Chkdsk, pomijając niektóre sprawdzenia woluminu.
+
+--- Pomoc dla polecenia: CHKNTFS ---
+
+Wyświetla lub modyfikuje sprawdzanie dysku podczas rozruchu.
+CHKNTFS wolumin [...]
+CHKNTFS /D
+CHKNTFS /T[:czas]
+CHKNTFS /X wolumin [...]
+CHKNTFS /C wolumin [...]
+
+wolumin Określa literę dysku (zakończoną dwukropkiem), punkt instalacji lub nazwę woluminu.
+/D Przywraca domyślne zachowanie komputera; wszystkie dyski są sprawdzane podczas rozruchu, a program chkdsk jest uruchamiany na tych, które są "brudne".
+/T:czas Zmienia czas odliczania inicjacji AUTOCHK na określoną liczbę sekund. Jeśli czas nie jest określony, wyświetla bieżące ustawienie.
+/X Wyklucza dysk z domyślnego sprawdzania podczas rozruchu. Wykluczone dyski nie są kumulowane między wywołaniami polecenia.
+/C Planuje sprawdzenie dysku podczas rozruchu; program chkdsk zostanie uruchomiony, jeśli dysk jest "brudny".
+
+Jeśli nie określono żadnych przełączników, CHKNTFS wyświetli, czy określony dysk jest "brudny" lub zaplanowany do sprawdzenia przy następnym ponownym uruchomieniu.
+
+--- Pomoc dla polecenia: CLS ---
+
+Czyści ekran.
+
+CLS
+
+--- Pomoc dla polecenia: CMD ---
+
+Uruchamia nową instancję interpretera poleceń systemu Windows
+
+CMD [/A | /U] [/Q] [/D] [/E:ON | /E:OFF] [/F:ON | /F:OFF] [/V:ON | /V:OFF]
+[[/S] [/C | /K] ciąg]
+
+/C Wykonuje polecenie określone przez ciąg, a następnie kończy działanie
+/K Wykonuje polecenie określone przez ciąg, ale pozostaje
+/S Modyfikuje przetwarzanie ciągu po /C lub /K (zobacz poniżej)
+/Q Wyłącza echo
+/D Wyłącza wykonywanie poleceń AutoRun z rejestru (zobacz poniżej)
+/A Powoduje, że dane wyjściowe poleceń wewnętrznych do potoku lub pliku są w formacie ANSI
+/U Powoduje, że dane wyjściowe poleceń wewnętrznych do potoku lub pliku są w formacie Unicode
+/T:fg Ustawia kolory pierwszego planu/tła (zobacz COLOR /? po więcej informacji)
+/E:ON Włącza rozszerzenia poleceń (zobacz poniżej)
+/E:OFF Wyłącza rozszerzenia poleceń (zobacz poniżej)
+/F:ON Włącza znaki uzupełniania nazw plików i katalogów (zobacz poniżej)
+/F:OFF Wyłącza znaki uzupełniania nazw plików i katalogów (zobacz poniżej)
+/V:ON Włącza opóźnione rozwijanie zmiennych środowiskowych przy użyciu ! jako ogranicznika. Na przykład, /V:ON pozwoliłoby !var! na rozwinięcie zmiennej var w czasie wykonywania. Składnia var rozwija zmienne w czasie wprowadzania, co jest zupełnie inną rzeczą wewnątrz pętli FOR.
+/V:OFF Wyłącza opóźnione rozwijanie zmiennych środowiskowych.
+
+Zauważ, że wiele poleceń oddzielonych separatorem poleceń '&&' jest akceptowanych dla ciągu, jeśli są ujęte w cudzysłów. Również, ze względów kompatybilności, /X jest tym samym co /E:ON, /Y jest tym samym co /E:OFF, a /R jest tym samym co /C. Wszelkie inne przełączniki są ignorowane.
+
+Jeśli podano /C lub /K, reszta wiersza poleceń po przełączniku jest przetwarzana jako wiersz poleceń, gdzie do przetwarzania znaków cudzysłowu (") używana jest następująca logika:
+
+1. Jeśli spełnione są wszystkie poniższe warunki, znaki cudzysłowu w wierszu poleceń są zachowywane:
+
+    - brak przełącznika /S
+    - dokładnie dwa znaki cudzysłowu
+    - brak znaków specjalnych między dwoma znakami cudzysłowu, gdzie znakiem specjalnym jest jeden z: &<>()@^|
+    - między dwoma znakami cudzysłowu znajduje się jeden lub więcej białych znaków
+    - ciąg między dwoma znakami cudzysłowu jest nazwą pliku wykonywalnego.
+
+2. W przeciwnym razie, stare zachowanie polega na sprawdzeniu, czy pierwszy znak jest znakiem cudzysłowu, a jeśli tak, usunięciu znaku wiodącego i usunięciu ostatniego znaku cudzysłowu w wierszu poleceń, zachowując tekst po ostatnim znaku cudzysłowu.
+Jeśli /D NIE został określony w wierszu poleceń, to po uruchomieniu CMD.EXE szuka następujących zmiennych rejestru REG_SZ/REG_EXPAND_SZ, a jeśli jedna lub obie są obecne, są one wykonywane jako pierwsze.
+HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\AutoRun
+
+    i/lub
+
+HKEY_CURRENT_USER\Software\Microsoft\Command Processor\AutoRun
+Rozszerzenia poleceń są domyślnie włączone. Możesz również wyłączyć rozszerzenia dla określonego wywołania za pomocą przełącznika /E:OFF. Możesz włączyć lub wyłączyć rozszerzenia dla wszystkich wywołań CMD.EXE na komputerze i/lub sesji logowania użytkownika, ustawiając jedną lub obie z następujących wartości REG_DWORD w rejestrze za pomocą REGEDIT.EXE:
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\EnableExtensions
+
+    i/lub
+
+HKEY_CURRENT_USER\Software\Microsoft\Command Processor\EnableExtensions
+na 0x1 lub 0x0. Ustawienie specyficzne dla użytkownika ma pierwszeństwo przed ustawieniem komputera. Przełączniki wiersza poleceń mają pierwszeństwo przed ustawieniami rejestru. W pliku wsadowym argumenty SETLOCAL ENABLEEXTENSIONS lub DISABLEEXTENSIONS mają pierwszeństwo przed przełącznikiem /E:ON lub /E:OFF. Zobacz SETLOCAL /? po szczegóły.
+
+Rozszerzenia poleceń obejmują zmiany i/lub dodatki do następujących poleceń:
+
+DEL lub ERASE
+COLOR
+CD lub CHDIR
+MD lub MKDIR
+PROMPT
+PUSHD
+POPD
+SET
+SETLOCAL
+ENDLOCAL
+IF
+FOR
+CALL
+SHIFT
+GOTO
+START (obejmuje również zmiany w wywoływaniu poleceń zewnętrznych)
+ASSOC
+FTYPE
+Aby uzyskać szczegółowe informacje, wpisz nazwa-polecenia /? aby wyświetlić szczegóły.
+
+Opóźnione rozwijanie zmiennych środowiskowych NIE jest domyślnie włączone. Możesz włączyć lub wyłączyć opóźnione rozwijanie zmiennych środowiskowych dla określonego wywołania CMD.EXE za pomocą przełącznika /V:ON lub /V:OFF. Możesz włączyć lub wyłączyć opóźnione rozwijanie dla wszystkich wywołań CMD.EXE na komputerze i/lub sesji logowania użytkownika, ustawiając jedną lub obie z następujących wartości REG_DWORD w rejestrze za pomocą REGEDIT.EXE:
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\DelayedExpansion
+
+    i/lub
+
+HKEY_CURRENT_USER\Software\Microsoft\Command Processor\DelayedExpansion
+na 0x1 lub 0x0. Ustawienie specyficzne dla użytkownika ma pierwszeństwo przed ustawieniem komputera. Przełączniki wiersza poleceń mają pierwszeństwo przed ustawieniami rejestru. W pliku wsadowym argumenty SETLOCAL ENABLEDELAYEDEXPANSION lub DISABLEDELAYEDEXPANSION mają pierwszeństwo przed przełącznikiem /V:ON lub /V:OFF. Zobacz SETLOCAL /? po szczegóły.
+
+Jeśli opóźnione rozwijanie zmiennych środowiskowych jest włączone, można użyć znaku wykrzyknika do podstawienia wartości zmiennej środowiskowej w czasie wykonywania. Możesz włączyć lub wyłączyć uzupełnianie nazw plików dla określonego wywołania CMD.EXE za pomocą przełącznika /F:ON lub /F:OFF. Możesz włączyć lub wyłączyć uzupełnianie dla wszystkich wywołań CMD.EXE na komputerze i/lub sesji logowania użytkownika, ustawiając jedną lub obie z następujących wartości REG_DWORD w rejestrze za pomocą REGEDIT.EXE:
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\CompletionChar
+HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\PathCompletionChar
+
+    i/lub
+
+HKEY_CURRENT_USER\Software\Microsoft\Command Processor\CompletionChar
+HKEY_CURRENT_USER\Software\Microsoft\Command Processor\PathCompletionChar
+z wartością szesnastkową znaku sterującego do użycia dla określonej funkcji (np. 0x4 to Ctrl-D, a 0x6 to Ctrl-F). Ustawienia specyficzne dla użytkownika mają pierwszeństwo przed ustawieniami komputera. Przełączniki wiersza poleceń mają pierwszeństwo przed ustawieniami rejestru. Jeśli uzupełnianie jest włączone przełącznikiem /F:ON, używane są dwa znaki sterujące: Ctrl-D do uzupełniania nazw katalogów i Ctrl-F do uzupełniania nazw plików. Aby wyłączyć określony znak uzupełniania w rejestrze, użyj wartości dla spacji (0x20), ponieważ nie jest to prawidłowy znak sterujący. Uzupełnianie jest wywoływane po wpisaniu jednego z dwóch znaków sterujących. Funkcja uzupełniania pobiera ciąg ścieżki na lewo od kursora, dołącza do niego znak wieloznaczny, jeśli go tam nie ma, i tworzy listę pasujących ścieżek. Następnie wyświetla pierwszą pasującą ścieżkę. Jeśli żadna ścieżka nie pasuje, emituje sygnał dźwiękowy i pozostawia wyświetlacz bez zmian. Następnie, wielokrotne naciskanie tego samego znaku sterującego powoduje przechodzenie przez listę pasujących ścieżek. Naciśnięcie klawisza Shift wraz ze znakiem sterującym powoduje przechodzenie przez listę wstecz. Jeśli w jakikolwiek sposób edytujesz linię i ponownie naciśniesz znak sterujący, zapisana lista pasujących ścieżek jest odrzucana i generowana jest nowa. To samo dzieje się, gdy przełączasz się między uzupełnianiem nazw plików i katalogów. Jedyna różnica między tymi dwoma znakami sterującymi polega na tym, że znak uzupełniania plików dopasowuje zarówno nazwy plików, jak i katalogów, podczas gdy znak uzupełniania katalogów dopasowuje tylko nazwy katalogów. Jeśli uzupełnianie plików jest używane w którymkolwiek z wbudowanych poleceń katalogowych (CD, MD lub RD), zakłada się uzupełnianie katalogów. Kod uzupełniania poprawnie obsługuje nazwy plików zawierające spacje lub inne znaki specjalne, umieszczając cudzysłowy wokół pasującej ścieżki. Ponadto, jeśli cofniesz się, a następnie wywołasz uzupełnianie z wnętrza linii, tekst na prawo od kursora w miejscu wywołania uzupełniania jest odrzucany. Znaki specjalne wymagające cudzysłowów to:
+&lt;spacja>
+&()[]{}^=;!'+,`~
+
+--- Pomoc dla polecenia: COLOR ---
+
+Ustawia domyślne kolory pierwszego planu i tła konsoli.
+COLOR [atrybut]
+
+atrybut Określa atrybut koloru danych wyjściowych konsoli
+
+Atrybuty koloru są określane przez DWIE cyfry szesnastkowe -- pierwsza odpowiada tłu; druga pierwszemu planowi. Każda cyfra może być jedną z następujących wartości:
+
+0 = Czarny 8 = Szary
+1 = Niebieski 9 = Jasnoniebieski
+2 = Zielony A = Jasnozielony
+3 = Turkusowy B = Jasnoturkusowy
+4 = Czerwony C = Jasnoczerwony
+5 = Fioletowy D = Jasnofioletowy
+6 = Żółty E = Jasnożółty
+7 = Biały F = Jaskrawobiały
+Jeśli nie podano argumentu, to polecenie przywraca kolor, jaki był podczas uruchamiania CMD.EXE. Ta wartość pochodzi albo z bieżącego okna konsoli, przełącznika wiersza poleceń /T, albo z wartości rejestru DefaultColor.
+Polecenie COLOR ustawia ERRORLEVEL na 1, jeśli podjęto próbę wykonania polecenia COLOR z takim samym kolorem pierwszego planu i tła.
+Przykład: "COLOR fc" tworzy jasnoczerwony na jaskrawobiałym
+
+--- Pomoc dla polecenia: COMP ---
+
+Porównuje zawartość dwóch plików lub zestawów plików.
+COMP [dane1] [dane2] [/D] [/A] [/L] [/N=liczba] [/C] [/OFF[LINE]] [/M]
+
+dane1 Określa lokalizację i nazwę(y) pierwszego pliku(ów) do porównania.
+dane2 Określa lokalizację i nazwę(y) drugiego pliku(ów) do porównania.
+/D Wyświetla różnice w formacie dziesiętnym.
+/A Wyświetla różnice w znakach ASCII.
+/L Wyświetla numery wierszy dla różnic.
+/N=liczba Porównuje tylko określoną pierwszą liczbę wierszy w każdym pliku.
+/C Ignoruje wielkość liter ASCII podczas porównywania plików.
+/OFF[LINE] Nie pomija plików z ustawionym atrybutem offline.
+/M Nie monituje o porównanie większej liczby plików.
+Aby porównać zestawy plików, użyj symboli wieloznacznych w parametrach dane1 i dane2.
+
+--- Pomoc dla polecenia: COMPACT ---
+
+Wyświetla lub zmienia kompresję plików na partycjach NTFS.
+
+COMPACT [/C | /U] [/S[:katalog]] [/A] [/I] [/F] [/Q] [/EXE[:algorytm]]
+[/CompactOs[:opcja] [/WinDir:katalog]] [nazwa_pliku [...]]
+
+/C Kompresuje określone pliki. Katalogi zostaną oznaczone tak, aby pliki dodane później były kompresowane, chyba że określono /EXE.
+/U Dekompresuje określone pliki. Katalogi zostaną oznaczone tak, aby pliki dodane później nie były kompresowane. Jeśli określono /EXE, dekompresowane będą tylko pliki skompresowane jako wykonywalne; jeśli to pominięto, dekompresowane będą tylko pliki skompresowane przez NTFS.
+/S Wykonuje określoną operację na plikach w danym katalogu i wszystkich podkatalogach. Domyślny "katalog" to bieżący katalog.
+/A Wyświetla pliki z atrybutami ukrytymi lub systemowymi. Te pliki są domyślnie pomijane.
+/I Kontynuuje wykonywanie określonej operacji nawet po wystąpieniu błędów. Domyślnie COMPACT zatrzymuje się po napotkaniu błędu.
+/F Wymusza operację kompresji na wszystkich określonych plikach, nawet tych, które są już skompresowane. Już skompresowane pliki są domyślnie pomijane.
+/Q Raportuje tylko najważniejsze informacje.
+/EXE Użyj kompresji zoptymalizowanej dla plików wykonywalnych, które są często odczytywane i nie modyfikowane. Obsługiwane algorytmy to:
+XPRESS4K (najszybszy) (domyślny)
+XPRESS8K
+XPRESS16K
+LZX (najbardziej kompaktowy)
+/CompactOs Ustawia lub odpytuje stan kompresji systemu. Obsługiwane opcje to:
+query - Odpytuje stan Compact systemu.
+always - Kompresuje wszystkie pliki binarne systemu operacyjnego i ustawia stan systemu na Compact, który pozostaje, chyba że administrator go zmieni.
+never - Dekompresuje wszystkie pliki binarne systemu operacyjnego i ustawia stan systemu na nie-Compact, który pozostaje, chyba że administrator go zmieni.
+/WinDir Używane z /CompactOs:query, podczas odpytywania systemu operacyjnego offline. Określa katalog, w którym zainstalowany jest system Windows.
+nazwa_pliku Określa wzorzec, plik lub katalog.
+
+Użyty bez parametrów, COMPACT wyświetla stan kompresji bieżącego katalogu i wszystkich plików, które zawiera. Możesz użyć wielu nazw plików i symboli wieloznacznych. Musisz umieścić spacje między wieloma parametrami.
+
+--- Pomoc dla polecenia: CONVERT ---
+
+Konwertuje wolumin FAT na NTFS.
+CONVERT wolumin /FS:NTFS [/V] [/CvtArea:nazwa_pliku] [/NoSecurity] [/X]
+
+wolumin Określa literę dysku (zakończoną dwukropkiem), punkt instalacji lub nazwę woluminu.
+/FS:NTFS Określa, że wolumin zostanie przekonwertowany na NTFS.
+/V Określa, że Convert zostanie uruchomiony w trybie szczegółowym.
+/CvtArea:nazwa_pliku Określa ciągły plik w katalogu głównym, który będzie miejscem przechowywania plików systemowych NTFS.
+/NoSecurity Określa, że ustawienia zabezpieczeń na przekonwertowanych plikach i katalogach pozwalają na dostęp wszystkim użytkownikom.
+/X Wymusza odmontowanie woluminu, jeśli jest to konieczne. Wszystkie otwarte dojścia do woluminu nie będą prawidłowe.
+
+--- Pomoc dla polecenia: COPY ---
+
+Kopiuje jeden lub więcej plików do innej lokalizacji.
+
+COPY [/D] [/V] [/N] [/Y | /-Y] [/Z] [/L] [/A | /B ] źródło [/A | /B]
+[+ źródło [/A | /B] [+ ...]] [miejsce_docelowe [/A | /B]]
+
+źródło Określa plik lub pliki do skopiowania.
+/A Wskazuje plik tekstowy ASCII.
+/B Wskazuje plik binarny.
+/D Zezwól na utworzenie pliku docelowego w postaci odszyfrowanej
+miejsce_docelowe Określa katalog i/lub nazwę pliku dla nowego pliku(ów).
+/V Weryfikuje, czy nowe pliki są zapisywane poprawnie.
+/N Używa krótkiej nazwy pliku, jeśli jest dostępna, podczas kopiowania pliku o nazwie innej niż 8dot3.
+/Y Pomija monit o potwierdzenie chęci nadpisania istniejącego pliku docelowego.
+/-Y Powoduje monit o potwierdzenie chęci nadpisania istniejącego pliku docelowego.
+/Z Kopiuje pliki sieciowe w trybie umożliwiającym wznowienie.
+/L Jeśli źródło jest dowiązaniem symbolicznym, kopiuje dowiązanie do celu zamiast rzeczywistego pliku, na który wskazuje dowiązanie źródłowe.
+
+Przełącznik /Y może być ustawiony w zmiennej środowiskowej COPYCMD. Może to zostać nadpisane za pomocą /-Y w wierszu poleceń. Domyślnie monituje się o nadpisanie, chyba że polecenie COPY jest wykonywane z wnętrza skryptu wsadowego.
+Aby dołączyć pliki, określ pojedynczy plik jako miejsce docelowe, ale wiele plików jako źródło (używając symboli wieloznacznych lub formatu plik1+plik2+plik3).
+
+--- Pomoc dla polecenia: correctly ---
+
+To polecenie nie jest obsługiwane przez narzędzie pomocy. Spróbuj "correctly /?".
+
+--- Pomoc dla polecenia: creates ---
+
+To polecenie nie jest obsługiwane przez narzędzie pomocy. Spróbuj "creates /?".
+
+--- Pomoc dla polecenia: current ---
+
+To polecenie nie jest obsługiwane przez narzędzie pomocy. Spróbuj "current /?".
+
+--- Pomoc dla polecenia: DATE ---
+
+Wyświetla lub ustawia datę.
+
+DATE [/T | data]
+
+Wpisz DATE bez parametrów, aby wyświetlić bieżące ustawienie daty i monit o nowe. Naciśnij ENTER, aby zachować tę samą datę.
+
+Jeśli rozszerzenia poleceń są włączone, polecenie DATE obsługuje przełącznik /T, który nakazuje poleceniu jedynie wyświetlenie bieżącej daty, bez monitowania o nową datę.
+
+--- Pomoc dla polecenia: DEL ---
+
+Usuwa jeden lub więcej plików.
+DEL [/P] [/F] [/S] [/Q] [/A[[:]atrybuty]] nazwy
+ERASE [/P] [/F] [/S] [/Q] [/A[[:]atrybuty]] nazwy
+
+nazwy Określa listę jednego lub więcej plików lub katalogów. Symbole wieloznaczne mogą być używane do usuwania wielu plików. Jeśli określono katalog, wszystkie pliki w katalogu zostaną usunięte.
+/P Monituje o potwierdzenie przed usunięciem każdego pliku.
+/F Wymusza usuwanie plików tylko do odczytu.
+/S Usuwa określone pliki ze wszystkich podkatalogów.
+/Q Tryb cichy, nie pyta, czy na pewno usunąć przy globalnym symbolu wieloznacznym
+/A Wybiera pliki do usunięcia na podstawie atrybutów
+atrybuty R Pliki tylko do odczytu S Pliki systemowe
+H Pliki ukryte A Pliki gotowe do archiwizacji
+I Pliki nieindeksowane zawartościowo L Punkty ponownej analizy
+O Pliki offline - Prefiks oznaczający "nie"
+
+Jeśli rozszerzenia poleceń są włączone, DEL i ERASE zmieniają się następująco:
+
+Semantyka wyświetlania przełącznika /S jest odwrócona, tzn. pokazuje tylko usunięte pliki, a nie te, których nie można było znaleźć.
+
+--- Pomoc dla polecenia: differences ---
+
+To polecenie nie jest obsługiwane przez narzędzie pomocy. Spróbuj "differences /?".
+
+--- Pomoc dla polecenia: DIR ---
+
+Wyświetla listę plików i podkatalogów w katalogu.
+DIR [dysk:][ścieżka][nazwa_pliku] [/A[[:]atrybuty]] [/B] [/C] [/D] [/L] [/N]
+[/O[[:]kolejność_sortowania]] [/P] [/Q] [/R] [/S] [/T[[:]pole_czasu]] [/W] [/X] [/4]
+
+[dysk:][ścieżka][nazwa_pliku] Określa dysk, katalog i/lub pliki do wyświetlenia.
+/A Wyświetla pliki z określonymi atrybutami.
+atrybuty D Katalogi R Pliki tylko do odczytu
+H Pliki ukryte A Pliki gotowe do archiwizacji
+S Pliki systemowe I Pliki nieindeksowane zawartościowo
+L Punkty ponownej analizy O Pliki offline
+- Prefiks oznaczający "nie"
+/B Używa formatu minimalistycznego (bez informacji nagłówkowych ani podsumowania).
+/C Wyświetla separator tysięcy w rozmiarach plików. Jest to ustawienie domyślne. Użyj /-C, aby wyłączyć wyświetlanie separatora.
+/D To samo co format szeroki, ale pliki są sortowane według kolumn.
+/L Używa małych liter.
+/N Nowy format długiej listy, gdzie nazwy plików są po prawej stronie.
+/O Wyświetla listę plików w posortowanej kolejności.
+kolejność_sortowania N Według nazwy (alfabetycznie) S Według rozmiaru (najmniejsze najpierw)
+E Według rozszerzenia (alfabetycznie) D Według daty/godziny (najstarsze najpierw)
+G Grupuj katalogi jako pierwsze - Prefiks odwracający kolejność
+/P Wstrzymuje wyświetlanie po każdym ekranie informacji.
+/Q Wyświetla właściciela pliku.
+/R Wyświetla alternatywne strumienie danych pliku.
+/S Wyświetla pliki w określonym katalogu i wszystkich podkatalogach.
+/T Kontroluje, które pole czasu jest wyświetlane lub używane do sortowania
+pole_czasu C Utworzenia
+A Ostatniego dostępu
+W Ostatniego zapisu
+/W Używa formatu szerokiej listy.
+/X Wyświetla krótkie nazwy generowane dla nazw plików innych niż 8dot3. Format jest taki sam jak /N, z krótką nazwą wstawioną przed długą nazwą. Jeśli krótka nazwa nie istnieje, wyświetlane są puste miejsca.
+/4 Wyświetla lata czterocyfrowe
+
+Przełączniki mogą być ustawione w zmiennej środowiskowej DIRCMD. Nadpisz ustawione przełączniki, poprzedzając dowolny przełącznik znakiem - (myślnik) -- na przykład, /-W.
+
+--- Pomoc dla polecenia: DISKPART ---
+
+(brak dodatkowych informacji w dostarczonym tekście, polecenie po prostu jest wymienione)
+
+--- Pomoc dla polecenia: DOSKEY ---
+
+Edytuje wiersze poleceń, przywołuje polecenia systemu Windows i tworzy makra.
+DOSKEY [/REINSTALL] [/LISTSIZE=rozmiar] [/MACROS[:ALL | :nazwa_exe]]
+[/HISTORY] [/INSERT | /OVERSTRIKE] [/EXENAME=nazwa_exe] [/MACROFILE=nazwa_pliku]
+[nazwa_makra=[tekst]]
+
+/REINSTALL Instaluje nową kopię Doskey.
+/LISTSIZE=rozmiar Ustawia rozmiar bufora historii poleceń.
+/MACROS Wyświetla wszystkie makra Doskey.
+/MACROS:ALL Wyświetla wszystkie makra Doskey dla wszystkich plików wykonywalnych, które mają makra Doskey.
+/MACROS:nazwa_exe Wyświetla wszystkie makra Doskey dla danego pliku wykonywalnego.
+/HISTORY Wyświetla wszystkie polecenia przechowywane w pamięci.
+/INSERT Określa, że nowy wpisywany tekst jest wstawiany w stary tekst.
+/OVERSTRIKE Określa, że nowy tekst nadpisuje stary tekst.
+/EXENAME=nazwa_exe Określa plik wykonywalny.
+/MACROFILE=nazwa_pliku Określa plik makr do zainstalowania.
+nazwa_makra Określa nazwę tworzonego makra.
+tekst Określa polecenia, które chcesz zarejestrować.
+
+STRZAŁKI GÓRA i DÓŁ przywołują polecenia; ESC czyści wiersz poleceń; F7 wyświetla historię poleceń; ALT+F7 czyści historię poleceń; F8 przeszukuje historię poleceń; F9 wybiera polecenie według numeru; ALT+F10 czyści definicje makr.
+
+Poniżej znajdują się niektóre specjalne kody w definicjach makr Doskey:
+$T Separator poleceń. Pozwala na wiele poleceń w makrze.
+$1-$9 Parametry wsadowe. Równoważne %1-%9 w programach wsadowych.
+$* Symbol zastępowany przez wszystko, co następuje po nazwie makra w wierszu poleceń.
+
+--- Pomoc dla polecenia: DRIVERQUERY ---
+
+DRIVERQUERY [/S system [/U nazwa_użytkownika [/P [hasło]]]]
+[/FO format] [/NH] [/SI] [/V]
+Opis:
+Umożliwia administratorowi wyświetlenie listy zainstalowanych sterowników urządzeń.
+
+Lista parametrów:
+/S system Określa zdalny system do połączenia.
+/U [domena]użytkownik Określa kontekst użytkownika, w którym polecenie powinno zostać wykonane.
+/P [hasło] Określ hasło dla danego kontekstu użytkownika.
+/FO format Określa typ danych wyjściowych do wyświetlenia. Prawidłowe wartości do przekazania z przełącznikiem to "TABLE", "LIST", "CSV".
+/NH Określa, że "Nagłówek kolumny" nie powinien być wyświetlany. Prawidłowe tylko dla formatu "TABLE" i "CSV".
+/SI Dostarcza informacji o podpisanych sterownikach.
+/V Wyświetla szczegółowe dane wyjściowe. Nieprawidłowe dla podpisanych sterowników.
+/? Wyświetla ten komunikat pomocy.
+
+Przykłady:
+DRIVERQUERY
+DRIVERQUERY /FO CSV /SI
+DRIVERQUERY /NH
+DRIVERQUERY /S adres_ip /U użytkownik /V
+DRIVERQUERY /S system /U domena\użytkownik /P hasło /FO LIST
+
+--- Pomoc dla polecenia: ECHO ---
+
+Wyświetla komunikaty lub włącza/wyłącza wyświetlanie poleceń.
+ECHO [ON | OFF]
+ECHO [komunikat]
+
+Wpisz ECHO bez parametrów, aby wyświetlić bieżące ustawienie echa.
+
+--- Pomoc dla polecenia: ENDLOCAL ---
+
+Kończy lokalizację zmian środowiska w pliku wsadowym.
+Zmiany środowiska wprowadzone po wydaniu polecenia ENDLOCAL nie są lokalne dla pliku wsadowego; poprzednie ustawienia nie są przywracane po zakończeniu pliku wsadowego.
+ENDLOCAL
+
+Jeśli rozszerzenia poleceń są włączone, ENDLOCAL zmienia się następująco:
+
+Jeśli odpowiadające polecenie SETLOCAL włączyło lub wyłączyło rozszerzenia poleceń za pomocą nowych opcji ENABLEEXTENSIONS lub DISABLEEXTENSIONS, to po ENDLOCAL stan włączenia/wyłączenia rozszerzeń poleceń zostanie przywrócony do stanu sprzed wykonania pasującego polecenia SETLOCAL.
+
+--- Pomoc dla polecenia: ERASE ---
+
+Usuwa jeden lub więcej plików.
+DEL [/P] [/F] [/S] [/Q] [/A[[:]atrybuty]] nazwy
+ERASE [/P] [/F] [/S] [/Q] [/A[[:]atrybuty]] nazwy
+
+nazwy Określa listę jednego lub więcej plików lub katalogów. Symbole wieloznaczne mogą być używane do usuwania wielu plików. Jeśli określono katalog, wszystkie pliki w katalogu zostaną usunięte.
+/P Monituje o potwierdzenie przed usunięciem każdego pliku.
+/F Wymusza usuwanie plików tylko do odczytu.
+/S Usuwa określone pliki ze wszystkich podkatalogów.
+/Q Tryb cichy, nie pyta, czy na pewno usunąć przy globalnym symbolu wieloznacznym
+/A Wybiera pliki do usunięcia na podstawie atrybutów
+atrybuty R Pliki tylko do odczytu S Pliki systemowe
+H Pliki ukryte A Pliki gotowe do archiwizacji
+I Pliki nieindeksowane zawartościowo L Punkty ponownej analizy
+O Pliki offline - Prefiks oznaczający "nie"
+
+Jeśli rozszerzenia poleceń są włączone, DEL i ERASE zmieniają się następująco:
+
+Semantyka wyświetlania przełącznika /S jest odwrócona, tzn. pokazuje tylko usunięte pliki, a nie te, których nie można było znaleźć.
+
+--- Pomoc dla polecenia: EXIT ---
+
+Kończy program CMD.EXE (interpreter poleceń) lub bieżący skrypt wsadowy.
+EXIT [/B] [kod_wyjścia]
+
+/B określa wyjście z bieżącego skryptu wsadowego zamiast CMD.EXE. Jeśli jest wykonywane spoza skryptu wsadowego, zakończy działanie CMD.EXE
+
+kod_wyjścia określa numer numeryczny. jeśli podano /B, ustawia ERRORLEVEL na ten numer. Jeśli kończy działanie CMD.EXE, ustawia kod wyjścia procesu na ten numer.
+
+Jeśli rozszerzenia poleceń są włączone, EXIT zmienia się następująco:
+
+Wykonanie EXIT /B po CALL z etykietą docelową przywróci sterowanie do instrukcji bezpośrednio po CALL.
+
+--- Pomoc dla polecenia: FC ---
+
+Porównuje dwa pliki lub zestawy plików i wyświetla różnice między nimi
+
+FC [/A] [/C] [/L] [/LBn] [/N] [/OFF[LINE]] [/T] [/U] [/W] [/nnnn]
+[dysk1:][ścieżka1]nazwa_pliku1 [dysk2:][ścieżka2]nazwa_pliku2
+FC /B [dysk1:][ścieżka1]nazwa_pliku1 [dysk2:][ścieżka2]nazwa_pliku2
+
+/A Wyświetla tylko pierwszą i ostatnią linię dla każdego zestawu różnic.
+/B Wykonuje porównanie binarne.
+/C Ignoruje wielkość liter.
+/L Porównuje pliki jako tekst ASCII.
+/LBn Ustawia maksymalną liczbę kolejnych niezgodności na określoną liczbę linii.
+/N Wyświetla numery linii przy porównaniu ASCII.
+/OFF[LINE] Nie pomija plików z ustawionym atrybutem offline.
+/T Nie rozwija tabulatorów do spacji.
+/U Porównuje pliki jako pliki tekstowe UNICODE.
+/W Kompresuje białe znaki (tabulatory i spacje) do porównania.
+/nnnn Określa liczbę kolejnych linii, które muszą pasować po niezgodności.
+[dysk1:][ścieżka1]nazwa_pliku1 Określa pierwszy plik lub zestaw plików do porównania.
+[dysk2:][ścieżka2]nazwa_pliku2 Określa drugi plik lub zestaw plików do porównania.
+
+--- Pomoc dla polecenia: FIND ---
+
+Wyszukuje ciąg tekstowy w pliku lub plikach.
+FIND [/V] [/C] [/N] [/I] [/OFF[LINE]] "ciąg" [[dysk:][ścieżka]nazwa_pliku[ ...]]
+
+/V Wyświetla wszystkie linie NIE zawierające określonego ciągu.
+/C Wyświetla tylko liczbę linii zawierających ciąg.
+/N Wyświetla numery linii wraz z wyświetlanymi liniami.
+/I Ignoruje wielkość liter podczas wyszukiwania ciągu.
+/OFF[LINE] Nie pomija plików z ustawionym atrybutem offline.
+"ciąg" Określa ciąg tekstowy do znalezienia.
+[dysk:][ścieżka]nazwa_pliku Określa plik lub pliki do przeszukania.
+Jeśli ścieżka nie jest określona, FIND przeszukuje tekst wpisany w wierszu poleceń lub przekazany potokiem z innego polecenia.
+
+--- Pomoc dla polecenia: FINDSTR ---
+
+Wyszukuje ciągi znaków w plikach.
+FINDSTR [/B] [/E] [/L] [/R] [/S] [/I] [/X] [/V] [/N] [/M] [/O] [/P] [/F:plik]
+[/C:ciąg] [/G:plik] [/D:lista_katalogów] [/A:atrybuty_koloru] [/OFF[LINE]]
+ciągi [[dysk:][ścieżka]nazwa_pliku[ ...]]
+
+/B Dopasowuje wzorzec, jeśli znajduje się na początku linii.
+/E Dopasowuje wzorzec, jeśli znajduje się na końcu linii.
+/L Używa ciągów wyszukiwania dosłownie.
+/R Używa ciągów wyszukiwania jako wyrażeń regularnych.
+/S Przeszukuje pasujące pliki w bieżącym katalogu i wszystkich podkatalogach.
+/I Określa, że wyszukiwanie nie uwzględnia wielkości liter.
+/X Drukuje linie, które pasują dokładnie.
+/V Drukuje tylko linie, które nie zawierają dopasowania.
+/N Drukuje numer linii przed każdą pasującą linią.
+/M Drukuje tylko nazwę pliku, jeśli plik zawiera dopasowanie.
+/O Drukuje przesunięcie znaku przed każdą pasującą linią.
+/P Pomija pliki z niedrukowalnymi znakami.
+/OFF[LINE] Nie pomija plików z ustawionym atrybutem offline.
+/A:atrybut Określa atrybut koloru za pomocą dwóch cyfr szesnastkowych.
+
+--- Pomoc dla polecenia: CHKDSK ---
+
+Sprawdza dysk i wyświetla raport o jego stanie.
+CHKDSK [wolumin[[ścieżka]nazwa_pliku]]] [/F] [/V] [/R] [/X] [/I] [/C] [/L[:rozmiar]] [/B] [/scan] [/spotfix]
+
+wolumin Określa literę dysku (zakończoną dwukropkiem), punkt instalacji lub nazwę woluminu.
+nazwa_pliku Tylko FAT/FAT32: Określa pliki do sprawdzenia pod kątem fragmentacji.
+/F Naprawia błędy na dysku.
+/V Na FAT/FAT32: Wyświetla pełną ścieżkę i nazwę każdego pliku na dysku.
+Na NTFS: Wyświetla komunikaty o oczyszczaniu, jeśli istnieją.
+/R Lokalizuje uszkodzone sektory i odzyskuje czytelne informacje (implikuje /F, gdy /scan nie jest określony).
+/L:rozmiar Tylko NTFS: Zmienia rozmiar pliku dziennika na określoną liczbę kilobajtów. Jeśli rozmiar nie jest określony, wyświetla bieżący rozmiar.
+/X Wymusza odmontowanie woluminu, jeśli jest to konieczne. Wszystkie otwarte dojścia do woluminu staną się wtedy nieprawidłowe (implikuje /F).
+/I Tylko NTFS: Wykonuje mniej intensywne sprawdzanie wpisów indeksu.
+/C Tylko NTFS: Pomija sprawdzanie cykli w strukturze folderów.
+/B Tylko NTFS: Ponownie ocenia uszkodzone klastry na woluminie (implikuje /R).
+/scan Tylko NTFS: Uruchamia skanowanie online na woluminie.
+/forceofflinefix Tylko NTFS: (Musi być używany z "/scan") Omija wszystkie naprawy online; wszystkie znalezione wady są kolejkowane do naprawy offline (tj. "chkdsk /spotfix").
+/perf Tylko NTFS: (Musi być używany z "/scan") Używa więcej zasobów systemowych, aby zakończyć skanowanie tak szybko, jak to możliwe. Może to mieć negatywny wpływ na wydajność innych zadań uruchomionych w systemie.
+/spotfix Tylko NTFS: Uruchamia naprawę punktową na woluminie.
+/sdcleanup Tylko NTFS: Usuwa zbędne dane deskryptora zabezpieczeń (implikuje /F).
+/offlinescanandfix Uruchamia skanowanie i naprawę offline na woluminie.
+/freeorphanedchains Tylko FAT/FAT32/exFAT: Uwalnia wszelkie osierocone łańcuchy klastrów zamiast odzyskiwać ich zawartość.
+/markclean Tylko FAT/FAT32/exFAT: Oznacza wolumin jako czysty, jeśli nie wykryto uszkodzeń, nawet jeśli nie określono /F.
+
+Przełącznik /I lub /C skraca czas potrzebny na uruchomienie programu Chkdsk, pomijając niektóre sprawdzenia woluminu.
+
+--- Pomoc dla polecenia: CHKNTFS ---
+
+Wyświetla lub modyfikuje sprawdzanie dysku podczas rozruchu.
+CHKNTFS wolumin [...]
+CHKNTFS /D
+CHKNTFS /T[:czas]
+CHKNTFS /X wolumin [...]
+CHKNTFS /C wolumin [...]
+
+wolumin Określa literę dysku (zakończoną dwukropkiem), punkt instalacji lub nazwę woluminu.
+/D Przywraca domyślne zachowanie komputera; wszystkie dyski są sprawdzane podczas rozruchu, a program chkdsk jest uruchamiany na tych, które są "brudne".
+/T:czas Zmienia czas odliczania inicjacji AUTOCHK na określoną liczbę sekund. Jeśli czas nie jest określony, wyświetla bieżące ustawienie.
+/X Wyklucza dysk z domyślnego sprawdzania podczas rozruchu. Wykluczone dyski nie są kumulowane między wywołaniami polecenia.
+/C Planuje sprawdzenie dysku podczas rozruchu; program chkdsk zostanie uruchomiony, jeśli dysk jest "brudny".
+
+Jeśli nie określono żadnych przełączników, CHKNTFS wyświetli, czy określony dysk jest "brudny" lub zaplanowany do sprawdzenia przy następnym ponownym uruchomieniu.
+
+--- Pomoc dla polecenia: CLS ---
+
+Czyści ekran.
+
+CLS
+
+--- Pomoc dla polecenia: CMD ---
+
+Uruchamia nową instancję interpretera poleceń systemu Windows
+
+CMD [/A | /U] [/Q] [/D] [/E:ON | /E:OFF] [/F:ON | /F:OFF] [/V:ON | /V:OFF]
+[[/S] [/C | /K] ciąg]
+
+/C Wykonuje polecenie określone przez ciąg, a następnie kończy działanie
+/K Wykonuje polecenie określone przez ciąg, ale pozostaje
+/S Modyfikuje przetwarzanie ciągu po /C lub /K (zobacz poniżej)
+/Q Wyłącza echo
+/D Wyłącza wykonywanie poleceń AutoRun z rejestru (zobacz poniżej)
+/A Powoduje, że dane wyjściowe poleceń wewnętrznych do potoku lub pliku są w formacie ANSI
+/U Powoduje, że dane wyjściowe poleceń wewnętrznych do potoku lub pliku są w formacie Unicode
+/T:fg Ustawia kolory pierwszego planu/tła (zobacz COLOR /? po więcej informacji)
+/E:ON Włącza rozszerzenia poleceń (zobacz poniżej)
+/E:OFF Wyłącza rozszerzenia poleceń (zobacz poniżej)
+/F:ON Włącza znaki uzupełniania nazw plików i katalogów (zobacz poniżej)
+/F:OFF Wyłącza znaki uzupełniania nazw plików i katalogów (zobacz poniżej)
+/V:ON Włącza opóźnione rozwijanie zmiennych środowiskowych przy użyciu ! jako ogranicznika. Na przykład, /V:ON pozwoliłoby !var! na rozwinięcie zmiennej var w czasie wykonywania. Składnia var rozwija zmienne w czasie wprowadzania, co jest zupełnie inną rzeczą wewnątrz pętli FOR.
+/V:OFF Wyłącza opóźnione rozwijanie zmiennych środowiskowych.
+
+Zauważ, że wiele poleceń oddzielonych separatorem poleceń '&&' jest akceptowanych dla ciągu, jeśli są ujęte w cudzysłów. Również, ze względów kompatybilności, /X jest tym samym co /E:ON, /Y jest tym samym co /E:OFF, a /R jest tym samym co /C. Wszelkie inne przełączniki są ignorowane.
+
+Jeśli podano /C lub /K, reszta wiersza poleceń po przełączniku jest przetwarzana jako wiersz poleceń, gdzie do przetwarzania znaków cudzysłowu (") używana jest następująca logika:
+
+1. Jeśli spełnione są wszystkie poniższe warunki, znaki cudzysłowu w wierszu poleceń są zachowywane:
+
+    - brak przełącznika /S
+    - dokładnie dwa znaki cudzysłowu
+    - brak znaków specjalnych między dwoma znakami cudzysłowu, gdzie znakiem specjalnym jest jeden z: &<>()@^|
+    - między dwoma znakami cudzysłowu znajduje się jeden lub więcej białych znaków
+    - ciąg między dwoma znakami cudzysłowu jest nazwą pliku wykonywalnego.
+
+2. W przeciwnym razie, stare zachowanie polega na sprawdzeniu, czy pierwszy znak jest znakiem cudzysłowu, a jeśli tak, usunięciu znaku wiodącego i usunięciu ostatniego znaku cudzysłowu w wierszu poleceń, zachowując tekst po ostatnim znaku cudzysłowu.
+Jeśli /D NIE został określony w wierszu poleceń, to po uruchomieniu CMD.EXE szuka następujących zmiennych rejestru REG_SZ/REG_EXPAND_SZ, a jeśli jedna lub obie są obecne, są one wykonywane jako pierwsze.
+HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\AutoRun
+
+    i/lub
+
+HKEY_CURRENT_USER\Software\Microsoft\Command Processor\AutoRun
+Rozszerzenia poleceń są domyślnie włączone. Możesz również wyłączyć rozszerzenia dla określonego wywołania za pomocą przełącznika /E:OFF. Możesz włączyć lub wyłączyć rozszerzenia dla wszystkich wywołań CMD.EXE na komputerze i/lub sesji logowania użytkownika, ustawiając jedną lub obie z następujących wartości REG_DWORD w rejestrze za pomocą REGEDIT.EXE:
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\EnableExtensions
+
+    i/lub
+
+HKEY_CURRENT_USER\Software\Microsoft\Command Processor\EnableExtensions
+na 0x1 lub 0x0. Ustawienie specyficzne dla użytkownika ma pierwszeństwo przed ustawieniem komputera. Przełączniki wiersza poleceń mają pierwszeństwo przed ustawieniami rejestru. W pliku wsadowym argumenty SETLOCAL ENABLEEXTENSIONS lub DISABLEEXTENSIONS mają pierwszeństwo przed przełącznikiem /E:ON lub /E:OFF. Zobacz SETLOCAL /? po szczegóły.
+
+Rozszerzenia poleceń obejmują zmiany i/lub dodatki do następujących poleceń:
+
+DEL lub ERASE
+COLOR
+CD lub CHDIR
+MD lub MKDIR
+PROMPT
+PUSHD
+POPD
+SET
+SETLOCAL
+ENDLOCAL
+IF
+FOR
+CALL
+SHIFT
+GOTO
+START (obejmuje również zmiany w wywoływaniu poleceń zewnętrznych)
+ASSOC
+FTYPE
+Aby uzyskać szczegółowe informacje, wpisz nazwa-polecenia /? aby wyświetlić szczegóły.
+
+Opóźnione rozwijanie zmiennych środowiskowych NIE jest domyślnie włączone. Możesz włączyć lub wyłączyć opóźnione rozwijanie zmiennych środowiskowych dla określonego wywołania CMD.EXE za pomocą przełącznika /V:ON lub /V:OFF. Możesz włączyć lub wyłączyć opóźnione rozwijanie dla wszystkich wywołań CMD.EXE na komputerze i/lub sesji logowania użytkownika, ustawiając jedną lub obie z następujących wartości REG_DWORD w rejestrze za pomocą REGEDIT.EXE:
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\DelayedExpansion
+
+    i/lub
+
+HKEY_CURRENT_USER\Software\Microsoft\Command Processor\DelayedExpansion
+na 0x1 lub 0x0. Ustawienie specyficzne dla użytkownika ma pierwszeństwo przed ustawieniem komputera. Przełączniki wiersza poleceń mają pierwszeństwo przed ustawieniami rejestru. W pliku wsadowym argumenty SETLOCAL ENABLEDELAYEDEXPANSION lub DISABLEDELAYEDEXPANSION mają pierwszeństwo przed przełącznikiem /V:ON lub /V:OFF. Zobacz SETLOCAL /? po szczegóły.
+
+Jeśli opóźnione rozwijanie zmiennych środowiskowych jest włączone, można użyć znaku wykrzyknika do podstawienia wartości zmiennej środowiskowej w czasie wykonywania. Możesz włączyć lub wyłączyć uzupełnianie nazw plików dla określonego wywołania CMD.EXE za pomocą przełącznika /F:ON lub /F:OFF. Możesz włączyć lub wyłączyć uzupełnianie dla wszystkich wywołań CMD.EXE na komputerze i/lub sesji logowania użytkownika, ustawiając jedną lub obie z następujących wartości REG_DWORD w rejestrze za pomocą REGEDIT.EXE:
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\CompletionChar
+HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\PathCompletionChar
+
+    i/lub
+
+HKEY_CURRENT_USER\Software\Microsoft\Command Processor\CompletionChar
+HKEY_CURRENT_USER\Software\Microsoft\Command Processor\PathCompletionChar
+z wartością szesnastkową znaku sterującego do użycia dla określonej funkcji (np. 0x4 to Ctrl-D, a 0x6 to Ctrl-F). Ustawienia specyficzne dla użytkownika mają pierwszeństwo przed ustawieniami komputera. Przełączniki wiersza poleceń mają pierwszeństwo przed ustawieniami rejestru. Jeśli uzupełnianie jest włączone przełącznikiem /F:ON, używane są dwa znaki sterujące: Ctrl-D do uzupełniania nazw katalogów i Ctrl-F do uzupełniania nazw plików. Aby wyłączyć określony znak uzupełniania w rejestrze, użyj wartości dla spacji (0x20), ponieważ nie jest to prawidłowy znak sterujący. Uzupełnianie jest wywoływane po wpisaniu jednego z dwóch znaków sterujących. Funkcja uzupełniania pobiera ciąg ścieżki na lewo od kursora, dołącza do niego znak wieloznaczny, jeśli go tam nie ma, i tworzy listę pasujących ścieżek. Następnie wyświetla pierwszą pasującą ścieżkę. Jeśli żadna ścieżka nie pasuje, emituje sygnał dźwiękowy i pozostawia wyświetlacz bez zmian. Następnie, wielokrotne naciskanie tego samego znaku sterującego powoduje przechodzenie przez listę pasujących ścieżek. Naciśnięcie klawisza Shift wraz ze znakiem sterującym powoduje przechodzenie przez listę wstecz. Jeśli w jakikolwiek sposób edytujesz linię i ponownie naciśniesz znak sterujący, zapisana lista pasujących ścieżek jest odrzucana i generowana jest nowa. To samo dzieje się, gdy przełączasz się między uzupełnianiem nazw plików i katalogów. Jedyna różnica między tymi dwoma znakami sterującymi polega na tym, że znak uzupełniania plików dopasowuje zarówno nazwy plików, jak i katalogów, podczas gdy znak uzupełniania katalogów dopasowuje tylko nazwy katalogów. Jeśli uzupełnianie plików jest używane w którymkolwiek z wbudowanych poleceń katalogowych (CD, MD lub RD), zakłada się uzupełnianie katalogów. Kod uzupełniania poprawnie obsługuje nazwy plików zawierające spacje lub inne znaki specjalne, umieszczając cudzysłowy wokół pasującej ścieżki. Ponadto, jeśli cofniesz się, a następnie wywołasz uzupełnianie z wnętrza linii, tekst na prawo od kursora w miejscu wywołania uzupełniania jest odrzucany. Znaki specjalne wymagające cudzysłowów to:
+&lt;spacja>
+&()[]{}^=;!'+,`~
+
+--- Pomoc dla polecenia: COLOR ---
+
+Ustawia domyślne kolory pierwszego planu i tła konsoli.
+COLOR [atrybut]
+
+atrybut Określa atrybut koloru danych wyjściowych konsoli
+
+Atrybuty koloru są określane przez DWIE cyfry szesnastkowe -- pierwsza odpowiada tłu; druga pierwszemu planowi. Każda cyfra może być jedną z następujących wartości:
+
+0 = Czarny 8 = Szary
+1 = Niebieski 9 = Jasnoniebieski
+2 = Zielony A = Jasnozielony
+3 = Turkusowy B = Jasnoturkusowy
+4 = Czerwony C = Jasnoczerwony
+5 = Fioletowy D = Jasnofioletowy
+6 = Żółty E = Jasnożółty
+7 = Biały F = Jaskrawobiały
+Jeśli nie podano argumentu, to polecenie przywraca kolor, jaki był podczas uruchamiania CMD.EXE. Ta wartość pochodzi albo z bieżącego okna konsoli, przełącznika wiersza poleceń /T, albo z wartości rejestru DefaultColor.
+Polecenie COLOR ustawia ERRORLEVEL na 1, jeśli podjęto próbę wykonania polecenia COLOR z takim samym kolorem pierwszego planu i tła.
+Przykład: "COLOR fc" tworzy jasnoczerwony na jaskrawobiałym
+
+--- Pomoc dla polecenia: COMP ---
+
+Porównuje zawartość dwóch plików lub zestawów plików.
+COMP [dane1] [dane2] [/D] [/A] [/L] [/N=liczba] [/C] [/OFF[LINE]] [/M]
+
+dane1 Określa lokalizację i nazwę(y) pierwszego pliku(ów) do porównania.
+dane2 Określa lokalizację i nazwę(y) drugiego pliku(ów) do porównania.
+/D Wyświetla różnice w formacie dziesiętnym.
+/A Wyświetla różnice w znakach ASCII.
+/L Wyświetla numery wierszy dla różnic.
+/N=liczba Porównuje tylko określoną pierwszą liczbę wierszy w każdym pliku.
+/C Ignoruje wielkość liter ASCII podczas porównywania plików.
+/OFF[LINE] Nie pomija plików z ustawionym atrybutem offline.
+/M Nie monituje o porównanie większej liczby plików.
+Aby porównać zestawy plików, użyj symboli wieloznacznych w parametrach dane1 i dane2.
+
+--- Pomoc dla polecenia: COMPACT ---
+
+Wyświetla lub zmienia kompresję plików na partycjach NTFS.
+
+COMPACT [/C | /U] [/S[:katalog]] [/A] [/I] [/F] [/Q] [/EXE[:algorytm]]
+[/CompactOs[:opcja] [/WinDir:katalog]] [nazwa_pliku [...]]
+
+/C Kompresuje określone pliki. Katalogi zostaną oznaczone tak, aby pliki dodane później były kompresowane, chyba że określono /EXE.
+/U Dekompresuje określone pliki. Katalogi zostaną oznaczone tak, aby pliki dodane później nie były kompresowane. Jeśli określono /EXE, dekompresowane będą tylko pliki skompresowane jako wykonywalne; jeśli to pominięto, dekompresowane będą tylko pliki skompresowane przez NTFS.
+/S Wykonuje określoną operację na plikach w danym katalogu i wszystkich podkatalogach. Domyślny "katalog" to bieżący katalog.
+/A Wyświetla pliki z atrybutami ukrytymi lub systemowymi. Te pliki są domyślnie pomijane.
+/I Kontynuuje wykonywanie określonej operacji nawet po wystąpieniu błędów. Domyślnie COMPACT zatrzymuje się po napotkaniu błędu.
+/F Wymusza operację kompresji na wszystkich określonych plikach, nawet tych, które są już skompresowane. Już skompresowane pliki są domyślnie pomijane.
+/Q Raportuje tylko najważniejsze informacje.
+/EXE Użyj kompresji zoptymalizowanej dla plików wykonywalnych, które są często odczytywane i nie modyfikowane. Obsługiwane algorytmy to:
+XPRESS4K (najszybszy) (domyślny)
+XPRESS8K
+XPRESS16K
+LZX (najbardziej kompaktowy)
+/CompactOs Ustawia lub odpytuje stan kompresji systemu. Obsługiwane opcje to:
+query - Odpytuje stan Compact systemu.
+always - Kompresuje wszystkie pliki binarne systemu operacyjnego i ustawia stan systemu na Compact, który pozostaje, chyba że administrator go zmieni.
+never - Dekompresuje wszystkie pliki binarne systemu operacyjnego i ustawia stan systemu na nie-Compact, który pozostaje, chyba że administrator go zmieni.
+/WinDir Używane z /CompactOs:query, podczas odpytywania systemu operacyjnego offline. Określa katalog, w którym zainstalowany jest system Windows.
+nazwa_pliku Określa wzorzec, plik lub katalog.
+
+Użyty bez parametrów, COMPACT wyświetla stan kompresji bieżącego katalogu i wszystkich plików, które zawiera. Możesz użyć wielu nazw plików i symboli wieloznacznych. Musisz umieścić spacje między wieloma parametrami.
+
+--- Pomoc dla polecenia: CONVERT ---
+
+Konwertuje wolumin FAT na NTFS.
+CONVERT wolumin /FS:NTFS [/V] [/CvtArea:nazwa_pliku] [/NoSecurity] [/X]
+
+wolumin Określa literę dysku (zakończoną dwukropkiem), punkt instalacji lub nazwę woluminu.
+/FS:NTFS Określa, że wolumin zostanie przekonwertowany na NTFS.
+/V Określa, że Convert zostanie uruchomiony w trybie szczegółowym.
+/CvtArea:nazwa_pliku Określa ciągły plik w katalogu głównym, który będzie miejscem przechowywania plików systemowych NTFS.
+/NoSecurity Określa, że ustawienia zabezpieczeń na przekonwertowanych plikach i katalogach pozwalają na dostęp wszystkim użytkownikom.
+/X Wymusza odmontowanie woluminu, jeśli jest to konieczne. Wszystkie otwarte dojścia do woluminu nie będą prawidłowe.
+
+--- Pomoc dla polecenia: COPY ---
+
+Kopiuje jeden lub więcej plików do innej lokalizacji.
+
+COPY [/D] [/V] [/N] [/Y | /-Y] [/Z] [/L] [/A | /B ] źródło [/A | /B]
+[+ źródło [/A | /B] [+ ...]] [miejsce_docelowe [/A | /B]]
+
+źródło Określa plik lub pliki do skopiowania.
+/A Wskazuje plik tekstowy ASCII.
+/B Wskazuje plik binarny.
+/D Zezwól na utworzenie pliku docelowego w postaci odszyfrowanej
+miejsce_docelowe Określa katalog i/lub nazwę pliku dla nowego pliku(ów).
+/V Weryfikuje, czy nowe pliki są zapisywane poprawnie.
+/N Używa krótkiej nazwy pliku, jeśli jest dostępna, podczas kopiowania pliku o nazwie innej niż 8dot3.
+/Y Pomija monit o potwierdzenie chęci nadpisania istniejącego pliku docelowego.
+/-Y Powoduje monit o potwierdzenie chęci nadpisania istniejącego pliku docelowego.
+/Z Kopiuje pliki sieciowe w trybie umożliwiającym wznowienie.
+/L Jeśli źródło jest dowiązaniem symbolicznym, kopiuje dowiązanie do celu zamiast rzeczywistego pliku, na który wskazuje dowiązanie źródłowe.
+
+Przełącznik /Y może być ustawiony w zmiennej środowiskowej COPYCMD. Może to zostać nadpisane za pomocą /-Y w wierszu poleceń. Domyślnie monituje się o nadpisanie, chyba że polecenie COPY jest wykonywane z wnętrza skryptu wsadowego.
+Aby dołączyć pliki, określ pojedynczy plik jako miejsce docelowe, ale wiele plików jako źródło (używając symboli wieloznacznych lub formatu plik1+plik2+plik3).
+
+--- Pomoc dla polecenia: correctly ---
+
+To polecenie nie jest obsługiwane przez narzędzie pomocy. Spróbuj "correctly /?".
+
+--- Pomoc dla polecenia: creates ---
+
+To polecenie nie jest obsługiwane przez narzędzie pomocy. Spróbuj "creates /?".
+
+--- Pomoc dla polecenia: current ---
+
+To polecenie nie jest obsługiwane przez narzędzie pomocy. Spróbuj "current /?".
+
+--- Pomoc dla polecenia: DATE ---
+
+Wyświetla lub ustawia datę.
+
+DATE [/T | data]
+
+Wpisz DATE bez parametrów, aby wyświetlić bieżące ustawienie daty i monit o nowe. Naciśnij ENTER, aby zachować tę samą datę.
+
+Jeśli rozszerzenia poleceń są włączone, polecenie DATE obsługuje przełącznik /T, który nakazuje poleceniu jedynie wyświetlenie bieżącej daty, bez monitowania o nową datę.
+
+--- Pomoc dla polecenia: DEL ---
+
+Usuwa jeden lub więcej plików.
+DEL [/P] [/F] [/S] [/Q] [/A[[:]atrybuty]] nazwy
+ERASE [/P] [/F] [/S] [/Q] [/A[[:]atrybuty]] nazwy
+
+nazwy Określa listę jednego lub więcej plików lub katalogów. Symbole wieloznaczne mogą być używane do usuwania wielu plików. Jeśli określono katalog, wszystkie pliki w katalogu zostaną usunięte.
+/P Monituje o potwierdzenie przed usunięciem każdego pliku.
+/F Wymusza usuwanie plików tylko do odczytu.
+/S Usuwa określone pliki ze wszystkich podkatalogów.
+/Q Tryb cichy, nie pyta, czy na pewno usunąć przy globalnym symbolu wieloznacznym
+/A Wybiera pliki do usunięcia na podstawie atrybutów
+atrybuty R Pliki tylko do odczytu S Pliki systemowe
+H Pliki ukryte A Pliki gotowe do archiwizacji
+I Pliki nieindeksowane zawartościowo L Punkty ponownej analizy
+O Pliki offline - Prefiks oznaczający "nie"
+
+Jeśli rozszerzenia poleceń są włączone, DEL i ERASE zmieniają się następująco:
+
+Semantyka wyświetlania przełącznika /S jest odwrócona, tzn. pokazuje tylko usunięte pliki, a nie te, których nie można było znaleźć.
+
+--- Pomoc dla polecenia: differences ---
+
+To polecenie nie jest obsługiwane przez narzędzie pomocy. Spróbuj "differences /?".
+
+--- Pomoc dla polecenia: DIR ---
+
+Wyświetla listę plików i podkatalogów w katalogu.
+DIR [dysk:][ścieżka][nazwa_pliku] [/A[[:]atrybuty]] [/B] [/C] [/D] [/L] [/N]
+[/O[[:]kolejność_sortowania]] [/P] [/Q] [/R] [/S] [/T[[:]pole_czasu]] [/W] [/X] [/4]
+
+[dysk:][ścieżka][nazwa_pliku] Określa dysk, katalog i/lub pliki do wyświetlenia.
+/A Wyświetla pliki z określonymi atrybutami.
+atrybuty D Katalogi R Pliki tylko do odczytu
+H Pliki ukryte A Pliki gotowe do archiwizacji
+S Pliki systemowe I Pliki nieindeksowane zawartościowo
+L Punkty ponownej analizy O Pliki offline
+- Prefiks oznaczający "nie"
+/B Używa formatu minimalistycznego (bez informacji nagłówkowych ani podsumowania).
+/C Wyświetla separator tysięcy w rozmiarach plików. Jest to ustawienie domyślne. Użyj /-C, aby wyłączyć wyświetlanie separatora.
+/D To samo co format szeroki, ale pliki są sortowane według kolumn.
+/L Używa małych liter.
+/N Nowy format długiej listy, gdzie nazwy plików są po prawej stronie.
+/O Wyświetla listę plików w posortowanej kolejności.
+kolejność_sortowania N Według nazwy (alfabetycznie) S Według rozmiaru (najmniejsze najpierw)
+E Według rozszerzenia (alfabetycznie) D Według daty/godziny (najstarsze najpierw)
+G Grupuj katalogi jako pierwsze - Prefiks odwracający kolejność
+/P Wstrzymuje wyświetlanie po każdym ekranie informacji.
+/Q Wyświetla właściciela pliku.
+/R Wyświetla alternatywne strumienie danych pliku.
+/S Wyświetla pliki w określonym katalogu i wszystkich podkatalogach.
+/T Kontroluje, które pole czasu jest wyświetlane lub używane do sortowania
+pole_czasu C Utworzenia
+A Ostatniego dostępu
+W Ostatniego zapisu
+/W Używa formatu szerokiej listy.
+/X Wyświetla krótkie nazwy generowane dla nazw plików innych niż 8dot3. Format jest taki sam jak /N, z krótką nazwą wstawioną przed długą nazwą. Jeśli krótka nazwa nie istnieje, wyświetlane są puste miejsca.
+/4 Wyświetla lata czterocyfrowe
+
+Przełączniki mogą być ustawione w zmiennej środowiskowej DIRCMD. Nadpisz ustawione przełączniki, poprzedzając dowolny przełącznik znakiem - (myślnik) -- na przykład, /-W.
+
+--- Pomoc dla polecenia: DISKPART ---
+
+(brak dodatkowych informacji w dostarczonym tekście, polecenie po prostu jest wymienione)
+
+--- Pomoc dla polecenia: DOSKEY ---
+
+Edytuje wiersze poleceń, przywołuje polecenia systemu Windows i tworzy makra.
+DOSKEY [/REINSTALL] [/LISTSIZE=rozmiar] [/MACROS[:ALL | :nazwa_exe]]
+[/HISTORY] [/INSERT | /OVERSTRIKE] [/EXENAME=nazwa_exe] [/MACROFILE=nazwa_pliku]
+[nazwa_makra=[tekst]]
+
+/REINSTALL Instaluje nową kopię Doskey.
+/LISTSIZE=rozmiar Ustawia rozmiar bufora historii poleceń.
+/MACROS Wyświetla wszystkie makra Doskey.
+/MACROS:ALL Wyświetla wszystkie makra Doskey dla wszystkich plików wykonywalnych, które mają makra Doskey.
+/MACROS:nazwa_exe Wyświetla wszystkie makra Doskey dla danego pliku wykonywalnego.
+/HISTORY Wyświetla wszystkie polecenia przechowywane w pamięci.
+/INSERT Określa, że nowy wpisywany tekst jest wstawiany w stary tekst.
+/OVERSTRIKE Określa, że nowy tekst nadpisuje stary tekst.
+/EXENAME=nazwa_exe Określa plik wykonywalny.
+/MACROFILE=nazwa_pliku Określa plik makr do zainstalowania.
+nazwa_makra Określa nazwę tworzonego makra.
+tekst Określa polecenia, które chcesz zarejestrować.
+
+STRZAŁKI GÓRA i DÓŁ przywołują polecenia; ESC czyści wiersz poleceń; F7 wyświetla historię poleceń; ALT+F7 czyści historię poleceń; F8 przeszukuje historię poleceń; F9 wybiera polecenie według numeru; ALT+F10 czyści definicje makr.
+
+Poniżej znajdują się niektóre specjalne kody w definicjach makr Doskey:
+$T Separator poleceń. Pozwala na wiele poleceń w makrze.
+$1-$9 Parametry wsadowe. Równoważne %1-%9 w programach wsadowych.
+$* Symbol zastępowany przez wszystko, co następuje po nazwie makra w wierszu poleceń.
+
+--- Pomoc dla polecenia: DRIVERQUERY ---
+
+DRIVERQUERY [/S system [/U nazwa_użytkownika [/P [hasło]]]]
+[/FO format] [/NH] [/SI] [/V]
+Opis:
+Umożliwia administratorowi wyświetlenie listy zainstalowanych sterowników urządzeń.
+
+Lista parametrów:
+/S system Określa zdalny system do połączenia.
+/U [domena]użytkownik Określa kontekst użytkownika, w którym polecenie powinno zostać wykonane.
+/P [hasło] Określ hasło dla danego kontekstu użytkownika.
+/FO format Określa typ danych wyjściowych do wyświetlenia. Prawidłowe wartości do przekazania z przełącznikiem to "TABLE", "LIST", "CSV".
+/NH Określa, że "Nagłówek kolumny" nie powinien być wyświetlany. Prawidłowe tylko dla formatu "TABLE" i "CSV".
+/SI Dostarcza informacji o podpisanych sterownikach.
+/V Wyświetla szczegółowe dane wyjściowe. Nieprawidłowe dla podpisanych sterowników.
+/? Wyświetla ten komunikat pomocy.
+
+Przykłady:
+DRIVERQUERY
+DRIVERQUERY /FO CSV /SI
+DRIVERQUERY /NH
+DRIVERQUERY /S adres_ip /U użytkownik /V
+DRIVERQUERY /S system /U domena\użytkownik /P hasło /FO LIST
+
+--- Pomoc dla polecenia: ECHO ---
+
+Wyświetla komunikaty lub włącza/wyłącza wyświetlanie poleceń.
+ECHO [ON | OFF]
+ECHO [komunikat]
+
+Wpisz ECHO bez parametrów, aby wyświetlić bieżące ustawienie echa.
+
+--- Pomoc dla polecenia: ENDLOCAL ---
+
+Kończy lokalizację zmian środowiska w pliku wsadowym.
+Zmiany środowiska wprowadzone po wydaniu polecenia ENDLOCAL nie są lokalne dla pliku wsadowego; poprzednie ustawienia nie są przywracane po zakończeniu pliku wsadowego.
+ENDLOCAL
+
+Jeśli rozszerzenia poleceń są włączone, ENDLOCAL zmienia się następująco:
+
+Jeśli odpowiadające polecenie SETLOCAL włączyło lub wyłączyło rozszerzenia poleceń za pomocą nowych opcji ENABLEEXTENSIONS lub DISABLEEXTENSIONS, to po ENDLOCAL stan włączenia/wyłączenia rozszerzeń poleceń zostanie przywrócony do stanu sprzed wykonania pasującego polecenia SETLOCAL.
+
+--- Pomoc dla polecenia: ERASE ---
+
+Usuwa jeden lub więcej plików.
+DEL [/P] [/F] [/S] [/Q] [/A[[:]atrybuty]] nazwy
+ERASE [/P] [/F] [/S] [/Q] [/A[[:]atrybuty]] nazwy
+
+nazwy Określa listę jednego lub więcej plików lub katalogów. Symbole wieloznaczne mogą być używane do usuwania wielu plików. Jeśli określono katalog, wszystkie pliki w katalogu zostaną usunięte.
+/P Monituje o potwierdzenie przed usunięciem każdego pliku.
+/F Wymusza usuwanie plików tylko do odczytu.
+/S Usuwa określone pliki ze wszystkich podkatalogów.
+/Q Tryb cichy, nie pyta, czy na pewno usunąć przy globalnym symbolu wieloznacznym
+/A Wybiera pliki do usunięcia na podstawie atrybutów
+atrybuty R Pliki tylko do odczytu S Pliki systemowe
+H Pliki ukryte A Pliki gotowe do archiwizacji
+I Pliki nieindeksowane zawartościowo L Punkty ponownej analizy
+O Pliki offline - Prefiks oznaczający "nie"
+
+Jeśli rozszerzenia poleceń są włączone, DEL i ERASE zmieniają się następująco:
+
+Semantyka wyświetlania przełącznika /S jest odwrócona, tzn. pokazuje tylko usunięte pliki, a nie te, których nie można było znaleźć.
+
+--- Pomoc dla polecenia: EXIT ---
+
+Kończy program CMD.EXE (interpreter poleceń) lub bieżący skrypt wsadowy.
+EXIT [/B] [kod_wyjścia]
+
+/B określa wyjście z bieżącego skryptu wsadowego zamiast CMD.EXE. Jeśli jest wykonywane spoza skryptu wsadowego, zakończy działanie CMD.EXE
+
+kod_wyjścia określa numer numeryczny. jeśli podano /B, ustawia ERRORLEVEL na ten numer. Jeśli kończy działanie CMD.EXE, ustawia kod wyjścia procesu na ten numer.
+
+Jeśli rozszerzenia poleceń są włączone, EXIT zmienia się następująco:
+
+Wykonanie EXIT /B po CALL z etykietą docelową przywróci sterowanie do instrukcji bezpośrednio po CALL.
+
+--- Pomoc dla polecenia: FC ---
+
+Porównuje dwa pliki lub zestawy plików i wyświetla różnice między nimi
+
+FC [/A] [/C] [/L] [/LBn] [/N] [/OFF[LINE]] [/T] [/U] [/W] [/nnnn]
+[dysk1:][ścieżka1]nazwa_pliku1 [dysk2:][ścieżka2]nazwa_pliku2
+FC /B [dysk1:][ścieżka1]nazwa_pliku1 [dysk2:][ścieżka2]nazwa_pliku2
+
+/A Wyświetla tylko pierwszą i ostatnią linię dla każdego zestawu różnic.
+/B Wykonuje porównanie binarne.
+/C Ignoruje wielkość liter.
+/L Porównuje pliki jako tekst ASCII.
+/LBn Ustawia maksymalną liczbę kolejnych niezgodności na określoną liczbę linii.
+/N Wyświetla numery linii przy porównaniu ASCII.
+/OFF[LINE] Nie pomija plików z ustawionym atrybutem offline.
+/T Nie rozwija tabulatorów do spacji.
+/U Porównuje pliki jako pliki tekstowe UNICODE.
+/W Kompresuje białe znaki (tabulatory i spacje) do porównania.
+/nnnn Określa liczbę kolejnych linii, które muszą pasować po niezgodności.
+[dysk1:][ścieżka1]nazwa_pliku1 Określa pierwszy plik lub zestaw plików do porównania.
+[dysk2:][ścieżka2]nazwa_pliku2 Określa drugi plik lub zestaw plików do porównania.
+
+--- Pomoc dla polecenia: FIND ---
+
+Wyszukuje ciąg tekstowy w pliku lub plikach.
+FIND [/V] [/C] [/N] [/I] [/OFF[LINE]] "ciąg" [[dysk:][ścieżka]nazwa_pliku[ ...]]
+
+/V Wyświetla wszystkie linie NIE zawierające określonego ciągu.
+/C Wyświetla tylko liczbę linii zawierających ciąg.
+/N Wyświetla numery linii wraz z wyświetlanymi liniami.
+/I Ignoruje wielkość liter podczas wyszukiwania ciągu.
+/OFF[LINE] Nie pomija plików z ustawionym atrybutem offline.
+"ciąg" Określa ciąg tekstowy do znalezienia.
+[dysk:][ścieżka]nazwa_pliku Określa plik lub pliki do przeszukania.
+Jeśli ścieżka nie jest określona, FIND przeszukuje tekst wpisany w wierszu poleceń lub przekazany potokiem z innego polecenia.
+
+--- Pomoc dla polecenia: FINDSTR ---
+
+Wyszukuje ciągi znaków w plikach.
+FINDSTR [/B] [/E] [/L] [/R] [/S] [/I] [/X] [/V] [/N] [/M] [/O] [/P] [/F:plik]
+[/C:ciąg] [/G:plik] [/D:lista_katalogów] [/A:atrybuty_koloru] [/OFF[LINE]]
+ciągi [[dysk:][ścieżka]nazwa_pliku[ ...]]
+
+/B Dopasowuje wzorzec, jeśli znajduje się na początku linii.
+/E Dopasowuje wzorzec, jeśli znajduje się na końcu linii.
+/L Używa ciągów wyszukiwania dosłownie.
+/R Używa ciągów wyszukiwania jako wyrażeń regularnych.
+/S Przeszukuje pasujące pliki w bieżącym katalogu i wszystkich podkatalogach.
+/I Określa, że wyszukiwanie nie uwzględnia wielkości liter.
+/X Drukuje linie, które pasują dokładnie.
+/V Drukuje tylko linie, które nie zawierają dopasowania.
+/N Drukuje numer linii przed każdą pasującą linią.
+/M Drukuje tylko nazwę pliku, jeśli plik zawiera dopasowanie.
+/O Drukuje przesunięcie znaku przed każdą pasującą linią.
+/P Pomija pliki z niedrukowalnymi znakami.
+/OFF[LINE] Nie pomija plików z ustawionym atrybutem offline.
+/A:atrybut Określa atrybut koloru za pomocą dwóch cyfr szesnastkowych.
+Dobrze, kontynuujmy kompleksowe tłumaczenie na język polski pomocy dla poleceń `cmd.exe` z dostarczonego pliku `cmd_pelna_pomoc.txt`, zaczynając od polecenia `FINDSTR`. Będę cytować numery źródeł zgodnie z dostarczonymi plikami.
+
+***
+
+--- Pomoc dla polecenia: FINDSTR --- [cite: 553]
+
+Wyszukuje ciągi znaków w plikach. [cite: 553]
+
+FINDSTR [/B] [/E] [/L] [/R] [/S] [/I] [/X] [/V] [/N] [/M] [/O] [/P] [/F:plik]
+        [/C:ciąg] [/G:plik] [/D:lista katalogów] [/A:atrybuty koloru] [/OFF[LINE]]
+        ciągi [[dysk:][ścieżka]nazwa_pliku[ ...]] [cite: 554]
+
+  /B Dopasowuje wzorzec, jeśli znajduje się na początku wiersza. [cite: 554]
+  /E Dopasowuje wzorzec, jeśli znajduje się na końcu wiersza. [cite: 555]
+  /L Używa ciągów wyszukiwania dosłownie. [cite: 556]
+  /R Używa ciągów wyszukiwania jako wyrażeń regularnych. [cite: 557]
+  /S Wyszukuje pasujące pliki w bieżącym katalogu i wszystkich podkatalogach. [cite: 558]
+  /I Określa, że wyszukiwanie nie ma uwzględniać wielkości liter. [cite: 559]
+  /X Drukuje wiersze, które pasują dokładnie. [cite: 560]
+  /V Drukuje tylko wiersze, które nie zawierają dopasowania. [cite: 561]
+  /N Drukuje numer wiersza przed każdym pasującym wierszem. [cite: 562]
+  /M Drukuje tylko nazwę pliku, jeśli plik zawiera dopasowanie. [cite: 563]
+  /O Drukuje przesunięcie znaku przed każdym pasującym wierszem. [cite: 564]
+  /P Pomija pliki zawierające znaki niedrukowalne. [cite: 565]
+  /OFF[LINE] Nie pomija plików z ustawionym atrybutem offline. [cite: 566]
+  /A:atryb Określa atrybut koloru za pomocą dwóch cyfr szesnastkowych. [cite: 566] Zobacz "color /?" [cite: 567]
+  /F:plik Czyta listę plików z określonego pliku (/ oznacza konsolę). [cite: 567]
+  /C:ciąg Używa określonego ciągu jako dosłownego ciągu wyszukiwania. [cite: 568]
+  /G:plik Pobiera ciągi wyszukiwania z określonego pliku (/ oznacza konsolę). [cite: 569]
+  /D:katalog Wyszukuje na liście katalogów rozdzielonych średnikami [cite: 570]
+  /Q:qflags Flagi trybu cichego: [cite: 570]
+             u Pomiń ostrzeżenie o nieobsługiwanych formatach Unicode [cite: 570]
+  ciągi Tekst do wyszukania. [cite: 570]
+  [dysk:][ścieżka]nazwa_pliku Określa plik lub pliki do przeszukania. [cite: 571]
+
+Użyj spacji do oddzielenia wielu ciągów wyszukiwania, chyba że argument jest poprzedzony /C. [cite: 572]
+Na przykład, 'FINDSTR "witaj tam" x.y' wyszukuje "witaj" lub "tam" w pliku x.y. [cite: 573]
+'FINDSTR /C:"witaj tam" x.y' wyszukuje "witaj tam" w pliku x.y. [cite: 574]
+
+Skrócona dokumentacja wyrażeń regularnych:
+  . Symbol wieloznaczny: dowolny znak [cite: 574]
+  * Powtórzenie: zero lub więcej wystąpień poprzedniego znaku lub klasy [cite: 575]
+  ^ Pozycja w wierszu: początek wiersza [cite: 575]
+  $ Pozycja w wierszu: koniec wiersza [cite: 575]
+  [klasa] Klasa znaków: dowolny jeden znak z zestawu [cite: 575]
+  [^klasa] Klasa odwrotna: dowolny jeden znak niebędący w zestawie [cite: 575]
+  [x-y] Zakres: dowolne znaki w określonym zakresie [cite: 575]
+  \x Sekwencja specjalna: dosłowne użycie metaznaku x [cite: 575]
+  \<xyz Pozycja słowa: początek słowa [cite: 575]
+  xyz\> Pozycja słowa: koniec słowa [cite: 576]
+
+Pełne informacje na temat wyrażeń regularnych FINDSTR można znaleźć w dokumentacji poleceń online. [cite: 576]
+
+--- Pomoc dla polecenia: For --- [cite: 577]
+(Uwaga: W dostarczonym pliku ta sekcja jest prawie identyczna z sekcją "--- Pomoc dla polecenia: FOR ---"[cite: 629]. Poniżej znajduje się tłumaczenie tej pierwszej instancji.)
+
+Uruchamia określone polecenie dla każdego pliku w zestawie plików. [cite: 577]
+
+FOR %zmienna IN (zestaw) DO polecenie [parametry-polecenia] [cite: 578]
+
+  %zmienna Określa jednoliterowy parametr zastępowalny. [cite: 578]
+  (zestaw) Określa zestaw jednego lub więcej plików. Można używać symboli wieloznacznych. [cite: 579]
+  polecenie Określa polecenie do wykonania dla każdego pliku. [cite: 580]
+  parametry-polecenia Określa parametry lub przełączniki dla określonego polecenia. [cite: 581]
+
+Aby użyć polecenia FOR w programie wsadowym, określ %%zmienna zamiast %zmienna. [cite: 582]
+Nazwy zmiennych uwzględniają wielkość liter, więc %i różni się od %I. [cite: 583]
+
+Jeśli rozszerzenia poleceń są włączone, obsługiwane są następujące dodatkowe formy polecenia FOR: [cite: 584]
+
+FOR /D %zmienna IN (zestaw) DO polecenie [parametry-polecenia] [cite: 584]
+
+    Jeśli zestaw zawiera symbole wieloznaczne, określa dopasowanie do nazw katalogów zamiast nazw plików. [cite: 584]
+
+FOR /R [[dysk:]ścieżka] %zmienna IN (zestaw) DO polecenie [parametry-polecenia] [cite: 585]
+
+    Przechodzi przez drzewo katalogów zakorzenione w [dysk:]ścieżka, wykonując instrukcję FOR w każdym katalogu drzewa. [cite: 585]
+    Jeśli po /R nie zostanie podana specyfikacja katalogu, przyjmuje się bieżący katalog. [cite: 586]
+    Jeśli zestaw to tylko pojedynczy znak kropki (.), wyliczy tylko drzewo katalogów. [cite: 587]
+
+FOR /L %zmienna IN (start,krok,koniec) DO polecenie [parametry-polecenia] [cite: 588]
+
+    Zestaw to sekwencja liczb od start do koniec, z krokiem o wartości krok. [cite: 588]
+    Więc (1,1,5) wygenerowałoby sekwencję 1 2 3 4 5, a (5,-1,1) wygenerowałoby sekwencję (5 4 3 2 1). [cite: 589]
+
+FOR /F ["opcje"] %zmienna IN (zestaw-plików) DO polecenie [parametry-polecenia] [cite: 589]
+FOR /F ["opcje"] %zmienna IN ("ciąg") DO polecenie [parametry-polecenia] [cite: 589]
+FOR /F ["opcje"] %zmienna IN ('polecenie') DO polecenie [parametry-polecenia] [cite: 589]
+
+    lub, jeśli obecna jest opcja usebackq: [cite: 589]
+
+FOR /F ["opcje"] %zmienna IN (zestaw-plików) DO polecenie [parametry-polecenia] [cite: 589]
+FOR /F ["opcje"] %zmienna IN ('ciąg') DO polecenie [parametry-polecenia] [cite: 589]
+FOR /F ["opcje"] %zmienna IN (`polecenie`) DO polecenie [parametry-polecenia] [cite: 589]
+
+    zestaw-plików to jedna lub więcej nazw plików. [cite: 589]
+    Każdy plik jest otwierany, odczytywany i przetwarzany przed przejściem do następnego pliku w zestawie-plików. [cite: 590]
+    Przetwarzanie polega na odczytaniu pliku, podzieleniu go na poszczególne wiersze tekstu, a następnie przeanalizowaniu każdego wiersza na zero lub więcej tokenów. [cite: 591]
+    Następnie wywoływana jest treść pętli for z wartością(-ami) zmiennej ustawioną(-ymi) na znaleziony(-e) ciąg(-i) tokenów. [cite: 592]
+    Domyślnie /F przekazuje pierwszy token oddzielony spacją z każdego wiersza każdego pliku. [cite: 593]
+    Puste wiersze są pomijane. [cite: 594] Domyślne zachowanie analizy można zastąpić, określając opcjonalny parametr "opcje". [cite: 594]
+    Jest to ciąg ujęty w cudzysłów, który zawiera jedno lub więcej słów kluczowych określających różne opcje analizy. [cite: 595]
+    Słowa kluczowe to: [cite: 596]
+
+        eol=c - określa znak komentarza końca wiersza (tylko jeden) [cite: 596]
+        skip=n - określa liczbę wierszy do pominięcia na początku pliku. [cite: 596]
+        delims=xxx - określa zestaw ograniczników. [cite: 598] Zastępuje to domyślny zestaw ograniczników spacji i tabulatora. [cite: 599]
+        tokens=x,y,m-n - określa, które tokeny z każdego wiersza mają być przekazywane do treści pętli for dla każdej iteracji. [cite: 600] Spowoduje to przydzielenie dodatkowych nazw zmiennych. [cite: 601] Forma m-n to zakres, określający tokeny od m-tego do n-tego. [cite: 602] Jeśli ostatnim znakiem w ciągu tokens= jest gwiazdka, przydzielana jest dodatkowa zmienna, która otrzymuje pozostały tekst w wierszu po ostatnim przeanalizowanym tokenie. [cite: 603]
+        usebackq - określa, że obowiązuje nowa semantyka, gdzie ciąg ujęty w odwrotne apostrofy jest wykonywany jako polecenie, a ciąg ujęty w pojedyncze apostrofy jest dosłownym ciągiem polecenia i pozwala na użycie podwójnych cudzysłowów do ujmowania nazw plików w zestawie-plików. [cite: 605]
+
+    Kilka przykładów może pomóc: [cite: 607]
+
+FOR /F "eol=; tokens=2,3* delims=, " %i in (myfile.txt) do @echo %i %j %k [cite: 607]
+
+    przeanalizowałby każdy wiersz w myfile.txt, ignorując wiersze zaczynające się od średnika, przekazując drugi i trzeci token z każdego wiersza do treści pętli for, z tokenami rozdzielonymi przecinkami i/lub spacjami. [cite: 607]
+    Zauważ, że instrukcje treści pętli for odwołują się do %i, aby uzyskać drugi token, %j, aby uzyskać trzeci token, i %k, aby uzyskać wszystkie pozostałe tokeny po trzecim. [cite: 608]
+    Dla nazw plików zawierających spacje, musisz ująć nazwy plików w podwójne cudzysłowy. [cite: 609]
+    Aby użyć podwójnych cudzysłowów w ten sposób, musisz również użyć opcji usebackq, w przeciwnym razie podwójne cudzysłowy zostaną zinterpretowane jako definiujące dosłowny ciąg do analizy. [cite: 610]
+    %i jest jawnie deklarowane w instrukcji for, a %j i %k są niejawnie deklarowane za pomocą opcji tokens=. [cite: 611]
+    Możesz określić do 26 tokenów za pomocą wiersza tokens=, pod warunkiem, że nie spowoduje to próby zadeklarowania zmiennej wyższej niż litera 'z' lub 'Z'. [cite: 612]
+    Pamiętaj, zmienne FOR są jednoliterowe, uwzględniają wielkość liter, są globalne i nie możesz mieć jednocześnie aktywnych więcej niż 52. [cite: 613]
+
+    Możesz również użyć logiki analizy FOR /F na bezpośrednim ciągu, czyniąc zestaw-plików między nawiasami ciągiem ujętym w cudzysłów, używając pojedynczych apostrofów. [cite: 614]
+    Będzie on traktowany jako pojedynczy wiersz danych wejściowych z pliku i analizowany. [cite: 615]
+
+    Na koniec, możesz użyć polecenia FOR /F do analizy danych wyjściowych polecenia. [cite: 616]
+    Robisz to, czyniąc zestaw-plików między nawiasami ciągiem ujętym w odwrotne apostrofy. [cite: 617]
+    Będzie on traktowany jako wiersz poleceń, który jest przekazywany do podrzędnego CMD.EXE, a dane wyjściowe są przechwytywane do pamięci i analizowane tak, jakby były plikiem. [cite: 618]
+    Więc następujący przykład: [cite: 619]
+
+      FOR /F "usebackq delims==" %i IN (`set`) DO @echo %i [cite: 619]
+
+    wyliczyłby nazwy zmiennych środowiskowych w bieżącym środowisku. [cite: 619]
+
+Ponadto, zastępowanie odwołań do zmiennych FOR zostało rozszerzone. [cite: 620]
+Możesz teraz używać następującej opcjonalnej składni: [cite: 621]
+
+    %~I         - rozwija %I usuwając wszelkie otaczające cudzysłowy (") [cite: 621]
+    %~fI        - rozwija %I do w pełni kwalifikowanej nazwy ścieżki [cite: 621]
+    %~dI        - rozwija %I tylko do litery dysku [cite: 621]
+    %~pI        - rozwija %I tylko do ścieżki [cite: 621]
+    %~nI        - rozwija %I tylko do nazwy pliku [cite: 621]
+    %~xI        - rozwija %I tylko do rozszerzenia pliku [cite: 622]
+    %~sI        - rozwinięta ścieżka zawiera tylko krótkie nazwy [cite: 622]
+    %~aI        - rozwija %I do atrybutów pliku [cite: 622]
+    %~tI        - rozwija %I do daty/godziny pliku [cite: 622]
+    %~zI        - rozwija %I do rozmiaru pliku [cite: 622]
+    %~$PATH:I   - przeszukuje katalogi wymienione w zmiennej środowiskowej PATH i rozwija %I do w pełni kwalifikowanej nazwy pierwszego znalezionego. [cite: 622]
+                   Jeśli nazwa zmiennej środowiskowej nie jest zdefiniowana lub plik nie zostanie znaleziony przez wyszukiwanie, ten modyfikator rozwija się do pustego ciągu. [cite: 624]
+
+Modyfikatory można łączyć w celu uzyskania wyników złożonych: [cite: 624]
+
+    %~dpI       - rozwija %I tylko do litery dysku i ścieżki [cite: 624]
+    %~nxI       - rozwija %I tylko do nazwy pliku i rozszerzenia [cite: 625]
+    %~fsI       - rozwija %I do pełnej nazwy ścieżki tylko z krótkimi nazwami [cite: 625]
+    %~dp$PATH:I - przeszukuje katalogi wymienione w zmiennej środowiskowej PATH w poszukiwaniu %I i rozwija do litery dysku i ścieżki pierwszego znalezionego. [cite: 625]
+    %~ftzaI     - rozwija %I do linii wyjściowej podobnej do tej z polecenia DIR [cite: 626]
+
+W powyższych przykładach %I i PATH można zastąpić innymi prawidłowymi wartościami. [cite: 626]
+Składnia %~ jest zakończona prawidłową nazwą zmiennej FOR. [cite: 627]
+Wybieranie nazw zmiennych pisanych wielkimi literami, takich jak %I, czyni je bardziej czytelnymi i pozwala uniknąć pomyłek z modyfikatorami, które nie uwzględniają wielkości liter. [cite: 628]
+
+--- Pomoc dla polecenia: FORMAT --- [cite: 681]
+
+Formatuje dysk do użytku z systemem Windows. [cite: 681]
+
+FORMAT wolumin [/FS:system-plików] [/V:etykieta] [/Q] [/L[:stan]] [/A:rozmiar] [/C] [/I:stan] [/X] [/P:przebiegi] [/S:stan] [cite: 682]
+FORMAT wolumin [/V:etykieta] [/Q] [/F:rozmiar] [/P:przebiegi] [cite: 682]
+FORMAT wolumin [/V:etykieta] [/Q] [/T:ścieżki /N:sektory] [/P:przebiegi] [cite: 682]
+FORMAT wolumin [/V:etykieta] [/Q] [/P:przebiegi] [cite: 682]
+FORMAT wolumin [/Q] [cite: 682]
+
+  wolumin Określa literę dysku (po której następuje dwukropek), punkt instalacji lub nazwę woluminu. [cite: 682]
+  /FS:systemplików Określa typ systemu plików (FAT, FAT32, exFAT, NTFS, UDF, ReFS). [cite: 683]
+  /V:etykieta Określa etykietę woluminu. [cite: 684]
+  /Q Wykonuje szybkie formatowanie. [cite: 685] Zauważ, że ten przełącznik zastępuje /P. [cite: 686]
+  /C Tylko NTFS: Pliki utworzone na nowym woluminie będą domyślnie kompresowane. [cite: 686]
+  /X Wymusza odinstalowanie woluminu, jeśli to konieczne. [cite: 687] Wszystkie otwarte uchwyty do woluminu przestaną być prawidłowe. [cite: 688]
+  /R:rewizja Tylko UDF: Wymusza formatowanie do określonej wersji UDF (1.02, 1.50, 2.00, 2.01, 2.50). [cite: 689] Domyślna rewizja to 2.01. [cite: 690]
+  /D Tylko UDF 2.50: Metadane będą duplikowane. [cite: 691]
+  /L[:stan] Tylko NTFS: Zastępuje domyślny rozmiar rekordu pliku. [cite: 692] Domyślnie wolumin niestopniowany będzie formatowany z małymi rekordami plików, a wolumin stopniowany będzie formatowany z dużymi rekordami plików. [cite: 693] /L i /L:enable wymuszają formatowanie z użyciem dużych rekordów plików, a /L:disable wymusza formatowanie z użyciem małych rekordów plików. [cite: 694]
+  /A:rozmiar Zastępuje domyślny rozmiar jednostki alokacji. [cite: 695] Ustawienia domyślne są zdecydowanie zalecane do ogólnego użytku. [cite: 696]
+                  ReFS obsługuje 4096, 64K. [cite: 697]
+                  NTFS obsługuje 512, 1024, 2048, 4096, 8192, 16K, 32K, 64K, 128K, 256K, 512K, 1M, 2M. [cite: 697]
+                  FAT obsługuje 512, 1024, 2048, 4096, 8192, 16K, 32K, 64K, (128K, 256K dla rozmiaru sektora > 512 bajtów). [cite: 698]
+                  FAT32 obsługuje 512, 1024, 2048, 4096, 8192, 16K, 32K, 64K, (128K, 256K dla rozmiaru sektora > 512 bajtów). [cite: 699]
+                  exFAT obsługuje 512, 1024, 2048, 4096, 8192, 16K, 32K, 64K, 128K, 256K, 512K, 1M, 2M, 4M, 8M, 16M, 32M. [cite: 700]
+                  Zauważ, że systemy plików FAT i FAT32 narzucają następujące ograniczenia dotyczące liczby klastrów na woluminie: [cite: 701]
+                  FAT: Liczba klastrów <= 65526 [cite: 701]
+                  FAT32: 65526 < Liczba klastrów < 4177918 [cite: 701]
+                  Format natychmiast przerwie przetwarzanie, jeśli uzna, że powyższe wymagania nie mogą być spełnione przy użyciu określonego rozmiaru klastra. [cite: 702]
+                  Kompresja NTFS nie jest obsługiwana dla jednostek alokacji o rozmiarze powyżej 4096. [cite: 703]
+  /F:rozmiar Określa rozmiar dyskietki do sformatowania (1.44) [cite: 703]
+  /T:ścieżki Określa liczbę ścieżek na stronę dysku. [cite: 703]
+  /N:sektory Określa liczbę sektorów na ścieżkę. [cite: 704]
+  /P:liczba Nadpisz wolumin "liczba" razy, używając za każdym razem innej liczby losowej, a następnie zapisz zera w każdym sektorze. [cite: 705] Jeśli "liczba" wynosi zero, po prostu wyzerujemy każdy sektor na woluminie. [cite: 706] Ten przełącznik jest ignorowany, gdy określono /Q. [cite: 707]
+  /S:stan Określa obsługę krótkich nazw plików (włącz, wyłącz) [cite: 707]
+                  Krótkie nazwy są domyślnie wyłączone [cite: 707]
+  /TXF:stan Określa, czy txf ma być włączone/wyłączone (włącz, wyłącz) [cite: 707]
+                  TxF jest domyślnie włączone [cite: 707]
+  /I:stan Tylko ReFS: Określa, czy integralność ma być włączona na nowym woluminie. [cite: 707] "stan" to "enable" lub "disable". [cite: 709] Integralność jest domyślnie włączona na magazynie obsługującym redundancję danych. [cite: 709]
+  /DAX[:stan] Tylko NTFS: Włącz tryb bezpośredniego dostępu do magazynu (DAX) dla tego woluminu. [cite: 710] W trybie DAX wolumin jest dostępny przez magistralę pamięci, co zwiększa wydajność operacji we/wy. [cite: 711] Wolumin można sformatować w trybie DAX tylko wtedy, gdy sprzęt jest zgodny z DAX. [cite: 712] Stan może określać "enable" lub "disable". /DAX jest traktowane jako /DAX:enable. [cite: 713]
+  /LogSize[:rozmiar] Tylko NTFS: Określa rozmiar pliku dziennika NTFS w kilobajtach. [cite: 714] Minimalny obsługiwany rozmiar to 2MB, więc określenie rozmiaru mniejszego niż 2MB spowoduje utworzenie pliku dziennika o rozmiarze 2MB. [cite: 715] Zero oznacza wartość domyślną, która zazwyczaj zależy od rozmiaru woluminu. [cite: 716]
+  /NoRepairLogs Tylko NTFS: Wyłącza dzienniki naprawy NTFS. Jeśli flaga jest ustawiona, spotfix (tj. chkdsk /spotfix) nie będzie działać. [cite: 717]
+  /NoTrim Pomiń wysyłanie polecenia trim (powiadomienia o usunięciu) podczas formatowania. [cite: 718]
+  /DevDrv Tylko ReFS: Sformatuj wolumin jako dysk deweloperski (dev drive). [cite: 719] Dysk deweloperski lub wolumin deweloperski to wolumin zoptymalizowany pod kątem wydajności scenariuszy deweloperskich. [cite: 720] Daje administratorom kontrolę nad tym, które minifiltry są dołączone do tego woluminu. [cite: 721]
+  /SHA256Checksums Tylko ReFS: Używaj SHA-256 we wszystkich operacjach obejmujących sumy kontrolne. [cite: 722]
+  /Y Brak monitu, wymuś odinstalowanie woluminu w razie potrzeby i przyjmij pustą etykietę, gdy etykieta nie jest określona. [cite: 723]
+
+--- Pomoc dla polecenia: FSUTIL --- [cite: 724]
+
+/? jest nieprawidłowym parametrem. [cite: 724]
+---- Obsługiwane polecenia ---- [cite: 725]
+
+8dot3name Zarządzanie nazwami 8dot3 [cite: 725]
+behavior Kontrola zachowania systemu plików [cite: 725]
+bypassIo Zarządzanie BypassIo [cite: 725]
+clfs Zarządzanie plikami dziennika CLFS [cite: 725]
+dax Zarządzanie woluminami Dax [cite: 725]
+devdrv Zarządzanie woluminami deweloperskimi [cite: 725]
+dirty Zarządzanie bitem "brudny" woluminu [cite: 725]
+file Polecenia specyficzne dla plików [cite: 726]
+fsInfo Informacje o systemie plików [cite: 726]
+hardlink Zarządzanie twardymi dowiązaniami [cite: 726]
+objectID Zarządzanie identyfikatorami obiektów [cite: 726]
+quota Zarządzanie limitami (quota) [cite: 726]
+repair Zarządzanie samonaprawą [cite: 726]
+reparsePoint Zarządzanie punktami ponownej analizy (reparse point) [cite: 726]
+storageReserve Zarządzanie rezerwą magazynu [cite: 726]
+resource Zarządzanie transakcyjnym menedżerem zasobów [cite: 726]
+sparse Kontrola plików rzadkich (sparse files) [cite: 727]
+tiering Zarządzanie właściwościami warstwowania magazynu [cite: 727]
+trace Zarządzanie śledzeniem systemu plików [cite: 727]
+transaction Zarządzanie transakcjami [cite: 727]
+usn Zarządzanie USN [cite: 727]
+volume Zarządzanie woluminami [cite: 727]
+wim Zarządzanie hostowaniem przezroczystych plików WIM [cite: 727]
+
+--- Pomoc dla polecenia: FTYPE --- [cite: 728]
+
+Wyświetla lub modyfikuje typy plików używane w skojarzeniach rozszerzeń plików [cite: 728]
+
+FTYPE [typPliku[=[ciągPoleceniaOtwarcia]]] [cite: 728]
+
+  typPliku Określa typ pliku do zbadania lub zmiany [cite: 728]
+  ciągPoleceniaOtwarcia Określa polecenie otwarcia używane podczas uruchamiania plików tego typu. [cite: 728]
+
+Wpisz FTYPE bez parametrów, aby wyświetlić bieżące typy plików, które mają zdefiniowane ciągi poleceń otwarcia. [cite: 729]
+Jeśli FTYPE jest wywoływane tylko z typem pliku, wyświetla bieżący ciąg polecenia otwarcia dla tego typu pliku. [cite: 730]
+Nie podawaj niczego dla ciągu polecenia otwarcia, a polecenie FTYPE usunie ciąg polecenia otwarcia dla danego typu pliku. [cite: 731]
+W ciągu polecenia otwarcia %0 lub %1 są zastępowane nazwą pliku uruchamianego przez skojarzenie. [cite: 732]
+%* pobiera wszystkie parametry, %2 pobiera pierwszy parametr, %3 drugi itd. [cite: 733] %~n pobiera wszystkie pozostałe parametry, zaczynając od n-tego parametru, gdzie n może być między 2 a 9 włącznie. [cite: 733]
+Na przykład: [cite: 734]
+
+    ASSOC .pl=PerlScript [cite: 734]
+    FTYPE PerlScript=perl.exe %1 %* [cite: 734]
+
+pozwoliłoby na wywołanie skryptu Perl w następujący sposób: [cite: 734]
+
+    script.pl 1 2 3 [cite: 734]
+
+Jeśli chcesz wyeliminować potrzebę wpisywania rozszerzeń, wykonaj następujące czynności: [cite: 734]
+
+    set PATHEXT=.pl;%PATHEXT% [cite: 734]
+
+a skrypt można by wywołać w następujący sposób: [cite: 734]
+
+    script 1 2 3 [cite: 734]
+
+--- Pomoc dla polecenia: GOTO --- [cite: 734]
+
+Kieruje cmd.exe do oznaczonej etykietą linii w programie wsadowym. [cite: 735]
+GOTO etykieta [cite: 735]
+
+  etykieta Określa ciąg tekstowy używany w programie wsadowym jako etykieta. [cite: 735]
+Wpisujesz etykietę w osobnej linii, zaczynając od dwukropka. [cite: 736]
+
+Jeśli rozszerzenia poleceń są włączone, GOTO zmienia się następująco: [cite: 737]
+
+Polecenie GOTO akceptuje teraz etykietę docelową :EOF, która przekazuje sterowanie na koniec bieżącego pliku skryptu wsadowego. [cite: 737]
+Jest to łatwy sposób na zakończenie pliku skryptu wsadowego bez definiowania etykiety. [cite: 738] Wpisz CALL /? aby uzyskać opis rozszerzeń polecenia CALL, które czynią tę funkcję użyteczną. [cite: 738]
+Wykonanie GOTO :EOF po CALL z etykietą docelową zwróci sterowanie do instrukcji bezpośrednio po CALL. [cite: 740]
+
+--- Pomoc dla polecenia: GPRESULT --- [cite: 741]
+
+GPRESULT [/S system [/U nazwa_użytkownika [/P [hasło]]]] [/SCOPE zakres]
+           [/USER docelowa_nazwa_użytkownika] [/R | /V | /Z] [(/X | /H) <nazwa_pliku> [/F]] [cite: 741]
+
+Opis:
+    To narzędzie wiersza poleceń wyświetla informacje o wynikowym zestawie zasad (RSoP)
+    dla docelowego użytkownika i komputera. [cite: 742]
+
+Lista parametrów:
+    /S system Określa system zdalny, z którym należy się połączyć. [cite: 743]
+    /U [domena\]użytkownik Określa kontekst użytkownika, w którym polecenie powinno zostać uruchomione. [cite: 744] Nie można używać z /X, /H. [cite: 745]
+    /P [hasło] Określa hasło dla danego kontekstu użytkownika. [cite: 745] Monituje o wprowadzenie danych, jeśli pominięto. [cite: 746] Nie można używać z /X, /H. [cite: 746]
+    /SCOPE zakres Określa, czy mają być wyświetlane ustawienia użytkownika czy komputera. [cite: 747] Prawidłowe wartości: "USER", "COMPUTER". [cite: 748]
+    /USER [domena\]użytkownik Określa nazwę użytkownika, dla którego mają być wyświetlane dane RSoP. [cite: 748]
+    /X <nazwa_pliku> Zapisuje raport w formacie XML w lokalizacji i pod nazwą pliku określoną przez parametr <nazwa_pliku>. [cite: 749] (prawidłowe w systemie Windows Vista SP1 i nowszych oraz Windows Server 2008 i nowszych) [cite: 750]
+    /H <nazwa_pliku> Zapisuje raport w formacie HTML w lokalizacji i pod nazwą pliku określoną przez parametr <nazwa_pliku>. [cite: 750] (prawidłowe w systemie Windows co najmniej Vista SP1 i co najmniej Windows Server 2008) [cite: 752]
+    /F Wymusza na Gpresult nadpisanie nazwy pliku określonej w poleceniu /X lub /H. [cite: 752]
+    /R Wyświetla podsumowanie danych RSoP. [cite: 754]
+    /V Określa, że mają być wyświetlane szczegółowe informacje. [cite: 755] Szczegółowe informacje dostarczają dodatkowych szczegółowych ustawień, które zostały zastosowane z pierwszeństwem 1. [cite: 756]
+    /Z Określa, że mają być wyświetlane bardzo szczegółowe informacje. [cite: 757] Bardzo szczegółowe informacje dostarczają dodatkowych szczegółowych ustawień, które zostały zastosowane z pierwszeństwem 1 i wyższym. [cite: 758] Pozwala to sprawdzić, czy ustawienie zostało skonfigurowane w wielu miejscach. [cite: 759] Więcej informacji można znaleźć w temacie pomocy online dotyczącym zasad grupy. [cite: 760]
+    /? Wyświetla ten komunikat pomocy. [cite: 761]
+
+Przykłady:
+    GPRESULT /R [cite: 761]
+    GPRESULT /H GPReport.html [cite: 761]
+    GPRESULT /USER docelowa_nazwa_użytkownika /V [cite: 761]
+    GPRESULT /S system /USER docelowa_nazwa_użytkownika /SCOPE COMPUTER /Z [cite: 761]
+    GPRESULT /S system /U nazwa_użytkownika /P hasło /SCOPE USER /V [cite: 761]
+
+*(Kontynuacja tłumaczenia dla ICACLS i kolejnych poleceń nastąpi w kolejnej odpowiedzi, aby zachować czytelność i nie przekroczyć limitów długości).*
+Jasne, oto dalsza część tłumaczenia pliku `cmd_pelna_pomoc.txt` na język polski, zaczynając od polecenia `ICACLS`.
+
+***
+
+--- Pomoc dla polecenia: ICACLS ---
+
+ICACLS nazwa /save plik_acl [/T] [/C] [/L] [/Q]
+    zapisuje listy DACL dla plików i folderów pasujących do nazwy
+    do pliku_acl w celu późniejszego użycia z /restore. [cite: 761] Zauważ, że listy SACL,
+    właściciel lub etykiety integralności nie są zapisywane. [cite: 762]
+
+ICACLS katalog [/substitute StarySid NowySid [...]] /restore plik_acl
+                 [/C] [/L] [/Q]
+    stosuje zapisane listy DACL do plików w katalogu. [cite: 763]
+
+ICACLS nazwa /setowner użytkownik [/T] [/C] [/L] [/Q]
+    zmienia właściciela wszystkich pasujących nazw. [cite: 764] Ta opcja nie
+    wymusza zmiany własności; [cite: 765] w tym celu użyj narzędzia takeown.exe. [cite: 766]
+
+ICACLS nazwa /findsid Sid [/T] [/C] [/L] [/Q]
+    znajduje wszystkie pasujące nazwy, które zawierają listę ACL
+    jawnie wymieniającą Sid. [cite: 767]
+
+ICACLS nazwa /verify [/T] [/C] [/L] [/Q]
+    znajduje wszystkie pliki, których lista ACL nie jest w formie kanonicznej lub których
+    długości są niezgodne z liczbą wpisów ACE. [cite: 768]
+
+ICACLS nazwa /reset [/T] [/C] [/L] [/Q]
+    zastępuje listy ACL domyślnymi dziedziczonymi listami ACL dla wszystkich pasujących plików. [cite: 769]
+
+ICACLS nazwa [/grant[:r] Sid:uprawnienia[...]]
+       [/deny Sid:uprawnienia [...]]
+       [/remove[:g|:d]] Sid[...]] [/T] [/C] [/L] [/Q]
+       [/setintegritylevel Poziom:polityka[...]] [cite: 770]
+
+    /grant[:r] Sid:uprawnienia nadaje określonemu użytkownikowi prawa dostępu. [cite: 770] Z :r,
+        uprawnienia zastępują wszelkie wcześniej nadane jawne uprawnienia. [cite: 771]
+        Bez :r, uprawnienia są dodawane do wszelkich wcześniej nadanych
+        jawnych uprawnień. [cite: 772]
+    /deny Sid:uprawnienia jawnie odmawia określonemu użytkownikowi praw dostępu. [cite: 773]
+        Jawny wpis ACE odmowy jest dodawany dla podanych uprawnień, a
+        te same uprawnienia we wszelkich jawnych nadaniach są usuwane. [cite: 773]
+    /remove[:[g|d]] Sid usuwa wszystkie wystąpienia Sid z listy ACL. [cite: 774] Z
+        :g, usuwa wszystkie wystąpienia nadanych praw dla tego Sid. [cite: 775] Z
+        :d, usuwa wszystkie wystąpienia odmówionych praw dla tego Sid. [cite: 776]
+    /setintegritylevel [(CI)(OI)]Poziom jawnie dodaje wpis ACE integralności
+        do wszystkich pasujących plików. [cite: 777] Poziom należy określić jako jeden
+        z: [cite: 778]
+            L[ow] (Niski)
+            M[edium] (Średni)
+            H[igh] (Wysoki)
+        Opcje dziedziczenia dla wpisu ACE integralności mogą poprzedzać poziom
+        i są stosowane tylko do katalogów. [cite: 778]
+    /inheritance:e|d|r [cite: 779]
+        e - włącza dziedziczenie [cite: 779]
+        d - wyłącza dziedziczenie i kopiuje wpisy ACE [cite: 779]
+        r - usuwa wszystkie odziedziczone wpisy ACE [cite: 779]
+
+Uwaga:
+    Sidy mogą być podawane w formie numerycznej lub przyjaznej nazwy. [cite: 779] Jeśli podana jest forma
+    numeryczna, na początku SID należy umieścić *. [cite: 780]
+    /T wskazuje, że ta operacja jest wykonywana na wszystkich pasujących
+        plikach/katalogach poniżej katalogów określonych w nazwie. [cite: 781]
+    /C wskazuje, że ta operacja będzie kontynuowana pomimo wszystkich błędów plików. [cite: 782]
+        Komunikaty o błędach będą nadal wyświetlane. [cite: 782]
+    /L wskazuje, że ta operacja jest wykonywana na samym dowiązaniu symbolicznym
+       zamiast na jego celu. [cite: 783]
+    /Q wskazuje, że icacls powinien pominąć komunikaty o powodzeniu. [cite: 784]
+
+    ICACLS zachowuje kanoniczną kolejność wpisów ACE:
+            Jawne odmowy
+            Jawne nadania
+            Odziedziczone odmowy
+            Odziedziczone nadania
+
+    uprawnienia to maska uprawnień i może być określona w jednej z dwóch form:
+        sekwencja prostych praw:
+                N - brak dostępu [cite: 785]
+                F - pełny dostęp [cite: 785]
+                M - dostęp do modyfikacji [cite: 785]
+                RX - dostęp do odczytu i wykonania [cite: 785]
+                R - dostęp tylko do odczytu [cite: 785]
+                W - dostęp tylko do zapisu [cite: 786]
+                D - dostęp do usuwania [cite: 786]
+        lista określonych praw oddzielonych przecinkami w nawiasach:
+                DE - usuwanie [cite: 786]
+                RC - odczyt kontroli [cite: 786]
+                WDAC - zapis DAC [cite: 787]
+                WO - zapis właściciela [cite: 787]
+                S - synchronizacja [cite: 787]
+                AS - dostęp do zabezpieczeń systemowych [cite: 787]
+                MA - maksymalne dozwolone [cite: 787]
+                GR - odczyt ogólny [cite: 787]
+                GW - zapis ogólny [cite: 788]
+                GE - wykonanie ogólne [cite: 788]
+                GA - wszystko ogólne [cite: 788]
+                RD - odczyt danych/listowanie katalogu [cite: 788]
+                WD - zapis danych/dodawanie pliku [cite: 788]
+                AD - dołączanie danych/dodawanie podkatalogu [cite: 789]
+                REA - odczyt atrybutów rozszerzonych [cite: 789]
+                WEA - zapis atrybutów rozszerzonych [cite: 789]
+                X - wykonanie/przechodzenie [cite: 789]
+                DC - usuwanie potomka [cite: 789]
+                RA - odczyt atrybutów [cite: 790]
+                WA - zapis atrybutów [cite: 790]
+        prawa dziedziczenia mogą poprzedzać dowolną formę i są stosowane
+        tylko do katalogów:
+                (OI) - dziedziczenie przez obiekt [cite: 790]
+                (CI) - dziedziczenie przez kontener [cite: 790]
+                (IO) - tylko dziedziczenie [cite: 791]
+                (NP) - nie propaguj dziedziczenia [cite: 791]
+                (I) - uprawnienie odziedziczone z kontenera nadrzędnego [cite: 791]
+
+Przykłady:
+
+        icacls c:\windows\* /save PlikAcl /T
+        - Zapisze listy ACL dla wszystkich plików w c:\windows
+          i jego podkatalogach do PlikAcl. [cite: 791]
+        icacls c:\windows\ /restore PlikAcl
+        - Przywróci listy ACL dla każdego pliku w
+          PlikAcl, który istnieje w c:\windows i jego podkatalogach. [cite: 792]
+        icacls plik /grant Administrator:(D,WDAC)
+        - Nada użytkownikowi Administrator uprawnienia Usuwania i Zapisu DAC
+          do pliku. [cite: 793]
+        icacls plik /grant *S-1-1-0:(D,WDAC)
+        - Nada użytkownikowi zdefiniowanemu przez sid S-1-1-0 uprawnienia Usuwania i
+          Zapisu DAC do pliku. [cite: 794]
+
+--- Pomoc dla polecenia: IF ---
+
+Wykonuje warunkowe przetwarzanie w programach wsadowych. [cite: 795]
+IF [NOT] ERRORLEVEL numer polecenie [cite: 796]
+IF [NOT] ciąg1==ciąg2 polecenie [cite: 796]
+IF [NOT] EXIST nazwa_pliku polecenie [cite: 796]
+
+  NOT Określa, że system Windows powinien wykonać polecenie tylko wtedy, gdy warunek jest fałszywy. [cite: 796]
+  ERRORLEVEL numer Określa prawdziwy warunek, jeśli ostatni uruchomiony program zwrócił kod zakończenia równy lub większy niż podany numer. [cite: 797]
+  ciąg1==ciąg2 Określa prawdziwy warunek, jeśli podane ciągi tekstowe pasują do siebie. [cite: 798]
+  EXIST nazwa_pliku Określa prawdziwy warunek, jeśli podana nazwa pliku istnieje. [cite: 799]
+  polecenie Określa polecenie do wykonania, jeśli warunek jest spełniony. [cite: 800] Po poleceniu może następować polecenie ELSE, które wykona polecenie po słowie kluczowym ELSE, jeśli określony warunek jest FAŁSZYWY. [cite: 801]
+
+Klauzula ELSE musi występować w tym samym wierszu co polecenie po IF. [cite: 801] Na przykład: [cite: 802]
+
+    IF EXIST nazwa_pliku. (
+        del nazwa_pliku.
+    ) ELSE (
+        echo brakuje nazwa_pliku.
+    ) [cite: 802]
+
+Poniższe NIE zadziałałoby, ponieważ polecenie del musi być zakończone nowym wierszem: [cite: 802]
+
+    IF EXIST nazwa_pliku. del nazwa_pliku. ELSE echo brakuje nazwa_pliku. [cite: 803]
+
+Ani poniższe by nie zadziałało, ponieważ polecenie ELSE musi znajdować się w tym samym wierszu co koniec polecenia IF: [cite: 803]
+
+    IF EXIST nazwa_pliku. del nazwa_pliku. [cite: 804]
+    ELSE echo brakuje nazwa_pliku. [cite: 804]
+
+Poniższe zadziałałoby, jeśli chcesz wszystko w jednym wierszu: [cite: 804]
+
+    IF EXIST nazwa_pliku. (del nazwa_pliku.) ELSE echo brakuje nazwa_pliku. [cite: 805]
+
+Jeśli rozszerzenia poleceń są włączone, IF zmienia się następująco: [cite: 805]
+
+    IF [/I] ciąg1 operator-porównania ciąg2 polecenie [cite: 805]
+    IF CMDEXTVERSION numer polecenie [cite: 805]
+    IF DEFINED zmienna polecenie [cite: 805]
+
+gdzie operator-porównania może być jednym z: [cite: 805]
+
+    EQU - równy [cite: 805]
+    NEQ - nierówny [cite: 805]
+    LSS - mniejszy niż [cite: 805]
+    LEQ - mniejszy lub równy [cite: 805]
+    GTR - większy niż [cite: 805]
+    GEQ - większy lub równy [cite: 805]
+
+a przełącznik /I, jeśli określony, oznacza porównywanie ciągów bez uwzględniania wielkości liter. [cite: 805] Przełącznik /I może być również używany w formie IF ciąg1==ciąg2. [cite: 806] Te porównania są ogólne, tzn. jeśli zarówno ciąg1, jak i ciąg2 składają się wyłącznie z cyfr, ciągi są konwertowane na liczby i wykonywane jest porównanie numeryczne. [cite: 807]
+Warunek CMDEXTVERSION działa tak samo jak ERRORLEVEL, z tym że porównuje z wewnętrznym numerem wersji związanym z rozszerzeniami poleceń. [cite: 808] Pierwsza wersja to 1. Będzie zwiększana o jeden przy dodawaniu istotnych ulepszeń do rozszerzeń poleceń. [cite: 809] Warunek CMDEXTVERSION nigdy nie jest prawdziwy, gdy rozszerzenia poleceń są wyłączone. [cite: 810]
+
+Warunek DEFINED działa tak samo jak EXIST, z tym że przyjmuje nazwę zmiennej środowiskowej i zwraca prawdę, jeśli zmienna środowiskowa jest zdefiniowana. [cite: 810]
+%ERRORLEVEL% zostanie rozwinięty do ciągu reprezentującego bieżącą wartość ERRORLEVEL, pod warunkiem, że nie istnieje już zmienna środowiskowa o nazwie ERRORLEVEL, w którym to przypadku otrzymasz jej wartość. [cite: 811] Po uruchomieniu programu poniższy przykład ilustruje użycie ERRORLEVEL: [cite: 812]
+
+    goto odpowiedz%ERRORLEVEL% [cite: 812]
+    :odpowiedz0 [cite: 812]
+    echo Program miał kod powrotu 0 [cite: 812]
+    :odpowiedz1 [cite: 812]
+    echo Program miał kod powrotu 1 [cite: 812]
+
+Można również użyć powyższych porównań numerycznych: [cite: 812]
+
+    IF %ERRORLEVEL% LEQ 1 goto ok [cite: 812]
+
+%CMDCMDLINE% zostanie rozwinięty do oryginalnego wiersza poleceń przekazanego do CMD.EXE przed jakimkolwiek przetwarzaniem przez CMD.EXE, pod warunkiem, że nie istnieje już zmienna środowiskowa o nazwie CMDCMDLINE, w którym to przypadku otrzymasz jej wartość. [cite: 812]
+%CMDEXTVERSION% zostanie rozwinięty do ciągu reprezentującego bieżącą wartość CMDEXTVERSION, pod warunkiem, że nie istnieje już zmienna środowiskowa o nazwie CMDEXTVERSION, w którym to przypadku otrzymasz jej wartość. [cite: 813]
+
+--- Pomoc dla polecenia: LABEL ---
+
+Tworzy, zmienia lub usuwa etykietę woluminu dysku. [cite: 814]
+LABEL [dysk:][etykieta] [cite: 815]
+LABEL [/MP] [wolumin] [etykieta] [cite: 815]
+
+  dysk: Określa literę dysku. [cite: 815]
+  etykieta Określa etykietę woluminu. [cite: 816]
+  /MP Określa, że wolumin powinien być traktowany jako punkt instalacji lub nazwa woluminu. [cite: 817]
+  wolumin Określa literę dysku (po której następuje dwukropek), punkt instalacji lub nazwę woluminu. [cite: 818] Jeśli podano nazwę woluminu, flaga /MP jest niepotrzebna. [cite: 819]
+
+--- Pomoc dla polecenia: MD ---
+
+Tworzy katalog. [cite: 820]
+
+MKDIR [dysk:]ścieżka [cite: 820]
+MD [dysk:]ścieżka [cite: 820]
+
+Jeśli rozszerzenia poleceń są włączone, MKDIR zmienia się następująco: [cite: 820]
+
+MKDIR tworzy wszelkie pośrednie katalogi w ścieżce, jeśli są potrzebne. [cite: 820] Na przykład, załóżmy, że \a nie istnieje, wtedy: [cite: 821]
+
+    mkdir \a\b\c\d [cite: 821]
+
+jest tym samym co: [cite: 821]
+
+    mkdir \a [cite: 821]
+    chdir \a [cite: 821]
+    mkdir b [cite: 821]
+    chdir b [cite: 821]
+    mkdir c [cite: 821]
+    chdir c [cite: 821]
+    mkdir d [cite: 821]
+
+co musiałbyś wpisać, gdyby rozszerzenia były wyłączone. [cite: 821]
+
+--- Pomoc dla polecenia: MKDIR ---
+
+Tworzy katalog. [cite: 822]
+
+MKDIR [dysk:]ścieżka [cite: 822]
+MD [dysk:]ścieżka [cite: 822]
+
+Jeśli rozszerzenia poleceń są włączone, MKDIR zmienia się następująco: [cite: 822]
+
+MKDIR tworzy wszelkie pośrednie katalogi w ścieżce, jeśli są potrzebne. [cite: 822] Na przykład, załóżmy, że \a nie istnieje, wtedy: [cite: 823]
+
+    mkdir \a\b\c\d [cite: 823]
+
+jest tym samym co: [cite: 823]
+
+    mkdir \a [cite: 823]
+    chdir \a [cite: 823]
+    mkdir b [cite: 823]
+    chdir b [cite: 823]
+    mkdir c [cite: 823]
+    chdir c [cite: 823]
+    mkdir d [cite: 823]
+
+co musiałbyś wpisać, gdyby rozszerzenia były wyłączone. [cite: 823]
+
+--- Pomoc dla polecenia: MKLINK ---
+
+Tworzy dowiązanie symboliczne. [cite: 824]
+
+MKLINK [[/D] | [/H] | [/J]] Dowiązanie Cel [cite: 825]
+
+        /D Tworzy dowiązanie symboliczne katalogu. [cite: 825] Domyślnie jest to dowiązanie symboliczne pliku. [cite: 826]
+        /H Tworzy twarde dowiązanie zamiast dowiązania symbolicznego. [cite: 827]
+        /J Tworzy złącze katalogów (Directory Junction). [cite: 828]
+        Dowiązanie Określa nową nazwę dowiązania symbolicznego. [cite: 828]
+        Cel Określa ścieżkę (względną lub bezwzględną), do której odnosi się nowe dowiązanie. [cite: 829]
+
+--- Pomoc dla polecenia: MODE ---
+
+Konfiguruje urządzenia systemowe. [cite: 830]
+
+Port szeregowy: MODE COMm[:] [BAUD=b] [PARITY=p] [DATA=d] [STOP=s]
+                                [to=on|off] [xon=on|off] [odsr=on|off]
+                                [octs=on|off] [dtr=on|off|hs]
+                                [rts=on|off|hs|tg] [idsr=on|off] [cite: 830]
+
+Stan urządzenia: MODE [urządzenie] [/STATUS] [cite: 831]
+
+Przekierowanie drukowania: MODE LPTn[:]=COMm[:] [cite: 831]
+
+Wybór strony kodowej: MODE CON[:] CP SELECT=yyy [cite: 831]
+
+Stan strony kodowej: MODE CON[:] CP [/STATUS] [cite: 831]
+
+Tryb wyświetlania: MODE CON[:] [COLS=c] [LINES=n] [cite: 831]
+
+Szybkość powtarzania: MODE CON[:] [RATE=r DELAY=d] [cite: 831]
+
+*(Kontynuacja tłumaczenia dla MORE i kolejnych poleceń nastąpi w kolejnej odpowiedzi).*
+Świetnie, kontynuujemy tłumaczenie pliku `cmd_pelna_pomoc.txt` na język polski od polecenia `MORE`.
+
+--- Pomoc dla polecenia: MORE ---
+
+Wyświetla dane wyjściowe ekran po ekranie. [cite: 832]
+MORE [/E [/C] [/P] [/S] [/Tn] [+n]] < [dysk:][ścieżka]nazwa_pliku [cite: 832]
+nazwa-polecenia | MORE [/E [/C] [/P] [/S] [/Tn] [+n]] [cite: 833]
+MORE /E [/C] [/P] [/S] [/Tn] [+n] [pliki] [cite: 833]
+
+    [dysk:][ścieżka]nazwa_pliku Określa plik do wyświetlenia ekran po ekranie. [cite: 833]
+    nazwa-polecenia Określa polecenie, którego dane wyjściowe będą wyświetlane. [cite: 834]
+    /E Włącz funkcje rozszerzone [cite: 835]
+    /C Wyczyść ekran przed wyświetleniem strony [cite: 835]
+    /P Rozwiń znaki wysuwu strony (FormFeed) [cite: 835]
+    /S Zciśnij wiele pustych wierszy w jeden wiersz [cite: 835]
+    /Tn Rozwiń tabulatory do n spacji (domyślnie 8) [cite: 835]
+
+            Przełączniki mogą być obecne w zmiennej środowiskowej MORE. [cite: 835]
+    +n Rozpocznij wyświetlanie pierwszego pliku od wiersza n [cite: 836]
+
+    pliki Lista plików do wyświetlenia. [cite: 837] Pliki na liście są oddzielone spacjami. [cite: 837]
+    Jeśli funkcje rozszerzone są włączone, następujące polecenia są akceptowane w monicie -- Więcej -- : [cite: 838]
+
+    P n Wyświetl następne n wierszy [cite: 838]
+    S n Pomiń następne n wierszy [cite: 838]
+    F Wyświetl następny plik [cite: 838]
+    Q Zakończ [cite: 838]
+    = Pokaż numer wiersza [cite: 838]
+    ? Pokaż wiersz pomocy [cite: 839]
+    <spacja> Wyświetl następną stronę [cite: 839]
+    <ret> Wyświetl następny wiersz [cite: 839]
+
+--- Pomoc dla polecenia: MOVE ---
+
+Przenosi pliki oraz zmienia nazwy plików i katalogów. [cite: 839]
+Aby przenieść jeden lub więcej plików: [cite: 840]
+MOVE [/Y | /-Y] [dysk:][ścieżka]nazwa_pliku1[,...] miejsce_docelowe [cite: 840]
+
+Aby zmienić nazwę katalogu: [cite: 840]
+MOVE [/Y | /-Y] [dysk:][ścieżka]nazwa_katalogu1 nazwa_katalogu2 [cite: 841]
+
+  [dysk:][ścieżka]nazwa_pliku1 Określa lokalizację i nazwę pliku lub plików, które chcesz przenieść. [cite: 841]
+  miejsce_docelowe Określa nową lokalizację pliku. [cite: 842] Miejsce docelowe może składać się z litery dysku i dwukropka, nazwy katalogu lub kombinacji tych elementów. [cite: 843] Jeśli przenosisz tylko jeden plik, możesz również dołączyć nazwę pliku, jeśli chcesz zmienić nazwę pliku podczas przenoszenia. [cite: 844]
+  [dysk:][ścieżka]nazwa_katalogu1 Określa katalog, którego nazwę chcesz zmienić. [cite: 845]
+  nazwa_katalogu2 Określa nową nazwę katalogu. [cite: 845]
+  /Y Pomija monit o potwierdzenie chęci nadpisania istniejącego pliku docelowego. [cite: 846]
+  /-Y Powoduje wyświetlenie monitu o potwierdzenie chęci nadpisania istniejącego pliku docelowego. [cite: 847]
+
+Przełącznik /Y może być ustawiony w zmiennej środowiskowej COPYCMD. [cite: 848] Można to zastąpić za pomocą /-Y w wierszu poleceń. [cite: 849] Domyślnie wyświetlany jest monit przy nadpisywaniu, chyba że polecenie MOVE jest wykonywane z poziomu skryptu wsadowego. [cite: 850]
+
+--- Pomoc dla polecenia: OPENFILES ---
+
+OPENFILES /parametr [argumenty] [cite: 851]
+
+Opis:
+    Umożliwia administratorowi wyświetlanie listy lub rozłączanie plików i folderów, które zostały otwarte w systemie. [cite: 851]
+
+Lista parametrów:
+    /Disconnect Rozłącza jeden lub więcej otwartych plików. [cite: 852]
+    /Query Wyświetla pliki otwarte lokalnie lub z folderów udostępnionych. [cite: 853]
+    /Local Włącza / Wyłącza wyświetlanie lokalnie otwartych plików. [cite: 854]
+    /? Wyświetla ten komunikat pomocy. [cite: 855]
+
+Przykłady:
+    OPENFILES /Disconnect /? [cite: 855]
+    OPENFILES /Query /? [cite: 855]
+    OPENFILES /Local /? [cite: 855]
+
+--- Pomoc dla polecenia: PATH ---
+
+Wyświetla lub ustawia ścieżkę wyszukiwania dla plików wykonywalnych. [cite: 856]
+
+PATH [[dysk:]ścieżka[;...][;%PATH%] [cite: 856]
+PATH ; [cite: 856]
+
+Wpisz PATH ; aby wyczyścić wszystkie ustawienia ścieżki wyszukiwania i skierować cmd.exe do wyszukiwania tylko w bieżącym katalogu. [cite: 857]
+Wpisz PATH bez parametrów, aby wyświetlić bieżącą ścieżkę. [cite: 858]
+Dołączenie %PATH% w nowym ustawieniu ścieżki powoduje dołączenie starej ścieżki do nowego ustawienia. [cite: 858]
+
+--- Pomoc dla polecenia: PAUSE ---
+
+Wstrzymuje przetwarzanie programu wsadowego i wyświetla komunikat [cite: 859]
+    Naciśnij dowolny klawisz, aby kontynuować . . . [cite: 860]
+
+--- Pomoc dla polecenia: POPD ---
+
+Zmienia katalog na ten zapisany przez polecenie PUSHD. [cite: 860]
+POPD [cite: 861]
+
+Jeśli rozszerzenia poleceń są włączone, polecenie POPD usunie wszelkie tymczasowe litery dysków utworzone przez PUSHD, gdy zdejmiesz ten dysk ze stosu katalogów za pomocą POPD. [cite: 861]
+
+--- Pomoc dla polecenia: PRINT ---
+
+Drukuje plik tekstowy. [cite: 862]
+
+PRINT [/D:urządzenie] [[dysk:][ścieżka]nazwa_pliku[...]] [cite: 862]
+
+   /D:urządzenie Określa urządzenie drukujące. [cite: 863]
+
+--- Pomoc dla polecenia: PROMPT ---
+
+Zmienia znak zachęty wiersza poleceń cmd.exe. [cite: 863]
+PROMPT [tekst] [cite: 864]
+
+  tekst Określa nowy znak zachęty. [cite: 864]
+Znak zachęty może składać się ze zwykłych znaków i następujących kodów specjalnych: [cite: 865]
+
+  $A & (Ampersand) [cite: 865]
+  $B | (Potok) [cite: 866]
+  $C ( (Nawias lewy) [cite: 866]
+  $D Bieżąca data [cite: 866]
+  $E Kod Escape (kod ASCII 27) [cite: 866]
+  $F ) (Nawias prawy) [cite: 866]
+  $G > (Znak większości) [cite: 866]
+  $H Backspace (kasuje poprzedni znak) [cite: 866]
+  $L < (Znak mniejszości) [cite: 866]
+  $N Bieżący dysk [cite: 866]
+  $P Bieżący dysk i ścieżka [cite: 866]
+  $Q = (Znak równości) [cite: 866]
+  $S   (Spacja) [cite: 866]
+  $T Bieżący czas [cite: 866]
+  $V Numer wersji systemu Windows [cite: 866]
+  $_ Powrót karetki i wysuw wiersza [cite: 867]
+  $$ $ (Znak dolara) [cite: 867]
+
+Jeśli rozszerzenia poleceń są włączone, polecenie PROMPT obsługuje następujące dodatkowe znaki formatujące: [cite: 867]
+
+  $+ zero lub więcej znaków plus (+) w zależności od głębokości stosu katalogów PUSHD, jeden znak na każdy poziom na stosie. [cite: 867]
+  $M Wyświetla nazwę zdalną skojarzoną z bieżącą literą dysku lub pusty ciąg, jeśli bieżący dysk nie jest dyskiem sieciowym. [cite: 868]
+
+--- Pomoc dla polecenia: PUSHD ---
+
+Zapisuje bieżący katalog do użycia przez polecenie POPD, a następnie zmienia na określony katalog. [cite: 869]
+PUSHD [ścieżka | ..] [cite: 870]
+
+  ścieżka Określa katalog, który ma stać się bieżącym katalogiem. [cite: 870]
+Jeśli rozszerzenia poleceń są włączone, polecenie PUSHD akceptuje ścieżki sieciowe oprócz normalnej litery dysku i ścieżki. [cite: 871] Jeśli określona jest ścieżka sieciowa, PUSHD utworzy tymczasową literę dysku wskazującą na ten określony zasób sieciowy, a następnie zmieni bieżący dysk i katalog, używając nowo zdefiniowanej litery dysku. [cite: 872] Tymczasowe litery dysków są przydzielane od Z: w dół, używając pierwszej znalezionej nieużywanej litery dysku. [cite: 873]
+
+--- Pomoc dla polecenia: RD ---
+
+Usuwa (kasuje) katalog. [cite: 874]
+
+RMDIR [/S] [/Q] [dysk:]ścieżka [cite: 874]
+RD [/S] [/Q] [dysk:]ścieżka [cite: 874]
+
+    /S Usuwa wszystkie katalogi i pliki w określonym katalogu oprócz samego katalogu. [cite: 874] Używane do usuwania drzewa katalogów. [cite: 875]
+    /Q Tryb cichy, nie pytaj, czy usunąć drzewo katalogów za pomocą /S [cite: 876]
+
+*(Kontynuacja tłumaczenia dla RECOVER i kolejnych poleceń nastąpi w kolejnej odpowiedzi).*
