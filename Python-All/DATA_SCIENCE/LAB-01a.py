@@ -6,7 +6,6 @@ taxi = pd.read_parquet(
     engine="auto",
     columns=None,
     storage_options=None,
-    use_nullable_dtypes=False,
 )
 
 probe_size = 1000
